@@ -1,0 +1,29 @@
+
+/*
+
+EXAMPLE PREREQ STRINGS
+
+
+
+
+
+Prerequisites vary.
+
+Satisfactory completion of the Lower-Division Writing requirement.
+
+PLACEMENT EXAM or authorization
+
+
+
+( AC ENG 20A OR PLACEMENT EXAM or authorization )
+
+I&C SCI 6B AND I&C SCI 6D AND ( MATH 2B OR AP CALCULUS BC ) AND ( CSE 46 OR I&C SCI 46 )
+AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+
+( PSYCH 7A OR ANTHRO 2A OR PSY BEH 9 OR AP PSYCHOLOGY OR ( ( PSYCH 9C OR PSY BEH 11C )
+AND ( PSYCH 9B OR PSY BEH 11B ) AND ( PSYCH 9A OR PSY BEH 11A ) ) )
+
+
+
+
+*/

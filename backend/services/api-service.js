@@ -21,7 +21,7 @@ const fetchCourse = async (courseId) => {
         }    
     `
     const results = await cli.request(query);
-
+    
     return results;
 }
 

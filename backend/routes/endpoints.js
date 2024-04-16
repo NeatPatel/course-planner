@@ -8,6 +8,7 @@ router.get('/course', async (req, res) => {
     try {
         let courseId = req.query.courseId;
         const courses = await fetchCourse(courseId);
+        console.log(courses)
         res.json(courses);
     } catch (err) {
         console.log(err)
