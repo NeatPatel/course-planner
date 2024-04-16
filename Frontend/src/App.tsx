@@ -13,9 +13,29 @@ function App() {
         <div className="sign-in">
           Sign-in
         </div>
+      </div>
 
+      <div className="body">
+        <div className="planning-area">
+
+        </div>
+
+        <div className="course-selection">
+
+          <div className="major-selection">
+
+          </div>
+
+          <div className="completed-courses">
+
+          </div>
+
+
+        </div>
 
       </div>
+
+
 
 
 
