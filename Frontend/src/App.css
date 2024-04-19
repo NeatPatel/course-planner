@@ -58,8 +58,6 @@ body {
   background-color: #fdb912;
   height: 70%;
   display: flex;
-
-
 }
 
 .completed-courses {
@@ -84,18 +82,13 @@ input {
   width: 20vh;
 
   /* transform: scaleX(0); */
-  transition: 
-  0.5s border ease-in-out, 
-  0.5s width ease-in-out,
-  transform 0.25s ease-in-out;
-
+  transition: 0.5s border ease-in-out, 0.5s width ease-in-out, transform 0.25s ease-in-out;
 }
 
 /* Styles for when user clicks on search bar */
 .majorSearch:focus {
   border-bottom: 3px solid blue;
   width: 25vh;
-  
 }
 
 /* Styles for major closed */
@@ -112,7 +105,7 @@ input {
 .majorsOpened {
   max-height: 30vh;
   overflow-y: scroll;
-  scrollbar-color:  #3c39b1 #fdb912;
+  scrollbar-color: #3c39b1 #fdb912;
   transition-delay: 0.5s;
   transition: 0.5s max-height ease-in-out;
   border: 2px solid black;
@@ -128,7 +121,6 @@ input {
   border-radius: 0.5em;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  
 }
 
 /* Default styles for each major */
@@ -140,11 +132,8 @@ input {
   padding-bottom: 2em; */
   font-size: 2vh;
   margin-bottom: 0.5em;
-  transition: 
-  0.25s background-color ease-in-out, 
-  0.25s border ease-in-out, 
-  0.25s padding ease-in-out,
-  0.25s font-family ease-in-out;
+  transition: 0.25s background-color ease-in-out, 0.25s border ease-in-out, 0.25s padding ease-in-out,
+    0.25s font-family ease-in-out;
 }
 
 /* Changes properties when we hover each major */
@@ -152,7 +141,6 @@ input {
   background-color: #fecd51;
   border-color: #3c39b1;
   color: #3c39b1;
-  
 }
 
 /* Hides each induvidual major */
@@ -165,7 +153,16 @@ input {
 
 /* Makes each major visible */
 .visibleMajor {
-  visibility:visible;
-  overflow:visible;
+  visibility: visible;
+  overflow: visible;
   height: 2vh;
+}
+
+.searchArea {
+  height: 20%;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }

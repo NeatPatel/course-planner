@@ -1,14 +1,15 @@
 // import { useState } from "react";
 import "./App.css";
 import SearchBar from "./components/SearchBar.tsx";
+import DepartmentSearch from "./components/DepartmentSearch/DepartmentSearch.tsx";
 
 
 
 
 function App() {
-  
-    
-  
+
+
+
 
   return (
 
@@ -26,6 +27,12 @@ function App() {
       <div className="body">
         <div className="planning-area">
 
+          <div className="searchArea">
+            <DepartmentSearch />
+
+          </div>
+
+
         </div>
 
         <div className="course-selection">
@@ -33,8 +40,8 @@ function App() {
 
           <div className="major-selection">
 
-            <SearchBar/>
-            
+            <SearchBar />
+
           </div>
 
           <div className="completed-courses">
