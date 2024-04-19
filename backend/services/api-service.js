@@ -12,16 +12,12 @@ const fetchCourse = async (courseId) => {
                 description
                 corequisite
                 restriction
-                department:
-                prerequisite_for {
-                    id
-                }
                 prerequisite_text
             }
         }    
     `
     const results = await cli.request(query);
-    
+
     return results;
 }
 

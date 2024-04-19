@@ -1,4 +1,4 @@
-
+const Requisites = require('./requisites.js');
 // courseData will be in the format:
 
 // {
@@ -11,9 +11,52 @@
 //     }
 // }
 
-
 class Course {
-    constructor(courseData) {
+    #id;
+    #description;
+    #corequisites;
+    #prerequisites;
+    #restrictions;
 
+    /**
+     * Initializes a course object with the appropriate data members.
+     * @param {object} courseData JS object containing course data.
+     */
+    constructor(courseData) {
+        courseData = courseData['course'];        // access contents inside "course"
+        this.#id = courseData['id'];
+        this.#description = courseData['description'];
+        this.#corequisites = new Requisites(courseData['corequisite']);
+        this.#prerequisites = new Requisites(courseData['prerequisite_text']);
+        this.#restrictions = courseData['restriction']
     }
+
+    /**
+     * Checks whether the entered courses meet this course's corequisite requirements.
+     * @param  {list[Course]} history A list of courses to check corequisites against.
+     * @return {boolean}              True if all corequisites have been met.
+     */
+    meetsCoreqs(history) {
+        // TODO: implement function
+        return true;
+    }
+    /**
+     * Checks whether the entered courses meet this course's prerequisite requirements.
+     * @param  {list[Course]} history A list of courses to check prerequisites against.
+     * @return {boolean}              True if all prerequisites have been met.
+     */
+    meetsPrereqs(history) {
+        // TODO: implement function
+        return true;
+    }
+
+    // CLASS GETTERS
+    get id() { return this.#id; }
+    get description() { return this.#description; }
+    get corequisites() { return this.#corequisites; }
+    get prerequisites() { return this.#prerequisites; }
+    get restrictions() { return this.#restrictions; }
+
 }
+
+module.exports = Course;
