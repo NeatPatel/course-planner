@@ -1,7 +1,15 @@
 // import { useState } from "react";
 import "./App.css";
+import SearchBar from "./components/SearchBar.tsx";
+
+
+
 
 function App() {
+  
+    
+  
+
   return (
 
     <div className="root">
@@ -22,8 +30,11 @@ function App() {
 
         <div className="course-selection">
 
+
           <div className="major-selection">
 
+            <SearchBar/>
+            
           </div>
 
           <div className="completed-courses">
@@ -41,5 +52,7 @@ function App() {
 
     </div>);
 }
+
+
 
 export default App;
