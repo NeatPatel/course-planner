@@ -40,14 +40,12 @@ body {
 .planning-area {
   width: 80%;
   height: 100%;
-  border: 1px solid black;
   resize: both;
 }
 
 .course-selection {
   width: 20%;
   height: 100%;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
 }
