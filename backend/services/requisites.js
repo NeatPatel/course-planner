@@ -8,8 +8,8 @@ class Requisites {
 
     /**
      * Takes a requisite string and returns a tree of requisite Course id's. 
-     * @param {string} str Prerequisite or corequisite text.
-     * @return {list}      Tree of requirements in list format.
+     * @param   {string} str Prerequisite or corequisite text.
+     * @returns {list}      Tree of requirements in list format.
      */
     initReqs(str) {
 

@@ -33,8 +33,8 @@ class Course {
 
     /**
      * Checks whether the entered courses meet this course's corequisite requirements.
-     * @param  {list[Course]} history A list of courses to check corequisites against.
-     * @return {boolean}              True if all corequisites have been met.
+     * @param   {list[Course]} history A list of courses to check corequisites against.
+     * @returns {boolean}              True if all corequisites have been met.
      */
     meetsCoreqs(history) {
         // TODO: implement function
@@ -42,8 +42,8 @@ class Course {
     }
     /**
      * Checks whether the entered courses meet this course's prerequisite requirements.
-     * @param  {list[Course]} history A list of courses to check prerequisites against.
-     * @return {boolean}              True if all prerequisites have been met.
+     * @param   {list[Course]} history A list of courses to check prerequisites against.
+     * @returns {boolean}              True if all prerequisites have been met.
      */
     meetsPrereqs(history) {
         // TODO: implement function

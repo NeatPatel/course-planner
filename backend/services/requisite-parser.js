@@ -28,4 +28,49 @@ AND ( PSYCH 9B OR PSY BEH 11B ) AND ( PSYCH 9A OR PSY BEH 11A ) ) )
 
 */
 
-toTokens
+const Symbols = Object.freeze({
+    L_PAREN: "(",
+    R_PAREN: ")",
+    OR: "or",
+    AND: "and",
+});
+
+/**
+ * Turns a string of prerequisites or corequisites into tokens.
+ * @param  {string} str Requisite string to turn into tokens.
+ * @returns {list}     
+ */
+const toRequisiteTokens = (str) => {
+    str = str.trim()
+
+    let resultingTokens = [];
+
+    const strlen = str.length;
+    let wordStartIndex = 0;     // Words are separated by whitespaces
+    let tokenStartIndex = 0;    // Tokens are (, ), and, or, <course>
+    for (let i = 0; i < strlen; i++) {
+        if (str[i] === ' ') {
+            let current_token = str.split(wordStartIndex, i)
+            if (symbolExists(current_token)) {    // if symbol exists
+                
+                tokenStartIndex = i + 1;
+            } else {                // if symbol does not exist
+                
+            }
+            wordStartIndex = i + 1;
+        } else {
+
+        }
+        // "ICS 6B or ( ICS 45C and ICS 51 )  "
+    }
+}
+
+/**
+ * Returns whether a string exists in the symbols enum.
+ * @param   {string} str String to check whether it is a symbol.
+ * @returns {boolean}    Whether the string is a valid Symbol.
+ */
+const symbolExists = (str) => {
+    str = str.toLowerCase();
+    return Object.values(Symbols).includes(str);
+}
