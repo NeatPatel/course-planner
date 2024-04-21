@@ -1,0 +1,34 @@
+.container {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.yearLabel {
+  width: 100%;
+  background-color: #545759;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+td {
+  padding: 5px 5px;
+}
+
+thead {
+  background-color: #eaeaea !important;
+}
+
+table,
+td,
+thead,
+th {
+  border: 1px solid black;
+}

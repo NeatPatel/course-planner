@@ -4,7 +4,7 @@
   margin-left: 20%;
   display: flex;
   align-items: center;
-  width: 30%;
+  width: 40%;
   height: 50px;
   flex-wrap: wrap;
 }
@@ -14,8 +14,9 @@
   background-color: #cdcdcd;
   border-radius: 5%;
   height: 100%;
-  /* width: fit-content; */
-  width: 85px;
+  width: fit-content;
+  /* width: min-content; */
+  /* width: 120px; */
   padding: 0px 10px;
   display: flex;
   align-items: center;

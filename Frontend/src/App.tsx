@@ -1,15 +1,17 @@
-// import { useState } from "react";
+import { useState, useRef } from "react";
 import "./App.css";
 import SearchBar from "./components/SearchBar.tsx";
-import DepartmentSearch from "./components/DepartmentSearch/DepartmentSearch.tsx";
-
-
-
+import CourseSearch from "./components/CourseSearch/CourseSearch.tsx";
+import SchedulePlanner from "./components/SchedulePlanner/SchedulePlanner.tsx";
 
 function App() {
+  const currentYearRef = useRef<number>(2024);
+  const [schedules, setSchedules] = useState<JSX.Element[]>([<SchedulePlanner startYear={currentYearRef.current} />]);
 
-
-
+  function addSchedule() {
+    currentYearRef.current += 1
+    setSchedules([...schedules, <SchedulePlanner startYear={currentYearRef.current} />])
+  }
 
   return (
 
@@ -28,20 +30,26 @@ function App() {
         <div className="planning-area">
 
           <div className="searchArea">
-            <DepartmentSearch />
+            <CourseSearch />
 
           </div>
 
+          <div className="scheduleArea">
+
+            <button className="label"
+              onClick={() => addSchedule()}>Add Year</button>
+
+            {
+              schedules
+            }
+
+          </div>
 
         </div>
 
         <div className="course-selection">
-
-
           <div className="major-selection">
-
             <SearchBar />
-
           </div>
 
           <div className="completed-courses">
@@ -52,10 +60,6 @@ function App() {
         </div>
 
       </div>
-
-
-
-
 
     </div>);
 }

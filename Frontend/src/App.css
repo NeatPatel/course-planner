@@ -35,6 +35,20 @@ body {
   width: 20%;
 }
 
+.label {
+  border: 1px solid black;
+  background-color: #cdcdcd;
+  border-radius: 5%;
+  height: 3em;
+  width: 7em;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.label:active {
+  background-color: #818181;
+}
+
 .body {
   width: 100vw;
   height: 90vh;
@@ -45,6 +59,24 @@ body {
   width: 80%;
   height: 100%;
   resize: both;
+  /* /* display: flex; */
+  /* align-items: center; */
+  /* display: flex;
+  justify-content: center; */
+}
+
+.scheduleArea {
+  display: flex;
+  height: 50%;
+  /* width: 100%; */
+  width: 30em;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: 25%;
+  /* left: auto; */
 }
 
 .course-selection {

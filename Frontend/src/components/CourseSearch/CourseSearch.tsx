@@ -1,4 +1,4 @@
-import searchStyles from "./DepartmentSearch.module.css"
+import searchStyles from "./CourseSearch.module.css"
 import { useState } from 'react';
 
 export default function DepartmentSearch() {
@@ -31,11 +31,11 @@ export default function DepartmentSearch() {
         <div className={searchStyles.container}>
 
             <div className={searchStyles.label}>
-                Department
+                Search Course
             </div>
 
             <div className={searchStyles.searchBar}>
-                <input type="text" placeholder="Search by department..."
+                <input type="text" placeholder="Course name..."
                     onChange={(e) => handleChange(e)}
                     onFocus={() => setFocused(true)}
                     onBlur={() => setFocused(false)} />
