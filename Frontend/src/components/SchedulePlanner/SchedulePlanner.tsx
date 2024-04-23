@@ -1,11 +1,42 @@
 import styles from './SchedulePlanner.module.css';
 
+interface courseTerms {
+    [key: string]: string[]
+}
+
 interface props {
+    courses?: courseTerms
     startYear: number,
 }
 
-export default function SchedulePlanner({ startYear = 2024 }: props) {
+const testCourses: courseTerms = {
+    'Fall': ['ICS 31', 'STATS 67', 'MATH 3A'],
+    'Winter': ['ICS 32', 'ICS 6B', 'MATH 2A'],
+    'Spring': ['ICS 33', 'ICS 6D', 'INF 43'],
+    'Summer': ['CS 161', 'CS 120A', 'Writing 60']
+}
 
+export default function SchedulePlanner({ courses = testCourses, startYear = 2024 }: props) {
+    let numRows = 0;
+    for (let term in courses) {
+        if (courses[term].length > numRows)
+            numRows = courses[term].length;
+    }
+    console.log(numRows);
+
+    let tableData = [];
+
+    for (let currentRow = 0; currentRow < numRows; currentRow++) {
+        let newRowData = <tr>
+            {
+                Object.keys(courses).map(currentTerm => {
+                    return <td> {courses[currentTerm][currentRow]} </td>
+                })
+            }
+        </tr>
+
+        tableData.push(newRowData);
+    }
 
     return (
         <>
@@ -20,19 +51,15 @@ export default function SchedulePlanner({ startYear = 2024 }: props) {
                         <th className={styles.header}>Fall</th>
                         <th>Winter</th>
                         <th>Spring</th>
+                        <th>Summer</th>
                     </thead>
 
                     <tbody>
-                        <tr>
-                            <td>ICS 31</td>
-                            <td>ICS 32</td>
-                            <td>ICS 33</td>
-                        </tr>
-                        <tr>
-                            <td>ICS 31</td>
-                            <td>ICS 32</td>
-                            <td>ICS 33</td>
-                        </tr>
+                        {
+                            tableData
+
+                        }
+
 
                     </tbody>
 

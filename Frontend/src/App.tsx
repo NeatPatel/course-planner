@@ -3,6 +3,7 @@ import "./App.css";
 import SearchBar from "./components/SearchBar.tsx";
 import CourseSearch from "./components/CourseSearch/CourseSearch.tsx";
 import SchedulePlanner from "./components/SchedulePlanner/SchedulePlanner.tsx";
+import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 
 function App() {
   const currentYearRef = useRef<number>(2024);
@@ -50,6 +51,9 @@ function App() {
         <div className="course-selection">
           <div className="major-selection">
             <SearchBar />
+
+            <DraggableCourse />
+
           </div>
 
           <div className="completed-courses">

@@ -3,6 +3,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  margin: 10px 10px;
 }
 
 .yearLabel {
@@ -17,9 +18,14 @@ table {
   width: 100%;
   border-collapse: collapse;
   text-align: center;
+  table-layout: fixed;
+  /* margin: 10px 10px; */
+}
+th {
+  padding: 5px 0px;
 }
 td {
-  padding: 5px 5px;
+  padding: 15px 10px;
 }
 
 thead {
@@ -32,3 +38,11 @@ thead,
 th {
   border: 1px solid black;
 }
+
+/* th {
+  border: 1px solid black;
+}
+
+td {
+  border-right: 1px solid black;
+} */
