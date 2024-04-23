@@ -52,7 +52,6 @@ function App() {
           <div className="major-selection">
             <SearchBar />
 
-            <DraggableCourse />
 
           </div>
 
