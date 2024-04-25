@@ -40,29 +40,31 @@ const Symbols = Object.freeze({
  * @param  {string} str Requisite string to turn into tokens.
  * @returns {list}     
  */
-const toRequisiteTokens = (str) => {
-    str = str.trim()
-
-    let resultingTokens = [];
-
-    const strlen = str.length;
-    let wordStartIndex = 0;     // Words are separated by whitespaces
-    let tokenStartIndex = 0;    // Tokens are (, ), and, or, <course>
-    for (let i = 0; i < strlen; i++) {
-        if (str[i] === ' ') {
-            let current_token = str.split(wordStartIndex, i)
-            if (symbolExists(current_token)) {    // if symbol exists
-                
-                tokenStartIndex = i + 1;
-            } else {                // if symbol does not exist
-                
-            }
-            wordStartIndex = i + 1;
+const toTokens = (words) => {
+    let wordLen = words.length;
+    let tokenResult = [];
+    let nameWords = [];
+    for (let i = 0; i < wordLen; i++) {
+        let curWord = words[i];
+        let wordIsSyntax = _isSyntax(curWord);
+        if (wordIsSyntax) {
+            tokenResult.push(curWord);
+            nameWords = [];
         } else {
-
+            nameWords.push(curWord);
+            // If curWord is the last word OR the next word is syntax
+            if ((i+1 >= wordLen) || _isSyntax(words[i+1])) { 
+                tokenResult.push(nameWords.join(' '));    // Combine all nameWords and push into result
+            }
         }
-        // "ICS 6B or ( ICS 45C and ICS 51 )  "
     }
+    return tokenResult;
+}
+// takes a string and turns it into an array of words.
+const _toWords = (str) => {
+    let words = str.split(' ');
+    filteredWords = words.filter((e) => (e != ''));
+    return filteredWords;
 }
 
 /**
@@ -70,7 +72,9 @@ const toRequisiteTokens = (str) => {
  * @param   {string} str String to check whether it is a symbol.
  * @returns {boolean}    Whether the string is a valid Symbol.
  */
-const symbolExists = (str) => {
+const _isSyntax = (str) => {
     str = str.toLowerCase();
     return Object.values(Symbols).includes(str);
 }
+let a = _toWords("( AC ENG 20A OR PLACEMENT EXAM or authorization )")
+console.log(toTokens(a))
