@@ -33,18 +33,28 @@ body{
     margin-bottom: 6.5vh;
 }
 
+.wrapper p{
+    width: 300px;
+    font-weight: normal;
+    margin-top: 5.5vh;
+    text-align: center;
+    margin-bottom: 6.5vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .wrapper .input{
     margin-bottom: 1vh;
 }
 
 .input input{
     border-radius: 5px;
-    width: 240px;
+    width: 350px;
     height: 100%;
     background: transparent;
     border: 1px solid white;
     opacity: 1;
-    padding: 7px 14px 7px 7px;
+    padding: 7px 7px 7px 7px;
 }
 
 .input ::placeholder{
@@ -67,14 +77,29 @@ body{
     font-size: large;
     font-weight: 300;
     cursor: pointer;
-    margin-bottom: 15.5vh;
-    background-color: green;
+    margin-bottom: 5.5vh;
+    color: white;
+    background-color: rgb(37, 148, 37);
     opacity: 1;
     transition: 0.3s background-color ease-in-out;
 }
 
+.wrapper .full-length-input {
+    margin-bottom: 1vh;
+}
+
+.full-length-input input {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid white;
+    opacity: 1;
+    padding: 7px 7px 7px 7px;
+}
+
 .btn:hover{
-    background-color: lightcoral;
+    background-color: darkgreen;
 }
 
 .wrapper .register{
