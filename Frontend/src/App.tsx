@@ -17,6 +17,7 @@ function App() {
   return (
 
     <div className="root">
+      
       <div className="header">
         <div className="title">
           Course Eater
@@ -29,6 +30,7 @@ function App() {
 
       <div className="body">
         <div className="planning-area">
+        
 
           <div className="searchArea">
             <CourseSearch />
@@ -43,6 +45,7 @@ function App() {
             {
               schedules
             }
+            
 
           </div>
 

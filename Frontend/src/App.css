@@ -10,6 +10,11 @@
     "Helvetica Neue", sans-serif;
 }
 
+img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
 body {
   margin: 0px 0px;
   background-color: #ededed;

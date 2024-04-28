@@ -4,6 +4,8 @@
   display: flex;
   flex-wrap: wrap;
   margin: 10px 10px;
+  border-radius: 1em;
+  padding: 1em;
 }
 
 .yearLabel {
@@ -14,13 +16,42 @@
   text-align: center;
 }
 
+.hidden {
+  opacity: 0;
+  /* visibility: collapse; */
+  transition: 1s opacity ease-in-out;
+  
+}
+
+.visible {
+  /* transform: translateY(0); */
+  opacity: 1;
+  transition: 1s opacity ease-in-out;
+
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
   text-align: center;
   table-layout: fixed;
+  max-height: 0px;
+  overflow: hidden;
   /* margin: 10px 10px; */
+  /* border-radius: 3em; */
 }
+
+img {
+  transform: rotate(0deg);
+  transition-delay: 1s;
+  transition: 1s transform ease-in-out;
+
+}
+
+img:hover {
+  transform:  rotate(360deg);
+}
+
 th {
   padding: 5px 0px;
 }
@@ -38,6 +69,9 @@ thead,
 th {
   border: 1px solid black;
 }
+
+
+
 
 /* th {
   border: 1px solid black;
