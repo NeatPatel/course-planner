@@ -22,7 +22,7 @@ const testCourses: courseTerms = {
 export default function SchedulePlanner({ courses = testCourses, startYear = 2024 }: props) {
     // For dropdown
 
-    const [toggle, setDropdown] = useState("hidden");
+    const [toggle, setDropdown] = useState("visible");
     
     const dropdownRef = useRef();
     function handleDropDown () {
@@ -30,7 +30,7 @@ export default function SchedulePlanner({ courses = testCourses, startYear = 202
         let year = dropdownRef?.current?.classList[1];
         let table = document.querySelector(`.table${year}`);
         // console.log(table?.childNodes)
-        
+        setDropdown(toggle == "hidden" ? "visible" : "hidden");
         if (toggle == "hidden") {
             table?.classList.remove(styles.visible);
             table?.classList.add(styles.hidden);
@@ -41,7 +41,8 @@ export default function SchedulePlanner({ courses = testCourses, startYear = 202
             table?.classList.add(styles.visible);
             
         }
-        setDropdown(toggle == "hidden" ? "visible" : "hidden");
+        // console.log(table?.classList)
+        
     }
 
 
@@ -56,13 +57,13 @@ export default function SchedulePlanner({ courses = testCourses, startYear = 202
     let tableData = [];
 
     for (let currentRow = 0; currentRow < numRows; currentRow++) {
-        let newRowData = <tr>
+        let newRowData = <div className={styles.row}>
             {
                 Object.keys(courses).map(currentTerm => {
-                    return <td> {courses[currentTerm][currentRow]} </td>
+                    return <div className={styles.col}> {courses[currentTerm][currentRow]} </div>
                 })
             }
-        </tr>
+        </div>
 
         tableData.push(newRowData);
     }
@@ -82,25 +83,25 @@ export default function SchedulePlanner({ courses = testCourses, startYear = 202
                 </div>
                 
 
-                <table className={`table${startYear} ${styles.hidden}`}>
-                    <thead className={styles.header}>
-                        <th className={styles.header}>Fall</th>
-                        <th>Winter</th>
-                        <th>Spring</th>
-                        <th>Summer</th>
-                    </thead>
+                <div className={`${styles.table} table${startYear} ${styles.hidden}`}>
+                    <div className={styles.header}>
+                        <div className={styles.col}>Fall</div>
+                        <div className={styles.col}>Winter</div>
+                        <div className={styles.col}>Spring</div>
+                        <div className={styles.col}>Summer</div>
+                    </div>
 
-                    <tbody>
-                        {
-                            tableData
+                    {/* <div> */}
+                    {
+                        tableData
 
-                        }
-
-
-                    </tbody>
+                    }
 
 
-                </table>
+                    {/* </div> */}
+
+
+                </div>
             </div>
 
         </>
