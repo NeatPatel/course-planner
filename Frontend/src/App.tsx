@@ -7,11 +7,15 @@ import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 
 function App() {
   const currentYearRef = useRef<number>(2024);
-  const [schedules, setSchedules] = useState<JSX.Element[]>([<SchedulePlanner startYear={currentYearRef.current} />]);
-
+  const [schedules, setSchedules] = useState<JSX.Element[]>([<SchedulePlanner onDelete={handleDeleteTable} startYear={currentYearRef.current} />]);
+  
+  function handleDeleteTable(year) {
+    console.log(schedules);
+    console.log(year);
+  }
   function addSchedule() {
     currentYearRef.current += 1
-    setSchedules([...schedules, <SchedulePlanner startYear={currentYearRef.current} />])
+    setSchedules([...schedules, <SchedulePlanner onDelete={handleDeleteTable} startYear={currentYearRef.current} />])
   }
 
   return (

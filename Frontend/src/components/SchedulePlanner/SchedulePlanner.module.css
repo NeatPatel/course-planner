@@ -25,7 +25,12 @@
   color: white;
   padding: 10px 10px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+
 
 .hidden {
   height: 0px;
@@ -87,9 +92,33 @@ img {
 
 }
 
-img:hover {
-  transform:  rotate(360deg);
+.dropdown {
+  border: 1px solid black;
+  border-radius: 0.25em;
+  transition: transform 0.75s ease-in-out,  background-color 0.25s ease-in-out 0.76s;
 }
+
+.dropdown:hover {
+  transform:  rotate(360deg);
+  background-color: rgb(29, 125, 177);
+}
+
+.delete {
+  border: 1px solid black;
+  border-radius: 0.25em;
+  padding: 0.25vh;
+  transition: 
+  background-color 0.25s ease-in-out, 
+  transform 0.25s ease-in-out,
+  border-radius 0.25s ease-in-out;
+}
+.delete:hover {
+  transform: scale(1.2);
+  background-color: rgb(249, 41, 41);
+  border-radius: 0.5em;
+  
+}
+
 
 /*th {
   padding: 5px 0px;
