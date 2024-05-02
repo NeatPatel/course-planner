@@ -1,25 +1,32 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-
-const Course = require('../services/course.js')
-
-const fetchCourse = require('../services/api-service.js')
+const fetchCourse = require("../services/api-service.js");
 
 // Middleware specific to endpoints
-router.get('/course', async (req, res) => {
-    try {
-        let courseId = req.query.courseId;
-        const courses = await fetchCourse(courseId);
-        
-        let c = new Course(courses);
+router.get("/course", async (req, res) => {
+  try {
+    let courseId = req.query.courseId;
+    const courses = await fetchCourse(courseId);
 
-        res.json(courses);
-    } catch (err) {
-        console.log(err)
-    }
-    
+    res.json(courses);
+  } catch (err) {
+    console.log(err);
+  }
 });
 
-// TODO: add endpoints
+router.get("/reqs-met", async (req, res) => {
+  let prereqsMet = true;
+  let coreqsMet = true;
+
+  const body = req.body;
+  const courseId = body["courseId"];
+  const prevCourses = body["prevCourses"];
+  const currCourses = body["currCourses"];
+
+  res.json({
+    prerequisitesMet: prereqsMet,
+    corequisitesMet: coreqsMet,
+  });
+});
 
 module.exports = router;

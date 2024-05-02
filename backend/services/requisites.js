@@ -1,21 +1,37 @@
-// This class represents the prerequisites for a class. 
-class Requisites {
-    #reqTree;
+const toTokens = require("./tokenizer.js");
 
-    constructor(reqString) {
-        this.#reqTree = initReqs(reqString);
-    }
+class Node {
+  #value;
+  #left;
+  #right;
 
-    /**
-     * Takes a requisite string and returns a tree of requisite Course id's. 
-     * @param   {string} str Prerequisite or corequisite text.
-     * @returns {list}      Tree of requirements in list format.
-     */
-    initReqs(str) {
-
-    }
-
-    get reqTree() { return this.#reqTree; }
+  constructor(value) {
+    this.#value = value;
+  }
 }
 
-module.exports = Requisites;
+const createRequisiteTree = (str) => {
+    const words = toTokens(str);
+    
+    let depth = 0;
+}
+
+const checkPrerequisites = (prTree, pr) => {
+
+}
+
+const checkCorequisites = (crTree, cr) => {
+
+}
+
+console.log(toTokens("( AC ENG 20A OR PLACEMENT EXAM or authorization )"));
+
+// '(',
+// 'AC ENG 20A',
+// 'OR',
+// 'PLACEMENT EXAM',
+// 'or',
+// 'authorization',
+// ')'
+
+module.exports = createRequisiteTree;
