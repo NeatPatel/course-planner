@@ -27,13 +27,7 @@ AND ( PSYCH 9B OR PSY BEH 11B ) AND ( PSYCH 9A OR PSY BEH 11A ) ) )
 
 */
 
-const Symbols = Object.freeze({
-  L_PAREN: "(",
-  R_PAREN: ")",
-  OR: "OR",
-  AND: "AND",
-});
-
+const Symbols = require('./symbols.js');
 /**
  * Turns a string of prerequisites or corequisites into tokens.
  * @param  {string} str Requisite string to turn into tokens.
@@ -46,14 +40,14 @@ const toTokens = (str) => {
   let nameWords = [];
   for (let i = 0; i < wordLen; i++) {
     let curWord = words[i];
-    let wordIsSyntax = _isSyntax(curWord);
+    let wordIsSyntax = isSyntax(curWord);
     if (wordIsSyntax) {
       tokenResult.push(curWord);
       nameWords = [];
     } else {
       nameWords.push(curWord);
       // If curWord is the last word OR the next word is syntax
-      if (i + 1 >= wordLen || _isSyntax(words[i + 1])) {
+      if (i + 1 >= wordLen || isSyntax(words[i + 1])) {
         tokenResult.push(nameWords.join(" ")); // Combine all nameWords and push into result
       }
     }
@@ -76,8 +70,8 @@ const _toWords = (str) => {
  * @param   {string} str String to check whether it is a symbol.
  * @returns {boolean}    Whether the string is a valid Symbol.
  */
-const _isSyntax = (str) => {
+const isSyntax = (str) => {
   return Object.values(Symbols).includes(str);
 };
 
-module.exports = toTokens;
+module.exports = [toTokens, isSyntax];
