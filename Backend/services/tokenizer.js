@@ -30,8 +30,8 @@ AND ( PSYCH 9B OR PSY BEH 11B ) AND ( PSYCH 9A OR PSY BEH 11A ) ) )
 const Symbols = Object.freeze({
   L_PAREN: "(",
   R_PAREN: ")",
-  OR: "or",
-  AND: "and",
+  OR: "OR",
+  AND: "AND",
 });
 
 /**
@@ -66,7 +66,7 @@ const toTokens = (str) => {
  * @returns {array}      Array of tokens.
  */
 const _toWords = (str) => {
-  let words = str.split(" ");
+  let words = str.toUpperCase().split(" ");
   filteredWords = words.filter((e) => e != "");
   return filteredWords;
 };
@@ -77,7 +77,6 @@ const _toWords = (str) => {
  * @returns {boolean}    Whether the string is a valid Symbol.
  */
 const _isSyntax = (str) => {
-  str = str.toLowerCase();
   return Object.values(Symbols).includes(str);
 };
 
