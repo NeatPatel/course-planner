@@ -1,7 +1,20 @@
 const [toTokens, isSyntax] = require("./tokenizer.js");
 const Symbols = require("./symbols.js");
 
+const strToClauses = (str) => {
+  const trimmed = str.trim();
+  const regex = /(?<!\b(Ph\.D|M\.S|B\.S))\. (?!\d)/;
+  const clauses = trimmed.split(regex);
+  const cLen = clauses.length;
+  for (let i = 0; i < cLen; i++) {
+    if (typeof clauses[i] === "undefined") {
+        clauses.splice(i, 1);
+    }
+  }
+  return clauses;
+};
 
+console.log(strToClauses(" Advancement to Ph.D. candidacy. Some weird text."));
 
 // TESTED
 const evalTokens = (rStr, coursesTaken) => {
@@ -27,7 +40,6 @@ const evalTokens = (rStr, coursesTaken) => {
   return eval(boolStr);
 };
 
-
 // TESTED
 function _equalIgnoreCaseSpace(input1, input2) {
   let s1 = input1.replace(/\s+/g, "");
@@ -40,4 +52,4 @@ function _equalIgnoreCaseSpace(input1, input2) {
 // console.log(tokens);
 // console.log("Result: " + result);
 
-module.exports = evalTokens;
+module.exports = [evalTokens, strToClauses];

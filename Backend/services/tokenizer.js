@@ -1,7 +1,7 @@
 // Edge case
 // SPANISH 1C or SPANISH S1BC. SPANISH 1C with a grade of C or better. SPANISH S1BC with a grade of C or better. Placement into SPANISH 2A is also accepted.
 
-const Symbols = require("./symbols.js");
+const [ Symbols ] = require("./symbols.js");
 /**
  * Turns a string of prerequisites or corequisites into tokens.
  * @param  {string} str Requisite string to turn into tokens.

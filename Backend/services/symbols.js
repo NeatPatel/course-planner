@@ -5,4 +5,4 @@ const Symbols = Object.freeze({
   AND: "AND",
 });
 
-module.exports = Symbols;
+module.exports = [ Symbols ];

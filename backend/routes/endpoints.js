@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 const router = express.Router();
 const fetchCourse = require("../services/api-service.js");
-const evalTokens = require("../services/requisites.js");
+const [ evalTokens, strToClauses ] = require("../services/requisites.js");
 
 // Middleware specific to endpoints
 router.get("/course", async (req, res) => {
@@ -26,14 +26,14 @@ router.get("/reqs-met", async (req, res) => {
   const prText = gqlData["data"]["course"]["prerequisite_text"];
   const crText = gqlData["data"]["course"]["corequisite"];
 
-  console.log("Course: " + courseId);
-  console.log("prerequisites: " + prText)
-  console.log("Courses Taken: " + prevCourses);
-  console.log("Courses currently taking: " + currCourses);
+  const prClauses = strToClauses(prText);
+  const crClauses = strToClauses(crText);
 
   res.json({
     prerequisitesMet: evalTokens(prText, prevCourses),
+    prerequisiteNotes: [],
     corequisitesMet: evalTokens(crText, currCourses),
+    corequisiteNotes: []
   });
 });
 
