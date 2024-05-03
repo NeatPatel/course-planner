@@ -1,6 +1,8 @@
 const [toTokens, isSyntax] = require("./tokenizer.js");
 const Symbols = require("./symbols.js");
 
+
+
 // TESTED
 const evalTokens = (rStr, coursesTaken) => {
   let currToken;
@@ -24,6 +26,7 @@ const evalTokens = (rStr, coursesTaken) => {
   let boolStr = rTokens.join(" ");
   return eval(boolStr);
 };
+
 
 // TESTED
 function _equalIgnoreCaseSpace(input1, input2) {

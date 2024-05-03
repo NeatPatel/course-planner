@@ -22,16 +22,14 @@ router.get("/reqs-met", async (req, res) => {
   let prevCourses = body["prevCourses"];
   let currCourses = body["currCourses"];
 
-  prevCourses = ["I&C SCI 6B", "I&C SCI 6D", "MATH 2B", "I&C SCI 46"];
-  currCourses = [];
-
   let gqlData = await fetchRStrings();
   const prText = gqlData["data"]["course"]["prerequisite_text"];
   const crText = gqlData["data"]["course"]["corequisite"];
 
-  console.log(courseId);
-  console.log(prevCourses);
-  console.log(currCourses);
+  console.log("Course: " + courseId);
+  console.log("prerequisites: " + prText)
+  console.log("Courses Taken: " + prevCourses);
+  console.log("Courses currently taking: " + currCourses);
 
   res.json({
     prerequisitesMet: evalTokens(prText, prevCourses),
