@@ -2,7 +2,7 @@ import styles from './SchedulePlanner.module.css';
 import DropdownIcon from '../../icons/dropdown.svg';
 import DeleteIcon from '../../icons/delete.svg';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 
 interface courseTerms {
     [key: string]: string[]
@@ -26,9 +26,9 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
 
     const [toggle, setDropdown] = useState("visible");
 
-
     const dropdownRef = useRef<any>();
     const delRef = useRef<any>();
+
     function handleDropDown() {
 
         let year = dropdownRef?.current?.classList[1];
@@ -50,12 +50,8 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
     }
 
     function handleDelete() {
-        let year = dropdownRef?.current?.classList[1];
-        // let table = document.querySelector(`.table${year}`);
-        onDelete(year);
+        onDelete(startYear);
     }
-
-
 
     let numRows = 0;
     for (let term in courses) {
@@ -67,10 +63,10 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
     let tableData = [];
 
     for (let currentRow = 0; currentRow < numRows; currentRow++) {
-        let newRowData = <div className={styles.row}>
+        let newRowData = <div className={styles.row} key={currentRow}>
             {
                 Object.keys(courses).map(currentTerm => {
-                    return <div className={styles.col}> {courses[currentTerm][currentRow]} </div>
+                    return <div className={styles.col} key={currentTerm}> {courses[currentTerm][currentRow]} </div>
                 })
             }
         </div>
@@ -82,8 +78,6 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
         <>
 
             <div id={`${startYear}`} className={styles.container}>
-
-
 
                 <div className={styles.yearLabel}>
                     <div>
@@ -99,8 +93,6 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
                     </div>
                 </div>
 
-
-
                 <div className={`${styles.table} table${startYear} ${styles.hidden}`}>
                     <div className={styles.header}>
                         <div className={styles.col}>Fall</div>
@@ -109,15 +101,9 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
                         <div className={styles.col}>Summer</div>
                     </div>
 
-                    {/* <div> */}
                     {
                         tableData
-
                     }
-
-
-                    {/* </div> */}
-
 
                 </div>
             </div>

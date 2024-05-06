@@ -3,5 +3,6 @@
   height: 200px;
   background-color: red;
   color: white;
+  cursor: move;
   position: absolute;
 }
