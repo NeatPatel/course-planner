@@ -11,6 +11,7 @@ interface courseTerms {
 interface props {
     courses?: courseTerms
     startYear: number,
+    onDelete: Function
 }
 
 const testCourses: courseTerms = {
@@ -20,15 +21,15 @@ const testCourses: courseTerms = {
     'Summer': ['CS 161', 'CS 120A', 'Writing 60']
 }
 
-export default function SchedulePlanner({ courses = testCourses, onDelete, startYear = 2024}: props) {
+export default function SchedulePlanner({ courses = testCourses, onDelete, startYear = 2024 }: props) {
     // For dropdown
 
     const [toggle, setDropdown] = useState("visible");
 
-    
-    const dropdownRef = useRef();
-    const delRef = useRef();
-    function handleDropDown () {
+
+    const dropdownRef = useRef<any>();
+    const delRef = useRef<any>();
+    function handleDropDown() {
 
         let year = dropdownRef?.current?.classList[1];
         let table = document.querySelector(`.table${year}`);
@@ -39,13 +40,13 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
             table?.classList.add(styles.hidden);
         }
         else {
-            
+
             table?.classList.remove(styles.hidden);
             table?.classList.add(styles.visible);
-            
+
         }
         // console.log(table?.classList)
-        
+
     }
 
     function handleDelete() {
@@ -55,7 +56,7 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
     }
 
 
-    
+
     let numRows = 0;
     for (let term in courses) {
         if (courses[term].length > numRows)
@@ -79,26 +80,26 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
 
     return (
         <>
-            
+
             <div id={`${startYear}`} className={styles.container}>
-            
-                
-            
+
+
+
                 <div className={styles.yearLabel}>
                     <div>
-                        <img ref={dropdownRef} className={"dropdown" + " " + startYear + " " + styles.dropdown} onClick={handleDropDown}src={DropdownIcon} alt="" />
+                        <img ref={dropdownRef} className={"dropdown" + " " + startYear + " " + styles.dropdown} onClick={handleDropDown} src={DropdownIcon} alt="" />
                     </div>
-                    
+
                     <div>
                         {startYear} - {startYear + 1}
                     </div>
-                    
+
                     <div>
-                        <img ref={delRef} className={"delete" + " " + startYear + " " + styles.delete} onClick={handleDelete}src={DeleteIcon} alt="" /> 
+                        <img ref={delRef} className={"delete" + " " + startYear + " " + styles.delete} onClick={handleDelete} src={DeleteIcon} alt="" />
                     </div>
                 </div>
-                
-            
+
+
 
                 <div className={`${styles.table} table${startYear} ${styles.hidden}`}>
                     <div className={styles.header}>

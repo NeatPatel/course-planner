@@ -8,11 +8,13 @@ import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 function App() {
   const currentYearRef = useRef<number>(2024);
   const [schedules, setSchedules] = useState<JSX.Element[]>([<SchedulePlanner onDelete={handleDeleteTable} startYear={currentYearRef.current} />]);
-  
-  function handleDeleteTable(year) {
+
+  function handleDeleteTable(year: number) {
     console.log(schedules);
     console.log(year);
+    // setSchedules([...schedules].filter(schedule => schedule.startYear !== year))
   }
+
   function addSchedule() {
     currentYearRef.current += 1
     setSchedules([...schedules, <SchedulePlanner onDelete={handleDeleteTable} startYear={currentYearRef.current} />])
@@ -21,7 +23,7 @@ function App() {
   return (
 
     <div className="root">
-      
+
       <div className="header">
         <div className="title">
           Course Eater
@@ -34,7 +36,7 @@ function App() {
 
       <div className="body">
         <div className="planning-area">
-        
+
 
           <div className="searchArea">
             <CourseSearch />
@@ -49,7 +51,7 @@ function App() {
             {
               schedules
             }
-            
+
 
           </div>
 
