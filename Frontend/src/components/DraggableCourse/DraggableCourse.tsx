@@ -1,9 +1,9 @@
 import styles from "./DraggableCourse.module.css";
 import { useState, useRef } from 'react';
 
-export default function DraggableCourse() {
+export default function DraggableCourse({ containerRef }: any) {
     const [isDragging, setIsDragging] = useState<boolean>(false);
-    let containerRef = useRef<any>(null);
+    // let containerRef = useRef<any>(null);
     let divX = useRef<any>();
     let divY = useRef<any>();
 
@@ -30,6 +30,7 @@ export default function DraggableCourse() {
         // onMouseMoveCapture={(e) => move(e)}
 
         >
+            ICS 6B
 
         </div>
 
