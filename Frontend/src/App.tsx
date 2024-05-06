@@ -22,9 +22,6 @@ function App() {
   return (
 
     <div className="root">
-      {/* <DraggableCourse containerRef={containerRef} /> */}
-      {/* Uncomment above to play with the draggable course component-- still in progress */}
-
       <div className="header">
         <div className="title">
           Course Eater
@@ -61,6 +58,9 @@ function App() {
         <div className="course-selection">
           <div className="major-selection">
             <SearchBar />
+            <DraggableCourse containerRef={containerRef} />
+            {/* Uncomment above to play with the draggable course component-- still in progress */}
+
 
 
           </div>

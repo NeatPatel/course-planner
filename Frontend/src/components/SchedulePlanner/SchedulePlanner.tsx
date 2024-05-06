@@ -34,6 +34,7 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
 
     const [toggle, setDropdown] = useState("visible");
     let columnList = useRef<any>([]);
+    let colsGroupedByTerm: any = useRef({});
 
     const dropdownRef = useRef<any>();
     const delRef = useRef<any>();
@@ -79,9 +80,17 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
             for (let column of columnList.current) {
                 if (isColliding(containerRef.current, column.current)) {
                     console.log('Collision detected!');
-                    column.current.style.backgroundColor = 'pink';
+                    const currentTerm = column.current.getAttribute('data-term');
+                    console.log('current term ', currentTerm)
+                    console.log('cols grouped by term: ', colsGroupedByTerm.current)
+                    for (let col of colsGroupedByTerm.current[currentTerm]) {
+                        col.current.style.backgroundColor = '#CDCDCD';
+                    }
                 } else {
-                    column.current.style.backgroundColor = '';
+                    const currentTerm = column.current.getAttribute('data-term');
+                    for (let col of colsGroupedByTerm.current[currentTerm]) {
+                        col.current.style.backgroundColor = '';
+                    }
                 }
             }
         }
@@ -119,7 +128,12 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
             {
                 Object.keys(courses).map(currentTerm => {
                     let colRef = useRef<any>();
-                    let colDiv = <div className={styles.col} key={currentTerm} ref={colRef}> {courses[currentTerm][currentRow]} </div>
+                    let colDiv = <div className={styles.col} key={`${currentRow}-${currentTerm}`} ref={colRef} data-term={currentTerm}> {courses[currentTerm][currentRow]} </div>
+                    if (!(currentTerm in colsGroupedByTerm.current)) {
+                        colsGroupedByTerm.current[currentTerm] = [colRef];
+                    } else {
+                        colsGroupedByTerm.current[currentTerm].push(colRef);
+                    }
                     columnList.current.push(colRef);
                     return colDiv;
                 })

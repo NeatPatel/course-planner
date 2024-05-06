@@ -23,12 +23,10 @@ export default function DraggableCourse({ containerRef }: any) {
 
     return (
         <div ref={containerRef} className={styles.container}
-            // onClick={(e) => move(e)}
             onMouseDown={(e) => down(e)}
             onMouseUp={() => setIsDragging(false)}
             onMouseMove={(e) => move(e)}
-        // onMouseMoveCapture={(e) => move(e)}
-
+            onMouseLeave={(e) => move(e)}
         >
             ICS 6B
 
