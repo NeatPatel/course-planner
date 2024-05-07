@@ -9,4 +9,15 @@ connection.connect();
 
 // TODO make query functions
 
+// INITIALIZE DATABASE (DO NOT INCLUDE IN FINAL COMMIT)
+
+// CREATE DATABASE course_eater;
+
+// USE course_eater;
+
+// CREATE TABLE users (
+
+// );
+
+
 connection.end();

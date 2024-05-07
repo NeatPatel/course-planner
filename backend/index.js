@@ -1,4 +1,5 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 const PORT = 8000;
@@ -18,6 +19,8 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+
+app.use(bodyParser.json())
 
 app.use(endpointRouter);
 
