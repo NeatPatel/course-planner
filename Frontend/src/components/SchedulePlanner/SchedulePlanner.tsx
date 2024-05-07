@@ -8,6 +8,7 @@ interface courseTerms {
     [key: string]: string[]
 }
 
+
 interface props {
     courses?: courseTerms
     startYear: number,
@@ -15,12 +16,18 @@ interface props {
     containerRef: any
 }
 
+// Below is the default prop for dummy data, uncomment if you want the schedule planner 
+// to be loaded with course names on mount
+
 // const testCourses: courseTerms = {
 //     'Fall': ['ICS 31', 'STATS 67', 'MATH 3A'],
 //     'Winter': ['ICS 32', 'ICS 6B', 'MATH 2A'],
 //     'Spring': ['ICS 33', 'ICS 6D', 'INF 43'],
 //     'Summer': ['CS 161', 'CS 120A', 'Writing 60']
 // }
+
+// Below is the prop that causes schedule planner table to be blank on page load so 
+// drag-drop functionality can be experimented with.
 
 const testCourses: courseTerms = {
     'Fall': ['', '', ''],
@@ -30,8 +37,6 @@ const testCourses: courseTerms = {
 }
 
 export default function SchedulePlanner({ courses = testCourses, onDelete, startYear = 2024, containerRef }: props) {
-    // For dropdown
-
     const [toggle, setDropdown] = useState("visible");
     let columnList = useRef<any>([]);
     let colsGroupedByTerm: any = useRef({});
@@ -43,7 +48,6 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
 
         let year = dropdownRef?.current?.classList[1];
         let table = document.querySelector(`.table${year}`);
-        // console.log(table?.childNodes)
         setDropdown(toggle == "hidden" ? "visible" : "hidden");
         if (toggle == "hidden") {
             table?.classList.remove(styles.visible);
@@ -65,11 +69,8 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
 
 
     function isColliding(elem1: any, elem2: any) {
-        console.log('elem 1: ', elem1)
-        console.log('elem 2: ', elem2)
-
-        var rect1 = elem1.getBoundingClientRect();
-        var rect2 = elem2.getBoundingClientRect();
+        const rect1 = elem1.getBoundingClientRect();
+        const rect2 = elem2.getBoundingClientRect();
 
         return !(rect1.right < rect2.left ||
             rect1.left > rect2.right ||
@@ -79,18 +80,16 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
 
     useEffect(() => {
         const mouseMoveFunction = () => {
-            console.log(columnList.current)
             for (let column of columnList.current) {
-                if (isColliding(containerRef.current, column)) {
-                    console.log('Collision detected!');
+                if (isColliding(containerRef.current, column.current)) {
                     const currentTerm = column.current.getAttribute('data-term');
                     for (let col of colsGroupedByTerm.current[currentTerm]) {
-                        col.style.backgroundColor = '#CDCDCD';
+                        col.current.style.backgroundColor = '#CDCDCD';
                     }
                 } else {
                     const currentTerm = column.current.getAttribute('data-term');
                     for (let col of colsGroupedByTerm.current[currentTerm]) {
-                        col.style.backgroundColor = '';
+                        col.current.style.backgroundColor = '';
                     }
                 }
             }
@@ -99,7 +98,6 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
         const mouseUpFunction = () => {
             for (let column of columnList.current) {
                 if (isColliding(containerRef.current, column.current)) {
-                    console.log('Collision detected! (mouse up)', containerRef);
                     column.current.innerText = containerRef.current.innerText
                     containerRef.current.remove();
                 }
@@ -128,8 +126,8 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
         let newRowData = <div className={styles.row} key={currentRow}>
             {
                 Object.keys(courses).map(currentTerm => {
-                    let colDiv = <div className={styles.col} key={`${currentRow}-${currentTerm}`} id={`${currentRow}-${currentTerm}`} data-term={currentTerm}> {courses[currentTerm][currentRow]} </div>
-                    const colDivRef = document.getElementById(`${currentRow}-${currentTerm}`)
+                    let colDivRef = useRef<any>();
+                    let colDiv = <div className={styles.col} ref={colDivRef} key={`${currentRow}-${currentTerm}`} id={`${currentRow}-${currentTerm}`} data-term={currentTerm}> {courses[currentTerm][currentRow]} </div>
                     if (!(currentTerm in colsGroupedByTerm.current)) {
                         colsGroupedByTerm.current[currentTerm] = [colDivRef];
                     } else {

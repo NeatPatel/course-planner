@@ -58,7 +58,7 @@ function App() {
         <div className="course-selection">
           <div className="major-selection">
             <SearchBar />
-            <DraggableCourse containerRef={containerRef} />
+            <DraggableCourse courseName={'ICS 6B'} containerRef={containerRef} />
             {/* Uncomment above to play with the draggable course component-- still in progress */}
 
 

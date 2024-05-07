@@ -14,8 +14,8 @@ export default function DepartmentSearch() {
         'Mathematics'
     ]
 
-    const searchResults = currentInput ? departments.map(department => {
-        if (currentInput && department.includes(currentInput)) {
+    const searchResults = currentInput?.toLowerCase() ? departments.map(department => {
+        if (currentInput.toLowerCase() && department.includes(currentInput.toLowerCase())) {
             return <li className={searchStyles.departmentItem} key={department}>{department}</li>
         }
     }) : null;
