@@ -1,0 +1,209 @@
+/* * {
+  --web
+} */
+
+.root {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+img {
+  max-width: 30px;
+  /* max-height: ; */
+}
+
+body {
+  margin: 0px 0px;
+  background-color: #ededed;
+  overflow: auto;
+  /* height: auto; */
+  /* overflow: hidden; */
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(0, 62, 120);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  width: 80%;
+  padding-left: 5%;
+}
+
+.sign-in {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+.label {
+  border: 1px solid black;
+  background-color: #cdcdcd;
+  border-radius: 5%;
+  height: 3em;
+  width: 7em;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.label:active {
+  background-color: #818181;
+}
+
+.body {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+
+.planning-area {
+  width: 60%;
+  height: 100%;
+  resize: both;
+  /* /* display: flex; */
+  /* align-items: center; */
+  /* display: flex;
+  justify-content: center; */
+}
+
+.scheduleArea {
+  display: flex;
+  height: 50%;
+  /* width: 100%; */
+  /* width: 30em; */
+  width: 100%;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  flex-wrap: wrap;
+  /* position: relative;
+  left: 25%; */
+  /* left: auto; */
+}
+
+.course-selection {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.major-selection {
+  background-color: #fdb912;
+  height: 70%;
+  display: flex;
+}
+
+.completed-courses {
+  background-color: #3c39b1;
+  height: 30%;
+}
+
+.majorSearchContainer {
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  all: unset;
+}
+/* Styles for the search bar */
+.majorSearch {
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: white;
+  width: 20vh;
+
+  /* transform: scaleX(0); */
+  transition: 0.5s border ease-in-out, 0.5s width ease-in-out, transform 0.25s ease-in-out;
+}
+
+/* Styles for when user clicks on search bar */
+.majorSearch:focus {
+  border-bottom: 3px solid blue;
+  width: 25vh;
+}
+
+/* Styles for major closed */
+.majorsClosed {
+  max-height: 0;
+  overflow: hidden;
+  transition-delay: 0.5s;
+  transition: 0.5s max-height ease-in-out;
+  border: none;
+}
+
+/* Style that displays the majors */
+/* Adds a scroll bar */
+.majorsOpened {
+  max-height: 30vh;
+  overflow-y: scroll;
+  scrollbar-color: #3c39b1 #fdb912;
+  transition-delay: 0.5s;
+  transition: 0.5s max-height ease-in-out;
+  border: 2px solid black;
+  /* transition: 0.25s border ease-in-out; */
+}
+
+.majorsOpened::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Styles for the major container */
+#majors {
+  border-radius: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+/* Default styles for each major */
+.major {
+  border-bottom: 2px solid black;
+  border-radius: 0.5em;
+  padding: 1em;
+  /* padding-top: 2em;
+  padding-bottom: 2em; */
+  font-size: 2vh;
+  margin-bottom: 0.5em;
+  transition: 0.25s background-color ease-in-out, 0.25s border ease-in-out, 0.25s padding ease-in-out,
+    0.25s font-family ease-in-out;
+}
+
+/* Changes properties when we hover each major */
+.major:hover {
+  background-color: #fecd51;
+  border-color: #3c39b1;
+  color: #3c39b1;
+}
+
+/* Hides each induvidual major */
+.hiddenMajor {
+  height: 0px;
+  border: none;
+  padding: 0em;
+  font-size: 0em;
+}
+
+/* Makes each major visible */
+.visibleMajor {
+  visibility: visible;
+  overflow: visible;
+  height: 2vh;
+}
+
+.searchArea {
+  height: 10%;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
