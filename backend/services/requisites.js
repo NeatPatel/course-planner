@@ -1,5 +1,5 @@
 const [toTokens, isSyntax] = require("./tokenizer.js");
-const Symbols = require("./symbols.js");
+const [Symbols] = require("./symbols.js");
 
 const strToClauses = (str) => {
   const trimmed = str.trim();
@@ -8,7 +8,7 @@ const strToClauses = (str) => {
   const cLen = clauses.length;
   for (let i = 0; i < cLen; i++) {
     if (typeof clauses[i] === "undefined") {
-        clauses.splice(i, 1);
+      clauses.splice(i, 1);
     }
   }
   return clauses;
