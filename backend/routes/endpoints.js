@@ -1,11 +1,9 @@
 const express = require("express");
-const axios = require("axios");
 const router = express.Router();
-const fetchCourse = require("../services/api-service.js");
+const [ fetchCourse, fetchRStrings ] = require("../services/api-service.js");
 const [ evalTokens, strToClauses ] = require("../services/requisites.js");
 const [ sentenceIsLogic ] = require('../services/tokenizer.js')
 
-// Middleware specific to endpoints
 router.get("/course", async (req, res) => {
   try {
     let courseId = req.query.courseId;
@@ -59,26 +57,19 @@ router.get("/reqs-met", async (req, res) => {
   });
 });
 
-async function fetchRStrings(courseId) {
-  try {
-    const response = await axios({
-      url: "https://api.peterportal.org/graphql/",
-      method: "post",
-      data: {
-        query: `
-          query {
-            course(id:"${courseId}") {
-                prerequisite_text
-                corequisite
-            }
-          }    
-        `,
-      },
-    });
-    return response.data;
-  } catch (error) {
-    return "ERROR: Requisite fetching";
-  }
-}
+router.get("/ge-met", async (req, res) => {
+  res.json({
+    ge1l: 0,
+    ge1u: 0,
+    ge2: 0,
+    ge3: 0,
+    ge4: 0,
+    ge5a: 0,
+    ge5b: 0,
+    ge6: 0,
+    ge7: 0,
+    ge8: 0
+  })
+})
 
 module.exports = router;

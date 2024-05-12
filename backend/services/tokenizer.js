@@ -48,7 +48,11 @@ const isSyntax = (str) => {
   return Object.values(Symbols).includes(str);
 };
 
-// Checks if a string is a course. TESTED
+/**
+ * Returns true if a given string follows the course format (ex. I&C SCI 122A).
+ * @param {string} str Input string to evaluate.
+ * @returns            Whether the string is a course.
+ */
 const isCourse = (str) => {
   let currDept;
   let deptIndex;
@@ -78,6 +82,11 @@ const isCourse = (str) => {
   return true;
 }
 
+/**
+ * Returns true if the majority of tokens in the string are symbols or courses.
+ * @param {*} sentenceTokens Array of tokens.
+ * @returns                  Whether the sentence is a logic expression.
+ */
 const sentenceIsLogic = (sentenceTokens) => {
   // Is considered to be logic if the # of valid terms > # of unknown terms
   const sentenceTokensLen = sentenceTokens.length

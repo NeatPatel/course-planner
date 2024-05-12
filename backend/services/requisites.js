@@ -1,7 +1,11 @@
 const [toTokens, isSyntax] = require("./tokenizer.js");
 const [Symbols] = require("./symbols.js");
 
-// Separate strings into array of sentences by periods.
+/**
+ * Separates string into sentences.
+ * @param {string} str Input string to split.
+ * @returns            Array of sentences.
+ */
 const strToClauses = (str) => {
   if (!str) {
     return [];
@@ -18,7 +22,12 @@ const strToClauses = (str) => {
   return clauses;
 };
 
-// TESTED
+/**
+ * Returns true if the given courses meet the requisites given in the string.
+ * @param {string} rStr    Requisite string.
+ * @param {*} coursesTaken Array of courses taken.
+ * @returns                Whether courses meet the requisites
+ */
 const evalTokens = (rStr, coursesTaken) => {
   let currToken;
   let taken;
@@ -43,7 +52,11 @@ const evalTokens = (rStr, coursesTaken) => {
   return eval(boolStr);
 };
 
-// Wherever there are parentheses, surround them with spaces TESTED
+/**
+ * Pad string with spaces wherever there are parentheses
+ * @param {*} str String to pad parentheses.
+ * @returns       Padded string.
+ */
 function _padParens(str) {
   let result = str;
   const sLen = str.length
@@ -63,16 +76,16 @@ function _padParens(str) {
   return result;
 }
 
-// TESTED
+/**
+ * Returns true if two strings are equal. Case insensitive and white space insensitive.
+ * @param {string} input1 String 1.
+ * @param {string} input2 String 2.
+ * @returns               Equivalence of input1 and input2.
+ */
 function _equalIgnoreCaseSpace(input1, input2) {
   let s1 = input1.replace(/\s+/g, "");
   let s2 = input2.replace(/\s+/g, "");
   return s1.toLowerCase() === s2.toLowerCase();
 }
-
-// let tokens = toTokens("( AC ENG 20A AND PLACEMENT EXAM AND authorization )");
-// let result = evalTokens(tokens, ["ACENG20A", 'PLACEMENTEXAM', 'authorization']);
-// console.log(tokens);
-// console.log("Result: " + result);
 
 module.exports = [evalTokens, strToClauses];
