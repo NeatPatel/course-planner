@@ -1,7 +1,7 @@
 // Edge case
 // SPANISH 1C or SPANISH S1BC. SPANISH 1C with a grade of C or better. SPANISH S1BC with a grade of C or better. Placement into SPANISH 2A is also accepted.
 
-const [ Symbols ] = require("./symbols.js");
+const [ Symbols, Departments ] = require("./symbols.js");
 /**
  * Turns a string of prerequisites or corequisites into tokens.
  * @param  {string} str Requisite string to turn into tokens.
@@ -47,6 +47,36 @@ const toTokens = (str) => {
 const isSyntax = (str) => {
   return Object.values(Symbols).includes(str);
 };
+
+// Checks if a string is a course
+const isCourse = (str) => {
+  let currDept;
+  let deptIndex;
+  for (let i = 0; i < 118; i++) {
+    currDept = Departments[i];
+    deptIndex = str.indexOf(currDept)
+    if (deptIndex != -1) {
+      i = 118
+    }
+  }
+  if (deptIndex != 0) {
+    return false;     // Check that the department exists and it starts at index 0
+  }
+  let deptTokenLen = currDept.split(' ').length;
+
+  let strTokens = str.split(' ')
+  let strTokensLen = strTokens.length
+  if (strTokensLen != deptTokenLen+1) {
+    return false      // Check that there is only one more token after the department (course number)
+  }
+
+  let lastItem = strTokens[strTokensLen-1]
+  if (lastItem.length > 5) {
+    return false        // Check that the length of that token is 5 or less
+  }
+
+  return true;
+}
 
 /**
  * Turns a prerequisite_text string into an array of tokens.

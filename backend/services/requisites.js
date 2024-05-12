@@ -1,6 +1,7 @@
 const [toTokens, isSyntax] = require("./tokenizer.js");
 const [Symbols] = require("./symbols.js");
 
+// Separate strings into array of sentences by periods.
 const strToClauses = (str) => {
   const trimmed = str.trim();
   const regex = /(?<!\b(Ph\.D|M\.S|B\.S))\. (?!\d)/;
@@ -13,8 +14,6 @@ const strToClauses = (str) => {
   }
   return clauses;
 };
-
-console.log(strToClauses(" Advancement to Ph.D. candidacy. Some weird text."));
 
 // TESTED
 const evalTokens = (rStr, coursesTaken) => {
