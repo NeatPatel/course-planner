@@ -48,7 +48,7 @@ const isSyntax = (str) => {
   return Object.values(Symbols).includes(str);
 };
 
-// Checks if a string is a course
+// Checks if a string is a course. TESTED
 const isCourse = (str) => {
   let currDept;
   let deptIndex;
@@ -78,6 +78,24 @@ const isCourse = (str) => {
   return true;
 }
 
+const sentenceIsLogic = (sentenceTokens) => {
+  // Is considered to be logic if the # of valid terms > # of unknown terms
+  const sentenceTokensLen = sentenceTokens.length
+  let logicCount = 0;
+  let unknownCount = 0;
+  let currToken;
+  for (let i = 0; i < sentenceTokensLen; i++) {
+    currToken = sentenceTokens[i];
+    if (isCourse(currToken) || isSyntax(currToken)) {
+      logicCount++;
+    } else {
+      unknownCount++;
+    }
+  }
+
+  return logicCount > unknownCount;
+}
+
 /**
  * Turns a prerequisite_text string into an array of tokens.
  * @param   {string} str String to be split into tokens.
@@ -89,4 +107,4 @@ function _toWords(str) {
   return filteredWords;
 };
 
-module.exports = [toTokens, isSyntax];
+module.exports = [toTokens, isSyntax, sentenceIsLogic];

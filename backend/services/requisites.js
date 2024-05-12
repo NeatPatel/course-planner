@@ -3,6 +3,9 @@ const [Symbols] = require("./symbols.js");
 
 // Separate strings into array of sentences by periods.
 const strToClauses = (str) => {
+  if (!str) {
+    return [];
+  }
   const trimmed = str.trim();
   const regex = /(?<!\b(Ph\.D|M\.S|B\.S))\. (?!\d)/;
   const clauses = trimmed.split(regex);
@@ -19,7 +22,7 @@ const strToClauses = (str) => {
 const evalTokens = (rStr, coursesTaken) => {
   let currToken;
   let taken;
-  let rTokens = toTokens(rStr);
+  let rTokens = toTokens(_padParens(rStr));
   rLen = rTokens.length;
 
   for (let i = 0; i < rLen; i++) {
@@ -36,8 +39,29 @@ const evalTokens = (rStr, coursesTaken) => {
     }
   }
   let boolStr = rTokens.join(" ");
+  console.log(`boolStr: ${boolStr}`)
   return eval(boolStr);
 };
+
+// Wherever there are parentheses, surround them with spaces TESTED
+function _padParens(str) {
+  let result = str;
+  const sLen = str.length
+  for (let i = 0; i < sLen; i++) {
+    // account for (
+    if (str[i] == "(" && str[i+1] != " ") {
+      result = result.slice(0, i+1) + " " + result.slice(i+1)
+      console.log('yes')
+    }
+    // account for )
+    if (str[i] == ")" && str[i-1] != " ") {
+      result = result.slice(0, i+1) + " " + result.slice(i+1)
+      console.log('yes')
+
+    }
+  }
+  return result;
+}
 
 // TESTED
 function _equalIgnoreCaseSpace(input1, input2) {
