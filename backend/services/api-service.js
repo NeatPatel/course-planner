@@ -1,45 +1,49 @@
-const { gql, GraphQLClient } = require('graphql-request');
 const axios = require("axios");
 
-
-endpoint = 'https://api.peterportal.org/graphql/';
+endpoint = "https://api.peterportal.org/graphql/";
 
 /**
  * Given a courseId String, return a GQL JSON response containing course data.
  * @param {string} courseId  UCI Course ID (ex. COMPSCI151).
  * @returns                  Response data in JSON format.
  */
-const fetchCourse = async (courseId) => {
-    const cli = new GraphQLClient(endpoint);
-    
-    const query = gql`
+async function fetchCourse(courseId) {
+  try {
+    const response = await axios({
+      url: "https://api.peterportal.org/graphql/",
+      method: "post",
+      data: {
+        query: `
         query {
-            course(id:"${courseId}") {
-                id
-                description
-                corequisite
-                restriction
-                prerequisite_text
-            }
-        }    
-    `
-    const results = await cli.request(query);
-
-    return results;
+          course(id:"${courseId}") {
+              id
+              description
+              corequisite
+              restriction
+              prerequisite_text
+          }
+      }    
+          `,
+      },
+    });
+    return response.data;
+  } catch (error) {
+    return "ERROR: Requisite fetching";
+  }
 }
 
 /**
  * Given a courseId String, return a GQL JSON response containing course data.
- * @param {string} courseId 
- * @returns 
+ * @param {string} courseId
+ * @returns
  */
 async function fetchRStrings(courseId) {
-    try {
-      const response = await axios({
-        url: "https://api.peterportal.org/graphql/",
-        method: "post",
-        data: {
-          query: `
+  try {
+    const response = await axios({
+      url: "https://api.peterportal.org/graphql/",
+      method: "post",
+      data: {
+        query: `
             query {
               course(id:"${courseId}") {
                   prerequisite_text
@@ -47,14 +51,33 @@ async function fetchRStrings(courseId) {
               }
             }    
           `,
-        },
-      });
-      return response.data;
-    } catch (error) {
-      return "ERROR: Requisite fetching";
-    }
+      },
+    });
+    return response.data;
+  } catch (error) {
+    return "ERROR: Requisite fetching";
   }
-  
+}
 
+async function fetchGE(courseId) {
+  try {
+    const response = await axios({
+      url: "https://api.peterportal.org/graphql/",
+      method: "post",
+      data: {
+        query: `
+            query {
+              course(id:"${courseId}") {
+                  ge_list
+              }
+            }    
+          `,
+      },
+    });
+    return response.data;
+  } catch (error) {
+    return "ERROR: Requisite fetching";
+  }
+}
 
-module.exports = [ fetchCourse, fetchRStrings ];
+module.exports = { fetchCourse, fetchRStrings, fetchGE };

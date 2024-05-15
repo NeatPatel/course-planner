@@ -127,4 +127,4 @@ const Symbols = Object.freeze({
   AND: "AND",
 });
 
-module.exports = [ Symbols, Departments ];
+module.exports = { Symbols, Departments };

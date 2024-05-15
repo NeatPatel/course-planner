@@ -1,5 +1,5 @@
-const [toTokens, isSyntax] = require("./tokenizer.js");
-const [Symbols] = require("./symbols.js");
+const { toTokens, isSyntax } = require("./tokenizer.js");
+const { Symbols } = require("./symbols.js");
 
 /**
  * Separates string into sentences.
@@ -48,7 +48,6 @@ const evalTokens = (rStr, coursesTaken) => {
     }
   }
   let boolStr = rTokens.join(" ");
-  console.log(`boolStr: ${boolStr}`)
   return eval(boolStr);
 };
 
@@ -64,12 +63,10 @@ function _padParens(str) {
     // account for (
     if (str[i] == "(" && str[i+1] != " ") {
       result = result.slice(0, i+1) + " " + result.slice(i+1)
-      console.log('yes')
     }
     // account for )
     if (str[i] == ")" && str[i-1] != " ") {
       result = result.slice(0, i+1) + " " + result.slice(i+1)
-      console.log('yes')
 
     }
   }
@@ -88,4 +85,4 @@ function _equalIgnoreCaseSpace(input1, input2) {
   return s1.toLowerCase() === s2.toLowerCase();
 }
 
-module.exports = [evalTokens, strToClauses];
+module.exports = { evalTokens, strToClauses };
