@@ -18,6 +18,8 @@ If the api is running successfully, the console should output "Listening on port
 
 ### API Endpoints
 
-/course?courseId=<courseId>
+/course?courseId=\<courseId\>
+
+Ex. http://localhost:8000/COURSE?courseId=COMPSCI161
 
 Fetches UCI course data (calls to PeterPortal API).

@@ -17,14 +17,19 @@ body{
 
 .wrapper{
     display: flex;
-    height: 70vh;
-    width: 50vh;
+    height: auto;
+    width: 25vw;
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     background: wheat;
     opacity: 0.94;
     color: black;
-    font-size: larger;
-    border-radius: 10px;
+    font-size: medium;
+    border-radius: 3vh;
 }
 
 .wrapper h1{
@@ -34,13 +39,11 @@ body{
 }
 
 .wrapper p{
-    width: 300px;
+    width: 80%;
     font-weight: normal;
-    margin-top: 5.5vh;
     text-align: center;
-    margin-bottom: 6.5vh;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .wrapper .input{
@@ -74,7 +77,6 @@ body{
 }
 
 .wrapper .forgot-password {
-    margin-bottom: 14.25vh;
     font-size: medium;
 }
 
@@ -83,31 +85,18 @@ body{
 }
 
 .wrapper .btn{
-    width: 100%;
-    height: 30px;
-    border-radius: 20px;
+    width: auto;
+    height: auto;
+    border-radius: 5vh;
     font-size: large;
+    margin: auto;
+    padding: 1vh 5vh 1vh 5vh;
     font-weight: 300;
     cursor: pointer;
-    margin-bottom: 5.5vh;
     color: white;
     background-color: rgb(37, 148, 37);
     opacity: 1;
     transition: 0.3s background-color ease-in-out;
-}
-
-.wrapper .full-length-input {
-    margin-bottom: 1vh;
-}
-
-.full-length-input input {
-    border-radius: 5px;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: 1px solid white;
-    opacity: 1;
-    padding: 7px 7px 7px 7px;
 }
 
 .btn:hover{
@@ -118,8 +107,19 @@ body{
     font-size: medium;
 }
 
-.register a{
-    display: flex;
-    color: black;
+.spacer{
+    margin-bottom: 10vh;
+}
+
+.spacer-small{
+    /* keep small version half of regular */
+    margin-bottom: 5vh;
+}
+
+.wrapper .footer{
+    display: grid;
     justify-content: center;
+    align-content: flex-end;
+    text-align: center;
+    margin-bottom: 2vh;
 }

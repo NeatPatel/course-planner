@@ -1,35 +1,83 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useRef } from "react";
+import "./App.css";
+import SearchBar from "./components/SearchBar.tsx";
+import CourseSearch from "./components/CourseSearch/CourseSearch.tsx";
+import SchedulePlanner from "./components/SchedulePlanner/SchedulePlanner.tsx";
+import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const currentYearRef = useRef<number>(2024);
+  let containerRef = useRef<any>(null);
+  const [schedules, setSchedules] = useState<JSX.Element[]>([<SchedulePlanner onDelete={handleDeleteTable} startYear={currentYearRef.current} key={currentYearRef.current} containerRef={containerRef} />]);
+
+  function handleDeleteTable(year: number) {
+    setSchedules(prevSchedules => [...prevSchedules].filter(schedule => schedule.props.startYear !== year))
+  }
+
+  function addSchedule() {
+    currentYearRef.current += 1
+    setSchedules([...schedules, <SchedulePlanner onDelete={handleDeleteTable} startYear={currentYearRef.current} key={currentYearRef.current} containerRef={containerRef} />])
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+
+    <div className="root">
+      <div className="header">
+        <div className="title">
+          Course Eater
+        </div>
+
+        <div className="sign-in">
+          Sign-in
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+
+      <div className="body">
+        <div className="planning-area">
+
+
+          <div className="searchArea">
+            <CourseSearch />
+
+          </div>
+
+          <div className="scheduleArea">
+
+            <button className="label"
+              onClick={() => addSchedule()}>Add Year</button>
+
+            {
+              schedules
+            }
+
+
+          </div>
+
+        </div>
+
+        <div className="course-selection">
+          <div className="major-selection">
+            <SearchBar />
+            <DraggableCourse courseName={'ICS 6B'} containerRef={containerRef} />
+            {/* Uncomment above to play with the draggable course component-- still in progress */}
+
+
+
+          </div>
+
+          <div className="completed-courses">
+
+
+          </div>
+
+
+        </div>
+
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+
+    </div>);
 }
 
-export default App
+
+
+export default App;
