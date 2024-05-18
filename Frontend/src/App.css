@@ -96,7 +96,7 @@ body {
 }
 
 .major-selection {
-  background-color: #fdb912;
+  background-color: #818181;
   height: 70%;
   display: flex;
 }
@@ -146,7 +146,7 @@ input {
 .majorsOpened {
   max-height: 30vh;
   overflow-y: scroll;
-  scrollbar-color: #3c39b1 #fdb912;
+  scrollbar-color: #3c39b1 #818181;
   transition-delay: 0.5s;
   transition: 0.5s max-height ease-in-out;
   border: 2px solid black;
@@ -174,14 +174,16 @@ input {
   font-size: 2vh;
   margin-bottom: 0.5em;
   transition: 0.25s background-color ease-in-out, 0.25s border ease-in-out, 0.25s padding ease-in-out,
-    0.25s font-family ease-in-out;
+    0.25s font-size ease-in-out;
 }
 
 /* Changes properties when we hover each major */
 .major:hover {
-  background-color: #fecd51;
-  border-color: #3c39b1;
+  background-color: #8c8b8b;
+  /* border-color: #3c39b1; */
+  border-bottom: 4px solid #2c297c;
   color: #3c39b1;
+  font-size: 2.5vh;
 }
 
 /* Hides each induvidual major */

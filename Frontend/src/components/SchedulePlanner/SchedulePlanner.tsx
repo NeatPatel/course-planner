@@ -38,11 +38,13 @@ const testCourses: courseTerms = {
 
 export default function SchedulePlanner({ courses = testCourses, onDelete, startYear = 2024, containerRef }: props) {
     const [toggle, setDropdown] = useState("visible");
+    const [yearInput, setYearInput] = useState(`${startYear} - ${startYear + 1}`);
     let columnList = useRef<any>([]);
     let colsGroupedByTerm: any = useRef({});
 
     const dropdownRef = useRef<any>();
     const delRef = useRef<any>();
+
 
     function handleDropDown() {
 
@@ -65,6 +67,11 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
 
     function handleDelete() {
         onDelete(startYear);
+    }
+
+    function handleYearEdit (e) {
+        setYearInput(e.target.value);
+        
     }
 
 
@@ -143,6 +150,7 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
         tableData.push(newRowData);
     }
 
+
     return (
         <>
 
@@ -153,9 +161,13 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
                         <img ref={dropdownRef} className={"dropdown" + " " + startYear + " " + styles.dropdown} onClick={handleDropDown} src={DropdownIcon} alt="" />
                     </div>
 
-                    <div>
+                    {/* <div>
                         {startYear} - {startYear + 1}
-                    </div>
+                    </div> */}
+
+                    <input value={yearInput} className={styles.date} type="text" onChange={handleYearEdit} > 
+                        
+                    </input>
 
                     <div>
                         <img ref={delRef} className={"delete" + " " + startYear + " " + styles.delete} onClick={handleDelete} src={DeleteIcon} alt="" />

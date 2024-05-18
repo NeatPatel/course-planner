@@ -17,6 +17,9 @@ function App() {
   function addSchedule() {
     currentYearRef.current += 1
     setSchedules([...schedules, <SchedulePlanner onDelete={handleDeleteTable} startYear={currentYearRef.current} key={currentYearRef.current} containerRef={containerRef} />])
+    let dates = document.querySelectorAll(".date");
+    
+
   }
 
   return (

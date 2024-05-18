@@ -28,7 +28,10 @@ export default function DraggableCourse({ courseName, containerRef }: any) {
             onMouseMove={(e) => move(e)}
             onMouseLeave={(e) => move(e)}
         >
-            {courseName}
+            <div className={styles.text}>
+                {courseName}
+            </div>
+            
 
         </div>
 

@@ -111,6 +111,10 @@ img {
   border-radius: 0.5em;
 }
 
+.date::placeholder {
+  color: white;
+}
+
 /* td {
   background-color: red;
 } */
