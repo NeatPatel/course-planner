@@ -53,7 +53,7 @@ body{
 .input input{
     outline: none;
     border-radius: 5px;
-    width: 350px;
+    width: 40vh;
     height: 100%;
     background: transparent;
     /* border: 1px solid white; */
@@ -122,4 +122,10 @@ body{
     align-content: flex-end;
     text-align: center;
     margin-bottom: 2vh;
+}
+
+.g-signin2{
+    margin-left: 23px;
+    justify-content: right;
+    align-content: right;
 }
