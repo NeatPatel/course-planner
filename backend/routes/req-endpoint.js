@@ -53,10 +53,7 @@ router.get("/req-tree-met", async (req, res) => {
     res.json({
     prerequisiteText: "",
     prerequisitesMet: "",
-    prerequisiteNotes: "",
-    corequisiteText: "",
-    corequisitesMet: "",
-    corequisiteNotes: "",
+    prerequisiteNotes: ""
   });
 });
 

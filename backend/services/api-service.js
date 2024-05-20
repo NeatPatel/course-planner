@@ -80,4 +80,25 @@ async function fetchGE(courseId) {
   }
 }
 
-module.exports = { fetchCourse, fetchRStrings, fetchGE };
+async function fetchPRTree(courseId) {
+  try {
+    const response = await axios({
+      url: "https://api.peterportal.org/graphql/",
+      method: "post",
+      data: {
+        query: `
+            query {
+              course(id:"${courseId}") {
+                  prerequisite_tree
+              }
+            }    
+          `,
+      },
+    });
+    return response.data;
+  } catch (error) {
+    return "ERROR: Requisite fetching";
+  }
+}
+
+module.exports = { fetchCourse, fetchRStrings, fetchGE, fetchPRTree };
