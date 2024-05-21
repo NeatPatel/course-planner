@@ -4,11 +4,12 @@ import SearchBar from "./components/SearchBar.tsx";
 import CourseSearch from "./components/CourseSearch/CourseSearch.tsx";
 import SchedulePlanner from "./components/SchedulePlanner/SchedulePlanner.tsx";
 import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
+import { DndContext } from "@dnd-kit/core";
 
 function App() {
   const currentYearRef = useRef<number>(2024);
-  let containerRef = useRef<any>(null);
-  const [schedules, setSchedules] = useState<JSX.Element[]>([<SchedulePlanner onDelete={handleDeleteTable} startYear={currentYearRef.current} key={currentYearRef.current} containerRef={containerRef} />]);
+  const [schedules, setSchedules] = useState<JSX.Element[]>([<SchedulePlanner onDelete={handleDeleteTable} startYear={currentYearRef.current} key={currentYearRef.current} />]);
+  const [parent, setParent] = useState<any>(null);
 
   function handleDeleteTable(year: number) {
     setSchedules(prevSchedules => [...prevSchedules].filter(schedule => schedule.props.startYear !== year))
@@ -16,9 +17,9 @@ function App() {
 
   function addSchedule() {
     currentYearRef.current += 1
-    setSchedules([...schedules, <SchedulePlanner onDelete={handleDeleteTable} startYear={currentYearRef.current} key={currentYearRef.current} containerRef={containerRef} />])
-    let dates = document.querySelectorAll(".date");
-    
+    setSchedules([...schedules, <SchedulePlanner parent={parent} onDelete={handleDeleteTable} startYear={currentYearRef.current} key={currentYearRef.current} />])
+    // let dates = document.querySelectorAll(".date");
+
 
   }
 
@@ -36,46 +37,50 @@ function App() {
       </div>
 
       <div className="body">
-        <div className="planning-area">
+        <DndContext onDragEnd={({ over }) => {
+          console.log(over);
+          setParent(over ? over.id : null)
+
+        }}>
+          <div className="planning-area">
+            <div className="searchArea">
+              <CourseSearch />
+
+            </div>
+
+            <div className="scheduleArea">
+
+              <button className="label"
+                onClick={() => addSchedule()}>Add Year</button>
+
+              {
+                schedules
+              }
 
 
-          <div className="searchArea">
-            <CourseSearch />
-
-          </div>
-
-          <div className="scheduleArea">
-
-            <button className="label"
-              onClick={() => addSchedule()}>Add Year</button>
-
-            {
-              schedules
-            }
-
-
-          </div>
-
-        </div>
-
-        <div className="course-selection">
-          <div className="major-selection">
-            <SearchBar />
-            <DraggableCourse courseName={'ICS 6B'} containerRef={containerRef} />
-            {/* Uncomment above to play with the draggable course component-- still in progress */}
-
-
+            </div>
 
           </div>
 
-          <div className="completed-courses">
+          <div className="course-selection">
+            <div className="major-selection">
+              <SearchBar />
+              {!parent ? <DraggableCourse id={'ICS 6D'}> ICS 6D </DraggableCourse> : null}
+
+              {/* Uncomment above to play with the draggable course component-- still in progress */}
+
+
+
+            </div>
+
+            <div className="completed-courses">
+
+
+            </div>
 
 
           </div>
-
-
-        </div>
-
+        </DndContext>
       </div>
 
     </div>);

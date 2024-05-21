@@ -1,11 +1,12 @@
 .container {
   width: 100px;
-  height: auto;
+  /* height: auto; */
+  height: 30px;
   display: flex;
   background-color: rgba(77, 76, 76, 0.633);
   color: white;
   cursor: move;
-  position: absolute;
+  /* position: absolute; */
   padding: 0.5em;
   user-select: none;
   border-radius: 1em;
@@ -13,9 +14,7 @@
   justify-content: center;
 }
 
-
-.text {
+/* .text {
 
   
-}
-
+} */

@@ -1,8 +1,10 @@
 import styles from './SchedulePlanner.module.css';
 import DropdownIcon from '../../icons/dropdown.svg';
 import DeleteIcon from '../../icons/delete.svg';
+import { Droppable } from './Droppable.tsx';
 
 import { useState, useRef, useEffect } from 'react';
+import DraggableCourse from '../DraggableCourse/DraggableCourse.tsx';
 
 interface courseTerms {
     [key: string]: string[]
@@ -13,7 +15,6 @@ interface props {
     courses?: courseTerms
     startYear: number,
     onDelete: Function
-    containerRef: any
 }
 
 // Below is the default prop for dummy data, uncomment if you want the schedule planner 
@@ -36,11 +37,9 @@ const testCourses: courseTerms = {
     'Summer': ['', '', ''],
 }
 
-export default function SchedulePlanner({ courses = testCourses, onDelete, startYear = 2024, containerRef }: props) {
+export default function SchedulePlanner({ parent, courses = testCourses, onDelete, startYear = 2024 }: any) {
     const [toggle, setDropdown] = useState("visible");
     const [yearInput, setYearInput] = useState(`${startYear} - ${startYear + 1}`);
-    let columnList = useRef<any>([]);
-    let colsGroupedByTerm: any = useRef({});
 
     const dropdownRef = useRef<any>();
     const delRef = useRef<any>();
@@ -69,56 +68,12 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
         onDelete(startYear);
     }
 
-    function handleYearEdit (e) {
+    function handleYearEdit(e: any) {
         setYearInput(e.target.value);
-        
+
     }
 
 
-    function isColliding(elem1: any, elem2: any) {
-        const rect1 = elem1.getBoundingClientRect();
-        const rect2 = elem2.getBoundingClientRect();
-
-        return !(rect1.right < rect2.left ||
-            rect1.left > rect2.right ||
-            rect1.bottom < rect2.top ||
-            rect1.top > rect2.bottom);
-    }
-
-    useEffect(() => {
-        const mouseMoveFunction = () => {
-            for (let column of columnList.current) {
-                if (isColliding(containerRef.current, column.current)) {
-                    const currentTerm = column.current.getAttribute('data-term');
-                    for (let col of colsGroupedByTerm.current[currentTerm]) {
-                        col.current.style.backgroundColor = '#CDCDCD';
-                    }
-                } else {
-                    const currentTerm = column.current.getAttribute('data-term');
-                    for (let col of colsGroupedByTerm.current[currentTerm]) {
-                        col.current.style.backgroundColor = '';
-                    }
-                }
-            }
-        }
-
-        const mouseUpFunction = () => {
-            for (let column of columnList.current) {
-                if (isColliding(containerRef.current, column.current)) {
-                    column.current.innerText = containerRef.current.innerText
-                    containerRef.current.remove();
-                }
-            }
-        }
-
-        document.addEventListener('mousemove', mouseMoveFunction);
-        document.addEventListener('mouseup', mouseUpFunction);
-
-        return () => {
-            document.removeEventListener('mousemove', mouseMoveFunction)
-            document.removeEventListener('mouseup', mouseUpFunction)
-        }
-    }, [])
 
     let numRows = 0;
     for (let term in courses) {
@@ -133,16 +88,8 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
         let newRowData = <div className={styles.row} key={currentRow}>
             {
                 Object.keys(courses).map(currentTerm => {
-                    let colDivRef = useRef<any>();
-                    let colDiv = <div className={styles.col} ref={colDivRef} key={`${currentRow}-${currentTerm}`} id={`${currentRow}-${currentTerm}`} data-term={currentTerm}> {courses[currentTerm][currentRow]} </div>
-                    if (!(currentTerm in colsGroupedByTerm.current)) {
-                        colsGroupedByTerm.current[currentTerm] = [colDivRef];
-                    } else {
-                        colsGroupedByTerm.current[currentTerm].push(colDivRef);
-                    }
-
-                    columnList.current.push(colDivRef);
-                    return colDiv;
+                    const id = `ICS 6D Container`
+                    return <Droppable id={id}>{parent === 'ICS 6D Container' ? <DraggableCourse id={'ICS 6D'}> ICS 6D </DraggableCourse> : 'Drop here'} </Droppable>;
                 })
             }
         </div>
@@ -165,8 +112,8 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
                         {startYear} - {startYear + 1}
                     </div> */}
 
-                    <input value={yearInput} className={styles.date} type="text" onChange={handleYearEdit} > 
-                        
+                    <input value={yearInput} className={styles.date} type="text" onChange={handleYearEdit} >
+
                     </input>
 
                     <div>
