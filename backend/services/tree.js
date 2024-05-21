@@ -4,7 +4,7 @@ const convertToTree = (str) => {
   return JSON.parse(str);
 };
 
-const evalTree = async (treeObj, coursesTaken) => {
+const evalTree = (treeObj, coursesTaken) => {
     if (!treeObj) {
         return true
     }
@@ -21,7 +21,7 @@ const evalTree = async (treeObj, coursesTaken) => {
         if (typeof req === 'string') {
             reqTaken = _courseInList(req, coursesTaken)
         } else {
-            reqTaken = await evalTree(req, coursesTaken)
+            reqTaken = evalTree(req, coursesTaken)
         }
         if (reqTaken != isAnd) {
             return !isAnd

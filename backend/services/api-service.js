@@ -18,9 +18,13 @@ async function fetchCourse(courseId) {
           course(id:"${courseId}") {
               id
               description
+              prerequisite_text
               corequisite
               restriction
-              prerequisite_text
+              units
+              school
+              department
+              ge_text
           }
       }    
           `,

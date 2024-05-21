@@ -4,8 +4,6 @@ const router = express.Router();
 
 const { fetchGE } = require("../services/api-service.js");
 
-console.log(fetchGE)
-
 router.get("/ge-met", async (req, res) => {
   
   const ge = await fetchGE('COMPSCI151')
