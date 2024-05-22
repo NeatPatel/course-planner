@@ -58,29 +58,29 @@ const isCourse = (str) => {
   let deptIndex;
   for (let i = 0; i < 118; i++) {
     currDept = Departments[i];
-    deptIndex = str.indexOf(currDept)
+    deptIndex = str.indexOf(currDept);
     if (deptIndex != -1) {
-      i = 118
+      i = 118;
     }
   }
   if (deptIndex != 0) {
-    return false;     // Check that the department exists and it starts at index 0
+    return false; // Check that the department exists and it starts at index 0
   }
-  let deptTokenLen = currDept.split(' ').length;
+  let deptTokenLen = currDept.split(" ").length;
 
-  let strTokens = str.split(' ')
-  let strTokensLen = strTokens.length
-  if (strTokensLen != deptTokenLen+1) {
-    return false      // Check that there is only one more token after the department (course number)
+  let strTokens = str.split(" ");
+  let strTokensLen = strTokens.length;
+  if (strTokensLen != deptTokenLen + 1) {
+    return false; // Check that there is only one more token after the department (course number)
   }
 
-  let lastItem = strTokens[strTokensLen-1]
+  let lastItem = strTokens[strTokensLen - 1];
   if (lastItem.length > 5) {
-    return false        // Check that the length of that token is 5 or less
+    return false; // Check that the length of that token is 5 or less
   }
 
   return true;
-}
+};
 
 /**
  * Returns true if the majority of tokens in the string are symbols or courses.
@@ -89,7 +89,7 @@ const isCourse = (str) => {
  */
 const sentenceIsLogic = (sentenceTokens) => {
   // Is considered to be logic if the # of valid terms > # of unknown terms
-  const sentenceTokensLen = sentenceTokens.length
+  const sentenceTokensLen = sentenceTokens.length;
   let logicCount = 0;
   let unknownCount = 0;
   let currToken;
@@ -103,7 +103,7 @@ const sentenceIsLogic = (sentenceTokens) => {
   }
 
   return logicCount > unknownCount;
-}
+};
 
 /**
  * Turns a prerequisite_text string into an array of tokens.
@@ -114,6 +114,6 @@ function _toWords(str) {
   let words = str.toUpperCase().split(" ");
   filteredWords = words.filter((e) => e != "");
   return filteredWords;
-};
+}
 
 module.exports = { toTokens, isSyntax, sentenceIsLogic };

@@ -58,16 +58,15 @@ const evalTokens = (rStr, coursesTaken) => {
  */
 function _padParens(str) {
   let result = str;
-  const sLen = str.length
+  const sLen = str.length;
   for (let i = 0; i < sLen; i++) {
     // account for (
-    if (str[i] == "(" && str[i+1] != " ") {
-      result = result.slice(0, i+1) + " " + result.slice(i+1)
+    if (str[i] == "(" && str[i + 1] != " ") {
+      result = result.slice(0, i + 1) + " " + result.slice(i + 1);
     }
     // account for )
-    if (str[i] == ")" && str[i-1] != " ") {
-      result = result.slice(0, i+1) + " " + result.slice(i+1)
-
+    if (str[i] == ")" && str[i - 1] != " ") {
+      result = result.slice(0, i + 1) + " " + result.slice(i + 1);
     }
   }
   return result;

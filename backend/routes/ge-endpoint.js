@@ -5,9 +5,8 @@ const router = express.Router();
 const { fetchGE } = require("../services/api-service.js");
 
 router.get("/ge-met", async (req, res) => {
-  
-  const ge = await fetchGE('COMPSCI151')
-  console.log(ge)
+  const ge = await fetchGE("COMPSCI151");
+  console.log(ge);
   res.json({
     message: "hello",
     ge1l: 0,

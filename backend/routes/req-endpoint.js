@@ -81,7 +81,7 @@ router.get("/req-tree-met", async (req, res) => {
   const coursesTaken = req.body["coursesTaken"];
 
   const data = await fetchPRTree(courseId);
-  const prStr = data["data"]["course"]["prerequisite_tree"]
+  const prStr = data["data"]["course"]["prerequisite_tree"];
 
   const prTree = convertToTree(prStr);
   const reqsMet = evalTree(prTree, coursesTaken);
