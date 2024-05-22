@@ -99,6 +99,8 @@ body {
   background-color: #818181;
   height: 70%;
   display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
 }
 
 .completed-courses {
@@ -107,8 +109,11 @@ body {
 }
 
 .majorSearchContainer {
+  display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: min-content;
 }
 
 input {
@@ -208,4 +213,15 @@ input {
   display: flex;
   /* justify-content: center; */
   align-items: center;
+}
+
+.course-bag {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  row-gap: 10px;
+  column-gap: 5px;
+  width: 100%;
+  height: 80%;
+  align-content: flex-start;
 }

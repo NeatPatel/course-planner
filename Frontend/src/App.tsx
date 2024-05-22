@@ -37,9 +37,11 @@ function App() {
       </div>
 
       <div className="body">
-        <DndContext onDragEnd={({ over }) => {
-          console.log(over);
-          setParent(over ? over.id : null)
+        <DndContext onDragEnd={(e) => {
+          console.log('drag end event: ')
+          console.log(e);
+          console.log(e.over)
+          setParent(e.over ? e.over.id : null)
 
         }}>
           <div className="planning-area">
@@ -65,7 +67,15 @@ function App() {
           <div className="course-selection">
             <div className="major-selection">
               <SearchBar />
-              {!parent ? <DraggableCourse id={'ICS 6D'}> ICS 6D </DraggableCourse> : null}
+              <div className="course-bag">
+                {!parent ? <DraggableCourse id={'ICS 6D'}> ICS 6D </DraggableCourse> : null}
+                {!parent ? <DraggableCourse id={'ICS 6B'}> ICS 6B </DraggableCourse> : null}
+                {!parent ? <DraggableCourse id={'MATH 3A'}> MATH 3A </DraggableCourse> : null}
+                {!parent ? <DraggableCourse id={'STATS 67'}> STATS 67 </DraggableCourse> : null}
+                {!parent ? <DraggableCourse id={'STATS 61'}> STATS 61 </DraggableCourse> : null}
+                {!parent ? <DraggableCourse id={'STATS 62'}> STATS 62 </DraggableCourse> : null}
+                {!parent ? <DraggableCourse id={'STATS 63'}> STATS 63 </DraggableCourse> : null}
+              </div>
 
               {/* Uncomment above to play with the draggable course component-- still in progress */}
 

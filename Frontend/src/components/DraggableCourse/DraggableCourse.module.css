@@ -12,9 +12,26 @@
   border-radius: 1em;
   border: 2px solid black;
   justify-content: center;
+  margin-top: 0px !important;
 }
 
 /* .text {
 
   
 } */
+
+.delete {
+  position: relative;
+  bottom: 10px;
+  left: 10%;
+  width: 20px;
+  padding: 0.25vh;
+  transition: background-color 0.25s ease-in-out, transform 0.25s ease-in-out, border-radius 0.25s ease-in-out;
+}
+
+.delete:hover {
+  transform: scale(1.2);
+  background-color: rgb(249, 41, 41);
+  border-radius: 0.5em;
+  cursor: pointer;
+}
