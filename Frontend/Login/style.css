@@ -85,6 +85,11 @@ body{
     font-size: smaller;
 } */
 
+.password_reqs p{
+    font-size: smaller;
+    color: grey;
+}
+
 
 .wrapper .forgot-password {
     font-size: medium;

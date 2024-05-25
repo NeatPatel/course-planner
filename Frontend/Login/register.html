@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name = "viewport"
-    content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Page | CourseEater</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function checkPasswordsMatching() {
+            var firstPassword = document.getElementById('password');
+            var secondPassword = document.getElementById('password_confirm');
+            if (firstPassword.value != secondPassword.value) {
+                secondPassword.setCustomValidity('Passwords Must be Matching.');
+            } else {
+                secondPassword.setCustomValidity('');
+            }
+        }
+    </script>
 </head>
+
 <body>
     <div class="wrapper">
         <form action="register.php" method="post">
@@ -15,28 +27,47 @@
             <div class="input">
                 <input type="text" placeholder="Enter your email" id="email" name="email" required>
             </div>
+
+            <!-- 
+            Password must include one lowercase, one uppercase, and one number
+            Minimum length of 8
+            -->
+            
             <div class="input">
-                <input type="password" placeholder="Create a password" id="password" name="password" required>
+                <input type="password" 
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                    placeholder="Create a password"
+                    id="password" 
+                    name="password" 
+                    oninput="checkPasswordsMatching()" 
+                    required>
             </div>
             <div class="input">
-                <input type="password" placeholder="Confirm your password" id="password_confirm" name="password_confirm" required>
+                <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Confirm your password"
+                    id="password_confirm" name="password_confirm" oninput="checkPasswordsMatching()" required>
+            </div>
+            <div class="password_reqs">
+                <p>
+                    Password must contain at least 8 characters. Must include a lowercase and uppercase character, a numerical character, and a special character.
+                </p>
             </div>
 
             <!-- Treating this as a spacer -->
             <div class="spacer-small"></div>
 
             <div class="footer">
-                <button type = "Submit" class = "btn">
+                <button type="Submit" class="btn">
                     Register
                 </button>
 
                 <div class="spacer"></div>
 
-                <div class = "register">
+                <div class="register">
                     <a href="login.html" style="color:blue">Already have a CourseEater account?</a>
                 </div>
             </div>
         </form>
     </div>
 </body>
+
 </html>
