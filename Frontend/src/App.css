@@ -8,6 +8,15 @@
   overflow: auto;
   font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
+  
+}
+
+/* .root, .completed-courses, .course-selection{
+  background-color: black;
+} */
+
+.alertPresent {
+  
 }
 
 img {
@@ -61,16 +70,20 @@ body {
   width: 100vw;
   height: 100%;
   display: flex;
+  justify-content: center;
+  align-items:center ;
 }
 
 .planning-area {
   width: 60%;
   height: 100%;
   resize: both;
-  /* /* display: flex; */
+  display: flex;
+  flex-direction: column;
+
   /* align-items: center; */
   /* display: flex;
-  justify-content: center; */
+  /* justify-content: center; */ 
 }
 
 .scheduleArea {
@@ -120,16 +133,21 @@ input {
   padding: 0.5em;
   border-radius: 0.5em;
   background-color: white;
-  width: 20vh;
+  width: 60%;
+  text-align: center;
 
   /* transform: scaleX(0); */
   transition: 0.5s border ease-in-out, 0.5s width ease-in-out, transform 0.25s ease-in-out;
 }
 
 /* Styles for when user clicks on search bar */
+.majorSearch:hover {
+  border-bottom: 3px solid blue;
+  width: 100%;
+}
 .majorSearch:focus {
   border-bottom: 3px solid blue;
-  width: 25vh;
+  width: 100%;
 }
 
 /* Styles for major closed */
@@ -206,6 +224,24 @@ input {
   width: 100%;
   border: 1px solid black;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
+}
+
+.addYearBtn {
+  border-radius: 0.75em;
+  padding: 1em;
+  background-color: #8181819e;
+  width: 20%;
+  transition: 
+  0.25s background-color ease-in-out, 
+  0.25s color ease-in-out,
+  0.25s width ease-in-out, 0.5s;
+  margin: 1em;
+}
+
+.addYearBtn:hover {
+  background-color: rgba(3, 78, 208, 0.633);
+  color:white;
+  width: 25%;
 }

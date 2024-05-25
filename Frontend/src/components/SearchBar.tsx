@@ -66,7 +66,7 @@ function SearchBar() {
 
     return (
         <div className="majorSearchContainer">
-            <input onClick={showAllMajors} onChange={displayMajors} className="majorSearch" type="text" list="majors" placeholder="Import By Major" />
+            <input onClick={showAllMajors} onBlur={displayMajors} onChange={displayMajors} className="majorSearch" type="text" list="majors" placeholder="Import By Major" />
             <div id="majors" className="majorsClosed">
                 {/* Dummy vals */}
                 <div className="major">Computer Science</div>

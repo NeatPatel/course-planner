@@ -1,21 +1,24 @@
 .container {
-  width: 100px;
-  height: auto;
+  width: 10%;
+  height: 3%;
   display: flex;
   background-color: rgba(77, 76, 76, 0.633);
   color: white;
   cursor: move;
   position: absolute;
-  padding: 0.5em;
+  padding: 0.25em;
   user-select: none;
   border-radius: 1em;
   border: 2px solid black;
   justify-content: center;
+  transition: 0.25s background-color ease-in-out,
+  0.25s width ease-in-out;
+}
+
+.container:hover {
+  background-color: rgba(3, 78, 208, 0.633);
+  width: 11%;
 }
 
 
-.text {
-
-  
-}
 
