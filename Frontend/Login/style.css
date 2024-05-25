@@ -51,22 +51,22 @@ body{
 }
 
 .input input{
-    outline: none;
+    outline: 1px solid black;
     border-radius: 5px;
     width: 40vh;
     height: 100%;
     background: transparent;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     opacity: 1;
     padding: 7px 7px 7px 7px;
     border: none;
-    /* border-width: 0px; */
-    transition: 1s border ease-in-out;
+    border-width: 2px;
+    /* transition: 1s border ease-in-out; */
 
 }
 
 .input input:focus {
-    border-bottom: 1px solid black;
+    border: 2px solid black;
     transition: 1s border ease-in-out;
 
     
@@ -76,12 +76,30 @@ body{
     color: darkslategray;
 }
 
+.checkbox{
+    justify-content: left;
+}
+
+.checkbox label{
+    font-size: smaller;
+}
+
+.forgot-password{
+    justify-content: right;
+}
+
+/* .checkbox a{
+    font-size: smaller;
+    /* text-align: right; */
+/* } */ 
+
 .wrapper .forgot-password {
     font-size: medium;
 }
 
 .forgot-password a{
     color: black;
+    font-size: smaller;
 }
 
 .wrapper .btn{

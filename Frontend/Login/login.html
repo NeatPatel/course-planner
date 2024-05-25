@@ -49,6 +49,16 @@ function onSignIn(googleUser) {
                 <input type="password" placeholder="Password" required>
             </div>
 
+            <div class="sign_in_options" style="display: flex">
+                <div class="checkbox" style="width: 50%; margin: 0 auto;">
+                    <input type="checkbox" id="remember_me" name="remember" value="username">
+                    <label for="remember_me">Remember me</label>
+                </div>
+                <div class="forgot-password" style="display: inline-block">
+                    <a href="pwd_help.html" style="color:blue">Forgot Password?</a>
+                </div>
+            </div>
+
             <!-- This is acting as a spacer -->
             <div class="spacer-small"></div>
 
@@ -66,9 +76,9 @@ function onSignIn(googleUser) {
                 <div class="register">
                     <a href="register.html" style="color:blue">Register for an Account</a>
                 </div>
-                <div class="forgot-password">
+                <!-- <div class="forgot-password">
                     <a href="pwd_help.html" style="color:blue">Forgot Password?</a>
-                </div>
+                </div> -->
             </div>
         </form>
     </div>
