@@ -69,29 +69,22 @@ body{
     border: 2px solid black;
     transition: 1s border ease-in-out;
 
-    
 } 
 
 .input ::placeholder{
     color: darkslategray;
 }
 
-.checkbox{
-    justify-content: left;
-}
 
+.sign_in_options{
+    display: flex;
+    justify-content: space-between
+}
+/* 
 .checkbox label{
     font-size: smaller;
-}
+} */
 
-.forgot-password{
-    justify-content: right;
-}
-
-/* .checkbox a{
-    font-size: smaller;
-    /* text-align: right; */
-/* } */ 
 
 .wrapper .forgot-password {
     font-size: medium;
@@ -100,6 +93,7 @@ body{
 .forgot-password a{
     color: black;
     font-size: smaller;
+    align-items: right;
 }
 
 .wrapper .btn{
@@ -134,6 +128,12 @@ body{
     margin-bottom: 5vh;
 }
 
+
+.spacer-smaller{
+    /* keep small version half of regular */
+    margin-bottom: 1.5vh;
+}
+
 .wrapper .footer{
     display: grid;
     justify-content: center;
@@ -146,4 +146,6 @@ body{
     margin-left: 23px;
     justify-content: right;
     align-content: right;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }

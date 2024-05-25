@@ -39,7 +39,7 @@ function onSignIn(googleUser) {
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <div class="wrapper">
-        <form action="">
+        <form action="login.php" method="post">
 
             <h1>Sign In</h1>
             <div class="input">
@@ -49,12 +49,12 @@ function onSignIn(googleUser) {
                 <input type="password" placeholder="Password" required>
             </div>
 
-            <div class="sign_in_options" style="display: flex">
-                <div class="checkbox" style="width: 50%; margin: 0 auto;">
+            <div class="sign_in_options">
+                <!-- <div class="checkbox">
                     <input type="checkbox" id="remember_me" name="remember" value="username">
                     <label for="remember_me">Remember me</label>
-                </div>
-                <div class="forgot-password" style="display: inline-block">
+                </div> -->
+                <div class="forgot-password" >
                     <a href="pwd_help.html" style="color:blue">Forgot Password?</a>
                 </div>
             </div>
@@ -67,7 +67,7 @@ function onSignIn(googleUser) {
                     Login
                 </button>
                 
-                <div class="spacer-small"></div>
+                <!-- <div class="spacer-smaller"></div> -->
                 
                 <div class="g-signin2" data-onsuccess="onSignIn"></div>
 
