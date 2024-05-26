@@ -1,5 +1,5 @@
 import { useDroppable } from "@dnd-kit/core";
-import React from 'react';
+import React, { useState } from 'react';
 import styles from "./SchedulePlanner.module.css";
 
 export function Droppable({ id, children }: any) {
@@ -7,10 +7,10 @@ export function Droppable({ id, children }: any) {
         id: id,
     });
     const style = {
-        opacity: isOver ? 1 : 0.5
+        backgroundColor: isOver ? '#c4c4c4' : '#EDEDED'
     };
-    return (
 
+    return (
         <div ref={setNodeRef} className={styles.col} style={style} key={id}
             id={id}>
             {children}

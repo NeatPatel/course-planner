@@ -2,6 +2,7 @@ import styles from './SchedulePlanner.module.css';
 import DropdownIcon from '../../icons/dropdown.svg';
 import DeleteIcon from '../../icons/delete.svg';
 import { Droppable } from './Droppable.tsx';
+import { useDroppable } from "@dnd-kit/core";
 
 import { useState, useRef, useEffect } from 'react';
 import DraggableCourse from '../DraggableCourse/DraggableCourse.tsx';
@@ -37,16 +38,14 @@ const testCourses: courseTerms = {
     'Summer': ['', '', ''],
 }
 
-export default function SchedulePlanner({ parent, courses = testCourses, onDelete, startYear = 2024 }: any) {
+export default function SchedulePlanner({ courses = testCourses, onDelete, startYear = 2024, addedCourses }: any) {
     const [toggle, setDropdown] = useState("visible");
     const [yearInput, setYearInput] = useState(`${startYear} - ${startYear + 1}`);
 
     const dropdownRef = useRef<any>();
     const delRef = useRef<any>();
 
-
     function handleDropDown() {
-
         let year = dropdownRef?.current?.classList[1];
         let table = document.querySelector(`.table${year}`);
         setDropdown(toggle == "hidden" ? "visible" : "hidden");
@@ -58,9 +57,8 @@ export default function SchedulePlanner({ parent, courses = testCourses, onDelet
 
             table?.classList.remove(styles.hidden);
             table?.classList.add(styles.visible);
-
         }
-        // console.log(table?.classList)
+
 
     }
 
@@ -88,8 +86,13 @@ export default function SchedulePlanner({ parent, courses = testCourses, onDelet
         let newRowData = <div className={styles.row} key={currentRow}>
             {
                 Object.keys(courses).map(currentTerm => {
-                    const id = `ICS 6D Container`
-                    return <Droppable id={id}>{parent === 'ICS 6D Container' ? <DraggableCourse id={'ICS 6D'}> ICS 6D </DraggableCourse> : 'Drop here'} </Droppable>;
+                    const id = `${currentTerm}-${currentRow}-${startYear}`;
+                    return <Droppable key={id} id={id}>
+                        {
+                            id in addedCourses && addedCourses[id]
+                        }
+
+                    </Droppable>;
                 })
             }
         </div>
@@ -107,10 +110,6 @@ export default function SchedulePlanner({ parent, courses = testCourses, onDelet
                     <div>
                         <img ref={dropdownRef} className={"dropdown" + " " + startYear + " " + styles.dropdown} onClick={handleDropDown} src={DropdownIcon} alt="" />
                     </div>
-
-                    {/* <div>
-                        {startYear} - {startYear + 1}
-                    </div> */}
 
                     <input value={yearInput} className={styles.date} type="text" onChange={handleYearEdit} >
 

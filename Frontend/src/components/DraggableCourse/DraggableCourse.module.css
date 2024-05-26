@@ -1,24 +1,16 @@
 .container {
-  width: 100px;
-  /* height: auto; */
-  height: 30px;
+  width: 150px;
+  height: 40px;
   display: flex;
+  align-items: center;
   background-color: rgba(77, 76, 76, 0.633);
   color: white;
   cursor: move;
-  /* position: absolute; */
-  padding: 0.5em;
-  user-select: none;
   border-radius: 1em;
   border: 2px solid black;
   justify-content: center;
-  margin-top: 0px !important;
+  z-index: 5;
 }
-
-/* .text {
-
-  
-} */
 
 .delete {
   position: relative;
