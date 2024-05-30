@@ -9,7 +9,6 @@ export default function Droppable({ id, children }: any) {
         <div ref={setNodeRef} className="course-bag" key={id}
             id={id}>
             {children}
-
         </div>
 
 

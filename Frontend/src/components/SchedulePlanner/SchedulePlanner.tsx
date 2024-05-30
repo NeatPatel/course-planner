@@ -39,28 +39,36 @@ const testCourses: courseTerms = {
 }
 
 export default function SchedulePlanner({ courses = testCourses, onDelete, startYear = 2024, addedCourses }: any) {
-    const [toggle, setDropdown] = useState("visible");
+    // const [toggle, setDropdown] = useState("visible");
+    const [showTable, setShowTable] = useState(false);
     const [yearInput, setYearInput] = useState(`${startYear} - ${startYear + 1}`);
 
     const dropdownRef = useRef<any>();
     const delRef = useRef<any>();
 
-    function handleDropDown() {
-        let year = dropdownRef?.current?.classList[1];
-        let table = document.querySelector(`.table${year}`);
-        setDropdown(toggle == "hidden" ? "visible" : "hidden");
-        if (toggle == "hidden") {
-            table?.classList.remove(styles.visible);
-            table?.classList.add(styles.hidden);
-        }
-        else {
+    // function handleDropDown() {
+    //     let year = dropdownRef?.current?.classList[1];
+    //     let table = document.querySelector(`.table${year}`);
+    //     let container = document.getElementById(startYear);
+    //     setDropdown(toggle == "hidden" ? "visible" : "hidden");
+    //     if (toggle == "hidden") {
+    //         container?.classList.remove(styles.expanded);
+    //         table?.classList.remove(styles.visible);
+    //         table?.classList.add(styles.hidden);
+    //         table?.classList.remove(styles.table);
+    //         // container?.classList.
 
-            table?.classList.remove(styles.hidden);
-            table?.classList.add(styles.visible);
-        }
+    //     }
+    //     else {
+    //         container?.classList.add(styles.expanded);
+    //         table?.classList.remove(styles.hidden);
+    //         table?.classList.add(styles.visible);
+    //         table?.classList.add(styles.table);
+
+    //     }
 
 
-    }
+    // }
 
     function handleDelete() {
         onDelete(startYear);
@@ -82,29 +90,50 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
 
     let tableData = [];
 
-    for (let currentRow = 0; currentRow < numRows; currentRow++) {
-        let newRowData = <div className={styles.row} key={currentRow}>
+    for (let currentTermIndex = 0; currentTermIndex < 4; currentTermIndex++) {
+        const id = `${startYear}-${currentTermIndex}`
+        let newTermData = <Droppable key={id} id={id}>
             {
-                Object.keys(courses).map(currentTerm => {
-                    const id = `${currentTerm}-${currentRow}-${startYear}`;
-                    return <Droppable key={id} id={id}>
-                        {
-                            id in addedCourses && addedCourses[id]
-                        }
-
-                    </Droppable>;
-                })
+                id in addedCourses && addedCourses[id]
             }
-        </div>
 
-        tableData.push(newRowData);
+
+
+
+        </Droppable>
+
+        tableData.push(newTermData);
+
     }
 
+    // for (let currentRow = 0; currentRow < numRows; currentRow++) {
+    // let newRowData = <div className={styles.row} key={currentRow}>
+    //     {
+    //         Object.keys(courses).map(currentTerm => {
+    //             const id = `${currentTerm}-${currentRow}-${startYear}`;
+    //             return <Droppable key={id} id={id}>
+    //                 {
+    //                     id in addedCourses && addedCourses[id]
+    //                 }
+
+    //             </Droppable>;
+    //         })
+    //     }
+    // </div>
+
+    // tableData.push(newRowData);
+
+    // }
+
+    function handleDropDown() {
+
+        setShowTable(prevState => !prevState);
+    }
 
     return (
         <>
 
-            <div id={`${startYear}`} className={styles.container}>
+            <div id={`${startYear}`} className={`${styles.container} ${showTable ? styles.expanded : null}`}>
 
                 <div className={styles.yearLabel}>
                     <div>
@@ -120,19 +149,30 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
                     </div>
                 </div>
 
-                <div className={`${styles.table} table${startYear} ${styles.hidden}`}>
-                    <div className={styles.header}>
-                        <div className={styles.col}>Fall</div>
-                        <div className={styles.col}>Winter</div>
-                        <div className={styles.col}>Spring</div>
-                        <div className={styles.col}>Summer</div>
-                    </div>
+                {
 
-                    {
-                        tableData
-                    }
+                    showTable && (
+                        // <div className={`table${startYear}`}>
+                        <div className={styles.table}>
+                            <div className={styles.header}>
+                                <div className={styles.col}>Fall</div>
+                                <div className={styles.col}>Winter</div>
+                                <div className={styles.col}>Spring</div>
+                                <div className={styles.col}>Summer</div>
+                            </div>
 
-                </div>
+                            <div className={styles.termContainer}>
+                                {
+                                    tableData
+                                }
+                            </div>
+
+                        </div>
+
+                    )
+                }
+
+
             </div>
 
         </>

@@ -8,7 +8,7 @@ import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import CourseBagDroppable from "./CourseBagDroppable.tsx";
 
 type addedCourseType = {
-  [key: string]: JSX.Element
+  [key: string]: JSX.Element[]
 }
 
 function App() {
@@ -42,11 +42,13 @@ function App() {
         if (dragEvent.over.id === 'course-bag') {
           let courseToAdd;
           let keyToRemove;
-          for (const [key, course] of Object.entries(addedCourses)) {
-            if (course.props.id == dragEvent.active.id) {
-              courseToAdd = course;
-              keyToRemove = key;
-              break;
+          for (const [key, courses] of Object.entries(addedCourses)) {
+            for (let course of courses) {
+              if (course.props.id == dragEvent.active.id) {
+                courseToAdd = course;
+                keyToRemove = key;
+                break;
+              }
             }
           }
           if (courseToAdd)
@@ -68,10 +70,12 @@ function App() {
         // added courses in the schedule table
         if (courseToAdd == undefined) {
           for (let currentDroppableSection of Object.keys(addedCourses)) {
-            if (addedCourses[currentDroppableSection].props.id === dragEvent.active.id) {
-              courseToAdd = addedCourses[currentDroppableSection];
-              delete newCourses[currentDroppableSection];
-              break;
+            for (let i = 0; i < addedCourses[currentDroppableSection].length; i++) {
+              if (addedCourses[currentDroppableSection][i].props.id === dragEvent.active.id) {
+                courseToAdd = addedCourses[currentDroppableSection];
+                delete newCourses[currentDroppableSection];
+                break;
+              }
             }
           }
         }
@@ -80,7 +84,13 @@ function App() {
           const newBaggedCourses = prevBaggedCourses.filter((course: JSX.Element) => course !== courseToAdd);
           return newBaggedCourses;
         })
-        newCourses[dragEvent.over.id] = courseToAdd;
+        if (dragEvent.over.id in newCourses)
+          newCourses[dragEvent.over.id].push(courseToAdd);
+        else
+          newCourses[dragEvent.over.id] = [courseToAdd];
+
+        console.log('new courses: ')
+        console.log(newCourses);
 
         return newCourses
       } else {
