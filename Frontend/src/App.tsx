@@ -44,7 +44,7 @@ function App() {
           let keyToRemove;
           for (const [key, courses] of Object.entries(addedCourses)) {
             for (let course of courses) {
-              if (course.props.id == dragEvent.active.id) {
+              if (course.props.id === dragEvent.active.id) {
                 courseToAdd = course;
                 keyToRemove = key;
                 break;
@@ -68,12 +68,14 @@ function App() {
         });
         // if the draggable course is not in the course bag, then search through the 
         // added courses in the schedule table
+
         if (courseToAdd == undefined) {
-          for (let currentDroppableSection of Object.keys(addedCourses)) {
-            for (let i = 0; i < addedCourses[currentDroppableSection].length; i++) {
-              if (addedCourses[currentDroppableSection][i].props.id === dragEvent.active.id) {
-                courseToAdd = addedCourses[currentDroppableSection];
-                delete newCourses[currentDroppableSection];
+          for (const courseList of Object.values(addedCourses)) {
+            if (courseList.length === 0) continue;
+            for (const [index, currentCourse] of courseList.entries()) {
+              if (currentCourse.props.id === dragEvent.active.id) {
+                courseToAdd = currentCourse;
+                courseList.splice(index, 1);
                 break;
               }
             }

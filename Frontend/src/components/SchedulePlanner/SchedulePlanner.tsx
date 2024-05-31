@@ -46,40 +46,13 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
     const dropdownRef = useRef<any>();
     const delRef = useRef<any>();
 
-    // function handleDropDown() {
-    //     let year = dropdownRef?.current?.classList[1];
-    //     let table = document.querySelector(`.table${year}`);
-    //     let container = document.getElementById(startYear);
-    //     setDropdown(toggle == "hidden" ? "visible" : "hidden");
-    //     if (toggle == "hidden") {
-    //         container?.classList.remove(styles.expanded);
-    //         table?.classList.remove(styles.visible);
-    //         table?.classList.add(styles.hidden);
-    //         table?.classList.remove(styles.table);
-    //         // container?.classList.
-
-    //     }
-    //     else {
-    //         container?.classList.add(styles.expanded);
-    //         table?.classList.remove(styles.hidden);
-    //         table?.classList.add(styles.visible);
-    //         table?.classList.add(styles.table);
-
-    //     }
-
-
-    // }
-
     function handleDelete() {
         onDelete(startYear);
     }
 
     function handleYearEdit(e: any) {
         setYearInput(e.target.value);
-
     }
-
-
 
     let numRows = 0;
     for (let term in courses) {
@@ -96,10 +69,6 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
             {
                 id in addedCourses && addedCourses[id]
             }
-
-
-
-
         </Droppable>
 
         tableData.push(newTermData);
@@ -126,7 +95,6 @@ export default function SchedulePlanner({ courses = testCourses, onDelete, start
     // }
 
     function handleDropDown() {
-
         setShowTable(prevState => !prevState);
     }
 

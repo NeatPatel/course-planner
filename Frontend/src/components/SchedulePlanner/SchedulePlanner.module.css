@@ -2,24 +2,17 @@
   border: 1px solid black;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   margin: 10px 10px;
   border-radius: 1em;
   padding: 1em;
   flex-grow: 3;
   box-sizing: border-box;
-  /* height: 200px; */
-  /* max-height: 100%; */
-  height: auto;
-  /* overflow: hidden; */
 }
 
 .expanded {
-  height: 350px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  min-height: 200px;
+  /* height: auto; */
 }
 .container * {
   box-sizing: border-box;
@@ -27,6 +20,7 @@
 
 .yearLabel {
   width: 100%;
+  /* height: 80%; */
   background-color: #545759;
   color: white;
   padding: 10px 10px;
@@ -51,22 +45,11 @@
   transition: 1s height ease-in-out, 1s opacity ease-in-out;
 }
 
-.table {
-  display: flex;
-  flex-direction: column;
-  border-radius: 0.5em;
-  /* width: 100%; */
-  width: 90%;
-  height: 80%;
-  /* height: 100px; */
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
   text-align: center;
-  /* padding: 8px; */
 }
 
 .row {
@@ -79,7 +62,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 4px 4px;
-  height: 100%;
+  height: auto;
   flex: 4;
   width: 25%;
   text-align: center;
@@ -88,12 +71,10 @@
 
 .table {
   width: 100%;
-  /* height: 100%; */
+  min-height: 80px;
   border-collapse: collapse;
   text-align: center;
-  table-layout: fixed;
-  /* max-height: 0px; */
-  overflow: hidden;
+  border-right: 1px solid black;
 }
 
 img {
@@ -131,35 +112,7 @@ img {
 
 .termContainer {
   display: flex;
-  height: 90%;
+  /* height: 100%; */
+  /* height: auto; */
+  min-height: 100px;
 }
-
-/* td {
-  background-color: red;
-} */
-
-/*th {
-  padding: 5px 0px;
- }
-td {
-  padding: 15px 10px;
-}
-
-thead {
-  background-color: #eaeaea !important;
-}
-
-table,
-td,
-thead,
-th {
-  border: 1px solid black;
-} */
-
-/* th {
-  border: 1px solid black;
-}
-
-td {
-  border-right: 1px solid black;
-} */
