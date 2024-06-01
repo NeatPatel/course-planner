@@ -1,5 +1,4 @@
 import { useDroppable } from "@dnd-kit/core";
-import React, { useState } from 'react';
 import styles from "./SchedulePlanner.module.css";
 
 export function Droppable({ id, children }: any) {

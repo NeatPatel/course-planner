@@ -2,10 +2,7 @@ import styles from './SchedulePlanner.module.css';
 import DropdownIcon from '../../icons/dropdown.svg';
 import DeleteIcon from '../../icons/delete.svg';
 import { Droppable } from './Droppable.tsx';
-import { useDroppable } from "@dnd-kit/core";
-
-import { useState, useRef, useEffect } from 'react';
-import DraggableCourse from '../DraggableCourse/DraggableCourse.tsx';
+import { useState, useRef } from 'react';
 
 interface courseTerms {
     [key: string]: string[]

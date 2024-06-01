@@ -36,43 +36,37 @@ function App() {
   }
 
   function handleDragEvent(dragEvent: DragEndEvent) {
-    const addedCoursesCopy = { ...addedCourses };
-
-
-
-
-
-    setAddedCourses((prevCourses: addedCourseType) => {
-      const newCourses = { ...prevCourses };
-      if (dragEvent.over) {
-        if (dragEvent.over.id === 'course-bag') {
-          let courseToAdd;
-          for (const courseList of Object.values(addedCourses)) {
-            for (const [index, currentCourse] of courseList.entries()) {
-              if (currentCourse.props.id === dragEvent.active.id) {
-                courseToAdd = currentCourse;
-                courseList.splice(index, 1);
-                break;
-              }
+    console.log(dragEvent)
+    const newAddedCourses = { ...addedCourses };
+    let newBaggedCourses = [...baggedCourses];
+    if (dragEvent.over) {
+      // Scenario 1: User drags course from table back into course bag 
+      if (dragEvent.over.id === 'course-bag') {
+        let courseToAdd;
+        for (const courseList of Object.values(newAddedCourses)) {
+          for (const [index, currentCourse] of courseList.entries()) {
+            if (currentCourse.props.id === dragEvent.active.id) {
+              courseToAdd = currentCourse;
+              courseList.splice(index, 1); // remove the course from the addedCourses (courses in schedule planner)
+              break;
             }
           }
-          if (courseToAdd)
-            setBaggedCourses([...baggedCourses, courseToAdd])
-
-
-          return newCourses;
         }
+        if (courseToAdd)
+          newBaggedCourses.push(courseToAdd); // transfer the course into the baggedCourses 
+      } else {
+        // Scenario 2: User drags course from course bag into table for the first time
         let courseToAdd: any;
-        // first search through the courses in the course bag to find the 
-        // DraggableCourse element that we want to update in the state variable 
+        // Search through the courses in the course bag to find the JSX DraggableCourse element that we want to 
+        // update in the state variable 
 
         courseToAdd = baggedCourses.find((course: JSX.Element) => {
           return course.props.id === dragEvent.active.id
         });
-        // if the draggable course is not in the course bag, then search through the 
-        // added courses in the schedule table
+        // if the draggable course is not in the course bag, then search through the courses in the schedule table
 
-        if (courseToAdd == undefined) {
+        // Case 3: User transfers course from one column in the table to another column in the table
+        if (courseToAdd == undefined) { // courseToAdd == undefined means it wasn't in the course bag
           for (const courseList of Object.values(addedCourses)) {
             if (courseList.length === 0) continue;
             for (const [index, currentCourse] of courseList.entries()) {
@@ -84,24 +78,20 @@ function App() {
             }
           }
         }
-
-        setBaggedCourses((prevBaggedCourses: JSX.Element[]) => {
-          const newBaggedCourses = prevBaggedCourses.filter((course: JSX.Element) => course !== courseToAdd);
-          return newBaggedCourses;
-        })
-        if (dragEvent.over.id in newCourses)
-          newCourses[dragEvent.over.id].push(courseToAdd);
+        // remove the course we are adding/transferring in the table from the bagged courses list
+        newBaggedCourses = newBaggedCourses.filter((course: JSX.Element) => course !== courseToAdd);
+        if (dragEvent.over.id in newAddedCourses)
+          newAddedCourses[dragEvent.over.id].push(courseToAdd);
         else
-          newCourses[dragEvent.over.id] = [courseToAdd];
+          newAddedCourses[dragEvent.over.id] = [courseToAdd];
 
         console.log('new courses: ')
-        console.log(newCourses);
-
-        return newCourses
-      } else {
-        return prevCourses
+        console.log(newAddedCourses);
       }
-    })
+    }
+
+    setAddedCourses(newAddedCourses);
+    setBaggedCourses(newBaggedCourses);
   }
 
   return (
