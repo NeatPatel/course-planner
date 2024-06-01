@@ -1,0 +1,22 @@
+.table {
+    border: 2px solid rgb(201, 201, 201);
+    /* background-color: black; */
+    width: 100vw;
+    height: 25vh;
+    margin: 0.4em;
+    border-radius: 0.5em;
+    text-align: center;
+    z-index: 1;
+    background-color: #e1e0e0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.name {
+    font-family: 'Roboto';
+}
+
+.courses {
+    width: 100px;
+    height: 100px;
+}

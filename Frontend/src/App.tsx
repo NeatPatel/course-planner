@@ -6,15 +6,17 @@ import SchedulePlanner from "./components/SchedulePlanner/SchedulePlanner.tsx";
 import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import CourseBagDroppable from "./CourseBagDroppable.tsx";
+import GeneralCourseAlert from "./components/GeneralCourseAlert/GeneralCourseAlert.tsx";
 
 export type addedCourseType = {
     [key: string]: JSX.Element[]
 }
 
 function App() {
-    const currentYearRef = useRef<number>(2024);
+    const currentYearRef = useRef<number>(0);
+    const [alertState, setAlertState] = useState<boolean>(false);
     const [addedCourses, setAddedCourses] = useState<addedCourseType>({});
-    const [scheduleYears, setScheduleYears] = useState<number[]>([2024]);
+    const [scheduleYears, setScheduleYears] = useState<number[]>([0]);
     const [baggedCourses, setBaggedCourses] = useState<JSX.Element[]>([
         <DraggableCourse id={'ICS 6D'} key={'ICS 6D'}> ICS 6D </DraggableCourse>,
         <DraggableCourse id={'ICS 6B'} key={'ICS 6B'}> ICS 6B </DraggableCourse>,
@@ -30,6 +32,10 @@ function App() {
     function addSchedule() {
         currentYearRef.current += 1
         setScheduleYears([...scheduleYears, currentYearRef.current])
+    }
+
+    function displayAlert() {
+        setAlertState(true);
     }
 
     function handleDragEvent(dragEvent: DragEndEvent) {
@@ -103,17 +109,29 @@ function App() {
             </div>
 
             <div className="body">
+                { alertState && <GeneralCourseAlert setVisible={setAlertState} options={["GE 1", "GE 2"]}/>}
+
                 <DndContext onDragEnd={handleDragEvent}>
                     <div className="planning-area">
                         <div className="searchArea">
-                            <CourseSearch />
+                            {/* <CourseSearch /> */}
+                            <button className="addYearBtn"
+                                onClick={() => {
+                                    addSchedule();
+                                }}>+ Add Year</button>
+                            
+                            <button className="progress"
+                                onClick={() => {
+                                    displayAlert();
+                                }}
+                            >
+                                GE Progress
+                            </button>
+
                         </div>
 
                         <div className="scheduleArea">
-                            <button className="label"
-                                onClick={() => {
-                                    addSchedule();
-                                }}>Add Year</button>
+                            
                             {
                                 scheduleYears.map((year: number) => {
                                     return <SchedulePlanner startYear={year} key={year}

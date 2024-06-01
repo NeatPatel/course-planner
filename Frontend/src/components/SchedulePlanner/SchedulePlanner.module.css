@@ -8,6 +8,8 @@
   padding: 1em;
   flex-grow: 3;
   box-sizing: border-box;
+  background-color: #e1e0e0;
+  /* background-color: white; */
 }
 
 .expanded {
@@ -21,9 +23,9 @@
 .yearLabel {
   width: 100%;
   /* height: 80%; */
-  background-color: #545759;
-  color: white;
-  padding: 10px 10px;
+  /* background-color: #545759; */
+  color: black;
+  /* padding: 10px 10px; */
   text-align: center;
   display: flex;
   align-items: center;
@@ -78,6 +80,12 @@
   border-right: 1px solid black;
 }
 
+.tables {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 img {
   transform: rotate(0deg);
   transition-delay: 1s;
@@ -96,26 +104,29 @@ img {
 }
 
 .delete {
-  border: 1px solid black;
+  height: 5vh;
+  width: 5vw;
+  /* border: 1px solid black; */
   border-radius: 0.25em;
   padding: 0.25vh;
   transition: background-color 0.25s ease-in-out, transform 0.25s ease-in-out, border-radius 0.25s ease-in-out;
   z-index: -1;
+  transform: translateY(0);
 }
 .delete:hover {
-  transform: scale(1.2);
-  background-color: rgb(249, 41, 41);
+  transform: translateY(-10px);
+  /* background-color: rgb(249, 41, 41); */
   border-radius: 0.5em;
 }
 
 .date::placeholder {
   color: white;
 }
-.date {
+/* .date {
   padding: 0.5em;
   border-radius: 0.5em;
   border: 2px solid black;
-}
+} */
 
 .termContainer {
   display: flex;
