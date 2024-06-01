@@ -1,0 +1,2653 @@
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  AC ENG 23A or AC ENG 23B
+1: PLACEMENT EXAM or authorization
+1: ( AC ENG 20A OR PLACEMENT EXAM or authorization )
+1: ( AC ENG 20B OR PLACEMENT EXAM or authorization )
+1:  AC ENG 20C
+1: PLACEMENT EXAM or authorization
+1:  AC ENG 23A or AC ENG 23B
+1:  AC ENG 23A or AC ENG 23B or AC ENG 23C
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  ANATOMY 202A
+1:  ANATOMY 203A
+1: ( ECON 10A OR PSYCH 10A OR ANTHRO 10A OR SOCIOL 10A OR SOC SCI 10A )
+1:  ANTHRO 2A
+1: ( ANTHRO 2A OR ANTHRO 2B )
+1: ( ECON 10B OR PSYCH 10B OR ANTHRO 10B OR SOCIOL 10B OR SOC SCI 10B ) AND ( ECON 10A OR PSYCH 10A OR ANTHRO 10A OR SOCIOL 10A OR SOC SCI 10A )
+1:  One course in general science, anthropology, economics, geography, or sociology.
+1:  ANTHRO 2A or ANTHRO 2B or ANTHRO 2C
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1: ( ANTHRO 2A OR ANTHRO 2B OR ANTHRO 2C OR ANTHRO 2D )
+1:  ANTHRO 2A and (ANTHRO 2B or ANTHRO 2C or ANTHRO 2D)
+1:  ANTHRO 2A or ANTHRO 2B or ANTHRO 2C or ANTHRO 2D
+1: ( PSYCH 7A OR ANTHRO 2A OR PSY BEH 9 OR AP PSYCHOLOGY OR ( ( PSYCH 9C OR PSY BEH 11C ) AND ( PSYCH 9B OR PSY BEH 11B ) AND ( PSYCH 9A OR PSY BEH 11A ) ) )
+1:  ANTHRO 2A
+1:  ANTHRO 2A or ANTHRO 2B or ANTHRO 2D
+1:  ANTHRO 202A
+1:  ANTHRO 2A or ANTHRO 2B or ANTHRO 2D
+1:  ANTHRO 202B
+1:  Prerequisites vary.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  ANTHRO 215B
+1: ANTHRO 215A
+1:  ANTHRO 215A
+1:  ANTHRO 199 and ANTHRO H190A
+2:  ANTHRO H190B and ANTHRO 199. Anthropology Honors ONLY.
+3:  ANTHRO H190C and ANTHRO 199. Anthropology Honors ONLY. Satisfactory completion of the Lower-Division Writing requirement. 
+1: PLACEMENT EXAM or authorization
+3:  ARABIC 1A. ARABIC 1A with a grade of C or better. Placement into ARABIC 1B is also accepted.
+4:  ARABIC 1B or ARABIC S1AB. ARABIC 1B with a grade of C or better. ARABIC S1AB with a grade of C or better. Placement is also accepted.
+4:  ARABIC 1C or ARABIC S1BC. ARABIC 1C with a grade of C or better. ARABIC S1BC with a grade of C or better. Placement into ARABIC 2A is also accepted.
+3:  ARABIC 2A. ARABIC 2A with a grade of C or better. Placement into ARABIC 2B is also accepted.
+1:  ANTHRO 199
+3:  ARABIC 2B. ARABIC 2B with a grade of C or better. Placement into ARABIC 2C is also accepted. 
+1: ( ARMN 1A OR PLACEMENT EXAM or authorization )
+3:  ARMN 1B. ARMN 1B with a grade of C or better. Placement into ARMN 1C is also accepted.
+1:  Placement into ARMN 1A.
+1: ( ARMN 1C OR PLACEMENT EXAM or authorization )
+1: ( ARMN 2A OR PLACEMENT EXAM or authorization )
+2:  ART 9A. Lower-division writing strongly recommended.
+1: ( ART 11A OR ART STU 11A ) AND ( ART 9A OR ART STU 9A ) AND LOWER DIVISION WRITING
+2:  ART 65A. Recommended: ART 11B.
+1: ( ARMN 2B OR PLACEMENT EXAM or authorization )
+1: ( ART 81A OR ART STU 81A ) AND ( ART 81B OR ART STU 81B )
+1: ( ART 1B OR ART 91 OR ART 128 OR ART 81A OR ART STU 1B OR ART STU 91 OR ART STU 128 OR ART STU 81A )
+1: ( ART 9A OR ARTSTU 9A ) AND ( ART 11A OR ARTSTU 11A ) AND LOWER DIVISION WRITING
+1: ( ART 65A OR ART STU 65A )
+2:  ART 9A. Recommended: Satisfactory completion of the upper-division writing requirement.
+1: ( ART 9A OR ART STU 9A )
+1: ( ART 65E OR ART 110A OR ART STU 110A )
+1: ( ART 9A OR ART STU 9A )
+1: ( ART 9A OR ART STU 9A )
+2:  ART 9A. Satisfactory completion of the Upper-Division Writing requirement is recommended.
+2:  ART 1A or ART 71A or ART 71B or ART 152A or ART 152B or ART 152C or ART 152D or ART 152E or ART 190B. Recommended: Satisfactory completion of the Upper-Division Writing requirement.
+1: ( ART 9A OR ART STU 9A )
+1: ( ART 9A OR ART STU 9A )
+2:  ART 9A. Recommended: Satisfactory completion of the Upper-Division Writing requirement.
+1: ( ART 9A OR ART STU 9A )
+1: ( ART 65A OR ART STU 65A )
+1: ( ART 81A OR ART STU 81A ) AND ( ART 81B OR ART STU 81B )
+1:  ART 81A and ART 81B
+1: ART 106C AND ( ART 65A OR ART STU 65A )
+1:  ART 40 and ART 9A
+1:  ART 81A and ART 81B
+1:  (ART 20A or ART 30A or ART 40 or ART 51 or ART 65A or ART 71A or ART 81A or ART 91) and ART 9A
+1: ( ART 30B OR ART STU 30B )
+1: ( ART 20B OR ART STU 20B ) AND ( ART 20A OR ART STU 20A )
+1:  ART 150F
+1: ( ART 20B OR ART STU 20B )
+1:  ART 40
+1: ( ART 71B OR ART STU 71B )
+1:  ART 71B
+1: ( ART 71B OR ART STU 71B )
+1:  ART 71B
+1:  ART 71B
+1: ( ART 81A OR ART STU 81A ) AND ( ART 81B OR ART STU 81B )
+1: ( ART 81A OR ART STU 81A ) AND ( ART 81B OR ART STU 81B )
+1:  ART 91 or ART 109 or ART 128
+1:  ART 150 or ART 150C or ART 151 or ART 152A or ART 152B or ART 152C or ART 152D or ART 152E or ART 152F or ART 153 or ART 166A or ART 190 or ART 190B or ART 190C
+1:  ART 1A and ART 1B and ART 1C
+1: ( ART 1C OR ART STU 1C ) AND ( ART 71A OR ART STU 71A ) AND ( ART 1B OR ART STU 1B ) AND ( ART 71B OR ART STU 71B ) AND ( ART 1A OR ART STU 1A ) AND SENIOR STANDING ONLY
+1:  ART 210
+1: ( ART 51 OR ART STU 51 )
+1:  ART 210 and ART 215 and ART 220
+1:  ART 210 and ART 215 and ART 220
+1:  ART 210 and ART 215 and ART 220 and ART 230 and ART 240 and ART 261 and ART 262
+1:  ART 30A
+1:  ART 280A
+1: ( ART 12A OR ARTS 11 ) AND ( ART 12B OR ARTS 12 )
+1: ( ART 65A OR ART STU 65A )
+1:  ART 20A
+1:  ART 50A
+1:  ART 71A
+1: ( ART 81A OR ART STU 81A )
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1: ARTS 11 AND ARTS 12 AND ARTS 50 AND ARTS 60
+1:  Recommended: ART HIS 190W.
+1:  Background in Art History or Legal Studies.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Basic familiarity with programming is recommended.
+1:  BATS 209A
+1:  BATS 209A
+1:  BATS 209A or STAT 250
+1:  MOL BIO 203 or MOL BIO 204 or NEURBIO 206
+2:  BIO SCI 99 or BIO SCI 190. Satisfactory completion of the Lower-Division Writing requirement.
+1: ( PHY SCI 5 OR BIO SCI 14 ) AND NO REPEATS ALLOWED
+1:  BIO SCI 14 or PHY SCI 5
+1:  BIO SCI 191A or SOCECOL 186A or EARTHSS 190A
+3:  BIO SCI 191B or EARTHSS 190B or SOCECOL 186B. BIO SCI 191B or EARTHSS 190B or SOCECOL 186B. Satisfactory completion of the Lower-Division Writing requirement.
+1:  BIO SCI 193A
+1:  BIO SCI 193B
+1:  BANA 298A
+1:  BIO SCI 94
+1:  BIO SCI 199
+1:  BIO SCI 94
+1:  BIO SCI 94
+1:  BIO SCI 45 or PUBHLTH 80
+1:  BIO SCI 98
+1:  BIO SCI 93 or BIO SCI H93
+1:  BIO SCI 97 or BIO SCI H97 and CHEM 51B
+1:  BIO SCI 99
+1:  BIO SCI 94
+1:  BIO SCI 98
+1:  BIO SCI 97 or BIO SCI H97
+1:  (BIO SCI 100 or BIO SCI 108) and (BIO SCI D103 or BIO SCI D104 or BIO SCI D105)
+1:  BIO SCI 99
+1:  PHYSICS 3C or PHYSICS 7D
+1:  BIO SCI D103 or BIO SCI D104
+1:  BIO SCI 99
+1:  BIO SCI D103
+1:  BIO SCI 97 or BIO SCI H97
+1:  BIO SCI D103 or BIO SCI D104
+1:  BIO SCI 99
+1:  BIO SCI 99
+1:  BIO SCI D103 or BIO SCI D104
+3:  BIO SCI E109 or PHRMSCI 120. BIO SCI E109 with a grade of C or better. PHRMSCI 120 with a grade of C or better
+1:  BIO SCI 99
+1: ( BIO SCI 94 OR BIO SCI H94 ) AND NO REPEATS ALLOWED
+2:  (BIO SCI 100 or BIO SCI 108) and BIO SCI E106. Satisfactory completion of the Lower-Division Writing requirement.
+1:  BIO SCI 99
+1:  (BIO SCI 93 or BIO SCI H93) and CHEM 1C
+1:  (BIO SCI 100 or BIO SCI 108) and (BIO SCI E109 or (BME 120 and BME 121)). 
+1:  (BIO SCI E109 or PHRMSCI 120) and BIO SCI E112L and BIO SCI E183
+2:  (BIO SCI 100 or BIO SCI 108) and BIO SCI E106. Satisfactory completion of the Lower-Division Writing requirement.
+1:  (BIO SCI E109 or PHRMSCI 120) and BIO SCI E112L and BIO SCI E183
+1:  BIO SCI E106 or EARTHSS 51 or EARTHSS 60A or CHEM 51C
+1:  BIO SCI 94 or BIO SCI 97 or BIO SCI H94 or BIO SCI H97
+1:  (BIO SCI E109 or PHRMSCI 120) and BIO SCI E112L and BIO SCI E183
+1: ( BIO SCI 96 OR BIO SCI 97 OR BIO SCI E106 ) AND NO REPEATS ALLOWED
+1:  BIO SCI E109 or PHRMSCI 120
+1:  BIO SCI 94 or BIO SCI H94
+1:  EARTHSS 51 or BIO SCI 94 or (EARTHSS 60A and EARTHSS 60C)
+2:  BIO SCI 94 and CHEM 51A. CHEM 51A with a grade of C- or better
+1:  (BIO SCI E106 or PHRMSCI 120 or BIO SCI E109) and (BIO SCI 100 or BIO SCI 108)
+1:  BIO SCI M122
+1:  BIO SCI 98 and (BIO SCI E109 or PHRMSCI 120)
+1:  BIO SCI E109 or PHRMSCI 120
+1:  BIO SCI E109 or PHRMSCI 120
+1:  (BIO SCI 100 or BIO SCI 108) and BIO SCI E106
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  BIO SCI E106
+1:  (EARTHSS 70A and EARTHSS 70B) or (EARTHSS 51 and EARTHSS 53 and EARTHSS 55)
+1:  BIO SCI E106
+1:  BIO SCI E109 or PHRMSCI 120
+1:  BIO SCI 93 or BIO SCI H93
+1:  BIO SCI 97 or BIO SCI H97
+1:  BIO SCI E106
+1:  BIO SCI 94 or BIO SCI H94
+1: BIO SCI 94 AND BIO SCI E160L AND NO REPEATS ALLOWED
+1: BIO SCI 194S AND ( BIO SCI 100 OR BIO SCI 108 ) AND SENIOR STANDING ONLY AND LOWER DIVISION WRITING AND NO REPEATS ALLOWED
+1:  BIO SCI E106
+1:  BIO SCI E106
+1: ( BIO SCI 96 OR BIO SCI E106 ) AND NO REPEATS ALLOWED
+2:  (BIO SCI 100 or BIO SCI 108) and BIO SCI E106. Satisfactory completion of the Lower-Division Writing requirement.
+1:  BIO SCI 94
+1:  (BIO SCI 100 or BIO SCI 108) and BIO SCI E179
+1: ( BIO SCI 94 OR BIO SCI H94 ) AND NO REPEATS ALLOWED
+1:  BIO SCI E106
+1:  BIO SCI 98 and (BIO SCI E109 or PHRMSCI 120)
+1:  BIO SCI E109 or PHRMSCI 120
+2:  BIO SCI E106 and (BIO SCI 100 or BIO SCI 108). Satisfactory completion of the Lower-Division Writing requirement.
+1:  BIO SCI E109 or PHRMSCI 120
+1:  BIO SCI E106
+1: ( BIO SCI 106 OR BIO SCI E106 ) AND NO REPEATS ALLOWED
+1:  BIO SCI 99 and (BIO SCI 100 or BIO SCI 108)
+1:  BIO SCI 99
+2:  (BIO SCI 93 or BIO SCI H93) and CHEM 1C. CHEM 1C with a grade of C- or better
+1:  BIO SCI 99 and (BIO SCI 100 or BIO SCI 108)
+1:  BIO SCI 93 or BIO SCI H93
+1:  BIO SCI 99 and (BIO SCI 100 or BIO SCI 108)
+1:  BIO SCI 99 and (BIO SCI M114L or BIO SCI M116L)
+1:  BIO SCI M121
+1:  BIO SCI 98
+1:  (BIO SCI 100 or BIO SCI 108) and BIO SCI M116L and BIO SCI M121
+1:  BIO SCI D103
+1: ( MATH 7 OR MATH 2D OR MATH 2J OR STATS 7 OR STATS 8 OR BIO SCI 7 ) AND NO REPEATS ALLOWED
+2:  BIO SCI M121 or BIO SCI M124A. Recommended: BIO SCI M122.
+1:  BIO SCI 98
+1:  BIO SCI 99
+1:  BIO SCI 99
+1:  BIO SCI 99
+1:  BIO SCI M121 or BIO SCI M122 or BIO SCI M124A or BIO SCI M124B or BIO SCI M143
+1: BIO SCI 100 AND BIO SCI 194S AND ( BIO SCI D111L OR BIO SCI M114L OR BIO SCI M116L OR BIO SCI M118L ) AND LOWER DIVISION WRITING AND NO REPEATS ALLOWED
+1:  BIO SCI 99
+1:  MATH 2B or MATH 5B
+1:  CHEM 51A
+1:  BIO SCI 99
+1:  BIO SCI 98
+3:  BIO SCI 98 and BIO SCI 99. BIO SCI 98 with a grade of B or better. BIO SCI 99 with a grade of B or better
+1:  BIO SCI 98
+1:  BIO SCI 99
+1:  (BIO SCI 100 or BIO SCI 108) and (BIO SCI N110 or BIO SCI N115A)
+1:  BIO SCI 99
+1:  BIO SCI N115A
+1:  BIO SCI 98
+1:  BIO SCI N110 or BIO SCI N115A or PSYCH 9A or PSCI 11A
+1:  BIO SCI 35 or BIO SCI N110 or BIO SCI N115A or PSY BEH 115D or (PSYCH 9A and PSYCH 9B and PSYCH 9C)
+1:  BIO SCI 99
+1:  BIO SCI 99
+1:  BIO SCI 99
+1:  BIO SCI 99
+1:  BIO SCI 99
+1:  BIO SCI M121
+1: ( BIO SCI 93 OR BIO SCI H93 ) AND NO REPEATS ALLOWED
+1: ( BIO SCI 93 OR BIO SCI H93 ) AND ( BIO SCI 100 OR BIO SCI 108 ) AND LOWER DIVISION WRITING AND SCHOOL OF BIO SCI ONLY AND SENIOR STANDING ONLY AND NO REPEATS ALLOWED
+1:  BIO SCI N110 or BIO SCI N115A
+1:  BIO SCI 93 or BIO SCI H93
+1:  BIO SCI 99
+1:  PSYCH 160A or BIO SCI 93 or BIO SCI H93
+1:  BIO SCI N110 or BIO SCI N115A
+1:  BIO SCI N110 or BIO SCI N115A
+1:  BIO SCI 99
+1:  BIO SCI 93 or BIO SCI H93
+1:  BIO SCI N110 or BIO SCI N115A
+1:  BIO SCI N110 or BIO SCI N115A or BIO SCI N152
+1:  BIO SCI 99
+1:  BIO SCI 99
+1:  BIO SCI 35 or BIO SCI N110 or BIO SCI N115A
+1: ( PSCI 11B OR PSYCH 9B OR BIO SCI 35 OR PSY BEH 11B OR BIO SCI N110 ) AND ( PSCI 9 OR PSCI 11A OR PSYCH 7A OR PSYCH 9A OR PSY BEH 9 OR PSY BEH 11A ) AND NO REPEATS ALLOWED
+1: ( PSCI 9 OR PSYCH 7A OR PSY BEH 9 OR BIO SCI 35 OR BIO SCI N110 OR ( ( PSYCH 9A OR PSY BEH 11A ) AND ( PSYCH 9B OR PSY BEH 11B OR BIO SCI N115A ) ) ) AND NO REPEATS ALLOWED
+1:  BIO SCI 99
+1:  BIO SCI N110 or BIO SCI N115A
+1: ( PSCI 9 OR PSCI 11A OR PSYCH 7A OR PSYCH 9A OR PSY BEH 9 OR BIO SCI 99 OR PSY BEH 11A ) AND NO REPEATS ALLOWED
+1:  BIO SCI N110 or BIO SCI N115A
+1:  BIO SCI N110 or BIO SCI N115A
+1: ( PSCI 11A OR PSYCH 9A OR PSY BEH 11A OR BIO SCI N110 OR BIO SCI N115A ) AND NO REPEATS ALLOWED
+1:  BIO SCI N110 or BIO SCI N115A
+1: BME 60B AND BME 60C AND MATH 3A AND MATH 3D AND PHYSICS 7C
+1: BME 110A
+1:  BIO SCI N110 or BIO SCI N115A
+1: BME 110B
+1: CHEM 1C AND ( BME 50B OR BIO SCI 99 )
+1: MATH 3D AND PHYSICS 7D AND ( BME 60B OR EECS 10 OR EECS 12 OR ENGRCEE 20 OR ENGRMAE 10 )
+1: BME 50A AND BME 50B AND MATH 3D AND ( CHEM 1C OR CHEM H2C )
+1: MATH 3D AND ( BME 60B OR EECS 10 OR EECS 12 OR ENGRCEE 20 OR ENGRMAE 10 )
+1: ( PHYSICS 3C OR PHYSICS 7D )
+1: BME 60B AND MATH 3D AND STATS 8 AND ( MATH 3A OR I&C SCI 6N )
+1:  MATH 2D or MATH 3A or STAT 7 or STAT 8
+1: MATH 3D AND STATS 8 AND ( MATH 3A OR I&C SCI 6N )
+1: BME 130 AND ( BME 135 OR BIO SCI D130 )
+1: BME 130 AND BME 60A
+1: ( BME 130 OR EECS 50 OR EECS 150 )
+1: BME 111
+1: BME 110C
+1: MATH 3D AND ( BME 60B OR ENGRCEE 20 ) AND ( MATH 3A OR I&C SCI 6N )
+1: BME 120 AND BME 130 AND BME 50B
+1: BME 111 AND BME 121 AND BME 150 AND ( BME 50B OR BIO SCI 99 )
+1: BME 160
+1:  (BME 60B or MAE 10 or EECS 10) and (BME 60C or MAE 52 or EECS 31L) and (BME 140 or MAE 106 or EECS 170B)
+1: ( BME 60C OR EECS 31L OR ENGRMAE 52 ) AND ( BME 60B OR EECS 10 OR ENGRMAE 10 ) AND ( BME 140 OR EECS 170B OR ENGRMAE 106 )
+1:  (BME 50A and BME 50B) or (BIOL 97 and BIOL 98 and BIOL 99)
+1: BME 180A
+1:  BME 220 and BME 221
+1: BME 180B
+1:  BME 224 or BME 225
+1:  Prerequisites vary.
+1: BME 1 AND ( CHEM 1C OR CHEM H2C )
+1: PHYSICS 7D
+1: BME 50A
+1:  Prerequisites vary.
+1:  CBE 40C
+1: BME 1
+1: MATH 3A
+1:  CHEM 1C and CBE 40C and (PHYS 7D or PHYS 7E)
+3:  CHEM 1C and MATH 3D and CBE 40B and CBE 40C and CBE 100. CBE 40B with a grade of C- or better. CBE 40C with a grade of C- or better
+2:  CBE 40C and MATH 3D. CBE 40C with a grade of C- or better
+1:  CBE 120B and CBE 100
+3:  CBE 40B and CBE 40C. CBE 40B with a grade of C- or better. CBE 40C with a grade of C- or better
+1:  CBE 110 and CBE 120C
+1:  CBE 130 and CBE 145 and CBE 140A
+2:  CBE 120A. CBE 120A with a grade of C- or better
+1:  CBE 150A
+1:  CBE 110 and CBE 120B and CBE 120C
+1:  CBE 110 and CBE 160 and (CHEM 1C or CHEM H2C) and MATH 3D
+1:  CBE 120A and CBE 160
+1:  CBE 110 and CBE 120C and CBE 130
+1:  (CHEM M3C or CHEM 1C or CHEM H2C or CHEM M2C) and MATH 2D
+1:  CBE 40C and CBE 105 and MATH 3D
+1:  (CBE 110 or MSE 165C) and (MSE 141 or MSE 69)
+1:  CBE 40B
+1:  Prerequisites vary.
+1:  ENGR 54 and (CBE 110 or MSE 165)
+1:  CBE 220A
+1:  Prerequisites vary.
+1: PHYSICS 7C AND ( CHEM 1B OR CHEM H2B ) AND ( MATH 2B OR AP CALCULUS BC )
+2:  MAE 10 and MATH 2D and CBE 40B. CBE 40B with a grade of C- or better
+2:  CBE 40A and (MATH 3A or ICS 6N). CBE 40A with a grade of C- or better
+1:  CHEM 233 or CBE 276
+1:  Two courses from CHC/LAT 61 or CHC/LAT 62 or CHC/LAT 63 and two courses from CHC/LAT 110-189.
+1:  Prerequisites vary.
+1: ( CHLT 101 OR CHC/LAT 101 ) AND LOWER DIVISION WRITING
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  PUBHLTH 1 or PUBHLTH 2 or CHC/LAT 61 or CHC/LAT 62 or CHC/LAT 63
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Prerequisites vary.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Prerequisites vary.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  CHC/LAT 210A
+1:  Prerequisites vary.
+1:  CHC/LAT 200A or PUBHLTH 246
+1:  Prerequisites vary.
+1:  CHC/LAT H190A
+1:  CHC/LAT H190A and CHC/LAT H190B
+2:  CHC/LAT H190A and CHC/LAT H190B. Satisfactory completion of the Lower-Division Writing requirement.
+1:  CHEM 51C
+1:  (CHEM 51C or CHEM H52C) and (CHEM M3C or CHEM M2C or CHEM 1C or CHEM H2C)
+1:  CHEM 51C or CHEM H52C
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  CHC/LAT 211A
+1:  CHEM 107 and CHEM 100S
+1:  (CHEM 51C or CHEM H52C)
+1:  CHEM 107
+1: CHEM 128 AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  MATH 2D and (PHYS 7D or PHYS 7E) and (CHEM 5 or (MATH 3D and (EECS 10 or EECS 12 or MAE 10 or ICS 31)) )
+1:  CHEM 51C
+1:  CHEM 132B
+2:  (CHEM 132A or CBE 40C) and (PHYS 7D or PHYS 7E). CHEM 132A with a grade of C- or better
+1: CHEM 51C AND CHEM 132C AND ( CHEM 131A OR CHEM 132B ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  (CHEM M3C or CHEM 1C or CHEM H2C or CHEM M2C) and MATH 2D
+1: ( CHEM 51C OR CHEM H52C ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+2:  (CHEM 51C or CHEM H52C) and (MATH 2B or AP Calculus BC). AP Calculus BC with a minimum score of 4
+1:  CHEM 133
+1:  CHEM 132A and CHEM 132B and CHEM 132C
+1:  CHEM 150 and (CHEM 5 or PHYS 50 or EECS 12)
+1:  CHEM 145A
+1:  MATH 3A and (CHEM 132A or PHYS 113A)
+1:  (CHEM 1C or CHEM M3C or CHEM H2C or CHEM M2C) and (CHEM M3LC or CHEM H2LC)
+1:  (CHEM 51C or CHEM H52C) and (CHEM 51LC or CHEM H52LC or CHEM M52LC) and (CHEM 131A or CHEM 132B or PHMS 171)
+1:  CHEM 51C and CHEM 100S and (CHEM 51LC or CHEM H52LC or CHEM M52LC)
+1:  CHEM 51A and CHEM 51B and CHEM 51C and (BIOL 98 or CHEM 128)
+1:  CHEM 51A and CHEM 51B and CHEM 51C and BIOL 100 and (BIOL 98 or CHEM 128)
+1: CHEM 132C AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+12:  CHEM 180 or CHEM 199 or PHYS 195 or ESS 199 or CEMS 199 or CEE 199 or MAE 199 or BIOL 199 or PUBH 199. CHEM 180 with a grade of A or better. CHEM 199 with a grade of A or better. PHYS 195 with a grade of A or better. ESS 199 with a grade of A or better. CEMS 199 with a grade of A or better. CEE 199 with a grade of A or better. MAE 199 with a grade of A or better. BIOL 199 with a grade of A or better. PUBH 199 with a grade of A or better. Consent of the instructor is also accepted. Satisfactory completion of the Lower-Division Writing requirement.
+1:  BIOL 14 or PS 5
+2:  Enrollment requires completion of an application form. Student selection is made by a selection committee. 
+2:  CHEM 1B. CHEM 1B with a grade of C- or better
+6:  CHEM 1A or ENGR 1A or CHEM H2A or AP Chemistry or CHEM M2A. CHEM 1A with a grade of C- or better. ENGR 1A with a grade of C- or better. CHEM H2A with a grade of C- or better. AP Chemistry with a minimum score of 4. CHEM M2A with a grade of C- or better
+8:  MATH 5A or MATH 2A or PHYS 7C or CHEM 1X or CHEM 1P or SAT Mathematics or ACT Mathematics or SAT Subject Chemistry or AP Chemistry or AP Calculus AB or AP Calculus BC. CHEM 1P with a grade of C- or better. SAT Mathematics with a minimum score of 600. ACT Mathematics with a minimum score of 27. SAT Subject Chemistry with a minimum score of 700. AP Chemistry with a minimum score of 3. AP Calculus AB with a minimum score of 4. AP Calculus BC with a minimum score of 3
+1: CHEM 1A AND ( CHEM 1P OR PLACEMENT EXAM or authorization ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1: CHEM 1C AND ( CHEM 1B OR CHEM H2B ) AND NO CHEM H2LB AND NO CHEM M2LB AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+4:  (CHEM 1C and CHEM 1LC) or CHEM 1LE. CHEM 1C with a grade of C- or better. CHEM 1LC with a grade of C- or better. CHEM 1LE with a grade of C- or better
+4:  CHEM 1A or ENGR 1A or AP Chemistry. CHEM 1A with a grade of C- or better. ENGR 1A with a grade of C- or better. AP Chemistry with a minimum score of 3
+3:  Students who meet the requirements for taking Chem 1A through their SAT, ACT, or AP test scores are not eligible for enrollment in Chem 1X. Specifically, the students must have ALL of the following advisory prerequisites (the inverse of the Chem 1A prerequisites): S02<600 (score below 600 on the SAT Mathematics Reasoning test) A02<27 (score below 27 on the ACT Mathematics test) Z43<700 (score below 700 on the SAT Chemistry subject exam) AP25<3 (score below 3 on the AP Chemistry exam) AP66<4 (score below 4 on the AP Calculus AB Exam) AP68<3 (score below 3 on the AP Calculus BC Exam) Students who meet Chem 1A eligibility through ALEKS-based training are permitted to enroll in Chem 1X. Chem 1X is open to interested BioEASE students. 
+1:  CHEM 132A and CHEM 132B and CHEM 132C
+1:  CHEM 100S
+1:  (CHEM 51A and CHEM 51B and CHEM 51C) or (CHEM H52A and CHEM H52B and CHEM H52C)
+1:  CHEM 201
+1:  CHEM 132A and CHEM 132B and CHEM 132C
+1:  CHEM 204
+1:  CHEM 107 and CHEM 132A and CHEM 132B and CHEM 132C
+1:  CHEM 131C or CHEM 132C
+1:  CHEM 107 or CHEM 215
+1:  Undergraduate courses in physical chemistry and biochemistry.
+1:  CHEM 215
+1:  CHEM 132A and CHEM 132B and CHEM 132C
+1:  Undergraduate courses in organic and physical chemistry.
+1:  CHEM 131A and CHEM 131B and CHEM 131C
+1:  CHEM 231B
+1: CHEM 131A AND CHEM 131B AND CHEM 131C AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  CHEM 231A
+1:  MAE 261 or CHEM 245 or ESS 240
+1:  CHEM 232A
+3:  CHEM 152 and CHEM 132C. CHEM 152 with a grade of B or better. CHEM 132C with a grade of B or better
+1:  CHEM 245A
+1:  CHEM 233 or CBE 276
+1:  CHEM 132A and CHEM 132B and CHEM 132C
+1:  CHEM 245B
+1:  CHEM 250
+1:  CHEM 231A
+5:  (CHEM 1C or CHEM H2C or CHEM M3C or CHEM M2C) and MATH 2D. CHEM 1C with a grade of C- or better. CHEM H2C with a grade of C- or better. CHEM M3C with a grade of C- or better. CHEM M2C with a grade of C- or better
+8:  (CHEM 1C or CHEM H2C or CHEM M2C or CHEM M3C) and (CHEM 1LD or CHEM H2LB or CHEM M2LB). CHEM 1C with a grade of C- or better. CHEM H2C with a grade of C- or better. CHEM M2C with a grade of C- or better. CHEM M3C with a grade of C- or better. CHEM 1LD with a grade of C- or better. CHEM H2LB with a grade of C- or better. CHEM M2LB with a grade of C- or better
+1: CHEM 51A AND CHEM 51B AND ( CHEM 1LD OR CHEM H2LB OR CHEM M2LB ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+5:  CHEM 51B and (CHEM 51LB or CHEM M52LB or CHEM H52LB). CHEM 51B with a grade of C- or better. CHEM 51LB with a grade of C- or better. CHEM M52LB with a grade of C- or better. CHEM H52LB with a grade of C- or better
+1: CHEM 51B AND CHEM 51C AND ( CHEM 51LB OR CHEM H52LB OR CHEM M52LB ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+5:  CHEM 51A and (CHEM 1LD or CHEM M52LA or CHEM H52LA). CHEM 51A with a grade of C- or better. CHEM 1LD with a grade of C- or better. CHEM M52LA with a grade of C- or better. CHEM H52LA with a grade of C- or better
+3:  CHEM 51C and CHEM 51LC. CHEM 51C with a grade of C- or better. CHEM 51LC with a grade of C- or better
+1:  CHEM H180B
+1:  CHEM H180A
+3:  AP Chemistry or SAT Subject Chemistry. AP Chemistry with a minimum score of 4. SAT Subject Chemistry with a minimum score of 700
+4:  CHEM H2A and (CHEM H2LA or CHEM M2LA). CHEM H2A with a grade of C- or better. CHEM H2LA with a grade of C- or better. CHEM M2LA with a grade of C- or better
+3:  AP Chemistry or SAT Subject Chemistry. AP Chemistry with a minimum score of 4. SAT Subject Chemistry with a minimum score of 700
+4:  CHEM H2B and (CHEM H2LB or CHEM M2LB). CHEM H2B with a grade of C- or better. CHEM H2LB with a grade of C- or better. CHEM M2LB with a grade of C- or better
+1: CHEM H2A AND CHEM H2B AND ( CHEM H2LA OR CHEM M2LA ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+8:  (CHEM 1C or CHEM H2C or CHEM M2C or CHEM M3C) and (CHEM M2LB or CHEM H2LB or CHEM 1LD). CHEM 1C with a grade of C- or better. CHEM H2C with a grade of C- or better. CHEM M2C with a grade of C- or better. CHEM M3C with a grade of C- or better. CHEM M2LB with a grade of C- or better. CHEM H2LB with a grade of C- or better. CHEM 1LD with a grade of C- or better
+1: CHEM H180A AND CHEM H180B AND CHEM H180C AND LOWER DIVISION WRITING AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1: CHEM 51A AND CHEM 51B AND ( CHEM H52LA OR CHEM M52LA ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1: CHEM 51B AND CHEM 51C AND ( CHEM 51LC OR CHEM H52LB OR CHEM M52LB ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+9:  MATH 5A or MATH 2A or PHYS 7C or CHEM 1X or CHEM 1P or SAT Mathematics or ACT Mathematics or SAT Subject Chemistry or AP Chemistry or AP Calculus AB or AP Calculus BC. CHEM 1P with a grade of C- or better. SAT Mathematics with a minimum score of 600. ACT Mathematics with a minimum score of 27. SAT Subject Chemistry with a minimum score of 700. AP Chemistry with a minimum score of 3. AP Calculus AB with a minimum score of 4. AP Calculus BC with a minimum score of 3. Placement via a passing score on the ALEKS placement exam is also accepted.
+1: CHEM H2B AND CHEM H2C AND ( CHEM H2LB OR CHEM M2LB ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+3:  CHEM M2A and CHEM M2LA. CHEM M2A with a grade of C- or better. CHEM M2LA with a grade of C- or better
+8:  (CHEM 1B or CHEM H2B or CHEM M2B) and (CHEM M2A or CHEM H2A) and (CHEM M2LA or CHEM H2LA). CHEM 1B with a grade of C- or better. CHEM H2B with a grade of C- or better. CHEM M2B with a grade of C- or better. CHEM M2A with a grade of C- or better. CHEM H2A with a grade of C- or better. CHEM M2LA with a grade of C- or better. CHEM H2LA with a grade of C- or better
+1: ( CHEM 1A OR CHEM H2A OR CHEM M2A OR AP CHEMISTRY ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+3:  CHEM M2B and CHEM M2LB. CHEM M2B with a grade of C- or better. CHEM M2LB with a grade of C- or better
+6:  (CHEM 1B or CHEM H2B or CHEM M2B) and (CHEM M2LB or CHEM H2LB). CHEM 1B with a grade of C- or better. CHEM H2B with a grade of C- or better. CHEM M2B with a grade of C- or better. CHEM M2LB with a grade of C- or better. CHEM H2LB with a grade of C- or better
+1: CHEM 51B AND CHEM 51C AND ( CHEM H52LB OR CHEM M52LB ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+6:  (CHEM 1B or CHEM H2B or CHEM M2B) and (CHEM M2LB or CHEM H2LB). CHEM 1B with a grade of C- or better. CHEM H2B with a grade of C- or better. CHEM M2B with a grade of C- or better. CHEM M2LB with a grade of C- or better. CHEM H2LB with a grade of C- or better
+1: CHEM 51A AND ( CHEM 1LD OR CHEM H2LB OR CHEM M2LB ) AND ( CHEM 1C OR CHEM H2C OR CHEM M2C OR CHEM M3C ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  CHINESE 3C or JAPANSE 3C or KOREAN 3C
+1: CHEM 51A AND CHEM 51B AND ( CHEM H52LA OR CHEM M52LA ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  CHINESE 3C
+1:  CHINESE 3C or JAPANSE 3C or KOREAN 3C
+1:  CHINESE 3C
+1:  CHINESE 3C or JAPANSE 3C or KOREAN 3C
+1: PLACEMENT EXAM or authorization
+1: ( CHINESE 1A OR PLACEMENT EXAM or authorization )
+4:  CHINESE 1B or CHINESE S1AB. CHINESE 1B with a grade of C or better. CHINESE S1AB with a grade of C or better. Placement into CHINESE 1C is also accepted.
+1:  CHINESE 3C
+1: ( CHINESE 1MA OR PLACEMENT EXAM or authorization )
+1:  CHINESE 101C
+1: PLACEMENT EXAM or authorization
+1: ( CHINESE 1MB OR PLACEMENT EXAM or authorization )
+1:  CHINESE 100C
+1:  CHINESE 100C
+1:  CHINESE 100C
+1:  CHINESE 211A
+1:  CHINESE 101C
+1:  CHINESE 100C
+1:  CHINESE 212A
+1:  CHINESE 100C
+1:  CHINESE 100C or CHINESE 101C
+1:  Advancement to Ph.D. candidacy.
+1: ( CHINESE 1C OR CHINESE 1MC OR CHINESE S1BC OR PLACEMENT EXAM or authorization )
+1: ( CHINESE 2A OR PLACEMENT EXAM or authorization )
+1:  CHINESE 213A
+1:  CHINESE 100C or CHINESE 101A
+1: ( CHINESE 2B OR PLACEMENT EXAM or authorization )
+1: ( CHINESE 2MA OR PLACEMENT EXAM or authorization )
+1: ( CHINESE 1MC OR CHINESE S1BC OR PLACEMENT EXAM or authorization )
+1: ( CHINESE 2C OR CHINESE 2DC OR CHINESE 2MC OR PLACEMENT EXAM or authorization )
+2:  CHINESE 3B. CHINESE 3B with a grade of C or better
+1: ( CHINESE 2MB OR PLACEMENT EXAM or authorization )
+2:  CHINESE 3A. CHINESE 3A with a grade of C or better
+3:  CHINESE 3C. CHINESE 3C with a grade of C or better. Native speakers also accepted.
+1: ( CHINESE 1B OR CHINESE 1C OR CHINESE 1MA OR CHINESE 1MB OR CHINESE 1MC OR CHINESE S1AB OR PLACEMENT EXAM or authorization )
+1: ( CHINESE 1A OR CHINESE 1B OR CHINESE 1MA OR PLACEMENT EXAM or authorization )
+1:  Satisfactory completion of the Lower-Division Writing requirement. 
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  CLASSIC 192A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  (PSYC 14M or PSYC 114M or COGS 14P or ICS 31) and (PSYC 10C or STAT 7 or STAT 110)
+1:  (PSYC 14M or PSYC 114M or COGS 14P or ICS 31 or MATH 9) and (PSYC 10C or STAT 7 or STAT 110) and (MATH 2B or MATH 5B or MATH 7B)
+1: ( MATH 2B OR MATH 5B OR MATH 7B ) AND ( STATS 7 OR PSYCH 10C OR STATS 110 OR AP STATISTICS ) AND ( MATH 0 OR COGS 14P OR PSYCH 14M OR I&C SCI 31 OR PSYCH 114M )
+2:  Completion of the M.A. degree.
+1:  PSYC 9A
+1:  PSYC 10A or COGS 10A
+1: ( I&C SCI 31 OR PSYCH 114M ) AND ( MATH 2B OR AP CALCULUS BC ) AND ( STATS 7 OR AP STATISTICS )
+1:  ((PSYC 9A and PSYC 9B and PSYC 9C) or (PSCI 11A and PSCI 11B and PSCI 11C)) and ((PSYC 10A and PSYC 10B and PSYC 10C) or (MATH 2A and MATH 2B and (MATH 7 or STAT 7)) )
+1:  PSYC 10A or COGS 10A
+1:  PSYC 112B and PSYC 112LB
+2:  PSYC 112A and PSYC 112LA. Satisfactory completion of the Lower-Division Writing requirement.
+1: ( PSCI 11B OR PSYCH 9B ) AND ( PSCI 11C OR PSYCH 9C ) AND ( PSCI 11A OR PSYCH 9A ) AND ( PSYCH 10C OR ANTHRO 10C OR SOCIOL 10C OR POL SCI 10C OR SOC SCI 10C OR ( STATS 7 AND ( MATH 2B OR AP CALCULUS BC ) ) )
+1:  (PSYC 9A and PSYC 9B and PSYC 9C) or (PSCI 11A and PSCI 11B and PSCI 11C) and (PSYC 10C or SSCI 10C or ANTH 10C or PLSC 10C or SOCL 10C) or (MATH 2B and STAT 7)
+1:  (PSYC 7A or PSCI 9) or (PSYC 9A or PSCI 11A)
+1: COGS 112P
+1:  (PSYC 9A or PSCI 11A) and (PSYC 9B or PSCI 11B)
+1:  (PSYC 7A or PSCI 9) or (PSYC 9A or PSCI 11A)
+1:  PSYC 9A and PSYC 9B
+1:  (PSYC 7A or PSCI 9) or (PSYC 9B or PSCI 11B)
+1:  (PSYC 7A or PSCI 9) or ((PSYC 9A or PSCI 11A) and (PSYC 9B or PSCI 11B))
+1:  (PSYC 7A or PSCI 9) or ((PSYC 9A or PSCI 11A) and (PSYC 9B or PSCI 11B)) or BIOL 35 or BIOL N110 or BIOL N115A
+1:  COGS 201B
+1:  COGS 201A
+1:  Prerequisites vary.
+1:  PSYC H101B
+1:  COGS 214
+1:  PSYC H101A
+2:  Satisfactory completion of the Lower-Division Writing requirement. Working knowledge of at least one foreign language.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the lower-division writing requirement.
+2:  COM LIT 280A. COM LIT 280A with a grade of B or better
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+6:  (I&C SCI 46 or CSE 46) and I&C SCI 6D and (MATH 3A or I&C SCI 6N). I&C SCI 46 with a grade of C or better. CSE 46 with a grade of C or better. I&C SCI 6D with a grade of C or better. MATH 3A with a grade of C or better. I&C SCI 6N with a grade of C or better
+1:  COMPSCI 112 or COMPSCI 171 or IN4MATX 121 or ART 106B or I&C SCI 163 or I&C SCI 166
+4:  I&C SCI 46 and (MATH 3A or I&C SCI 6N). I&C SCI 46 with a grade of C or better. MATH 3A with a grade of C or better. I&C SCI 6N with a grade of C or better
+1: CSE 161 AND COMPSCI 112 AND COMPSCI 161 AND COMPSCI 164 AND COMPSCI 165 AND ( CSE 45C OR I&C SCI 45C )
+1:  I&C SCI 45C
+1: I&C SCI 6D AND ( CSE 46 OR I&C SCI 46 ) AND ( MATH 3A OR MATH 6G OR I&C SCI 6N ) AND ( MATH 2B OR AP CALCULUS BC OR AP CALCULUS AB SUB )
+1: I&C SCI 6D AND ( MATH 3A OR I&C SCI 6N ) AND ( MATH 2B OR AP CALCULUS BC ) AND ( CSE 46 OR I&C SCI 46 ) AND ( COMPSCI 112 OR COMPSCI 116 OR COMPSCI 171 OR COMPSCI 178 ) AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+1: ( I&C SCI 45C OR I&C SCI 45J ) AND ( STATS 7 OR STATS 67 OR AP STATISTICS )
+1: I&C SCI 51 AND I&C SCI 6B AND IN4MATX 43 AND ( MATH 3A OR I&C SCI 6N ) AND ( STATS 67 OR ( STATS 120A AND ( STATS 7 OR AP STATISTICS ) ) ) AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+2:  (COMPSCI 122A or EECS 116) and (I&C SCI 45J or AP Computer Science A). AP Computer Science A with a minimum score of 4
+2:  I&C SCI 33 or EECS 114. I&C SCI 33 with a grade of C or better
+1:  (I&C SCI 6N or MATH 3A) and I&C SCI 33
+1:  COMPSCI 122A and (I&C SCI 53 or COMPSCI 143A)
+1: ( CSE 41 OR I&C SCI 31 OR I&C SCI 32A OR AP COMP SCI A OR AP COMP SCI AB ) AND UPPER DIVISION STANDING ONLY
+1:  I&C SCI 46 and I&C SCI 51 and (COMPSCI 122A or EECS 116)
+1:  (I&C SCI 53 and I&C SCI 53L) or COMPSCI 143A
+1:  COMPSCI 132 or EECS 148
+1:  I&C SCI 6D and (I&C SCI 33 or CSE 43) and (COMPSCI 122A or EECS 116 or COMPSCI 132 or COMPSCI 143A)
+6:  (I&C SCI 51 or CSE 31 or EECS 31) and (I&C SCI 46 or CSE 46). I&C SCI 51 with a grade of C or better. CSE 31 with a grade of C or better. EECS 31 with a grade of C or better. I&C SCI 46 with a grade of C or better. CSE 46 with a grade of C or better
+1:  EECS 55 or STATS 67
+1:  (COMPSCI 132 or EECS 148) and I&C SCI 45J
+1:  (I&C SCI 46 or CSE 46) and (I&C SCI 51 or EECS 31 or CSE 31)
+1:  COMPSCI 143A
+1:  CSE 141 or COMPSCI 141 or IN4MATX 101
+1:  (CSE 46 or I&C SCI 46) and (I&C SCI 51 or EECS 31 or CSE 31)
+1: ( CSE 145 OR COMPSCI 145 )
+1: I&C SCI 51 AND COMPSCI 143A AND ( CSE 46 OR I&C SCI 46 )
+1:  COMPSCI 142A or CSE 142
+1:  COMPSCI 151
+4:  (I&C SCI 33 or CSE 43) and I&C SCI 51 and I&C SCI 6B and I&C SCI 6D. I&C SCI 33 with a grade of C or better. CSE 43 with a grade of C or better. I&C SCI 51 with a grade of C or better
+1:  I&C SCI 33 or CSE 43
+1: I&C SCI 6B AND I&C SCI 6D AND ( MATH 2B OR AP CALCULUS BC ) AND ( CSE 46 OR I&C SCI 46 ) AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+1:  COMPSCI 151
+1: I&C SCI 6B AND I&C SCI 6D AND ( MATH 2B OR AP CALCULUS BC ) AND ( CSE 46 OR I&C SCI 46 )
+1:  COMPSCI 151
+1:  COMPSCI 161 or CSE 161
+3:  I&C SCI 46 or CSE 46. I&C SCI 46 with a grade of C or better. CSE 46 with a grade of C or better
+3:  (I&C SCI 6N or MATH 3A) and (COMPSCI 161 or PHYSICS 113A). I&C SCI 6N with a grade of C+ or better. MATH 3A with a grade of C+ or better
+1: CSE 45C AND I&C SCI 45C AND ( CSE 161 OR COMPSCI 161 )
+1:  COMPSCI 161 or CSE 161
+1: ( CSE 46 OR I&C SCI 46 ) AND ( MATH 2B OR AP CALCULUS BC ) AND ( STATS 67 OR ( STATS 120A AND ( STATS 7 OR AP STATISTICS ) ) ) AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+2:  COMPSCI 171 and COMPSCI 172B. Recommended: COMPSCI 178
+1: ( MATH 3A OR I&C SCI 6N ) AND ( STATS 67 OR ( STATS 120A AND ( STATS 7 OR AP STATISTICS ) ) ) AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+1:  COMPSCI 171 and COMPSCI 178
+1: STATS 67 AND I&C SCI 6B AND I&C SCI 6D AND ( MATH 2B OR AP CALCULUS BC ) AND ( MATH 3A OR I&C SCI 6N )
+1: I&C SCI 6B AND I&C SCI 6D AND ( MATH 3A OR I&C SCI 6N ) AND ( MATH 2B OR AP CALCULUS BC ) AND ( STATS 67 OR ( STATS 120A AND ( STATS 7 OR AP STATISTICS ) ) ) AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+1:  I&C SCI 46
+1:  COMPSCI 171
+1:  (STATS 120A and STATS 120B) or MATH 121A or COMPSCI 178 or COMPSCI 273A
+1:  I&C SCI 6N or MATH 3A
+1:  MATH 2D or MATH 3A or STATS 7 or STATS 8
+1: I&C SCI 51 AND ( EECS 116 OR COMPSCI 122A ) AND ( CSE 46 OR I&C SCI 46 )
+1:  COMPSCI 260 or COMPSCI 263
+1:  COMPSCI 184A
+1:  Knowledge of Python or C++ programming is required.
+1:  EECS 148 or COMPSCI 132
+1:  I&C SCI 46
+1:  COMPSCI 260 and COMPSCI 263
+1:  COMPSCI 201P or COMPSCI 202P
+1:  Basic courses in multivariate calculus, linear algebra, and probability.
+1:  Familiarity with linear algebra is required.
+1:  COMPSCI 134 and COMPSCI 142A and COMPSCI 143A
+1:  Basic knowledge of multivariate calculus, linear algebra, and familiarity with MATLAB. 
+1: COMPSCI 131 AND COMPSCI 132 AND COMPSCI 133 AND COMPSCI 161 AND COMPSCI 143A
+1: MATH 2B AND I&C SCI 6D AND ( CSE 46 OR I&C SCI 46 ) AND ( MATH 3A OR MATH 6G OR I&C SCI 6N )
+1:  MATH 121A
+1:  COMPSCI 211A
+1: I&C SCI 46 AND I&C SCI 6D AND COMPSCI 211A AND ( MATH 2B OR AP CALCULUS BC ) AND ( MATH 3A OR MATH 6G OR I&C SCI 6N )
+1:  Required: C++ programming skills, understanding of data structures and algorithms.
+1:  COMPSCI 161 and COMPSCI 171 and (I&C SCI 6N or MATH 3A or MATH 6G)
+1:  COMPSCI 222 and COMPSCI 131
+3:  COMPSCI 222P or COMPSCI 222. COMPSCI 222P with a grade of B or better. COMPSCI 222 with a grade of B or better
+3:  COMPSCI 220P or COMPSCI 122A. COMPSCI 220P with a grade of B or better. COMPSCI 122A with a grade of C or better
+1:  EECS 148 or COMPSCI 132
+1:  COMPSCI 122A and (I&C SCI 53 or COMPSCI 143A)
+1:  I&C SCI 21 or CSE 21 or IN4MATX 41 or I&C SCI 31 or CSE 41
+1:  NET SYS 201 or COMPSCI 232 or EECS 248A
+1:  An undergraduate-level course in operating systems and networks.
+1:  EECS 148 or COMPSCI 132
+1:  COMPSCI 143A
+1:  Working knowledge of C and the Linux environment.
+1:  COMPSCI 142A
+1:  Knowledge of C++ programming is required.
+2:  I&C SCI 51 and COMPSCI 152 and COMPSCI 161 and (I&C SCI 6N or MATH 3A or MATH 6G or I&C SCI 6D). B.S. degree in Computer Science is also accepted.
+1:  Undergraduate-level familiarity with fundamentals of integrated circuit blocks, processors, optimization/algorithm design, and some programming experience.
+1:  COMPSCI 222 or COMPSCI 238 or COMPSCI 241
+2:  I&C SCI 51 and COMPSCI 152 and COMPSCI 161 and (I&C SCI 6N or MATH 3A or MATH 6G or I&C SCI 6D). B.S. degree in Computer Science is also accepted.
+1:  EECS 148 or COMPSCI 132
+1:  IN4MATX 231 and IN4MATX 241
+1:  Undergraduate-level familiarity with fundamentals of integrated circuit blocks, processors, and optimization/algorithm design, and some programming experience.
+1: COMPSCI 250A
+1:  COMPSCI 151 and COMPSCI 152
+1:  COMPSCI 152
+1:  COMPSCI 161
+1:  Recommended: An undergraduate machine-learning course and an undergraduate course in one of the following areas: networking, distributed systems, or operating systems. 
+1: COMPSCI 260P
+1:  I&C SCI 46 and COMPSCI 161
+1: COMPSCI 260P
+1:  COMPSCI 161 and COMPSCI 261
+1:  COMPSCI 162
+1:  COMPSCI 161 and COMPSCI 261
+1:  Basic courses in linear algebra and algorithms.
+1: ( MATH 3A OR I&C SCI 6N ) AND ( STATS 67 OR ( STATS 120A AND ( STATS 7 OR AP STATISTICS ) ) )
+1:  COMPSCI 271 and COMPSCI 206
+1:  COMPSCI 171 and COMPSCI 178
+1:  Required: Python programming knowledge.
+1:  COMPSCI 161 and COMPSCI 261
+1:  (STATS 120A and STATS 120B) or MATH 121A or COMPSCI 178 or COMPSCI 273A
+1:  COMPSCI 206
+1:  COMPSCI 274A
+2:  COMPSCI 178 or COMPSCI 273A or STATS 120B. Recommended: Advanced machine learning or graphical models courses such as COMPSCI 274A or COMPSCI 274B or CS 273C or COMPSCI 276.
+3:  COMPSCI 271P. COMPSCI 271P with a grade of B or better. Required: Knowledge of Python programming. 
+1:  Basic course in algorithm design and analysis.
+1:  A basic course in probability.
+2:  COMPSCI 273P. Required: Python programming experience.
+2:  COMPSCI 178 or COMPSCI 273A. Recommended: COMPSCI 274A and CS 275B and CS 275C and COMPSCI 276.
+1:  A Basic course in algorithms or a basic course in molecular biology.
+1: COMPSCI 178 AND COMPSCI 172B
+1:  COMPSCI 284A or (BIO SCI 99 and MATH 2D)
+1:  MATH 227A
+1:  STATS 120A
+1: COMPSCI 296P
+1:  Recommended: COMPSCI 263 and COMPSCI 295 (when the topic title is Game Theory), or a course on linear programming, or working knowledge of LP-duality theory. 
+1:  Recommended: PSCI 9 or PSCI 11C or PSYCH 7A or PSYCH 9C.
+1: COMPSCI 297P
+1:  (PSCI 9 or PSCI 11C or PSYCH 7A or PSYCH 9C) and PSCI 102C and (PSCI 178S or CRM/LAW C149)
+2:  SOCECOL 10 and SOCECOL 13. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Recommended: CRM/LAW C109.
+1:  Recommended: PSCI 9 or PSCI 11B or PSCI 11C.
+1: PSCI 193G AND SOCECOL 10
+1:  SOCECOL 13
+1:  ECON 122A or ECON 123A
+2:  CRM/LAW C202. CRM/LAW C202 with a grade of B or better
+2:  CRM/LAW C201. CRM/LAW C201 with a grade of B or better
+1:  CRM/LAW C240A
+1:  CRM/LAW C239A
+2:  CRM/LAW C202. CRM/LAW C202 with a grade of B or better
+1:  CRM/LAW C260B
+2:  CRM/LAW C240B. CRM/LAW C240B with a grade of B or better
+1:  CRM/LAW C260C
+1:  CRM/LAW C260A
+1:  CRM/LAW C280B
+1:  Advancement to candidacy.
+1: PHYSICS 7D AND ( CSE 70A OR EECS 70A )
+1:  CRM/LAW C280A
+1:  DANCE 103
+1:  DANCE 133A and DANCE 133B and DANCE 133C and DANCE 143A and DANCE 143B and DANCE 143C
+1:  DANCE 132A
+1:  DANCE 132A and DANCE 132B and DANCE 132C
+1:  DANCE 132A and DANCE 132B
+3:  DANCE 132C. DANCE 132C with a grade of B+ or better. Placement by audition is also accepted.
+3:  DANCE 133A and DANCE 133B and DANCE 133C. DANCE 133C with a grade of B+ or better. Placement by audition is also accepted.
+1: DANCE 30A AND DANCE 30B AND DANCE 30C
+1:  DANCE 133A and DANCE 133B
+1:  DANCE 134A and DANCE 134B
+1:  DANCE 134A
+1:  DANCE 135A
+3:  DANCE 134A and DANCE 134B and DANCE 134C. DANCE 134C with a grade of B+ or better. Placement by audition is also accepted. 
+1:  DANCE 133A
+1:  DANCE 135A and DANCE 135B
+1:  (DANCE 133A and DANCE 133B and DANCE 133C) or (DANCE 143A and DANCE 143B and DANCE 143C)
+1:  DANCE 142A
+1:  DANCE 133A and DANCE 133B and DANCE 133C and DANCE 143A and DANCE 143B and DANCE 143C
+1: DANCE 142A AND DANCE 142B AND DANCE 142C
+2:  DANCE 40A and DANCE 40B and DANCE 40C. Prerequisites are for non-Dance majors only.
+1:  DANCE 143A and DANCE 143B
+1: DANCE 143A AND DANCE 143B AND DANCE 143C
+1:  DANCE 143A
+1:  DANCE 142A and DANCE 142B
+1:  DANCE 144A
+1: DANCE 50A AND DANCE 50B AND DANCE 50C
+1:  DANCE 144A and DANCE 144B
+1:  DANCE 152A
+1:  DANCE 152A and DANCE 152B
+1:  DANCE 153A
+1: DANCE 152A AND DANCE 152B AND DANCE 152C
+1:  DANCE 154A
+1: DANCE 153A AND DANCE 153B AND DANCE 153C
+1:  DANCE 154A and DANCE 154B
+3:  DANCE 53A and DANCE 53B and DANCE 53C. Audition is also accepted. Prerequisites are for non-Dance Majors only.
+1:  DANCE 153A and DANCE 153B
+1:  DANCE 155B
+2:  DANCE 155C. DANCE 155C with a grade of B+ or better
+1:  DANCE 155A
+1:  DANCE 156A and DANCE 156B
+2:  DANCE 60A and DANCE 60B and DANCE 60C. Audition required. 
+1: DANCE 60A AND DANCE 60B AND DANCE 60C AND DANCE 162A
+1:  DANCE 60A
+1:  DANCE 156A
+1:  Audition required. 
+1:  DANCE 163
+1:  Audition required. 
+1:  Audition required. 
+1:  DANCE 152A and DANCE 152B and DANCE 152C
+1:  DANCE 21A
+1:  Audition required. 
+2:  DANCE 90A and DANCE 90B and DANCE 90C. Satisfactory completion of the lower-division writing requirement.
+1:  Audition required.
+1: DANCE 21A
+1:  DANCE 100
+1:  DANCE 231A
+1:  Audition required.
+1:  DANCE 231B
+2:  DANCE 241A. Audition required.
+1:  DANCE 251B
+1:  DANCE 251A
+1:  DANCE 252B
+1:  Audition required.
+2:  DANCE 255A. Audition required.
+2:  DANCE 255A and DANCE 255B. Audition required.
+1:  DANCE 241B
+1:  DANCE 284
+1:  DANCE 261A
+1:  DANCE 30A and DANCE 30B
+1:  DANCE 30A and DANCE 30B and DANCE 30C
+1:  DANCE 30A
+1:  DANCE 50A
+1: DANCE 40B
+1:  DANCE 50B
+1:  DANCE 52B
+1:  DANCE 60A
+1:  DANCE 52A
+1: DANCE 40A
+1:  DANCE 60A and DANCE 60B
+1:  Required: Completion of at least 24 units in the Master of Data Science program.
+1:  DANCE 90B
+1: DATA 296P
+1:  DANCE 90A
+1:  DEV BIO 200A
+1:  DEV BIO 203B
+1:  DEV BIO 203A
+1:  DEV BIO 206A
+1:  DEV BIO 200B
+1:  DEV BIO 290A
+1:  DEV BIO 292A
+1:  DEV BIO 206B
+1:  DEV BIO 290B
+1:  DEV BIO 292B
+1:  Audition required.
+1:  Satisfactory completion of the lower-division writing requirement.
+2:  DRAMA 40A and DRAMA 40B and DRAMA 40C. Satisfactory completion of the lower-division writing requirement.
+1:  Satisfactory completion of the lower-division writing requirement.
+2:  DRAMA 40A or DRAMA 40B or DRAMA 40C. Satisfactory completion of the lower-division writing requirement.
+1:  Satisfactory completion of the lower-division writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  DRAMA 40A and DRAMA 40B and DRAMA 40C. Satisfactory completion of the lower-division writing requirement.
+2:  DRAMA 40A and DRAMA 40B and DRAMA 40C. Satisfactory completion of the lower-division writing requirement.
+2:  DRAMA 40A and DRAMA 40B and DRAMA 40C. Satisfactory completion of the Lower-Division Writing requirement.
+1:  DRAMA 40A and DRAMA 40B and DRAMA 40C
+1:  Satisfactory completion of the lower-division writing requirement.
+2:  DRAMA 40A and DRAMA 40B and DRAMA 40C. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement. 
+1:  Satisfactory completion of the lower-division writing requirement.
+1: DRAMA 30A AND DRAMA 30B AND DRAMA 30C
+1:  Satisfactory completion of the lower-division writing requirement.
+1:  DRAMA 30A and DRAMA 30B and DRAMA 30C
+2:  DRAMA 34. DRAMA 34 with a grade of B or better
+2:  DRAMA 130. DRAMA 130 with a grade of B or better
+2:  DRAMA 142. Audition required.
+2:  DRAMA 142. Audition required.
+1:  Audition required.
+2:  DRAMA 142. Audition required.
+1:  Admission is by audition and the following prerequisites: DRAMA 30C and two quarters of DRAMA 148A, DRAMA 148B, or DRAMA 148C (if the 148 prerequisite is not complete at the time of auditions, student must enroll during the fall and winter quarters in the same year as the trip to New York); senior Drama majors must have successfully completed DRAMA 40C and DRAMA 120C; non-Drama majors must have sophomore standing or higher and must carefully plan their course schedule as many spring quarter classes cannot be taken while part of the NYSP.
+1: ( DRAMA 143 OR DRAMA 144 )
+1:  DRAMA 50A
+1: DRAMA 143A AND DRAMA 143B AND DRAMA 143C
+1:  DRAMA 50A
+1:  DRAMA 50A or DRAMA 50B
+1:  DRAMA 50A
+1: ( DRAMA 148B OR DRAMA 148C ) AND ( DRAMA 148A OR ( DRAMA 148B AND DRAMA 148C ) )
+1:  DRAMA 50C
+2:  DRAMA 65 or DRAMA 142. Audition required.
+1:  Satisfactory completion of the lower-division writing requirement.
+2:  (DRAMA 65 or DRAMA 142) and DRAMA 183A. Audition required.
+2:  (DRAMA 65 or DRAMA 142) and DRAMA 182A. Audition required.
+1:  DRAMA 184
+1: DRAMA 80 AND DRAMA 30A AND DRAMA 30B AND DRAMA 30C AND DRAMA 40A AND DRAMA 40B AND DRAMA 40C
+2:  DRAMA 65 or DRAMA 142. Audition required.
+1:  DRAMA 146
+1:  DRAMA 146
+1:  DRAMA 146
+1:  DRAMA 146
+1:  DRAMA 146
+1: ( DRAMA 182A OR DRAMA 182B OR DRAMA 182C OR DRAMA 183A OR DRAMA 183B OR DRAMA 183C )
+1: DRAMA 200 AND DRAMA 201 AND DRAMA 203
+1: DRAMA 201 AND DRAMA 202 AND DRAMA 203
+1: DRAMA 200 AND DRAMA 202 AND DRAMA 203
+1: DRAMA 200 AND DRAMA 201 AND DRAMA 202 AND DRAMA 206
+1:  DRAMA 240
+1:  DRAMA 262
+1:  12 units of DRAMA 254.
+1:  DRAMA 266
+1:  DRAMA 266
+1:  DRAMA 262
+1:  DRAMA 266
+1:  DRAMA 262
+1:  DRAMA 30A and DRAMA 30B
+1:  DRAMA 10
+1:  DRAMA 10
+1:  DRAMA 30A
+1:  DRAMA 10
+1:  DRAMA 10
+1:  DRAMA 10
+1:  DRAMA 10
+1:  Audition required.
+1:  DRAMA 10
+1:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 70A and EARTHSS 70B)
+1: ( EARTHSS 53 OR EARTHSS 60B ) AND ( EARTHSS 55 OR EARTHSS 60C ) AND ( EARTHSS 51 OR EARTHSS 60A )
+1:  DRAMA 10
+1:  DRAMA 30A and DRAMA 30B
+1:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 70A and EARTHSS 70B)
+1:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 70A and EARTHSS 70B)
+1:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 70A and EARTHSS 70B)
+1:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 70A and EARTHSS 70B)
+1:  I&C SCI 31 or EARTHSS 116
+1:  EARTHSS 55 and (PHYSICS 7C or PHYSICS 3B)
+1: MATH 2D AND ( EARTHSS 53 OR EARTHSS 60A ) AND ( PHYSICS 7B OR PHYSICS 7C )
+1:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 70A and EARTHSS 70B)
+1:  EARTHSS 55
+1:  (EARTHSS 51 and EARTHSS 55) or (EARTHSS 40C and EARTHSS 70B)
+1: ( EARTHSS 53 OR EARTHSS 70B ) AND ( EARTHSS 70A OR ( EARTHSS 51 AND ( EARTHSS 55 OR EARTHSS 70B ) ) )
+1:  EARTHSS 40A and EARTHSS 40B and EARTHSS 40C
+1:  (EARTHSS 51 and EARTHSS 53) or (EARTHSS 70A and EARTHSS 70B)
+2:  (CHEM 1C or CHEM H2C or CHEM M3C) and (PHYSICS 3C or PHYSICS 7E) and (MATH 2B or MATH 5B or AP Calculus BC). AP Calculus BC with a minimum score of 4
+1:  EARTHSS 53 or CHEM 51C
+1:  EARTHSS 51 or EARTHSS 70B
+1:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 40C and EARTHSS 70A)
+1:  EARTHSS 53 or (EARTHSS 70A and EARTHSS 70B)
+1:  (EARTHSS 70A and EARTHSS 70B) or (EARTHSS 51 and EARTHSS 53 and EARTHSS 55)
+1:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 70A and EARTHSS 70B)
+2:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 70A and EARTHSS 70B). Satisfactory completion of the Lower-Division Writing requirement.
+1:  BIO SCI E106 or EARTHSS 51 or EARTHSS 60A or CHEM 51C
+1:  (EARTHSS 70A and EARTHSS 70B) or (EARTHSS 51 and EARTHSS 53 and EARTHSS 55)
+1: ( EARTHSS 70A OR ( ( EARTHSS 55 OR EARTHSS 60C ) AND ( EARTHSS 70B OR ( ( EARTHSS 51 OR EARTHSS 60A ) AND ( EARTHSS 53 OR EARTHSS 60B ) ) ) ) ) AND LOWER DIVISION WRITING
+1:  EARTHSS 51 or BIO SCI 94 or (EARTHSS 60A and EARTHSS 60C)
+2:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 70A and EARTHSS 70B). Satisfactory completion of the Lower-Division Writing requirement.
+1:  BIO SCI 191A or SOCECOL 186A or EARTHSS 190A
+1:  (EARTHSS 51 and EARTHSS 53 and EARTHSS 55) or (EARTHSS 70A and EARTHSS 70B)
+3:  BIO SCI 191B or EARTHSS 190B or SOCECOL 186B. BIO SCI 191B or EARTHSS 190B or SOCECOL 186B. Satisfactory completion of the Lower-Division Writing requirement.
+2:  Two quarters of EARTHSS 199. Satisfactory completion of the Lower-Division Writing requirement.
+1:  (EARTHSS 60A and EARTHSS 60B) or (EARTHSS 51 and EARTHSS 53)
+1:  EARTHSS 224
+1:  MATH 2D and PHYSICS 7A and PHYSICS 7B and PHYSICS 7E
+1:  EARTHSS 280B
+1:  CHEM 51C
+1:  EARTHSS 280A
+1:  EARTHSS 286A
+1:  EARTHSS 286B
+1:  EARTHSS 288B
+1:  EARTHSS 282B
+1: ( CHEM 1C OR CHEM H2C OR CHEM M3C OR EARTHSS 40A )
+1:  CHEM 1C
+1: ( PHYSICS 3B OR PHYSICS 7C OR AP PHYSICS C:E/M ) AND ( MATH 2B OR MATH 5B OR AP CALCULUS BC )
+1:  EARTHSS 40B or (BIO SCI 93 and BIO SCI 94)
+1: CHEM 1C
+1:  ESS 199A and ESS 199B
+1:  EARTHSS 40C or PHYSICS 3C or PHYSICS 7E
+1:  Completion of at least one quarter of statistics including regression and analysis of variance.
+1: ( EAS 190 OR E ASIAN 190 ) AND LOWER DIVISION WRITING
+1:  BIO SCI E106
+2:  ECO EVO 207. ECO EVO 207 with a grade of B or better
+1:  EAS 160
+1:  ECO EVO 282
+1: ( ECON 20B OR AP ECONOMICS:MACRO ) AND ( ECON 20A OR AP ECONOMICS:MICRO ) AND ( AP CALCULUS BC OR ( MATH 2B AND ( MATH 2A OR AP CALCULUS AB OR AP CALCULUS AB SUB ) ) ) AND NO ECON 105A
+1:  ECO EVO 287
+1: ( ECON 100A OR ECON 105A ) AND NO ECON 105B
+1: MATH 3A AND ( ECON 20B OR AP ECONOMICS:MACRO ) AND ( ECON 20A OR AP ECONOMICS:MICRO ) AND ( AP CALCULUS BC OR ( MATH 2B AND ( MATH 2A OR AP CALCULUS AB OR AP CALCULUS AB SUB ) ) ) AND NO ECON 100A
+1:  ECON 105B
+1:  ECON 105A
+1: ( ECON 100B OR ECON 105B ) AND NO ECON 105C
+1: ( ECON 20B OR AP ECONOMICS:MACRO ) AND ( ECON 20A OR AP ECONOMICS:MICRO )
+1:  Prerequisites vary.
+1:  ECON 100A or ECON 105A
+1:  (ECON 15B or STAT 120B) and (ECON 100A or ECON 105A)
+1:  ECON 100A or ECON 105A and (ECON 15B or MATH 130B or MATH 133A or STAT 120C)
+2:  ECON 15A and ECON 15B and ECON 122A and ECON 122B. Satisfactory completion of the Lower-Division Writing requirement.
+1:  ECON 116A
+1:  ECON 123A
+2:  ECON 123B. Satisfactory completion of the Lower-Division Writing requirement.
+1: MATH 3A AND ( MATH 130C OR STATS 120C ) AND ( ECON 100A OR ECON 105A ) AND ( ECON 100B OR ECON 105B ) AND ( ECON 100C OR ECON 105C ) AND ( AP CALCULUS BC OR ( MATH 2B AND ( MATH 2A OR AP CALCULUS AB OR AP CALCULUS AB SUB ) ) ) AND NO ECON 122B AND NO ECON 122A
+1:  ECON 122A
+1:  ECON 122A
+1:  (ECON 100C or ECON 105C) and (ECON 122A or ECON 123A)
+1:  Prerequisites vary.
+1:  ECON 15B and ECON 100B
+1:  (ECON 15B or MATH 130B or STAT 120B) and (ECON 100B or ECON 105B)
+1:  ECON 15A and ECON 15B and (ECON 122A or ECON 123A) and (ECON 100A and ECON 100B and ECON 100C) or (ECON 105A and ECON 105B and ECON 105C) or (MATH 130A and STAT 120A and STAT 120B and STAT 120C) or MATH 130B or MATH 133A
+1:  ECON 100A or ECON 105A
+1:  (ECON 100A and ECON 100B and ECON 100C) or (ECON 105A and ECON 105B and ECON 105C) and (ECON 15A or MATH 130A or STAT 120A) and (ECON 15B or MATH 130B or STAT 120B)
+1:  ECON 134A or MGMT 109
+1:  ECON 123A
+2:  ECON 122A or ECON 123A. Satisfactory completion of the Lower-Division Writing requirement.
+1: ( AP CALCULUS BC OR ( MATH 2B AND ( MATH 2A OR AP CALCULUS AB ) ) )
+1:  (ECON 122A or ECON 123A) and (ECON 100B or ECON 105B)
+1:  MATH 3A or MATH H3A
+1:  (ECON 100A and ECON 100B) or (ECON 105A and ECON 105B)
+1:  (ECON 15A and ECON 15B) and (ECON 100A and ECON 100B) or (ECON 105A and ECON 105B)
+1:  (ECON 100A and ECON 100B) or (ECON 105A and ECON 105B)
+2:  (ECON 100A and ECON 100B) or (ECON 105A and ECON 105B). Satisfactory completion of the Lower-Division Writing requirement.
+1:  (ECON 100A and ECON 100B) or (ECON 105A and ECON 105B)
+1: ECON 100A AND ( ECON 20B OR AP ECONOMICS:MACRO ) AND ( ECON 20A OR AP ECONOMICS:MICRO )
+1: ECON 20A AND ECON 100A AND ( ECON 20B OR AP ECONOMICS:MACRO )
+1:  ECON 100A or ECON 105A
+2:  (ECON 15A or STAT 120A) and (ECON 15B or STAT 120B) and (ECON 122A or ECON 123A) and (ECON 100A or ECON 105A) and (ECON 100B or ECON 105B) and (ECON 100C or ECON 105C). Satisfactory completion of the Lower-Division Writing requirement.
+1:  (ECON 100A and ECON 100B) or (ECON 105A and ECON 105B)
+1:  ECON 15A and (ECON 100A or ECON 105A)
+1:  (ECON 100A or ECON 105A) and (ECON 100B or ECON 105B)
+1:  ECON 100A
+1:  ECON 122A or ECON 123A
+1:  (ECON 100A and ECON 100B) or (ECON 105A and ECON 105B)
+1:  (ANTH 10A and ANTH 10B and ANTH 10C) or (SOCL 10A and SOCL 10B and SOCL 10C) or (SSCI 10A and SSCI 10B and SSCI 10C) or (MATH 2A and MATH 2B and (STAT 7 or MGMT 7)) or (STAT 120A and STAT 120B and STAT 120C) or (ECON 15A and ECON 15B)
+1:  (ECON 15A and ECON 15B) and (ECON 100A and ECON 100B) or (ECON 105A and ECON 105B)
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  ECON 15A and ECON 15B and ECON 100A and ECON 100B and ECON 100C and ECON 122A. Satisfactory completion of the Lower-Division Writing requirement.
+1: ECON 100A
+1: ( ECON 20B OR AP ECONOMICS:MACRO )
+1:  ECON 20A or ECON 20B or ECON 13 or IS 13
+1: ( ECON 20B OR AP ECONOMICS:MACRO ) AND ( ECON 20A OR AP ECONOMICS:MICRO )
+1: ( AP CALCULUS BC OR ( MATH 2B AND ( MATH 2A OR AP CALCULUS AB OR AP CALCULUS AB SUB ) ) )
+1:  ECON 15A and ECON 100A
+1:  (ECON 100A and ECON 100B) or (ECON 105A and ECON 105B) and (ECON 100C or ECON 105C)
+1:  ECON 15A
+1:  (ECON 100A and ECON 100B) or (ECON 105A and ECON 105B) and (ECON 100C or ECON 105C)
+1:  (ECON 15A or STAT 120A) and (ECON 15B or STAT 120B) and (ECON 100A and ECON 100B and ECON 100C) or (ECON 105A and ECON 105B and ECON 105C)
+1:  ECON 20A and ECON 20B
+1:  ECON 161A and (ECON 100C or ECON 105C)
+2:  ECON 100C or ECON 105C. Satisfactory completion of the Lower-Division Writing requirement.
+1:  (ECON 15A or STAT 120A) and (ECON 15B or STAT 120B) and (ECON 122A or ECON 123A) and (ECON 100A or ECON 105A) and (ECON 100B or ECON 105B) and (ECON 100C or ECON 105C)
+1: ECON 100C
+1:  ECON 100C or ECON 105C
+2:  ECON H190A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  ECON 100A or ECON 105A
+1:  ECON 200B
+1: ( ECON 13 OR ECON 23 OR ECON 20A OR INTL ST 13 OR AP ECONOMICS:MICRO ) AND NO AP ECONOMICS:MACRO score of 4 or greater AND NO MGMT 4B AND ( BUSINESS ECONOMICS MAJORS ONLY OR ECONOMICS MAJORS ONLY OR QUANTITATIVE ECON MAJORS ONLY OR INTERNATIONL STUDIES MAJORS ONLY OR CIVIL ENGINEERING MAJORS ONLY OR ENVIRONMENTAL ENGR MAJORS ONLY OR MECHANICAL ENGR MAJORS ONLY OR AEROSPACE ENGR MAJORS ONLY OR BUSINESS INFO MGMT MAJORS ONLY OR BUSINESS ADMIN MAJORS ONLY OR UNDECLARED MAJORS ONLY )
+1:  ECON 210A
+1:  ECON 210D
+1:  ECON 210B
+1:  ECON 200A
+1:  ECON 210E
+1:  Prerequisites vary.
+1:  ECON 220A and ECON 220B and ECON 220C
+1:  ECON 220B
+1:  ECON 220A and ECON 220B and ECON 220C
+1:  ECON 220A
+1:  ECON 210A and ECON 210B and ECON 210C and ECON 210D and ECON 210E and ECON 210F
+1:  ECON 210A and ECON 210B and ECON 210C and ECON 220A and ECON 220B
+1:  Prerequisites vary.
+1:  ECON 210A and ECON 210B and ECON 210C and ECON 210D and ECON 210E and ECON 210F
+1:  Prerequisites vary.
+1:  ECON 100B and ECON 203A
+1:  ECON 241A and ECON 100B and ECON 203A
+1:  ECON 210A and ECON 210B and ECON 210C and ECON 220A and ECON 220B
+1:  ECON 210A and ECON 210B and ECON 210C
+1: ( ECON 20A OR AP ECONOMICS:MICRO ) AND NO MGMT 30A
+1:  Prerequisites vary.
+1:  ECON 243A
+1:  ECON 203A
+1:  Prerequisites vary.
+1:  ECON 210A and ECON 210B
+1:  Prerequisites vary.
+1:  ECON 203A
+1:  ECON 270A
+1:  ECON 270B
+1:  ECON 210A and ECON 210B and ECON 210C
+1:  ECON 210A and ECON 210B and ECON 210C
+1:  ECON 210A and ECON 210B and ECON 210C
+1:  ECON 203A
+1:  Prerequisites vary.
+1:  ECON 210A
+1:  ECON 210A
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  ECON 282A
+1:  ECPS 202 or ECPS 203 or ECPS 216
+1:  Must be able to communicate in Spanish.
+1:  EDUC 122B
+1:  EDUC 120A or PSCI 192X or PSCI 184S
+1:  EDUC 50
+1:  EDUC 126
+1:  EDUC 122A
+1:  EDUC 126 and EDUC 127A
+2:  (PS 105 or BIOL 101) and EDUC 55. Satisfactory completion of the Lower-Division Writing requirement.
+2:  (PS 105 or BIOL 101) and EDUC 55 and EDUC 143AW and EDUC 148. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Recommended: 1 unit of EDUC 199.
+1:  EDUC 10 or SE 10
+1:  (PS 105 or BIOL 101) and EDUC 55 and EDUC 143AW
+1:  (PS 105 or BIOL 101) and EDUC 55 and EDUC 143AW and EDUC 143BW and EDUC 148
+1:  EDUC 10
+1:  EDUC 10 and EDUC 15
+1: ( PSCI 9 OR PSCI 11A OR PSCI 11B OR PSCI 11C OR PSYCH 7A OR PSY BEH 9 OR PSY BEH 11A OR PSY BEH 11B OR PSY BEH 11C )
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  EDUC 10 and EDUC 15
+1:  EDUC 160
+1:  Recommended: EDUC 288B.
+1:  EDUC 246
+1:  EDUC 246
+1:  EDUC 288A
+2:  EDUC 288A. EDUC 288A with a grade of B or better
+1:  EDUC 222
+1:  EDUC 283A or EDUC 283B
+1:  EDUC 281
+1:  EDUC 283A
+1:  EDUC 323A
+1:  EDUC 288A
+1:  PS 5 or BIOL 14
+1: ( MATH 2A OR AP CALCULUS AB OR AP CALCULUS BC OR AP CALCULUS AB SUB )
+1: EECS 112 AND ( EECS 114 OR I&C SCI 46 )
+1: ( EECS 50 OR EECS 150 )
+1: EECS 112
+1:  EDUC 222
+1: EECS 31L
+1: EECS 112
+1: ( EECS 114 OR I&C SCI 33 )
+1: EECS 20 AND EECS 112 AND EECS 114
+1: EECS 40
+1: EECS 114
+1: EECS 112 AND EECS 170B
+1: ( MATH 2A OR AP CALCULUS AB OR AP CALCULUS BC OR AP CALCULUS AB SUB )
+1: EECS 55 AND EECS 150
+1:  EECS 22 or ICS 45C
+1:  (EECS 12 or CS 152) and EECS 114
+1: MATH 3D
+1: EECS 141A
+1: ( EECS 55 OR STATS 67 )
+1: EECS 50
+1: EECS 145 AND EECS 70A
+1: EECS 180A
+1: ( EECS 113 OR EECS 170C OR COMPSCI 145 )
+1: EECS 150 AND EECS 170B AND EECS 170LB AND ( BME 60B OR EECS 10 OR EECS 12 OR ENGRCEE 20 OR ENGRMAE 10 )
+1: EECS 152A
+1: EECS 160A
+1: EECS 70B
+1: EECS 163
+1: EECS 159A
+1: EECS 160A AND EECS 170C
+1: EECS 70B AND PHYSICS 7D AND PHYSICS 7E
+1: EECS 170C AND EECS 170LC
+1: EECS 70B AND EECS 170A AND EECS 170LA AND EECS 170LB
+1: EECS 70B AND EECS 170A AND PHYSICS 7D AND PHYSICS 7E
+1: EECS 170C
+1: EECS 170B AND EECS 170LB
+1: EECS 170B AND EECS 170C AND EECS 170LB
+1: EECS 170A
+1: EECS 170A AND EECS 170LA
+1: EECS 180A
+1: EECS 145 AND PHYSICS 7E
+1: EECS 180A
+1: EECS 170A
+1: EECS 12
+1: EECS 180A
+2:  Recommended: Undergraduate-level knowledge of organization of digital computers (e.g. EECS 112 and EECS 112L).
+3:  Recommended: Undergraduate-level knowledge of system software (e.g. EECS 111) and organization of digital computers (e.g. UCI EECS 112).
+1:  Recommended: Undergraduate course work in engineering data structures and algorithms.
+2:  Recommended: Undergraduate-level knowledge of organization of digital computers (e.g. EECS 112).
+1: ( EECS 10 OR EECS 20 )
+1: EECS 180B
+1:  EECS 213
+1:  EECS 211 and EECS 213
+1:  EECS 211P and EECS 213P
+1: EECS 119 AND EECS 217
+1:  EECS 215 or CS 260
+1:  EECS 213P
+2:  Recommended: Knowledge of engineering probability (e.g. EECS 55).
+1:  EECS 241AP
+1:  EECS 241A
+1:  EECS 240
+1:  EECS 241B
+1:  EECS 240
+1:  EECS 241BP
+1: EECS 22
+1:  EECS 242
+1:  EECS 148 or CS 132
+2:  Recommended: Knowledge of digital signal processing (e.g. EECS 152A).
+1:  EECS 267A
+3:  Recommended: Introductory knowledge of control systems (e.g. EECS 160A) and electronics (e.g. EECS 170C).
+1:  EECS 240
+1:  EECS 270A
+1:  EECS 270AP
+1:  EECS 270A
+1:  EECS 270A
+1:  EECS 280A
+2:  EECS 270AP. EECS 270AP with a grade of B or better
+2:  Recommended: Knowledge of engineering electromagnetics (e.g. EECS 180A).
+1:  EECS 240
+1:  EECS 280AP
+1:  Undergraduate course work in electromagnetic theory and atomic physics.
+1: ( EECS 10 OR EECS 12 OR ENGRMAE 10 OR I&C SCI 31 )
+2:  Undergraduate-level Engineering Electromagnetics I (e.g. EECS E80A).
+1: EECS 22L
+1: EECS 31 AND ( EECS 10 OR EECS 12 OR I&C SCI 32 )
+1: MATH 2D
+1: EECS 70A
+1:  Required: Knowledge of undergraduate-level basic physics.
+1: MATH 3D AND PHYSICS 7D AND ( EECS 10 OR EECS 12 OR ENGRCEE 20 OR ENGRMAE 10 OR I&C SCI 31 OR AP COMP SCI A OR AP COMP SCI AB )
+1: EECS 70A AND EECS 70B AND ( BME 60B OR EECS 10 OR EECS 12 OR ENGRCEE 20 OR ENGRMAE 10 OR I&C SCI 31 )
+1: EECS 70A AND ( BME 60B OR EECS 10 OR EECS 12 OR ENGRCEE 20 OR ENGRMAE 10 OR I&C SCI 31 )
+1: EECS 70A AND PHYSICS 7D AND ( BME 60B OR EECS 10 OR EECS 12 OR ENGRCEE 20 OR ENGRMAE 10 )
+1:  PUBH 277B or EHS 206B
+1:  EHS 206B
+1:  PUBH 277A or EHS 206A
+1: ENGLISH 15 AND ( ENGLISH 8 OR ENGLISH 9 OR ENGLISH 10 OR ENGLISH 11 OR ENGLISH 12 OR ENGLISH 16 OR ENGLISH 17 OR LIT JRN 20 OR LIT JRN 21 )
+1: ENGLISH 15 AND ( ENGLISH 8 OR ENGLISH 9 OR ENGLISH 10 OR ENGLISH 11 OR ENGLISH 12 OR ENGLISH 16 OR ENGLISH 17 OR LIT JRN 20 OR LIT JRN 21 )
+1:  MATH 2A and STAT 7
+1: ENGLISH 15 AND ( ENGLISH 8 OR ENGLISH 9 OR ENGLISH 10 OR ENGLISH 11 OR ENGLISH 12 OR ENGLISH 16 OR ENGLISH 17 OR LIT JRN 20 OR LIT JRN 21 )
+1: ENGLISH 15 AND ( ENGLISH 8 OR ENGLISH 9 OR ENGLISH 10 OR ENGLISH 11 OR ENGLISH 12 OR ENGLISH 16 OR ENGLISH 17 OR LIT JRN 20 OR LIT JRN 21 )
+1: ENGLISH 15 AND ( ENGLISH 8 OR ENGLISH 9 OR ENGLISH 10 OR ENGLISH 11 OR ENGLISH 12 OR ENGLISH 16 OR ENGLISH 17 OR LIT JRN 20 OR LIT JRN 21 )
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1: ENGLISH 15 AND ( ENGLISH 8 OR ENGLISH 9 OR ENGLISH 10 OR ENGLISH 11 OR ENGLISH 12 OR ENGLISH 16 OR ENGLISH 17 OR LIT JRN 20 OR LIT JRN 21 )
+1: ( WRITING 50 OR WRITING 39B )
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1: ( ENGLISH 101W OR WRITING 101W ) AND ( ENGLISH 100 OR ENGLISH 103 OR ENGLISH 105 OR ENGLISH 102A OR ENGLISH 102B OR ENGLISH 102C OR ENGLISH 102D )
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1: MATH 3A AND ( ENGR 30 OR ENGRCEE 30 OR ENGRMAE 30 )
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Prerequisites vary.
+1: ENGR 199 AND LOWER DIVISION WRITING
+1: PHYSICS 7C AND ( CHEM 1A OR ENGR 1A OR CHEM H2A OR AP CHEMISTRY )
+1: MATH 2D AND PHYSICS 7C
+1: ENGR 7A
+1: MATH 2D AND PHYSICS 7C
+1: MATH 3A AND ( EECS 10 OR EECS 12 OR ENGRCEE 20 OR ENGRMAE 10 OR I&C SCI 31 OR AP COMP SCI A OR AP COMP SCI AB )
+1: ENGRCEE 11
+1: MATH 3D AND ( MATH 3A OR I&C SCI 6N )
+1: ENGRCEE 11 AND ENGRCEE 81A
+1: ENGRCEE 110 AND ENGRCEE 121
+1: ENGRCEE 121
+1: ENGRCEE 11 AND ENGRCEE 121
+1: ENGRCEE 11 AND ENGRCEE 20 AND ENGRCEE 151A
+1: ( ENGR 30 OR ENGRCEE 30 OR ENGRMAE 30 )
+1: ENGRCEE 150 AND ENGRCEE 170
+1: ENGRCEE 130
+1: ENGRCEE 150 AND ( ENGR 30 OR ENGRCEE 30 OR ENGRMAE 30 )
+1: ENGRCEE 151A
+1: ( ENGRCEE 150 OR ENGRMAE 150 )
+1: ENGRCEE 151A
+1: ENGRCEE 151A
+1: ENGRCEE 130 AND ENGRCEE 151C
+1: ( CHEM 51A OR CHEM H52A ) AND ( CHEM 1B OR CHEM H2B ) AND ( CHEM 1LC OR CHEM 1LE OR CHEM H2LB OR CHEM M2LB ) AND ( CHEM 1A OR ENGR 1A OR CHEM H2A OR AP CHEMISTRY )
+1: ENGRCEE 151C
+1: ENGRCEE 160
+1: ENGRCEE 170 AND ( CHEM 1B OR CHEM H2B )
+1: ENGRCEE 160 AND ( CBE 40C OR ENGRMAE 91 )
+1: ENGRCEE 160
+1: ENGRCEE 170
+1: ( CBE 120A OR ENGRCEE 170 OR ENGRMAE 130A )
+1: ENGRCEE 160
+1: ENGRCEE 170 AND ENGRCEE 176
+1: ( ENGRCEE 170 OR ENGRMAE 130A )
+1: ( CBE 120A OR ENGRCEE 170 OR ENGRMAE 130A ) AND ( BME 60B OR ENGRCEE 20 OR ENGRMAE 10 )
+1: ENGRCEE 110 AND ENGRCEE 81A AND ENGRCEE 81B AND ( ENGRCEE 121 OR ENGRCEE 162 OR ENGRCEE 171 OR ENGRCEE 151C )
+1: MATH 2E AND ENGRCEE 20 AND PHYSICS 7C
+1: ENGRCEE 181B
+1: ENGRCEE 130 AND ENGRCEE 181A
+1: MATH 3D AND ( BME 60B OR ENGRCEE 20 ) AND ( MATH 3A OR I&C SCI 6N )
+1: MATH 3A
+1:  ENGRCEE 220A
+1:  ENGRCEE 220A
+1:  ENGRCEE 226A
+1:  ENGRCEE 223
+1:  ENGRCEE 221A
+1:  ENGRCEE 221A and ENGRCEE 228A
+1:  ENGRCEE 247 and ENGRCEE 249
+1:  ENGRCEE 229A
+1: ( ENGRCEE 263 OR ENGRCEE 265 )
+1: ( ENGR 80 OR ENGRCEE 80 OR ENGRMAE 80 )
+1: ENGRCEE 272 AND ENGRCEE 277 AND ENGRCEE 278
+1:  ENGRCEE 220A
+1:  ENGRCEE 276
+1: MATH 2D AND PHYSICS 7C
+1: ENGRMAE 278
+1: MATH 2D AND PHYSICS 7C
+1: ENGR H199 AND LOWER DIVISION WRITING AND CAMPUSWIDE HONORS ONLY
+1: ( MATH 2A OR MATH 5A OR AP CALCULUS AB OR AP CALCULUS BC OR AP CALCULUS AB SUB )
+1: ( EECS 70A OR ENGRMAE 60 )
+1: ENGRMAE 115
+1: ENGRMAE 130B
+1: ENGRMAE 135
+1: ENGRMAE 120
+1: ENGRMAE 112
+1: ( CBE 40B OR MSE 65A OR ENGRMAE 91 )
+1: ENGRMAE 115
+1: ( CBE 40B OR ENGRMAE 91 )
+1: ENGRMAE 115
+1: ENGRMAE 130B
+1: ENGRMAE 130A
+1: MATH 2D AND MATH 2E AND MATH 3D AND ENGRMAE 91 AND PHYSICS 7C AND ( ENGR 80 OR ENGRCEE 80 OR ENGRMAE 80 ) AND ( ENGR 30 OR ENGRCEE 30 OR ENGRMAE 30 )
+1: ENGRMAE 130A
+1:  ENGRMAE 130B
+1: ENGRMAE 130B
+1: ENGRMAE 52 AND ( MATH 3A OR I&C SCI 6N ) AND ( ENGR 80 OR ENGRCEE 80 OR ENGRMAE 80 )
+1: ( ENGR 80 OR ENGRCEE 80 OR ENGRMAE 80 )
+1: MATH 2E AND MATH 3D AND ( ENGR 80 OR ENGRCEE 80 OR ENGRMAE 80 )
+1:  ENGRMAE 150
+1: MATH 3A AND ( ENGR 30 OR ENGRCEE 30 OR ENGRMAE 30 )
+1: ENGRMAE 120 AND ENGRMAE 145 AND ENGRMAE 170
+1: ( ENGR 150 OR ENGRMAE 150 ) AND ( ENGR 30 OR ENGRCEE 30 OR ENGRMAE 30 )
+1: ENGRMAE 130B
+1: ENGR 54 AND ( ENGR 150 OR ENGRCEE 150 OR ENGRMAE 150 )
+1: ( ENGR 150 OR ENGRCEE 150 OR ENGRMAE 150 )
+1: ENGRMAE 120 AND ( ENGR 150 OR ENGRMAE 150 )
+1: ENGRMAE 130A
+1: ENGRMAE 112 AND ENGRMAE 136 AND ENGRMAE 158
+1:  ENGRMAE 80 or ENGRMAE 91 or ENGRMAE 107
+1: ENGRMAE 91 AND ( ENGRCEE 170 OR ENGRMAE 130A )
+1: ENGRMAE 170
+1: ENGR 54
+1: ( ENGR 80 OR ENGRCEE 80 OR ENGRMAE 80 )
+1: ( MATH 2J OR MATH 3A )
+1: ENGRMAE 60 AND ENGRMAE 170
+1: MATH 2E AND MATH 3D AND ( EECS 10 OR EECS 12 OR ENGRMAE 10 )
+1: ENGRMAE 106
+2:  ENGRMAE 200A and ENGRMAE 200B. Knowledge of linear differential equations.
+1:  Required: Undergraduate-level knowledge of applied engineering thermodynamics.
+1:  ENGRMAE 224 or ENGRMAE 230B
+1:  ENGRMAE 200A
+1:  ENGRMAE 214A
+1:  ENGRMAE 200A and (ENGRMAE 230A or ENGRMAE 270A)
+1:  Required: Knowledge of applied engineering thermodynamics.
+1:  ENGRMAE 230B
+1:  ENGRMAE 230A
+1:  ENGRMAE 214A
+1:  Undergraduate-level heat transfer is recommended.
+1:  Required: Undergraduate-level knowledge of heat transfer.
+1:  ENGRMAE 200B and ENGRMAE 230A and ENGRMAE 230B
+1:  ENGRMAE 230A or ENGRMAE 230B
+1:  ENGRMAE 230C
+1:  ENGRMAE 230A and ENGRMAE 230B
+1:  ENGRMAE 230A is recommended.
+1: ENGRMAE 203 AND ENGRMAE 230C
+1:  ENGRMAE 261 or CHEM 245 or EARTHSS 240
+1: ENGRMAE 270A
+1:  ENGRMAE 270A
+1: ENGRMAE 241 AND ENGRMAE 270A
+1: ENGRMAE 270B
+1:  ENGRMAE 200A and ENGRMAE 270A
+1:  ENGRMAE 200A and ENGRMAE 270A
+1:  ENGRMAE 200A and ENGRMAE 270A
+1:  ENGRMAE 270A and ENGRMAE 241
+1:  ENGRMAE 254
+1: MATH 3D AND PHYSICS 7D AND PHYSICS 7LD
+1: MATH 2D AND PHYSICS 7C
+2:  PUBHLTH 206A. PUBHLTH 206A with a grade of B or better
+1: MATH 2D AND PHYSICS 7C
+1: MATH 2D AND PHYSICS 7C
+1:  EPIDEM 203 or PUBHLTH 203 or PUBH 206
+3:  EPIDEM 200A and EPIDEM 200B. EPIDEM 200A with a grade of B or better. EPIDEM 200B with a grade of B or better
+1:  PUBHLTH 203 or EPIDEM 203 or PUBH 206
+2:  EPIDEM 204. EPIDEM 204 with a grade of B or better
+2:  EPIDEM 204B. EPIDEM 204B with a grade of B or better
+3:  EPIDEM 200A and EPIDEM 204A. EPIDEM 200A with a grade of B or better. EPIDEM 204A with a grade of B or better
+1:  EPIDEM 200 and EPIDEM 204
+1:  Medical degree.
+1:  Two quarters of upper-division or graduate training in statistical methods.
+1:  Advancement to candidacy.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  FIN 210. FIN 210 with a grade of C or better
+2:  FIN 249. FIN 249 with a grade of C or better
+2:  FIN 249. FIN 249 with a grade of C or better
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement. 
+2:  FLM&MDA 85A and FLM&MDA 101B. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A and FLM&MDA 85B and FLM&MDA 85C and (FLM&MDA 101A or FLM&MDA 101B or FLM&MDA 101C). Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A and FLM&MDA 85B and FLM&MDA 85C and FLM&MDA 120A and (FLM&MDA 101A or FLM&MDA 101B or FLM&MDA 101C). Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Advancement to candidacy.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 117A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 118A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 117B. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85B. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 120A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 120B. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A or FLM&MDA 85B or FLM&MDA 85C. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85C. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85B. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85B or FLM&MDA 85C. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 120A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 85A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  FLM&MDA 117A or FLM&MDA 118A. Satisfactory completion of the Lower-Division Writing requirement.
+3:  (FLM&MDA 85A and FLM&MDA 117A and FLM&MDA 117B and FLM&MDA 117C) or (FLM&MDA 120A and FLM&MDA 120B and FLM&MDA 120C). Satisfactory completion of the Lower-Division Writing requirement. Recommended: FLM&MDA 101A.
+1:  FLM&MDA 285A and FLM&MDA 285B and FLM&MDA 285C and FLM&MDA 286A and FLM&MDA 286B and FLM&MDA 286C
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  FLM&MDA 285A and FLM&MDA 285B and FLM&MDA 285C and FLM&MDA 286A and FLM&MDA 286B and FLM&MDA 286C
+1:  Satisfaction of the UC Entry Level Writing requirement. 
+1:  Satisfaction of the UC Entry Level Writing requirement.
+1:  Satisfaction of the UC Entry Level Writing requirement.
+1:  FRENCH 2C or FRENCH S2BC
+1:  FRENCH 2C or FRENCH S2BC
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+1:  FRENCH 2C or FRENCH S2BC
+1:  FLM&MDA 298
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+2:  FRENCH 100A and FRENCH 100B and FRENCH 101A and FRENCH 101B and FRENCH 101C. One course from FRENCH 101A, FRENCH 101B, or FRENCH 101C may be taken as a corequisite.
+2:  FRENCH 1A. FRENCH 1A with a grade of C or better
+1:  Two years of high school Spanish, one semester of college Spanish, or heritage speaker of Spanish. 
+4:  FRENCH 2C or FRENCH 2BC or FRENCH S2BC. FRENCH 2C with a grade of C or better. FRENCH 2BC with a grade of C or better. FRENCH S2BC with a grade of C or better
+6:  FRENCH 1ABSP or FRENCH 1AB or FRENCH S1AB or FRENCH 1B. FRENCH 1ABSP with a grade of C or better. FRENCH 1AB with a grade of C or better. FRENCH S1AB with a grade of C or better. FRENCH 1B with a grade of C or better. Two years of high school Spanish, one semester of college Spanish, or heritage speaker of Spanish. 
+1: ( FRENCH 1C OR FRENCH 1BC OR FRENCH S1BC OR FRENCH 1BCSP OR PLACEMENT EXAM or authorization )
+5:  FRENCH 1AB or FRENCH 1B or FRENCH S1AB. FRENCH 1AB with a grade of C or better. FRENCH 1B with a grade of C or better. FRENCH S1AB with a grade of C or better. Placement into FRENCH 1BC is also accepted.
+6:  FRENCH 1C or FRENCH 1BC or FRENCH S1BC. FRENCH 1C with a grade of C or better. FRENCH 1BC with a grade of C or better. FRENCH S1BC with a grade of C or better. Prior high school or college French is recommended. Placement into French 2AB is also accepted.
+5:  FRENCH S2AB or FRENCH 2AB. FRENCH S2AB with a grade of C or better. FRENCH 2AB with a grade of C or better. Prior high school or college French is recommended. Placement into French 2BC is also accepted.
+1: ( FRENCH 2B OR FRENCH S2AB )
+2:  FRENCH 1B. FRENCH 1B with a grade of C or better
+5:  FRENCH 1C or FRENCH 1BC or FRENCH S1BC. FRENCH 1C with a grade of C or better. FRENCH 1BC with a grade of C or better. FRENCH S1BC with a grade of C or better. Placement into FRENCH S2AB is also accepted.
+5:  FRENCH S1AB or FRENCH 1B or FRENCH 1AB or FRENCH 1ABSP. FRENCH S1AB with a grade of C or better. FRENCH 1B with a grade of C or better. FRENCH 1AB with a grade of C or better. FRENCH 1ABSP with a grade of C or better
+3:  FRENCH S2AB or FRENCH 2B. FRENCH S2AB with a grade of C or better. FRENCH 2B with a grade of C or better
+2:  FRENCH 2A. FRENCH 2A with a grade of C or better
+2:  GDIM 161. GDIM 161 with a grade of C or better
+2:  GDIM 27. GDIM 27 with a grade of C or better
+1:  GDIM 41
+1:  GDIM 33
+1:  GDIM 27 and GDIM 33
+3:  GDIM 27 and GDIM 33 and GDIM 51 and GDIM 61. GDIM 27 with a grade of C or better. GDIM 33 with a grade of C or better
+4:  GDIM 167A or ICS 169A. GDIM 167A with a grade of C or better. ICS 169A with a grade of C or better. In Progress grade for GDIM 167A or ICS 169A also accepted.
+2:  ICS 168 or (GDIM 131 and GDIM 161). GDIM 161 with a grade of C or better
+3:  GDIM 27 and GDIM 33 and GDIM 51 and GDIM 61. GDIM 27 with a grade of C or better. GDIM 33 with a grade of C or better
+2:  GDIM 32. GDIM 32 with a grade of C or better
+1:  GDIM 25
+1:  GDIM 31
+1:  GDIM 41 or ICS 60
+1: ( AC ENG 139W OR ART HIS 190W OR ASIANAM 100W OR COM LIT 102W OR ENGLISH 101W OR FLM&MDA 139W OR GEN&SEX 139W OR HISTORY 100W OR WOMN ST 139W OR WRITING 101W OR WRITING 139W OR LIT JRN 101BW )
+2:  GERMAN 2C. GERMAN 2C with a grade of C or better
+1: GEN&SEX 200A
+2:  GERMAN 2C. GERMAN 2C with a grade of C or better
+2:  GERMAN 2C. GERMAN 2C with a grade of C or better
+2:  GERMAN 2C. GERMAN 2C with a grade of C or better
+1:  GERMAN 101 or GERMAN 102 or GERMAN 103 or GERMAN 104 or GERMAN 105
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  GERMAN 2C. GERMAN 2C with a grade of C or better
+1:  GERMAN 101 or GERMAN 102 or GERMAN 103 or GERMAN 104 or GERMAN 105
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  GERMAN 2C
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+5:  GERMAN 1AB or GERMAN 1B or GERMAN S1AB. GERMAN 1AB with a grade of C or better. GERMAN 1B with a grade of C or better. GERMAN S1AB with a grade of C or better. Placement into GERMAN 1BC is also accepted.
+1: ( GERMAN 1B OR GERMAN 1SAB )
+3:  GERMAN 1A. GERMAN 1A with a grade of C or better. Placement into GERMAN 1B is also accepted.
+5:  GERMAN 1BC or GERMAN 1C or GERMAN S1BC. GERMAN 1BC with a grade of C or better. GERMAN 1C with a grade of C or better. GERMAN S1BC with a grade of C or better. Placement into GERMAN 2A is also accepted.
+1:  Placement into GERMAN 1AB.
+3:  GERMAN 2A. GERMAN 2A with a grade of C or better. Placement into GERMAN 2B is also accepted.
+1: ( GERMAN 2B OR GERMAN S2AB )
+5:  GERMAN 1AB or GERMAN 1B or GERMAN S1AB. GERMAN 1AB with a grade of C or better. GERMAN 1B with a grade of C or better. GERMAN S1AB with a grade of C or better. Placement into GERMAN S1BC is also accepted.
+1: GLBLCLT 103A AND GLBLCLT 103B AND UPPER DIVISION STANDING ONLY
+2:  GLBL ME 60A or GLBL ME 60B or GLBL ME 60C. Satisfactory completion of the Lower-Division Writing requirement.
+1: ( GREEK 1C OR PLACEMENT EXAM or authorization )
+1: ( GREEK 100 OR GREEK 100A OR GREEK 100B )
+1:  GREEK 100
+2:  GREEK 1A. GREEK 1A with a grade of C or better
+1:  GERMAN 2C
+1: PLACEMENT EXAM or authorization
+2:  GREEK 1B. GREEK 1B with a grade of C or better
+2:  HISTORY 12 or HISTORY 15A or HISTORY 15C or HISTORY 15D or HISTORY 16A or HISTORY 16B or HISTORY 16C or HISTORY 18A or HISTORY 21A or HISTORY 21B or HISTORY 21C or HISTORY 40A or HISTORY 40B or HISTORY 40C or HISTORY 60 or HISTORY 70A or HISTORY 70B or HISTORY 70C or HISTORY 70D or HISTORY 70E or HISTORY 70F. Satisfactory completion of the Lower-Division Writing requirement.
+2:  HISTORY 193. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfaction of the UC Entry Level Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  HISTORY 202A
+1:  Satisfaction of the UC Entry Level Writing requirement.
+1:  HISTORY 204A
+1:  Satisfaction of the UC Entry Level Writing requirement.
+1: HUMAN 1A AND ( ENTRY LEVEL WRITING OR PLACEMENT EXAM or authorization ) AND LOWER DIVISION STANDING ONLY
+1: HUMAN 1B AND HUMAN 1AES AND LOWER DIVISION STANDING ONLY
+1: HUMAN 1B AND ( ENTRY LEVEL WRITING OR PLACEMENT EXAM or authorization ) AND LOWER DIVISION STANDING ONLY
+1: HUMAN 1C AND ( HUMAN 1AS OR HUMAN 1BS OR HUMAN 1AES OR HUMAN 1BES OR HUMAN H1AS OR HUMAN H1BS ) AND LOWER DIVISION STANDING ONLY
+1:  HUMAN 1A or HUMAN 1B
+1: HUMAN 1A AND LOWER DIVISION STANDING ONLY
+1:  HUMAN 265B
+1:  HUMAN 265A
+1:  CRM/LAW C260C
+1:  Students should have taken introductory courses before enrolling in these seminars.
+1: HUMAN 1A AND ( ENTRY LEVEL WRITING OR PLACEMENT EXAM or authorization ) AND LOWER DIVISION STANDING ONLY AND CAMPUSWIDE HONORS ONLY
+1:  HUMAN H140
+1: HUMAN 1B AND ( ENTRY LEVEL WRITING OR PLACEMENT EXAM or authorization ) AND LOWER DIVISION STANDING ONLY AND CAMPUSWIDE HONORS ONLY
+7:  HUMAN 1AS or HUMAN H1AS or HUMAN 1AES or HUMAN 1BS or HUMAN H1BS or HUMAN 1BES. HUMAN 1AS with a grade of C or better. HUMAN H1AS with a grade of C or better. HUMAN 1AES with a grade of C or better. HUMAN 1BS with a grade of C or better. HUMAN H1BS with a grade of C or better. HUMAN 1BES with a grade of C or better
+1:  HUMAN H141
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  I&C SCI 33 and (I&C SCI 6N or MATH 3A) and I&C SCI 61
+1:  I&C SCI 61 and (I&C SCI 10 or I&C SCI 31 or I&C SCI 32A)
+1:  I&C SCI 45C or CSE 45C or GDIM 32
+1:  I&C SCI 51 or GDIM 31
+3:  GDIM 27 and GDIM 33 and GDIM 51 and GDIM 61. GDIM 27 with a grade of C or better. GDIM 33 with a grade of C or better
+4:  GDIM 167A or I&C SCI 169A. GDIM 167A with a grade of C or better. I&C SCI 169A with a grade of C or better. In Progress grade for GDIM 167A or I&C SCI 169A also accepted.
+2:  I&C SCI 168 or (GDIM 131 and GDIM 161). GDIM 161 with a grade of C or better
+1:  I&C SCI 61 or GDIM 25
+1: ( CSE 41 OR I&C SCI 31 ) AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+4:  I&C SCI 32 or CSE 42 or I&C SCI 32A. I&C SCI 32 with a grade of C or better. CSE 42 with a grade of C or better. I&C SCI 32A with a grade of C or better
+4:  I&C SCI 33 or CSE 43 or EECS 40. I&C SCI 33 with a grade of C or better. CSE 43 with a grade of C or better. EECS 40 with a grade of C or better
+1:  I&C SCI 398A
+1: AP COMP SCI A AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+3:  CSE 45C or I&C SCI 45C. CSE 45C with a grade of C or better. I&C SCI 45C with a grade of C or better
+3:  I&C SCI 46 and I&C SCI 51. I&C SCI 46 with a grade of C or better. I&C SCI 51 with a grade of C or better
+3:  I&C SCI 33 or CSE 43. I&C SCI 33 with a grade of C or better. CSE 43 with a grade of C or better
+1:  I&C SCI 33 and I&C SCI 6B
+1: ( CSE 41 OR I&C SCI 31 OR I&C SCI 32A )
+1:  High school mathematics through trigonometry.
+1: I&C SCI 6B AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+2:  I&C SCI 31 or I&C SCI 32A or AP Computer Science A. AP Computer Science A with a minimum score of 3
+3:  MATH 2A or AP Calculus AB or AP Calculus BC. AP Calculus AB with a minimum score of 4. AP Calculus BC with a minimum score of 3
+6:  (I&C SCI 51 or CSE 31 or EECS 31) and (I&C SCI 46 or CSE 46). I&C SCI 51 with a grade of C or better. CSE 31 with a grade of C or better. EECS 31 with a grade of C or better. I&C SCI 46 with a grade of C or better. CSE 46 with a grade of C or better
+1:  Prerequisites vary. 
+1: I&C SCI 51 AND I&C SCI 53
+4:  (I&C SCI 33 or CSE 43) and IN4MATX 43. I&C SCI 33 with a grade of C or better. CSE 43 with a grade of C or better. IN4MATX 43 with a grade of C or better
+6:  (I&C SCI 45J or I&C SCI 45C or I&C SCI 46 or CSE 46) and IN4MATX 43. I&C SCI 45J with a grade of C or better. I&C SCI 45C with a grade of C or better. I&C SCI 46 with a grade of C or better. CSE 46 with a grade of C or better. IN4MATX 43 with a grade of C or better
+1:  IN4MATX 101 or COMPSCI 141 or CSE 141
+3:  I&C SCI 33 or CSE 43. I&C SCI 33 with a grade of C or better. CSE 43 with a grade of C or better
+1:  (IN4MATX 43 and I&C SCI 33) or CSE 43
+1:  (I&C SCI 45J or I&C SCI 46 or IN4MATX 45) and (IN4MATX 101 or COMPSCI 141 or CSE 141)
+1:  (COMPSCI 132 or EECS 148) and I&C SCI 45J
+1:  COMPSCI 112 or COMPSCI 171 or IN4MATX 121 or ART 106B or I&C SCI 163 or I&C SCI 166
+8:  I&C SCI 10 or I&C SCI 31 or I&C SCI 32A or CSE 41 or ENGR 10 or ENGRMAE 10 or EECS 10. I&C SCI 10 with a grade of C or better. I&C SCI 31 with a grade of C or better. I&C SCI 32A with a grade of C or better. CSE 41 with a grade of C or better. ENGR 10 with a grade of C or better. ENGRMAE 10 with a grade of C or better. EECS 10 with a grade of C or better
+1:  IN4MATX 131 and IN4MATX 133
+3:  I&C SCI 45J or I&C SCI 45C. I&C SCI 45J with a grade of C or better. I&C SCI 45C with a grade of C or better
+6:  (IN4MATX 131 or IN4MATX 43) and (I&C SCI 31 or I&C SCI 32A or CSE 41). IN4MATX 131 with a grade of C or better. IN4MATX 43 with a grade of C or better. I&C SCI 31 with a grade of C or better. I&C SCI 32A with a grade of C or better. CSE 41 with a grade of C or better
+1:  IN4MATX 131
+1: ( I&C SCI 45C OR I&C SCI 45J ) AND ( STATS 7 OR STATS 67 OR AP STATISTICS )
+5:  I&C SCI 10 or I&C SCI 31 or CSE 41 or I&C SCI 32A. I&C SCI 10 with a grade of C or better. I&C SCI 31 with a grade of C or better. CSE 41 with a grade of C or better. I&C SCI 32A with a grade of C or better
+1:  IN4MATX 43
+9:  I&C SCI 10 or I&C SCI 31 or I&C SCI 32A or CSE 41 or ENGR 10 or EECS 10 or ENGRMAE 10. I&C SCI 10 with a grade of C or better. I&C SCI 31 with a grade of C or better. I&C SCI 32A with a grade of C or better. CSE 41 with a grade of C or better. ENGR 10 with a grade of C or better. EECS 10 with a grade of C or better. ENGRMAE 10 with a grade of C or better. Satisfactory completion of the Lower-Division Writing requirement.
+4:  (IN4MATX 161 or IN4MATX 43) and (I&C SCI 31 or I&C SCI 32A or CSE 41). I&C SCI 31 with a grade of C or better. I&C SCI 32A with a grade of C or better. CSE 41 with a grade of C or better
+2:  IN4MATX 161. Satisfactory completion of the Lower-Division Writing requirement.
+1:  PUBHLTH 105 or IN4MATX 171
+1:  IN4MATX 162W
+1: ( HUMAN 1C OR HUMAN H1C OR WRITING 30 OR WRITING 31 OR WRITING 60 OR WRITING 39C ) AND UPPER DIVISION STANDING ONLY
+1:  Prerequisites vary.
+2:  IN4MATX 171. IN4MATX 171 with a grade of C or better
+1:  IN4MATX 113 and IN4MATX 121 and IN4MATX 131 and IN4MATX 151
+2:  IN4MATX 191A. In Progress (IP) grade for IN4MATX 191A is also accepted.
+2:  IN4MATX 251 or IN4MATX 261. Basic knowledge of elementary statistics is also required.
+1:  IN4MATX 261 or IN4MATX 251
+2:  IN4MATX 171. IN4MATX 171 with a grade of C or better
+2:  I&C SCI 51 and COMPSCI 152 and COMPSCI 161 and (I&C SCI 6N or MATH 3A or MATH 6G or I&C SCI 6D). B.S. degree in Computer Science is also accepted.
+1:  IN4MATX 251 or IN4MATX 261
+1:  Some familiarity with HCI principles.
+1:  IN4MATX 231 and IN4MATX 241
+1:  IN4MATX 280
+1:  IN4MATX 251 or IN4MATX 261
+1:  IN4MATX 280
+1:  IN4MATX 251 or IN4MATX 261
+1:  IN4MATX 282
+1:  IN4MATX 280
+1:  IN4MATX 280
+1:  IN4MATX 283 and IN4MATX 284
+1:  IN4MATX 280
+1:  IN4MATX 287
+1:  Prerequisites vary.
+1: ( CSE 42 OR I&C SCI 32 OR I&C SCI 32A ) AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  POL SCI 71A
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  POL SCI 41A or INTL ST 11 or INTL ST 12 or REL STD 5A or REL STD 5B or REL STD 5C
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Two years of high school Spanish, one semester of college Spanish, or heritage speaker of Spanish.
+1:  Background in Art History or Legal Studies.
+1: ( ITALIAN 1A OR PLACEMENT EXAM or authorization )
+6:  ITALIAN 1ABSP or ITALIAN 1AB or ITALIAN S1AB or ITALIAN 1B. ITALIAN 1ABSP with a grade of C or better. ITALIAN 1AB with a grade of C or better. ITALIAN S1AB with a grade of C or better. ITALIAN 1B with a grade of C or better. Two years of high school Spanish, one semester of college Spanish, or heritage speaker of Spanish.
+1: ( ITALIAN 1C OR ITALIAN 1BC OR ITALIAN S1BC OR ITALIAN 1BCSP OR PLACEMENT EXAM or authorization )
+1: ( ITALIAN 1B OR ITALIAN 1AB OR ITALIAN S1AB OR PLACEMENT EXAM or authorization )
+5:  ITALIAN 1AB or ITALIAN S1AB or ITALIAN 1B. ITALIAN 1AB with a grade of C or better. ITALIAN S1AB with a grade of C or better. ITALIAN 1B with a grade of C or better. Placement into ITALIAN 1BC is also accepted.
+1: ( ITALIAN 2B OR PLACEMENT EXAM or authorization )
+3:  ITALIAN 2A. ITALIAN 2A with a grade of C or better. Placement into ITALIAN 2B is also accepted.
+1:  JAPANSE 3C
+2:  JAPANSE 3C. JAPANSE 3C with a grade of C or better
+2:  JAPANSE 100A. JAPANSE 100A with a grade of C or better
+2:  JAPANSE 3C. JAPANSE 3C with a grade of C or better
+1: PLACEMENT EXAM or authorization
+1:  JAPANSE 3C
+1:  JAPANSE 101A or JAPANSE 101B or JAPANSE 101C
+1: ( JAPANSE 1A OR JAPANSE S1AB OR PLACEMENT EXAM or authorization )
+4:  JAPANSE 1B or JAPANSE S1AB. JAPANSE 1B with a grade of C or better. JAPANSE S1AB with a grade of C or better. Placement into JAPANSE 1C is also accepted.
+1:  JAPANSE 101C
+1:  JAPANSE 100B
+1:  JAPANSE 100B
+1:  JAPANSE 100B
+1:  JAPANSE 101C
+1:  JAPANSE 100B and JAPANSE 211A
+1:  JAPANSE 100B
+1:  JAPANSE 100B
+1:  JAPANSE 203
+1:  JAPANSE 203 and JAPANSE 213A
+1:  JAPANSE 203
+1:  JAPANSE 212A
+1:  JAPANSE 101C
+4:  JAPANSE 1C or JAPANSE S1BC. JAPANSE 1C with a grade of C or better. JAPANSE S1BC with a grade of C or better. Placement into JAPANSE 2A is also accepted.
+1: ( JAPANSE 2C OR JAPANSE S2BC )
+4:  JAPANSE 2B or JAPANSE S2AB. JAPANSE 2B with a grade of C or better. JAPANSE S2AB with a grade of C or better. Placement into JAPANSE 2C is also accepted.
+3:  JAPANSE 3B. JAPANSE 3B with a grade of C or better. Placement into JAPANSE 3C is also accepted.
+1: ( JAPANSE 2A OR PLACEMENT EXAM or authorization )
+1: ( JAPANSE 3A OR PLACEMENT EXAM or authorization )
+4:  JAPANSE S1AB or JAPANSE 1B. JAPANSE S1AB with a grade of C or better. JAPANSE 1B with a grade of C or better. Placement into JAPANSE 1C is also accepted.
+1: PLACEMENT EXAM or authorization
+4:  JAPANSE S2AB or JAPANSE 2B. JAPANSE S2AB with a grade of C or better. JAPANSE 2B with a grade of C or better. Placement into JAPANSE 2C is also accepted.
+1:  KOREAN 101A or KOREAN 101B or KOREAN 101C
+4:  JAPANSE 1C or JAPANSE S1BC. JAPANSE 1C with a grade of C or better. JAPANSE S1BC with a grade of C or better. Placement into JAPANSE 2A is also accepted.
+4:  KOREAN 3A or KOREAN 3B or KOREAN 3C. KOREAN 3A with a grade of C or better. KOREAN 3B with a grade of C or better. KOREAN 3C with a grade of C or better
+1: ( KOREAN 1A OR PLACEMENT EXAM or authorization )
+1: PLACEMENT EXAM or authorization
+4:  KOREAN 1B or KOREAN S1AB. KOREAN 1B with a grade of C or better. KOREAN S1AB with a grade of C or better. Placement into KOREAN 1C is also accepted.
+1: ( KOREAN 1KA OR PLACEMENT EXAM or authorization )
+1: ( KOREAN 1KB OR PLACEMENT EXAM or authorization )
+1: ( KOREAN 1C OR KOREAN S1BC OR PLACEMENT EXAM or authorization )
+1: PLACEMENT EXAM or authorization
+1: ( KOREAN 2A OR PLACEMENT EXAM or authorization )
+1: ( KOREAN 1KC OR KOREAN S1BC OR PLACEMENT EXAM or authorization )
+1: ( KOREAN 2KA OR PLACEMENT EXAM or authorization )
+1: ( KOREAN 2KB OR PLACEMENT EXAM or authorization )
+1: ( KOREAN 2C OR KOREAN 2KC OR KOREAN S2BC OR PLACEMENT EXAM or authorization )
+1: ( KOREAN 2C OR KOREAN 3A OR KOREAN 2KC OR KOREAN S2BC OR PLACEMENT EXAM or authorization )
+7:  KOREAN 2C or KOREAN 2KC or KOREAN S2BC or KOREAN 3A or KOREAN 3B. KOREAN 2C with a grade of C or better. KOREAN 2KC with a grade of C or better. KOREAN S2BC with a grade of C or better. KOREAN 3A with a grade of C or better. KOREAN 3B with a grade of C or better. Placement into KOREAN 3C is also accepted.
+1: ( KOREAN 1B OR KOREAN 1KB OR KOREAN S1AB OR PLACEMENT EXAM or authorization )
+1: PLACEMENT EXAM or authorization
+1: ( KOREAN 2B OR PLACEMENT EXAM or authorization )
+1: ( LATIN 1C OR PLACEMENT EXAM or authorization )
+1:  LATIN 100
+1: ( LATIN 100 OR LATIN 100A OR LATIN 100B )
+2:  LATIN 1A. LATIN 1A with a grade of C or better
+1:  LIT JRN 21
+2:  LATIN 1B. LATIN 1B with a grade of C or better
+1:  LIT JRN 21 and LIT JRN 20 and (COM LIT 60A or COM LIT 60C or ENGLISH 8 or ENGLISH 9 or ENGLISH 10 or ENGLISH 11 or ENGLISH 12 or ENGLISH 15 or ENGLISH 16 or ENGLISH 17)
+2:  LIT JRN 101A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  PSYCH 56L or LINGUIS 51
+1:  Satisfactory completion of lower-division writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  LSCI 145B or LPS 105B or PHIL 105B
+1:  LSCI 145A or LPS 105A or PHIL 105A
+1:  MATH 2D and (MATH 3A or MATH 6G)
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  MATH 2D and (MATH 3A or MATH 6G)
+1:  PHIL 205A or LPS 205A
+1:  PHIL 105B or LPS 105B
+1:  PHIL 205B or LPS 205B
+1: LPS 205C AND PHILOS 205C AND SOC SCI 205C
+3:  (ICS 46 or CSE 46) and MATH 2B and ICS 6B and ICS 6D. ICS 46 with a grade of C or better. CSE 46 with a grade of C or better
+1: ( LING 3 OR LSCI 3 )
+2:  LSCI 151. LSCI 151 with a grade of A- or better
+1:  PSYC 150 or LSCI 155 or PSYC 156A or LSCI 151
+1:  LSCI 3
+1: LSCI 3
+1: LSCI 10
+1:  Prerequisites vary.
+1:  Prerequisites vary.
+1:  LSCI 20
+1:  Prerequisites vary.
+1:  LSCI 145A or LPS 105A or PHIL 105A
+5:  LPS 30 or PHIL 30 or LPS 104 or PHIL 104. LPS 30 with a grade of A- or better. PHIL 30 with a grade of A- or better. LPS 104 with a grade of A- or better. PHIL 104 with a grade of A- or better
+2:  LSCI 151 or PSYC 156A. Placement via consent of the instructor is also accepted.
+1:  Prerequisites vary.
+1:  LSCI 145B or LPS 105B or PHIL 105B
+1:  PSYC 7A or PSCI 9 or PSYC 9B or PSCI 11B or LSCI 3
+1:  (PSYC 7A or PSB 9 or PSYC 9A or PSB 11A) and (PSYC 9B or PSB 11B or BIOL 35 or BIOL N110 or BIOL N115A)
+1:  Prerequisites vary.
+1:  LSCI 3 or SPAN 113B
+2:  PSYC 156A. PSYC 156A with a grade of A- or better
+1:  FREN 1C
+1:  Prerequisites vary.
+1: ( LSCI 3 OR LINGUIS 3 OR SPANISH 113A )
+1:  Prerequisites vary.
+1:  LSCI 3
+1:  Prerequisites vary.
+2:  Permission of faculty advisor. If this is not the same faculty member as the course instructor, the faculty advisor will coordinate with the course instructor when it comes to assessing the student’s research process at the end of each quarter.
+2:   Permission of faculty advisor. If this is not the same faculty member as the course instructor, the faculty advisor will coordinate with the course instructor when it comes to assessing the student’s research process at the end of each quarter.
+2:  Permission of faculty advisor. If this is not the same faculty member as the course instructor, the faculty advisor will coordinate with the course instructor when it comes to assessing the student’s research process at the end of each quarter.
+1:  LSCI 202A
+1:  Prerequisites vary.
+1: ( LING 3 OR LSCI 3 OR LINGUIS 3 )
+4:  LSCI 202A and LSCI 202B and LSCI 202C. LSCI 202A with a grade of B or better. LSCI 202B with a grade of B or better. LSCI 202C with a grade of B or better
+2:  LSCI 251. LSCI 251 with a grade of B- or better
+1:  Prerequisites vary.
+1:  LSCI 202B
+1:  Prerequisites vary.
+1:  Prerequisites vary.
+1: LSCI 3
+1:  M&MG 200A
+1:  Prerequisites vary.
+1:  Prerequisites vary.
+1:  M&MG 200B
+1:  M&MG 201A
+1:  M&MG 203B
+1:  M&MG 203B
+1:  M&MG 201B
+1:  M&MG 205C
+1:  M&MG 205A
+2:  PHYSIO 215. PHYSIO 215 with a grade of B+ or better
+1:  (MATH 2D or MATH H2D) and (MATH 3A or MATH H3A) and MATH 9
+1:  M&MG 210A
+1:  M&MG 215
+1:  (MATH 3A or MATH H3A) and MATH 9
+1: MATH 105A AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  MATH 3D and MATH 105B
+1: MATH 105B AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1: MATH 107 AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  MATH 105A
+1:  (MATH 2D or MATH H2D) and MATH 10 and MATH 121B
+2:  MATH 110A. MATH 110A with a grade of C- or better
+1:  MATH 112A
+1:  (MATH 2E or MATH H2E) and MATH 3D
+2:  MATH 2B or MATH 5B or MATH 7B or AP Calculus BC. AP Calculus BC with a minimum score of 4
+2:  MATH 2B or MATH 5B or MATH 7B or AP Calculus BC. AP Calculus BC with a minimum score of 4
+1:  MATH 112B
+1:  MATH 3D and MATH 140A
+1:  MATH 112A
+1:  MATH 3D and MATH 140A
+2:  (MATH 3A or MATH H3A) and MATH 13. MATH 13 with a grade of C- or better
+2:  (MATH 3A or MATH H3A) and MATH 13. MATH 13 with a grade of C- or better
+1:  MATH 120B
+2:  MATH 120A. MATH 120A with a grade of C- or better
+1: ( MATH 2A OR MATH 5A OR MATH 7A OR I&C SCI 6D OR AP CALCULUS AB OR AP CALCULUS BC OR AP CALCULUS AB SUB ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  MATH 3A or MATH H3A
+2:  MATH 121A. MATH 121A with a grade of C- or better
+1:  MATH 130A or STAT 120A
+1:  MATH 130B
+1:  MATH 130A or STAT 120A
+1:  MATH 134B or MATH 133A
+1: ( MATH 133C OR MATH 134A ) AND NO MATH 133A AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+2:  (MATH 2D or MATH H2D) and (MATH 3A or MATH H3A) and MATH 13. MATH 13 with a grade of C- or better
+2:  MATH 140A. MATH 140A with a grade of C- or better
+1:  MATH 140A
+4:  MATH 13 or (ICS 6B and ICS 6D). MATH 13 with a grade of C- or better. ICS 6B with a grade of C- or better. ICS 6D with a grade of C- or better
+1:  MATH 140B
+1:  MATH 140B
+4:  MATH 13 or (ICS 6B and ICS 6D). MATH 13 with a grade of C- or better. ICS 6B with a grade of C- or better. ICS 6D with a grade of C- or better
+2:  (MATH 2B or MATH 5B or MATH 7B or AP Calculus BC) and (MATH 3A or MATH H3A) and (MATH 13 or (ICS 6B and ICS 6D)). AP Calculus BC with a minimum score of 4
+2:  MATH 162A. MATH 162A with a grade of C- or better
+1:  MATH 173A
+1:  (MATH 2E or MATH H2E) and MATH 3D
+3:  (MATH 2B or MATH 5B or MATH 7B or AP Calculus BC) and MATH 13. AP Calculus BC with a minimum score of 4. MATH 13 with a grade of C- or better
+1:  MATH 180A
+2:  (MATH 3A or MATH H3A) and MATH 13. MATH 13 with a grade of C- or better
+1:  MATH 3A or MATH H3A
+1:  PS 5
+1:  MATH 120A and MATH 140A
+5:  MATH 120A or MATH 121A or MATH 140A. MATH 120A with a grade of C- or better. MATH 121A with a grade of C- or better. MATH 140A with a grade of C- or better. Satisfactory completion of the Lower-Division Writing requirement.
+1: ( MATH 1A OR SAT MATH >= 450 OR PLACEMENT EXAM or authorization ) AND NO MATH 2A AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  Recommended: MATH 2E and MATH 3A and MATH 13, or equivalent.
+1:  MATH 205A
+1:  Recommended: MATH 140C or equivalent.
+1:  MATH 210B
+1:  MATH 210A
+1:  MATH 205B
+1:  Recommended: MATH 210C
+1:  Recommended: MATH 140C and MATH 121B, or equivalent.
+1:  MATH 218A
+1:  Recommended: MATH 140C or equivalent.
+1:  MATH 220A
+1:  MATH 220B
+1:  MATH 220C
+1:  MATH 218B
+1:  Recommended: MATH 3D and MATH 105B and MATH 140A and MATH 121A and MATH 112A, or equivalent.
+1:  Recommended: MATH 3D and MATH 112A and (MATH 140B or MATH 105B), or equivalent.
+1:  Recommended: MATH 3D and MATH 105B and MATH 140A and MATH 121A and MATH 112A, or equivalent.
+1:  Recommended: MATH 3D and MATH 112A and (MATH 140B or MATH 105B), or equivalent.
+1:  MATH 225A
+1:  Recommended: MATH 3D and MATH 112A and (MATH 140B or MATH 105B), or equivalent.
+1:  Recommended: MATH 2A and MATH 2B and MATH 3A, or equivalent.
+1:  MATH 227A
+1:  Recommended: MATH 120A and MATH 121A and MATH 120B, or equivalent.
+1:  MATH 227A
+1:  MATH 230B
+1:  MATH 230C
+1:  MATH 232A
+1:  MATH 232B
+1:  MATH 233A
+1:  MATH 230C
+1:  MATH 233B
+1:  MATH 230A
+1:  MATH 230C
+1:  MATH 230C
+1:  MATH 220C and MATH 230C
+1:  MATH 230C
+1:  MATH 230C
+1:  MATH 218A
+1:  MATH 239A
+1:  MATH 240A
+1:  MATH 240B
+1:  MATH 218A
+1:  MATH 239B
+1:  MATH 245B
+1:  Recommended: MATH 120B and MATH 141, or equivalent.
+1:  MATH 250B
+1:  MATH 250A
+1:  MATH 210C and MATH 220C
+1:  MATH 260B
+1:  MATH 260A
+1:  MATH 270A
+2:  MATH 210C. Recommended: MATH 130C or equivalent.
+1:  MATH 245A
+1:  MATH 210C
+1:  MATH 271B
+1:  MATH 270B
+1:  Recommended: MATH 270C.
+1:  Recommended: MATH 150.
+1:  MATH 280A
+1:  MATH 280B
+1:  MATH 281B
+1:  MATH 271A
+1:  MATH 281A
+1:  MATH 282B
+1:  MATH 290B
+2:  MATH 210C. Recommended: MATH 112B and MATH 112C or equivalent.
+1:  MATH 282A
+1:  MATH 295B
+1:  MATH 295A
+1:  MATH 298A
+1:  MATH 295C
+1:  MATH 290A
+1:  MATH 298B
+1:  MATH 299B
+1: ( MATH 1B OR ACT MATH >= 29 OR AP CALCULUS AB OR SAT MATH >= 650 OR AP CALCULUS AB SUB OR PLACEMENT EXAM or authorization ) AND NO AP CALCULUS AB score of 4 or greater AND NO AP CALCULUS BC score of 3 or greater AND NO MATH 5A AND NO MATH 7A AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  MATH 299A
+2:  MATH 2B or MATH 5B or MATH 7B or AP Calculus BC. AP Calculus BC with a minimum score of 4
+3:  MATH 2A or MATH 5A or MATH 7A or AP Calculus AB or AP Calculus BC. AP Calculus AB with a minimum score of 4. AP Calculus BC with a minimum score of 3
+1:  (MATH 3A or MATH H3A) and (MATH 2D or MATH H2D)
+1:  MATH 2D or MATH H2D
+2:  MATH 2B or MATH 5B or MATH 7B or AP Calculus BC. AP Calculus BC with a minimum score of 4
+1: ( MATH 1B OR ACT MATH >= 29 OR AP CALCULUS AB OR SAT MATH >= 650 OR AP CALCULUS AB SUB OR PLACEMENT EXAM or authorization ) AND NO MATH 2A AND NO MATH 7A AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+3:  MATH 2A or MATH 5A or AP Calculus AB or AP Calculus BC or MATH 7A. AP Calculus AB with a minimum score of 4. AP Calculus BC with a minimum score of 3
+6:  MATH 1B or AP Calculus AB or SAT Mathematics or ACT Mathematics. MATH 1B with a grade of C- or better. AP Calculus AB with a minimum score of 3. SAT Mathematics with a minimum score of 650. ACT Mathematics with a minimum score of 29. Placement via the Calculus Placement exam (fee required) is also accepted.
+3:  MATH 2A or MATH 5A or MATH 7A or AP Calculus AB or AP Calculus BC. AP Calculus AB with a minimum score of 4. AP Calculus BC with a minimum score of 3
+1: ( MATH 2A OR MATH 5A OR MATH 7A OR AP CALCULUS AB OR AP CALCULUS BC OR AP CALCULUS AB SUB ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1: ( MATH 2A OR MATH 5A OR MATH 7A OR AP CALCULUS AB OR AP CALCULUS BC OR AP CALCULUS AB SUB ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+4:  (MATH 3A or MATH H3A) and MATH 13 and (MATH 120A or MATH 121A). MATH 13 with a grade of A or better. MATH 120A with a grade of A or better. MATH 121A with a grade of A or better
+1:  MATH H120A
+1: MATH 13 AND MATH 121A AND MATH 140A AND MATH 140B AND ( MATH 3A OR MATH H3A ) AND ( MATH 2E OR MATH H2E ) AND ( NO REPEATS ALLOWED IF GRADE = F OR BETTER )
+1:  MATH H120B
+2:  MATH H140B. MATH H140B with a grade of C- or better
+7:  MATH 2B or MATH 5B or MATH 7B or (AP Calculus BC and (MATH H3A or MATH 3A)). MATH 2B with a grade of A or better. MATH 5B with a grade of A or better. MATH 7B with a grade of A or better. AP Calculus BC with a minimum score of 5. MATH H3A with a grade of B- or better. MATH 3A with a grade of A or better
+2:  MATH H140A. MATH H140A with a grade of C- or better
+5:  MATH 2B or MATH 5B or MATH 7B or AP Calculus BC. MATH 2B with a grade of A or better. MATH 5B with a grade of A or better. MATH 7B with a grade of A or better. AP Calculus BC with a minimum score of 5
+2:  MED HUM 1 or MED HUM 3 or GEN&SEX 60A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  MATH H2D. MATH H2D with a grade of B- or better
+1: ( ECON 25 OR MGMT 30A ) AND ( MATH 2B OR AP CALCULUS BC )
+1:  MGMT 1
+1: ( MATH 7 OR MGMT 7 OR STATS 7 OR ECON 15A OR ECON 15B OR AP STATISTICS )
+1:  MGMT 102
+1: MGMT 102
+1:  MGMT 102 and MGMT 105 and MGMT 109
+1:  (MGMT 30A or ECON 25) and MGMT 30B
+1:  MGMT 131A
+1:  MGMT 102
+1:  MGMT 131B
+1:  MGMT 30B
+1:  MGMT 132A
+1: MGMT 102
+1:  MGMT 30B
+1:  MGMT 131B
+1:  MGMT 109
+1:  MGMT 131B
+1:  MGMT 30B
+1:  MGMT 109 and (ECON 20A or MGMT 4A) and (ECON 20B or MGMT 4B)
+1: MGMT 105
+1:  MGMT 109 and MGMT 141
+1: MGMT 105
+1: MGMT 105
+1:  MGMT 105
+1:  MGMT 109 and MGMT 141
+1:  MGMT 105
+1:  Recommended: Previous experience with programming languages (preferably Python).
+1:  MGMT 105
+1:  MGMT 105
+1:  MGMT 107
+1:  MGMT 107
+1:  MGMT 107
+1: MGMT 105
+1:  MGMT 101
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  MGMT 101
+1:  MGMT 30A and MGMT 30B
+1: ( ECON 25 OR MGMT 30A )
+1:  MGMT 101
+2:  MGMT EP 203A. MGMT EP 203A with a grade of C or better
+2:  MGMT EP 204A. MGMT EP 204A with a grade of C or better
+5:  MGMT EP 200 and MGMT EP 202 and MGMT EP 205 and MGMT EP 209A. MGMT EP 200 with a grade of C or better. MGMT EP 202 with a grade of C or better. MGMT EP 205 with a grade of C or better. MGMT EP 209A with a grade of C or better
+3:  MGMT FE 203A or MGMTMBA 203A. MGMT FE 203A with a grade of C or better. MGMTMBA 203A with a grade of C or better
+4:  MGMT EP 201A and MGMT EP 203A and MGMT EP 204A. MGMT EP 201A with a grade of C or better. MGMT EP 203A with a grade of C or better. MGMT EP 204A with a grade of C or better
+1:  MGMT FE 204A or MGMTMBA 204A
+1:  MGMT FE 201A and MGMT FE 203A and MGMT FE 204A
+1:  MGMT 4A or ECON 20A
+1:  MGMT FE 200 and MGMT FE 202 and MGMT FE 205 and MGMT FE 209A
+1: ( MGMT FE 209A OR MGMTMBA 209A ) AND ( ADMIN - FULLY EMPLYD MAJORS ONLY OR BUSINESS ADMIN MAJORS ONLY OR DIGITAL LEADERSHIP MAJORS ONLY OR BIOTECHNOLOGY MGMT MAJORS ONLY OR ADMIN - EXECUTIVE MAJORS ONLY )
+1:  MGMT FE 202 or MGMTMBA 202
+3:  MGMT FE 203A or MGMTMBA 203A. MGMT FE 203A with a grade of C or better. MGMTMBA 203A with a grade of C or better
+1:  MGMT FE 209A or MGMTMBA 209A
+3:  MGMT FE 203A or MGMTMBA 203A. MGMT FE 203A with a grade of C or better. MGMTMBA 203A with a grade of C or better
+2:  MGMT FE 295A. MGMT FE 295A with a grade of B or better
+1:  MGMT FE 202
+1:  MGMT HC 203A
+1:  MGMT HC 201A and MGMT HC 203A and MGMT HC 204A
+1:  MGMT HC 200 and MGMT HC 202 and MGMT HC 205 and MGMT HC 209A
+1:  MGMT FE 205 or MGMTMBA 205
+1:  MGMTMBA 203A or MGMT FE 203A
+1:  MGMTMBA 201A and MGMTMBA 203A and MGMTMBA 204A
+1:  Courses in basic statistics with probability.
+1:  MGMTMBA 209A or MGMT FE 209A
+1:  (MGMTMBA 202 or MGMT FE 202) and (MGMTMBA 205 or MGMT FE 205) and (MGMTMBA 210 or MGMT FE 210)
+1:  MGMTMBA 202 or MGMT FE 202
+1: MGMTMBA 210
+1:  MGMTMBA 202 or MGMT FE 202
+3:  MGMTMBA 203A or MGMT FE 203A. MGMTMBA 203A with a grade of C or better. MGMT FE 203A with a grade of C or better
+1:  MGMTMBA 209A or MGMT FE 209A
+1:  (MGMTMBA 209A or MGMT FE 209A) and (MGMTMBA 209B or MGMT FE 209B)
+1:  MGMTMBA 200 and MGMTMBA 202 and MGMTMBA 205 and MGMTMBA 209A
+1:  BIO SCI 98 and BIO SCI 99 and CHEM 51A and CHEM 51B and CHEM 51C
+1: MGMTMBA 207
+1:  BIO SCI 98 and BIO SCI 99 and CHEM 51C
+1:  MATH 2B
+1:  MOL BIO 203 and MOL BIO 204
+2:  PHYSIO 215. PHYSIO 215 with a grade of B+ or better
+1:  MOL BIO 203 and MOL BIO 204
+1:  MOL BIO 203 and MOL BIO 204
+1:  CHEM 131C or CHEM 132C
+1:  M&MG 215
+1:  MOL BIO 250L and MOL BIO 250
+1:  MOL BIO 250L and MOL BIO 251L
+1:  Intermediate accounting.
+1:  Intermediate accounting.
+1:  MOL BIO 250L and MOL BIO 250
+1:  Intermediate accounting and basic auditing.
+1:  ENGR 54 and (MSE 165A or CBE 40C or MAE 91)
+1:  (ENGR 1A or CHEM 1A or CHEM H2A) and ENGR 54 and MSE 69
+1:  ENGR 54 and MSE 165C
+1: ENGR 54 AND MSE 155
+1:  ENGR 54 and PHYS 7D
+1:  ENGR 54
+1:  ENGR 54
+1:  CHEM 1C and PHYS 7C
+2:  ENGR 54 and (MSE 165A or CBE 40C or MAE 91) and (MSE 165B or BME 150 or MAE 120 or (CBE 120B and CBE 120C)). MSE 165A with a grade of C- or better
+3:  ENGR 54 and (MSE 165A or CBE 40C or MAE 91). ENGR 54 with a grade of C- or better. MSE 165A with a grade of C- or better
+1:  ENGR 54 and PHYS 7D
+2:  ENGR 54 and (MSE 165B or (CBE 120B and CBE 120C) or MAE 120). MSE 165B with a grade of C- or better
+1:  ENGR 54 and ENGR 150
+1:  ENGR 54
+1:  (CBE 110 or MSE 165C) and (MSE 141 or MSE 69)
+1:  ENGR 54 and MSE 155 and MSE 60 and MSE 165C
+1:  MSE 189A
+1:  MSE 189B
+1:  ENGR 54
+1:  ENGR 54
+1:   Prerequisites vary.
+1:  MSE 201A
+1:  ENGR 54 and ENGR 150
+1:  Prerequisites vary.
+1:  MSE 200
+1:  MSE 200 and MSE 205
+1:  MSE 200
+1:  ENGR 54
+1:  MSE 200
+1:  MSE 200
+1:  MSE 200
+1:  ENGR 54 and CHEM 1C
+1:  PHYS 7D and PHYS 7E and (MATH 3A or ICS 6N) and MATH 3D and ENGR 54
+1:  MUSIC 16A and MUSIC 16B and MUSIC 16C
+1:  MSE 200
+1:  MUSIC 16A and MUSIC 16B and MUSIC 16C
+1:  MUSIC 16A and MUSIC 16B and MUSIC 16C
+1:  MUSIC 16D
+3:  MUSIC 40B. MUSIC 40B with a grade of D or better. Satisfactory completion of the Lower-Division Writing requirement.
+1:  MUSIC 16C
+3:  MUSIC 40B. MUSIC 40B with a grade of D or better. Satisfactory completion of the Lower-Division Writing requirement.
+3:  MUSIC 40B. MUSIC 40B with a grade of D or better. Satisfactory completion of the Lower-Division Writing requirement.
+3:  MUSIC 40B. MUSIC 40B with a grade of D or better. Satisfactory completion of the Lower-Division Writing requirement.
+3:  MUSIC 40C. MUSIC 40C with a grade of D or better. Satisfactory completion of the Lower-Division Writing requirement.
+3:  MUSIC 40C. MUSIC 40C with a grade of D or better. Satisfactory completion of the Lower-Division Writing requirement.
+3:  MUSIC 40C. MUSIC 40C with a grade of D or better. Satisfactory completion of the Lower-Division Writing requirement.
+1:  MUSIC 16D
+3:  MUSIC 40D. MUSIC 40D with a grade of D or better. Satisfactory completion of the Lower-Division Writing requirement.
+3:  MUSIC 40C. MUSIC 40C with a grade of D or better. Satisfactory completion of the Lower-Division Writing requirement.
+2:  MUSIC 40B and MUSIC 40C and MUSIC 40D. Satisfactory completion of the lower-division writing requirement. 
+3:  MUSIC 40D. MUSIC 40D with a grade of D or better. Satisfactory completion of the Lower-Division Writing requirement.
+1:  MUSIC 51
+1:  MUSIC 51 or ART 65A or DANCE 163
+2:  MUSIC 16B. MUSIC 16B with a grade of C- or better
+1: MUSIC 156A
+1:  MUSIC 16C
+1:  MUSIC 16D
+1:  MUSIC 158A
+2:  MUSIC 150. MUSIC 150 with a grade of C- or better
+3:  MUSIC 15A and MUSIC 16A. MUSIC 15A with a grade of C- or better. MUSIC 16A with a grade of C- or better
+1:  Audition required.
+3:  MUSIC 15B and MUSIC 16B. MUSIC 15B with a grade of C- or better. MUSIC 16B with a grade of C- or better
+1:  Audition required.
+1:  MUSIC 158A and MUSIC 158B
+1: PLACEMENT EXAM or authorization
+3:  MUSIC 15A and MUSIC 16A. MUSIC 15A with a grade of C- or better. MUSIC 16A with a grade of C- or better
+1: MUSIC 15B AND MUSIC 15C AND MUSIC 16B
+1:  Audition required. 
+1: MUSIC 15C AND MUSIC 16C
+1:  MUSIC 78 and MUSIC 132 and MUSIC 183A
+1:  MUSIC 78 and MUSIC 132 and MUSIC 183A and MUSIC 183B
+1:  Undergraduate advisor approval required.
+1:  MUSIC 16C
+1:  MUSIC 78 and MUSIC 132
+1:  Senior standing in the Honors Program in Music and Culture.
+1:  Undergraduate or graduate advisor approval required.
+1:  MUSIC 16D and MUSIC 40B and MUSIC 40C
+1:  Placement into MUSIC 201.
+2:  MUSIC 200. MUSIC 200 with a grade of B or better
+2:  MUSIC 200. MUSIC 200 with a grade of B or better
+1: MUSIC 21A
+1:  MUSIC 195A
+2:  MUSIC 200. MUSIC 200 with a grade of B or better
+1: MUSIC 21B
+2:  MUSIC 200. MUSIC 200 with a grade of B or better
+2:  MUSIC 200. MUSIC 200 with a grade of B or better
+2:  MUSIC 200. MUSIC 200 with a grade of B or better
+2:  MUSIC 200. MUSIC 200 with a grade of B or better
+3:  MUSIC 200 and MUSIC 242A. MUSIC 200 with a grade of B or better. MUSIC 242A with a grade of B or better
+2:  MUSIC 243A. MUSIC 243A with a grade of B or better
+2:  MUSIC 200. MUSIC 200 with a grade of B or better
+2:  MUSIC 242B. MUSIC 242B with a grade of B or better
+1:  Graduate advisor approval required.
+2:  MUSIC 243B. MUSIC 243B with a grade of B or better
+2:  MUSIC 244. MUSIC 244 with a grade of B or better
+2:  MUSIC 16C. MUSIC 16C with a grade of C- or better
+1: MUSIC 15
+3:  MUSIC 40B. MUSIC 40B with a grade of D or better. Recommended: MUSIC 16D
+1: MUSIC 15
+2:  MUSIC 16C. MUSIC 16C with a grade of C- or better
+1: MUSIC 15
+1: MUSIC 15
+1: MUSIC 15
+1:  EECS 148 or COMPSCI 132
+1:  NET SYS 201 or COMPSCI 232 or EECS 248A
+1:  EECS 148 or COMPSCI 132
+1:  EECS 148 or COMPSCI 132
+1: MUSIC 15
+1:  An undergraduate-level course in operating systems and networks.
+1:  NEURBIO 200B
+1:  EECS 148 or COMPSCI 132
+1:  NEURBIO 201A
+1:  NEURBIO 200A
+1:  NEURBIO 202A
+1:  At least one upper-division course in the field of Neuroscience or one upper-division course in Cognitive Science or Machine Learning.
+1:  NEURBIO 201B
+1:  MOL BIO 203 or MOL BIO 204 or NEURBIO 206
+1:  One graduate or undergraduate course in statistics.
+6:  BIO SCI D170 and PHRMSCI 120 and PHRMSCI 120L and BIO SCI M115. BIO SCI D170 with a grade of C or better. PHRMSCI 120 with a grade of C or better. PHRMSCI 120L with a grade of C or better. BIO SCI M115 with a grade of C or better. Satisfactory completion of the Lower-Division Writing requirement.
+5:  BIO SCI M115 and BIO SCI D170 and PHRMSCI 120 and PHRMSCI 120L. BIO SCI M115 with a grade of C or better. BIO SCI D170 with a grade of C or better. PHRMSCI 120 with a grade of C or better. PHRMSCI 120L with a grade of C or better
+4:  NUR SCI 109A and NUR SCI 108W and NUR SCI 119. NUR SCI 109A with a grade of C or better. NUR SCI 108W with a grade of C or better. NUR SCI 119 with a grade of C or better
+1: BIO SCI D170 AND BIO SCI E109 AND NUR SCI 114A AND NUR SCI 118A
+1: NUR SCI 125 AND NUR SCI 135 AND NUR SCI 110W AND NUR SCI 114A AND NUR SCI 114B AND NUR SCI 118A AND NUR SCI 118B AND NUR SCI 112LA
+1: BIO SCI D170 AND BIO SCI E109 AND NUR SCI 110W AND NUR SCI 112LA
+1: BIO SCI D170 AND BIO SCI E109 AND NUR SCI 110W AND NUR SCI 118A AND NUR SCI 112LA
+1:  NEURBIO 209
+3:  PSYCH 7A or PSCI 9. PSYCH 7A with a grade of C or better. PSCI 9 with a grade of C or better
+1: NUR SCI 125 AND NUR SCI 135 AND NUR SCI 110W AND NUR SCI 114A AND NUR SCI 118A AND NUR SCI 118B AND NUR SCI 112LA AND NUR SCI 112LB
+1: NUR SCI 125 AND NUR SCI 135 AND NUR SCI 110W AND NUR SCI 114A AND NUR SCI 114B AND NUR SCI 118A AND NUR SCI 112LA AND NUR SCI 112LB
+4:  NUR SCI 108W and NUR SCI 109A and NUR SCI 119. NUR SCI 108W with a grade of C or better. NUR SCI 109A with a grade of C or better. NUR SCI 119 with a grade of C or better
+5:  BIO SCI M115 and BIO SCI D170 and PHRMSCI 120 and PHRMSCI 120L. BIO SCI M115 with a grade of C or better. BIO SCI D170 with a grade of C or better. PHRMSCI 120 with a grade of C or better. PHRMSCI 120L with a grade of C or better
+1: BIO SCI D170 AND BIO SCI E109 AND NUR SCI 114A AND NUR SCI 112LA
+1: NUR SCI 125 AND NUR SCI 135 AND NUR SCI 140 AND NUR SCI 114B AND NUR SCI 118B AND NUR SCI 112LB
+4:  NUR SCI 108W and NUR SCI 109A and NUR SCI 119. NUR SCI 108W with a grade of C or better. NUR SCI 109A with a grade of C or better. NUR SCI 119 with a grade of C or better
+1: NUR SCI 135 AND NUR SCI 110W AND NUR SCI 114A AND NUR SCI 114B AND NUR SCI 118A AND NUR SCI 118B AND NUR SCI 112LA AND NUR SCI 112LB AND ( MATH 7 OR STATS 7 )
+4:  NUR SCI 109B and NUR SCI 117 and NUR SCI 121A. NUR SCI 109B with a grade of C or better. NUR SCI 117 with a grade of C or better. NUR SCI 121A with a grade of C or better
+4:  NUR SCI 109B and NUR SCI 117 and NUR SCI 121A. NUR SCI 109B with a grade of C or better. NUR SCI 117 with a grade of C or better. NUR SCI 121A with a grade of C or better
+4:  NUR SCI 120 and NUR SCI 140 and NUR SCI 116. NUR SCI 120 with a grade of C or better. NUR SCI 140 with a grade of C or better. NUR SCI 116 with a grade of C or better
+1:  NUR SCI 112LB and NUR SCI 114B and NUR SCI 118B and NUR SCI 125 and NUR SCI 135
+1: NUR SCI 125 AND NUR SCI 110W AND NUR SCI 114A AND NUR SCI 114B AND NUR SCI 118A AND NUR SCI 118B AND NUR SCI 112LA AND NUR SCI 112LB
+4:  NUR SCI 120 and NUR SCI 140 and NUR SCI 116. NUR SCI 120 with a grade of C or better. NUR SCI 140 with a grade of C or better. NUR SCI 116 with a grade of C or better
+1: NUR SCI 130 AND NUR SCI 132 AND NUR SCI 150 AND NUR SCI 179AW
+1: NUR SCI 150 AND NUR SCI 160 AND NUR SCI 175L AND NUR SCI 179AW AND NUR SCI 179BW
+4:  NUR SCI 150 and NUR SCI 160 and NUR SCI 179AW. NUR SCI 150 with a grade of C or better. NUR SCI 160 with a grade of C or better. NUR SCI 179AW with a grade of C or better
+2:  NUR SCI 179AW. NUR SCI 179AW with a grade of C or better
+1:  NUR SCI 130 and NUR SCI 132
+1: NUR SCI 130 AND NUR SCI 132 AND NUR SCI 160 AND NUR SCI 179A
+5:  NUR SCI 202 and NUR SCI 208 and NUR SCI 209A and NUR SCI 219. NUR SCI 202 with a grade of B or better. NUR SCI 208 with a grade of B or better. NUR SCI 209A with a grade of B or better. NUR SCI 219 with a grade of B or better
+1:  Recommended: a graduate-level statistics course.
+5:  NUR SCI 202 and NUR SCI 208 and NUR SCI 209A and NUR SCI 219. NUR SCI 202 with a grade of B or better. NUR SCI 208 with a grade of B or better. NUR SCI 209A with a grade of B or better. NUR SCI 219 with a grade of B or better
+4:  NUR SCI 209B and NUR SCI 217 and NUR SCI 221A. NUR SCI 209B with a grade of B or better. NUR SCI 217 with a grade of B or better. NUR SCI 221A with a grade of B or better
+1:  Consent of the instructor is required.
+5:  NUR SCI 202 and NUR SCI 208 and NUR SCI 209A and NUR SCI 219. NUR SCI 202 with a grade of B or better. NUR SCI 208 with a grade of B or better. NUR SCI 209A with a grade of B or better. NUR SCI 219 with a grade of B or better
+2:  NUR SCI 225A. NUR SCI 225A with a grade of B or better
+1:  NUR SCI 212 and NUR SCI 226
+1:  NUR SCI 223A
+4:  NUR SCI 209B and NUR SCI 217 and NUR SCI 221A. NUR SCI 209B with a grade of B or better. NUR SCI 217 with a grade of B or better. NUR SCI 221A with a grade of B or better
+1:  NUR SCI 222A
+2:  NUR SCI 227A. NUR SCI 227A with a grade of B or better
+1: NUR SCI 237
+2:  NUR SCI 235. NUR SCI 235 with a grade of B or better
+1:  Consent of the instructor is required.
+1: NUR SCI 241
+1: NUR SCI 240
+3:  NUR SCI 210 and NUR SCI 230. NUR SCI 210 with a grade of B or better. NUR SCI 230 with a grade of B or better
+3:  NUR SCI 210 and NUR SCI 230. NUR SCI 210 with a grade of B or better. NUR SCI 230 with a grade of B or better
+1:  NUR SCI 212
+1: NUR SCI 210 AND NUR SCI 230
+2:  NUR SCI 245. NUR SCI 245 with a grade of B or better
+1: NUR SCI 242
+1:  Enrollment in a UCI Ph.D. program and at least one introduction qualitative course.
+1:  NUR SCI 200 and NUR SCI 262 and NUR SCI 264A and NUR SCI 264B and NUR SCI 268A and NUR SCI 268B and NUR SCI 265 and NUR SCI 281
+3:  NUR SCI 210 and NUR SCI 230. NUR SCI 210 with a grade of B or better. NUR SCI 230 with a grade of B or better
+1:  NUR SCI 200 and NUR SCI 262 and NUR SCI 264A and NUR SCI 264B and NUR SCI 268A and NUR SCI 268B and NUR SCI 265 and NUR SCI 281
+1: NUR SCI 266 AND NUR SCI 267
+1:  NUR SCI 268A
+1: NUR SCI 266 AND NUR SCI 267
+1:  NUR SCI 215 and NUR SCI 274 and NUR SCI 276
+1:  NUR SCI 272 and NUR SCI 273
+1:  NUR SCI 272 and NUR SCI 273
+1:  NUR SCI 215 and NUR SCI 274 and NUR SCI 276
+2:  NUR SCI 245. NUR SCI 245 with a grade of B or better
+5:  NUR SCI 210 and NUR SCI 230 and (NUR SCI 230L or NUR SCI 231L). NUR SCI 210 with a grade of B or better. NUR SCI 230 with a grade of B or better. NUR SCI 230L with a grade of B or better. NUR SCI 231L with a grade of B or better
+2:  NUR SCI 286. NUR SCI 286 with a grade of B or better
+2:  NUR SCI 285. NUR SCI 285 with a grade of B or better
+1:  NUR SCI 200
+2:  NUR SCI 287. NUR SCI 287 with a grade of B or better
+2:  NUR SCI 291. NUR SCI 291 with a grade of B or better
+2:  NUR SCI 288. NUR SCI 288 with a grade of B or better
+2:  NUR SCI 292. NUR SCI 292 with a grade of B or better
+1: M&MG 215
+1:  Advancement to candidacy.
+2:  NUR SCI 289. NUR SCI 289 with a grade of B or better
+1:  PED GEN 200A
+1:  PED GEN 200A
+1:  PED GEN 200A and PED GEN 200D
+1:  PED GEN 200B
+1:  PED GEN 200A and PED GEN 200B and PED GEN 200C
+1:  PED GEN 202A
+1:  PED GEN 200B
+1:  PED GEN 204A
+1:  PED GEN 200A
+3:  PERSIAN 1A. PERSIAN 1A with a grade of C or better. Placement into PERSIAN 1B is also accepted.
+4:  PERSIAN 1B or PERSIAN S1AB. PERSIAN 1B with a grade of C or better. PERSIAN S1AB with a grade of C or better. Placement into PERSIAN 1C is also accepted.
+1: PLACEMENT EXAM or authorization
+4:  PERSIAN 1C or PERSIAN S1BC. PERSIAN 1C with a grade of C or better. PERSIAN S1BC with a grade of C or better. Placement into PERSIAN 2A is also accepted.
+1:  PED GEN 204B
+3:  PERSIAN 2B. PERSIAN 2B with a grade of C or better. Placement into PERSIAN 2C is also accepted.
+1:  PHARM 299
+3:  PERSIAN 2A. PERSIAN 2A with a grade of C or better. Placement into PERSIAN 2B is also accepted.
+1:  PHARM 251
+1:  Satisfactory completion of the Lower-Division Writing requirement. 
+1: ( LPS 104 OR MATH 6B OR PHILOS 104 )
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  LSCI 145A or LPS 105A or PHILOS 105A
+1:  LSCI 145B or LPS 105B or PHILOS 105B
+1:  Recommended: PHILOS 10. 
+1:  PHILOS 105B or LPS 105B
+1:  Recommended: PHILOS 10 or PHILOS 11. 
+1:  MATH 2D and (MATH 3A or MATH 6G)
+1:  Recommended: PHILOS 12.
+1:  MATH 2D and (MATH 3A or MATH 6G)
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1: LPS 205C AND PHILOS 205C AND SOC SCI 205C
+1:  PHILOS 205B or LPS 205B
+1:  PHMD 200A and PHMD 200B
+1:  PHILOS 205A or LPS 205A
+1:  PHMD 201A
+1:  PHMD 200A and PHMD 200B and PHMD 200C
+1:  PHMD 200A
+1:  PHMD 201A and PHMD 201B and PHMD 201C
+1:  PHMD 202A
+1:  PHMD 202A and PHMD 202B
+1:  PHMD 203A and PHMD 203B
+1:  PHMD 204A
+1:  PHMD 201A and PHMD 201B
+1:  PHMD 203A
+1:  PHMD 204A and PHMD 204B
+1:  PHMD 205A and PHMD 205B
+1:  PHMD 213 and PHMD 220
+1:  PHMD 213 and PHMD 220
+1:  PHMD 220 and PHMD 277A and PHMD 277B
+1:  PHMD 274A and PHMD 274B
+1:  PHMD 210
+1:  PHMD 274A
+1:  BIO SCI 99
+1: ( PHRMSCI 120 OR BIO SCI E109 )
+2:  BIO SCI 99 and CHEM 51C. CHEM 51C with a grade of C- or better
+2:  PHRMSCI 170A. PHRMSCI 170A with a grade of C- or better
+1:  PHMD 277A
+1:  BIO SCI 98 and BIO SCI 99 and PHRMSCI 120
+1:  (CHEM 51C or CHEM H52C) and (PHRMSCI 120 or BIO SCI E109)
+1:  PHRMSCI 170A
+1:  BIO SCI 99 and (CHEM 51C or CHEM H52C)
+1: BIO SCI 99 AND PHYSICS 3C AND ( CHEM 1C OR CHEM H2C ) AND ( MATH 2B OR AP CALCULUS BC ) AND NO REPEATS ALLOWED
+1:  PHRMSCI 170B
+1:  BIO SCI 99
+1:  PHRMSCI 170B and BIO SCI 100
+2:  CSE 41 or I&C SCI 31. CSE 42 or I&C SCI 32 is recommended.
+1:  CHEM 51A and CHEM 51B and CHEM 51C and (BIO SCI 98 or CHEM 128)
+1: BIO SCI 100 AND ( CHEM 128 OR BIO SCI 98 ) AND ( CHEM 177 OR PHRMSCI 177 ) AND ( CHEM 51C OR CHEM H52C ) AND LOWER DIVISION WRITING
+1:  PHRMSCI 250B
+1:  PHRMSCI 250A
+1:  PHRMSCI 170B
+1:  PHARM 299
+1:  PHARM 251
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Recommended: High school chemistry and biology.
+1:   Satisfactory completion of the Lower-Division Writing requirement.
+1: ( PHY SCI 5 OR BIO SCI 14 ) AND NO REPEATS ALLOWED
+3:  MATH 2A or AP Calculus AB or AP Calculus BC. AP Calculus AB with a minimum score of 4. AP Calculus BC with a minimum score of 3
+1: PHYSICS 50 AND ( PHYSICS 3C OR PHYSICS 7E )
+1:  PHYSICS 52B and PHYSICS 194
+1: MATH 2E AND ( MATH 3A OR MATH H3A )
+1:  (PHYSICS 7D or PHYSICS 3B) and PHYSICS 50
+1:  (PHYSICS 51A or PHYSICS 61A) and PHYSICS 50
+1:  PHYSICS 7E and PHYSICS 112A
+1:  PHYSICS 111B and PHYSICS 112B and PHYSICS 113A
+1:  PHYSICS 50 and (PHYSICS 60 or CHEM 1C or ENGRMAE 91)
+1:  PHYSICS 111B and PHYSICS 112B and PHYSICS 113B
+1:  PHYSICS 50 and PHYSICS 111A
+1:  (PHYSICS 51B or PHYSICS 61B or PHYSICS 61C) and (PHYSICS 52C or PHYSICS 193) and (PHYSICS 194 or EDUC 143BW)
+1:  PHYSICS 52B
+1:  PHYSICS 50 and MATH 3D
+1:  PHYSICS 125A and PHYSICS 113A
+1:  PHYSICS 111A
+1: PHYSICS 112A AND PHYSICS 112B
+1:  PHYSICS 113B and PHYSICS 115A
+1:  PHYSICS 111A
+1:  PHYSICS 112B
+1:  PHYSICS 111A and PHYSICS 61C
+1: PHYSICS 194 AND PHYSICS 52A AND PHYSICS 52B AND PHYSICS 52C AND ( EECS 12 OR PHYSICS 53 OR I&C SCI 45C )
+1:  PHYSICS 113B
+1:  (PHYSICS 51A or PHYSICS 61A) and PHYSICS 111A and PHYSICS 112A
+1:  PHYSICS 115A
+1:  (PHYSICS 51A or PHYSICS 61A) and PHYSICS 111A and PHYSICS 112A
+1: PHYSICS 147B
+1:  PHYSICS 115A
+1: PHYSICS 147A
+1:  PHYSICS 7C and PHYSICS 7D and PHYSICS 7E
+1:  BIO SCI 14 or PHY SCI 5
+2:  PHYSICS 61A or PHYSICS 51A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  PHYSICS 196B
+1:  PHYSICS 7E
+1:  PHYSICS 196A
+1: ( MATH 2A OR MATH 5A OR AP CALCULUS AB OR AP CALCULUS BC OR AP CALCULUS AB SUB OR PLACEMENT EXAM or authorization ) AND NO PHYSICS 7C
+1:  PHYSICS 215A
+1:  PHYSICS 214A and PHYSICS 215A and PHYSICS 215B
+1:  PHYSICS 213A
+1:  PHYSICS 234A and PHYSICS 235A
+1:  PHYSICS 215B
+1:  PHYSICS 234A and PHYSICS 235A
+1:  PHYSICS 235A
+1:  PHYSICS 215B
+1:  PHYSICS 133 and (PHYSICS 214A or CHEM 232A) and (PHYSICS 215B or CHEM 231B)
+1:  PHYSICS 239A
+1:  PHYSICS 238A
+1:  PHYSICS 239B
+1: PHYSICS 211 AND PHYSICS 240A
+1:  PHYSICS 240B
+1:  PHYSICS 242
+1:  PHYSICS 239A and PHYSICS 239B
+1: ( MATH 2A OR MATH 5A OR AP CALCULUS AB OR AP CALCULUS BC OR AP CALCULUS AB SUB ) AND NO PHYSICS 7C
+1: ( PHYSICS 3A OR AP PHYSICS C:MECH ) AND ( MATH 2B OR MATH 5B OR AP CALCULUS BC )
+2:  PHYSICS 3A or AP Physics C: Mechanics. AP Physics C: Mechanics with a minimum score of 5
+1: ( MATH 2J OR MATH 3A ) AND ( MATH 2E OR MATH H2E )
+1: ( MATH 2D OR MATH H2D ) AND ( PHYSICS 3C OR PHYSICS 7E )
+1:  PHYSICS 238B
+1:  PHYSICS 7D or PHYSICS 3B
+1:  PHYSICS 51A or PHYSICS 61A
+1: ( PHYSICS 3C OR PHYSICS 7E )
+1: ( MATH 2D OR MATH H2D ) AND ( PHYSICS 3C OR PHYSICS 7E )
+1:  PHYSICS 61A or PHYSICS 51A
+1: ( MATH 2D OR MATH H2D ) AND ( PHYSICS 3C OR PHYSICS 7E )
+1:  MATH 3A and MATH 3D
+1:  PHYSICS 61A or PHYSICS 51A
+1: PHYSICS 7C AND ( MATH 2D OR MATH H2D ) AND ( MATH 2B OR AP CALCULUS BC )
+1: PHYSICS 7C AND ( MATH 2B OR AP CALCULUS BC )
+1: ( MATH 2B OR AP CALCULUS BC )
+1: PHYSICS 7C
+1:  PHYSICS H196A
+1:  A biochemistry course.
+1: PHYSICS 7D
+1:  PHYSICS H196B
+2:  PHYSIO 215. PHYSIO 215 with a grade of B+ or better
+1:  SOC SCI 3A
+1:  PHYSIO 206A
+1: POL SCI 21A
+1:  POL SCI 10A
+1:  POL SCI 21A
+2:  POL SCI 21A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division writing requirement.
+1:  POL SCI 10B
+1:  SOC SCI 3A or SOC SCI 10A or SOC SCI 10B
+1: POL SCI 61A AND NO POL SCI 129
+2:  POL SCI 21A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  POL SCI 130A or ECON 116A
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  POL SCI 31A
+1: ( POL SCI 6B OR POL SCI 6C OR POL SCI 31A )
+1:  Satisfactory completion of the Lower-Division Writing requirement. 
+1: ( MATH 1A OR MATH 1B )
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  POL SCI 41A or INTL ST 11 or INTL ST 12 or REL STD 5A or REL STD 5B or REL STD 5C
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  SOCIOL 1 or POL SCI 11A or ECON 1
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  POL SCI 71A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  POL SCI 71A. Satisfactory completion of the Lower-Division Writing requirement. 
+1: POL SCI 71A
+1:  POL SCI 71A
+1:  POL SCI 71A
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  POL SCI 210B
+1:  POL SCI 71A
+1:  POL SCI 210A
+1:  Only open to students in the Political Science Honors Program.
+1:  Recommended: PSCI 9 or PSCI 11B or PSYC 7A or PSYC 9B.
+1: POL SCI 41A
+1:  Reading knowledge of Portuguese.
+1: ( PSCI 9 OR PSCI 11C OR PSYCH 7A OR PSYCH 9C OR PSY BEH 9 OR PSY BEH 11C )
+1:  Recommended: PSCI 9 or PSCI 11B or PSYC 7A or PSYC 9B.
+1:  Recommended: (PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C) and SE 10.
+1: ( PSCI 9 OR PSCI 11C OR PSYCH 7A OR PSYCH 9C OR PSY BEH 9 OR PSY BEH 11C )
+2:  SE 10 and SE 13. Satisfactory completion of the Lower-Division Writing requirement.
+1: ( PSCI 9 OR PSCI 11B OR PSYCH 7A OR PSYCH 9B OR PSY BEH 9 OR PSY BEH 11B ) AND ( PSYCH & SOC BEHAVIOR MAJORS ONLY OR PSYCHOLOGICAL SCI MAJORS ONLY OR SOCIAL ECOLOGY MAJORS ONLY OR PUB HEALTH POLICY MAJORS ONLY )
+1:  Recommended: PSCI 9 or PSCI 11B or PSYC 7A or PSYC 9B.
+1:  Recommended: PSCI 9 or PSCI 11B or PSYC 7A or PSYC 9B.
+1:  Recommended: PSCI 9 or PSCI 11B or PSYC 7A or PSYC 9B.
+1:  Recommended: (PSCI 9 or PSCI 11B or PSYC 7A or PSYC 9B) and SE 10.
+1:  Recommended: PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C.
+1:  PSCI 9 or PSYC 9B or PSCI 11B or PSYC 7A
+1:  Recommended: PSCI 9 or PSCI 11B or PSYC 7A or PSYC 9B.
+1: ( PSCI 9 OR PSCI 11A OR PSCI 11B OR PSYCH 7A OR PSYCH 9A OR PSYCH 9B OR PSY BEH 9 OR PSY BEH 11A OR PSY BEH 11B )
+1:  Recommended: (PSCI 9 or PSCI 11C or PSYC 9C or PSYC 7A) and SE 10.
+1: ( PSCI 9 OR PSCI 11C OR PSYCH 7A OR PSYCH 9C OR PSY BEH 9 OR PSY BEH 11C )
+1:  Recommended: PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C.
+1:  Recommended: PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C.
+1:  Recommended: PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C.
+1:  Recommended: (PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C) and PSCI 102C.
+1: ( PSCI 9 OR PSCI 11C OR PSYCH 7A OR PSYCH 9C OR PSY BEH 9 OR PSY BEH 11C )
+1:  Recommended: PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C.
+1:  Recommended: PSCI 9 or PSYC 7A or (PSCI 11A and PSCI 11C) or (PSYC 9A and PSYC 9C).
+1:  Recommended: PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C.
+1:  Recommended: PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C.
+1: PSCI 102C AND ( PSCI 178S OR CRM/LAW 149 ) AND ( PSCI 9 OR PSCI 11C OR PSYCH 7A OR PSYCH 9C OR PSY BEH 9 OR PSY BEH 11C ) AND NO CRM/LAW C136 AND NO PSYCH 177F
+1:  Recommended: PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C.
+1:  Recommended: PSCI 9 or PSYC 7A or PSCI 11A or PSYC 9A or BIOL 99.
+1:  Recommended: PSCI 9 or PSCI 11B or PSCI 11C.
+1:  BIOL N110 or BIOL N115A or PSYC 9A or PSCI 11A
+1: ( PSCI 102C OR PSY BEH 102C ) AND ( PSCI 11A OR PSYCH 9A OR PSY BEH 11A ) AND ( PSCI 11C OR PSYCH 9C OR PSY BEH 11C ) AND ( PSCI 11B OR PSYCH 9B OR PSY BEH 11B )
+1: PSCYH 120P
+1:  PSCI 11C or PSYC 9C
+1:  Recommended: PSCI 102C.
+1: SOCECOL 10 AND ( PSCI 9 OR PSCI 11C OR PSYCH 7A OR PSYCH 9C OR PSY BEH 9 OR PSY BEH 11C )
+1:  Recommended: PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C.
+1:  Recommended: PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C.
+1:  (PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C) and PSCI 101D and (PSCI 104S or UPPP 151)
+1:  Recommended: PSCI 9 or PSCI 11A or PSCI 11B or PSCI 11C or PSYC 7A or PSYC 9A or PSYC 9B or PSYC 9C.
+1:  Recommended: PSCI 9 or PSCI 11B or PSCI 11C or PSYC 7A or PSYC 9B or PSYC 9C.
+1:  Recommended: PSCI 11C or PSYC 9C.
+1:  Recommended: (PSCI 11C or PSYC 9C) and PSCI 104S.
+1:  Recommended: (PSCI 9 or PSCI 11C or PSYC 7A or PSYC 9C) and SE 10 and SE 13.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  SE 13
+1:  Recommended: PSYC 7A or PSCI 9 or PSCI 11A or PSCI 11B or PSCI 11C.
+1:  SE 10
+1: CRM/LAW C7
+1:  Recommended: CLS C109.
+1:  SE 264A and SE 264B
+1:  PSCI C200
+1:  SE 264A and SE 264B and PSCI P203
+1:  SE 264A and SE 264B
+2:  PCSI P280A. PCSI P280A with a grade of B or better
+1:  PSCI 11C
+1:  PSYCH 10A or COGS 10A
+1:  Advancement to candidacy. 
+2:  PSYCH H111A and (PSYC H11A or PSYCH 112A). Satisfactory completion of the Lower-Division Writing requirement.
+1: ( PSCI 11B OR PSYCH 9B ) AND ( PSCI 11C OR PSYCH 9C ) AND ( PSCI 11A OR PSYCH 9A ) AND ( AP CALCULUS BC OR ( ( MATH 2B OR PSYCH 10B ) AND ( MATH 2A OR PSYCH 10A OR AP CALCULUS AB ) ) ) AND ( MATH 7 OR STATS 7 OR PSYCH 10C OR AP STATISTICS )
+1:  PSYCH 112B and PSYCH 112LB
+1:  PSYCH 10A or COGS 10A
+2:  PSYCH 112A and PSYCH 112LA. Satisfactory completion of the Lower-Division Writing requirement.
+1: PSYCH 112C AND PSYCH 112LB
+1: ( PSYCH 112LA OR PSYCH H111A )
+1: PSYCH 112A
+1: PSYCH 112M
+1:  (PSYCH 9A and PSYCH 9B and PSYCH 9C) or (PSY BEH 11A and PSY BEH 11B and PSY BEH 11C) and (PSYCH 10C or SOC SCI 10C or ANTHRO 10C or POL SCI 10C or SOCIOL 10C) or (MATH 2B and STATS 7)
+1: PSYCH 112P
+1: PSYCH 112R
+1: ( PSCI 11B OR PSYCH 9B ) AND ( PSCI 11C OR PSYCH 9C ) AND ( PSCI 11A OR PSYCH 9A ) AND ( AP CALCULUS BC OR ( ( MATH 2B OR PSYCH 10B ) AND ( MATH 2A OR PSYCH 10A OR AP CALCULUS AB ) ) ) AND ( MATH 7 OR STATS 7 OR PSYCH 10C OR AP STATISTICS )
+1: ( PSYCH 9B OR PSY BEH P11B ) AND ( PSYCH 9C OR PSY BEH P11C ) AND ( PSYCH 9A OR PSY BEH P11A ) AND ( PSYCH 10C OR ANTHRO 10C OR SOCIOL 10C OR POL SCI 10C OR SOC SCI 10C OR ( STATS 7 AND ( MATH 2B OR AP CALCULUS BC ) ) )
+1: ( PSYCH 9A OR PSY BEH 11A ) AND ( PSYCH 9B OR PSY BEH 11B ) AND ( PSYCH 9C OR PSY BEH 11C ) AND ( PSYCH 10C OR ANTHRO 10C OR SOCIOL 10C OR POL SCI 10C OR SOC SCI 10C OR ( ( STATS 7 OR ECON 15B ) AND ( MATH 2B OR AP CALCULUS BC ) ) )
+1: ( PSCI 9 OR PSCI 11C OR PSYCH 7A OR PSYCH 9C OR AP PSYCHOLOGY ) AND NO PSY BEH 102C AND NO PSCI 102C
+1:  (PSYCH 7A or PSCI 9) or (PSYCH 9A or PSCI 11A) and (PSYCH 9B or PSCI 11B) and (PSYCH 9C or PSCI 11C)
+1:  (PSYCH 7A or PSCI 9) or (PSYCH 9A or PSCI 11A) and (PSYCH 9B or PSCI 11B) and (PSYCH 9C or PSCI 11C)
+1: ( PSCI 9 OR PSCI 11A OR PSYCH 7A OR PSYCH 9A OR AP PSYCHOLOGY ) AND NO PSCI 111D
+1: ( PSYCH 7A OR PSYCH 9A OR PSYCH 9B OR PSYCH 9C OR PSY BEH 9 OR PSY BEH 11A OR PSY BEH 11B OR PSY BEH 11C OR AP PSYCHOLOGY )
+1:  PSYCH 7A or PSCI 9 or PSYCH 9C or PSCI 11C
+1: ( PSYCH 7A OR PSYCH 9C OR PSY BEH 9 OR PSY BEH 11C OR AP PSYCHOLOGY )
+1:  BIO SCI N110 or BIO SCI N115A or PSYCH 9A or PSCI 11A
+1: ( PSYCH 7A OR PSYCH 9A OR PSY BEH 9 OR PSY BEH 11A OR AP PSYCHOLOGY )
+1:  PSCI 11C or PSYCH 9C
+1:  (PSYCH 7A or PSY BEH 9) or (PSYCH 9C or PSY BEH 11C)
+1: ( PSYCH 120D OR PSYCH 141D )
+1: ( PSCI 11A OR PSYCH 9A OR PSY BEH 11A ) AND ( PSCI 11B OR PSYCH 9B OR PSY BEH 11B OR AP PSYCHOLOGY )
+1: ( PSYCH 7A OR PSY BEH 9 OR AP PSYCHOLOGY OR ( ( PSYCH 9A OR PSY BEH 11A ) AND ( PSYCH 9B OR PSY BEH 11B ) ) )
+1:  Prerequisites vary.
+1:  PSYCH 9A and PSYCH 9B
+1:  (PSYCH 7A or PSCI 9) or (PSYCH 9A or PSCI 11A)
+1: ( PSYCH 7A OR PSYCH 9B OR PSY BEH 9 OR PSY BEH 11B OR AP PSYCHOLOGY )
+1: ( PSYCH 7A OR PSYCH 9B OR PSY BEH 9 OR PSY BEH 11B OR AP PSYCHOLOGY ) AND LOWER DIVISION WRITING
+1:  PSYCH 7A or PSCI 9 or PSYCH 9B or PSCI 11B or LSCI 3
+1: ( MATH 2B OR ECON 15B OR PSYCH 10C ) AND NO PSYCH 139 AND NO ECON 109
+1: ( PSYCH 7A OR PSYCH 9B OR PSY BEH 9 OR PSY BEH 11B OR AP PSYCHOLOGY )
+1:  PSYCH 56L or LINGUIS 51
+1:  PSYCH 150 or LSCI 155 or PSYCH 156A or LSCI 151
+1: ( PSCI 11B OR PSYCH 9B ) AND ( PSCI 9 OR PSCI 11A OR PSYCH 7A OR PSYCH 9A OR AP PSYCHOLOGY )
+1:  Prerequisites vary. 
+1:  PSYCH 9A or PSY BEH 11A or PSYCH 7A or PSY BEH 9
+1:  (PSYCH 7A or PSY BEH 9 or PSYCH 9A or PSY BEH 11A) and (PSYCH 9B or PSY BEH 11B or BIO SCI 35 or BIO SCI N110 or BIO SCI N115A)
+1:  (PSYCH 7A or PSCI 9) or ((PSYCH 9A or PSCI 11A) and (PSYCH 9B or PSCI 11B)) or BIO SCI 35 or BIO SCI N110 or BIO SCI N115A
+1: ( PSCI 11B OR PSYCH 9B ) AND ( PSCI 9 OR PSCI 11A OR PSYCH 7A OR PSYCH 9A OR AP PSYCHOLOGY )
+1:  PSYCH 160A or BIO SCI 93 or BIO SCI H93
+1:  BIO SCI N110 or BIO SCI N115A or PSYCH 9A or PSCI 11A
+1: ( PSYCH 7A OR ANTHRO 2A OR PSY BEH 9 OR AP PSYCHOLOGY OR ( ( PSYCH 9C OR PSY BEH 11C ) AND ( PSYCH 9B OR PSY BEH 11B ) AND ( PSYCH 9A OR PSY BEH 11A ) ) )
+1:  (PSCI 9 or PSCI 11C or PSYCH 7A or PSYCH 9C) and PSCI 102C and (PSCI 178S or CRM/LAW C149)
+1: ( PSYCH 7A OR ( PSYCH 9A AND PSYCH 9B AND PSYCH 9C ) )
+2:  LSCI 251. LSCI 251 with a grade of B- or better
+1: ( PSYCH 7A OR PSY BEH 9 OR ( ( PSYCH 9B OR PSY BEH 11B ) AND ( PSYCH 9C OR PSY BEH 11C ) AND ( PSYCH 9A OR PSY BEH 11A ) ) )
+1:  Prerequisites vary.
+1:  PSYCH H101A
+1:  PSYCH H101B
+1: ( PSYCH 9C OR PSY BEH 11C ) AND ( ECON 15B OR PSYCH 10C OR ANTHRO 10C OR SOCIOL 10C OR POL SCI 10C OR SOC SCI 10C OR ( ( MATH 2B OR AP CALCULUS BC ) AND ( MATH 7 OR STATS 7 OR AP STATISTICS ) ) )
+1:  PUBHLTH 1
+1:  Prerequisites vary. 
+1:  PSYCH 111BW or PSYCH 112B
+1: ( STATS 7 OR STATS 8 OR PUBHLTH 7 OR PUBHLTH 7A OR AP STATISTICS )
+1: SOCECOL 10 AND SOCECOL 13 AND ( PSYCH 7A OR PSYCH 9C OR PSY BEH 9 OR PSY BEH 11C )
+1: ( HUMAN 1C OR HUMAN H1C OR WRITING 30 OR WRITING 31 OR WRITING 60 OR WRITING 39C ) AND UPPER DIVISION STANDING ONLY AND ( NO REPEATS ALLOWED IF GRADE = C OR BETTER )
+1:  PUBHLTH 105 or IN4MATX 171
+1: PSYCH H111A
+1:  PUBHLTH 101
+1:  PUBHLTH 1 or PUBHLTH 2 or CHC/LAT 61 or CHC/LAT 62 or CHC/LAT 63
+1:  PUBHLTH 1
+1:  Recommended: PSCI 9 or PSCI 11C or PSYCH 7A or PSYCH 9C.
+1:  PUBHLTH 1
+1:  PUBHLTH 1
+1:  PUBHLTH 1 and PUBHLTH 2
+1:  PUBHLTH 1
+1:  One upper-division course in environmental science, public health, environmental policy, and/or environmental management.
+1:  PUBHLTH 1
+1:  PUBHLTH 1
+1:  PUBHLTH 1
+1:  BIO SCI 93 or BIO SCI H93
+1:  PUBHLTH 1
+2:  BIO SCI 99 and BIO SCI 194S and CHEM 1C and CHEM 1LC and CHEM 1LD. Satisfactory completion of the Lower-Division Writing requirement.
+1:  PUBHLTH 1
+2:  PUBHLTH 194A. Satisfactory completion of the Lower-Division Writing requirement.
+2:  PUBHLTH 1 and PUBHLTH 2. Satisfactory completion of the Lower-Division Writing requirement.
+2:  PUBHLTH 194B. Satisfactory completion of the Lower-Division Writing requirement.
+1:  PUBHLTH 194C
+1:  PUBHLTH 1 and PUBHLTH 2
+1:  PUBHLTH 196A
+1:  PUBHLTH 1
+1:  PUBHLTH 196B
+2:  EPIDEM 204. EPIDEM 204 with a grade of B or better
+2:  EPIDEM 204B. EPIDEM 204B with a grade of B or better
+2:  PUBHLTH 206A. PUBHLTH 206A with a grade of B or better
+3:  EPIDEM 200A and EPIDEM 200B. EPIDEM 200A with a grade of B or better. EPIDEM 200B with a grade of B or better
+2:  PUBHLTH 207A. PUBHLTH 207A with a grade of B or better
+1:  PUBHLTH 1
+1:  CHC/LAT 211A
+2:  PUBHLTH 206A. PUBHLTH 206A with a grade of B or better
+1:  PUBHLTH 277A or EHS 206A
+1:  CHC/LAT 200A or PUBHLTH 246
+1:  PUBH 206
+1:  PUBHLTH 277B or EHS 206B
+6:  PUBHLTH 200 and PUBHLTH 244 and PUBHLTH 222 and PUBHLTH 264 and PUBHLTH 207A. PUBHLTH 200 with a grade of B or better. PUBHLTH 244 with a grade of B or better. PUBHLTH 222 with a grade of B or better. PUBHLTH 264 with a grade of B or better. PUBHLTH 207A with a grade of B or better
+1:  PUBHLTH 283
+1:  MATH 2A and STATS 7
+1: PUBHLTH 199 AND SCHOOL OF PUBHLTH ONLY
+1: ( PUBHLTH 7A OR AP STATISTICS )
+1: PUBHLTH 199 AND PUBHLTH H192B
+1: ( REL STD 5A OR HISTORY 16A ) AND ( REL STD 5B OR HISTORY 16B ) AND ( REL STD 5C OR HISTORY 16C )
+1:  Advancement to candidacy.
+1: ( REL STD 5A OR HISTORY 16A ) AND ( REL STD 5B OR HISTORY 16B ) AND ( REL STD 5C OR HISTORY 16C ) AND LOWER DIVISION WRITING
+1: ( ROTC 131 OR ROTC 132 OR ROTC 133 OR ROTC 141 OR ROTC 142 OR ROTC 143 OR ROTC 197 )
+1:  PUBHLTH H192A
+1:  POL SCI 41A or INTL ST 11 or INTL ST 12 or REL STD 5A or REL STD 5B or REL STD 5C
+1: ROTC 11 AND ROTC 12 AND ROTC 13 AND ROTC 21 AND ROTC 22 AND ROTC 23 AND ROTC 100L
+1: ROTC 100L AND ( ROTC 11 OR ROTC 12 OR ROTC 13 OR ROTC 21 OR ROTC 22 OR ROTC 23 )
+1:  ROTC 11 and ROTC 12 and ROTC 13 and ROTC 21 and ROTC 22 and ROTC 23
+1: ROTC 131 AND ROTC 132 AND ROTC 133 AND ROTC 141 AND ROTC 142 AND ROTC 100L
+1:  ROTC 131 and ROTC 132 and ROTC 133
+1:  ROTC 131 and ROTC 132 and ROTC 133 and ROTC 141
+1: ( RUSSIAN 1A OR PLACEMENT EXAM or authorization )
+1: ( RUSSIAN 1B OR RUSSIAN 1AB OR PLACEMENT EXAM or authorization )
+1:  Placement into RUSSIAN 1A.
+1: ( RUSSIAN 1C OR RUSSIAN 1BC OR PLACEMENT EXAM or authorization )
+1: ( RUSSIAN 2B OR PLACEMENT EXAM or authorization )
+1: ( RUSSIAN 2A OR PLACEMENT EXAM or authorization )
+2:  Satisfactory completion of the Lower-Division Writing requirement. Field Study authorization required for enrollment. 
+2:  SOCECOL 10 and SOCECOL 13. Satisfactory completion of the Lower-Division Writing requirement.
+2:  Satisfactory completion of the Lower-Division Writing requirement. Authorization for field study.
+1:  RUSSIAN 2C
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  PSCI 192B
+1:  BIO SCI 191A or SOCECOL 186A or EARTHSS 190A
+3:  BIO SCI 191B or EARTHSS 190B or SOCECOL 186B. BIO SCI 191B or EARTHSS 190B or SOCECOL 186B. Satisfactory completion of the Lower-Division Writing requirement.
+1:  SOCECOL 13
+2:  SOCECOL 10. Satisfactory completion of the Lower-Division Writing requirement.
+2:  SOCECOL 195A. Acceptance to Advanced Field Study required.
+2:  SOCECOL 10 and SOCECOL 13. Acceptance to Advanced Field Study required.
+3:  SOCECOL 195B. Acceptance to Advanced Field Study required. Satisfactory completion of the Lower-Division Writing requirement.
+4:  SOCECOL 10. Cumulative UC GPA of 2.0. Authorization is required. Successful completion of the Lower-Division Writing requirement.
+1:  SOCECOL 10
+1:  SOCECOL 264A
+1:  SOCECOL 264A and SOCECOL 264B
+1:  Advancement to Candidacy.
+1:  Advancement to candidacy.
+1:  SOCECOL 74B
+1:  SOCECOL 272A
+1:  SOCECOL H190A
+1:  SOCECOL 74A
+2:  SOCECOL H190B. Satisfactory completion of the Lower-Division Writing requirement.
+1: ( ECON 10A OR PSYCH 10A OR ANTHRO 10A OR SOCIOL 10A OR SOC SCI 10A )
+1:  SOC SCI H1E or SOCECOL H20A
+1: ( PSYCH 112A OR PSYCH 112M OR SOCIOL 110 OR ANTHRO 100A OR SOC SCI 170A )
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  SOC SCI H1F or SOCECOL H20B
+1:  SOCIOL 10B or ANTHRO 10B
+1:  (ANTHRO 10A and ANTHRO 10B and ANTHRO 10C) or (SOCIOL 10A and SOCIOL 10B and SOCIOL 10C) or (SOC SCI 10A and SOC SCI 10B and SOC SCI 10C) or (MATH 2A and MATH 2B and (STATS 7 or MGMT 7)) or (STATS 120A and STATS 120B and STATS 120C) or (ECON 15A and ECON 15B)
+1:  Prerequisites vary.
+1:  Prerequisites vary.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Prerequisites vary.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Prerequisites vary.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Prerequisites vary.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  SOCIOL 1 or POL SCI 11A or ECON 1
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Prerequisites vary.
+2:  SOCIOL 110. Satisfactory completion of the Lower-Division Writing requirement.
+1:  SOCIOL 110
+2:  SOCIOL H188A. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Prerequisites vary.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  SOCIOL 221A and SOCIOL 221B
+1:  SOCIOL 221A
+1:  Prerequisites vary.
+1:  SOCIOL 227A
+1:  Enrollment in DASA program.
+1:  Prerequisites vary.
+1:  Prerequisites vary.
+1:  Prerequisites vary.
+1: SOCIOL 227A
+1:  Prerequisites vary.
+1:  SOC SCI 102A
+1:  Prerequisites vary.
+1:  SOC SCI 3A
+1:  POL SCI 130A or ECON 116A
+1: ( ECON 10B OR PSYCH 10B OR ANTHRO 10B OR SOCIOL 10B OR SOC SCI 10B )
+1:  Prerequisites vary.
+1:  SOC SCI 1A and SOC SCI 2A and SOC SCI 3A and (SOC SCI 10A or STATS 7)
+1:  SOC SCI 10A
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1: POL SCI 71A
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+2:  SOC SCI 70C or SOCIOL 63. Satisfactory completion of the Lower-Division Writing requirement.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  SOC SCI 193A
+1:  Identification of a graduate student (who is in good standing) as a mentor.
+1:  SOC SCI 193B
+1:  Prerequisites vary.
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  SOC SCI 195B
+1:  SOC SCI 195A
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Undergraduate course in political theory or equivalent.
+1:  SOC SCI 193B
+1:  SOC SCI H190A or SPPS H190A
+2:  SOC SCI H190B or SPPS H190B. Satisfactory completion of the Lower-Division Writing requirement.
+1:  SOC SCI H1F or SOCECOL H20B
+1:  CRM/LAW C260C
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: SPANISH 3B AND ( SPANISH 3A OR SPANISH 3H )
+1:  SOC SCI H1E or SOCECOL H20A
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+2:  SPANISH 3 or SPANISH 3H. Placement into SPANISH 101A is also accepted.
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: ( SPANISH 3 OR ( SPANISH 3A AND SPANISH 3B ) )
+1: SPANISH 3A AND SPANISH 3B
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: SPANISH 3B AND ( SPANISH 3A OR SPANISH 3H )
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+2:  SPANISH 3 or SPANISH 3H. Placement into SPANISH 101A is also accepted.
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: ( SPANISH 3 OR SPANISH 3A OR SPANISH 3H )
+1: PLACEMENT EXAM or authorization
+1:  SPANISH 107 or SPANISH 113A
+1: ( SPANISH 1A OR SPANISH S1AB )
+1: PLACEMENT EXAM or authorization
+5:  SPANISH 1AB or SPANISH 1B or SPANISH S1AB. SPANISH 1AB with a grade of C or better. SPANISH 1B with a grade of C or better. SPANISH S1AB with a grade of B or better. Placement into SPANISH 1C is also accepted.
+1:  SPANISH 239A
+4:  SPANISH 1C or SPANISH S1BC. SPANISH 1C with a grade of C or better. SPANISH S1BC with a grade of C or better. Placement into SPANISH 2A is also accepted.
+4:  SPANISH 1C or SPANISH S1BC. SPANISH 1C with a grade of C or better. SPANISH S1BC with a grade of C or better. Placement into SPANISH 2A is also accepted.
+5:  SPANISH 2AB or SPANISH 2B or SPANISH S2AB. SPANISH 2AB with a grade of C or better. SPANISH 2B with a grade of C or better. SPANISH S2AB with a grade of B or better. Placement into SPANISH 2C is also accepted.
+1: ( SPANISH 2C OR SPANISH S2BC OR PLACEMENT EXAM or authorization )
+1: PLACEMENT EXAM or authorization
+1:  Placement into SPANISH 2A or higher via Spanish Placement Test B is required.
+1:  Placement into SPANISH 1A.
+1: ( SPANISH 2A OR SPANISH 2MD OR SPANISH S2AB )
+1:  Does not serve as prerequisite for any higher-level Spanish courses.
+5:  SPANISH S1AB or SPANISH 1A or SPANISH 1B. SPANISH S1AB with a grade of C or better. SPANISH 1A with a grade of C or better. SPANISH 1B with a grade of C or better. Placement into SPANISH 1B or SPANISH 1C is also accepted.
+4:  SPANISH 1C or SPANISH S1BC. SPANISH 1C with a grade of C or better. SPANISH S1BC with a grade of C or better. Placement into SPANISH 2A is also accepted.
+2:  SSCI 70C or SOCL 63. Satisfactory completion of the Lower-Division Writing requirement.
+1: ( SPANISH 2A OR SPANISH 2B OR SPANISH 2BZ OR SPANISH 2MD OR SPANISH S2AB )
+1:  SSCI 193B
+1:  SSCI 193A
+1:  SSCI H190A or SPPS H190A
+2:  SSCI H190B or SPPS H190B. Satisfactory completion of the Lower-Division Writing requirement.
+1:  STATS 110
+1:  SSCI 193B
+1: ( STATS 7 OR STATS 8 OR AP STATISTICS OR ( STATS 120A AND STATS 120B AND STATS 120C ) )
+1: ( MATH 4 OR MATH 2D ) AND ( AP CALCULUS BC OR ( MATH 2B AND ( MATH 2A OR AP CALCULUS AB OR AP CALCULUS AB SUB ) ) )
+1: STATS 110 AND STATS 120C
+1:  STATS 120A
+1:  STATS 120C and (MATH 3A or I&C SCI 6N)
+1:  STATS 120B and (MATH 3A or MATH 6G or I&C SCI 6N)
+2:  STATS 170A and STATS 112. In Progress (IP) grade for STATS 170A is also accepted.
+1:  STATS 68 and IN4MATX 43 and COMPSCI 122A and COMPSCI 178 and I&C SCI 46 and STATS 111
+1:  STATS 120C
+1:   Knowledge of basic statistics and linear algebra; Calculus I-III.
+1:  STATS 200AP. 
+1:  STATS 200A
+1:  STATS 7 or STATS 8
+1:  STATS 200B
+1:  STATS 111
+1:  STATS 201 or STATS 210
+1: STATS 201 AND STATS 210 AND STATS 120C
+1:  STATS 200AP and STATS 200BP and STATS 210P
+1:  Knowledge of basic statistics, calculus, linear algebra.
+1:   Knowledge of basic statistics (at the level of STATS 7), calculus, and linear algebra.
+2:  STATS 210B. May not be taken for graduate credit by Ph.D. students in Statistics.
+1:  STATS 202
+2:  STATS 210. May not be taken for graduate credit by Ph.D. students in Statistics.
+1:  STATS 210
+1: STATS 230 AND ( STATS 200C OR STATS 210P )
+1:  STATS 200C
+2:  STATS 200AP and STATS 200BP. Required: Knowledge of basic statistics and linear algebra.
+1:  STATS 205 and STATS 230
+1:  STATS 220A and MATH 140B
+1:  STATS 200C and STATS 225
+1:  Two quarters of upper-division or graduate training in probability and statistics.
+1:  STATS 120C and STATS 205 and (STATS 201 or STATS 210)
+1:  STATS 120C and (MATH 3A or I&C SCI 6N)
+1: STATS 200C AND ( STATS 201 OR STATS 210 )
+1:  STATS 200AP and STATS 200BP
+1:  STATS 211
+1:  STATS 210
+1:  STATS 200AP and STATS 200BP
+1:  Two quarters of upper-division or graduate training in statistical methods.
+1:  STATS 120C
+1: STATS 230 AND ( STATS 210 OR STATS 200C )
+1:  STATS 200C and STATS 210
+1:  STATS 200AP and STATS 200BP
+1:  STATS 200AP and STATS 200BP
+1:  STATS 120C
+1:  STATS 210
+4:  STATS 203 or STATS 212 or STATS 210C. STATS 203 with a grade of B or better. STATS 212 with a grade of B or better. STATS 210C with a grade of B or better
+1:  CS 161 and CS 171 and (ICS 6N or MATH 3A or MATH 6G)
+1: I&C SCI 31 AND ( STATS 7 OR AP STATISTICS )
+1: ( MATH 2B OR AP CALCULUS BC ) AND ( SCHOOL OF I&C SCI ONLY OR COMPUTER SCI & ENGR MAJORS ONLY )
+1: ( UCDC 170 OR SOCECOL 195 OR PUBHLTH 194W )
+1:  Selected for Washington DC Center Program.
+1:  Project must be approved by a Student Affairs Department head and the instructor.
+1:  Selected for Washington DC Center Program.
+1:  CS 171
+1:  UNI AFF 1A
+1:  UNI STU 10
+1:  UNI AFF 1B
+1: UNI STU 13B
+1:  UNI STU 197A
+1:  UNI AFF 1A and UNI AFF 1B and UNI AFF 1C
+1:  UNI STU 10
+1:  Teaching experience.
+1:  UNI STU 390B
+1:  UNI STU 390A
+1:  Certificate of Teaching Excellence required, proof of instructor of record appointment required.
+1:  UNI STU 197B
+1:  UNI STU H176A
+2:  UNI STU H30A. UNI STU H30A with a grade of C or better
+2:  EARTHSS H30C. EARTHSS H30C with a grade of C or better
+2:  UNI STU H30B. UNI STU H30B with a grade of C or better
+1:  SOC SCI H30D
+1:  UNI STU 390B
+1:  UPPP H30E
+1:  Recommended: Previous course work in economics.
+2:  SE 10 and SE 13. Satisfactory completion of the Lower-Division Writing requirement.
+3:  UPPP 125 and UPPP 120. UPPP 125 with a grade of C or better. UPPP 120 with a grade of C or better
+1:  Familiarity with basic statistics is required. 
+1:  SE 13
+2:  UPPP 120. UPPP 120 with a grade of C or better
+1: PLACEMENT EXAM or authorization
+1:  PPD 294A
+1:  Advancement to candidacy.
+3:  VIETMSE 1A. VIETMSE 1A with a grade of C or better. Placement into VIETMSE 1B is also accepted.
+4:  VIETMSE 1B or VIETMSE S1AB. VIETMSE 1B with a grade of C or better. VIETMSE S1AB with a grade of C or better. Placement into VIETMSE 1C is also accepted. 
+3:  VIETMSE 2B. VIETMSE 2B with a grade of C or better. Placement into VIETMSE 2C is also accepted.
+4:  VIETMSE 1C and VIETMSE S1BC. VIETMSE 1C with a grade of C or better. VIETMSE S1BC with a grade of C or better. Placement into VIETMSE 2A is also accepted.
+2:  (WRITING 30 or WRITING 31) and (WRITING 90 or WRITING 91) and (WRITING 30 or WRITING 31 or WRITING 90 or WRITING 91 or ENGLISH 16 or ENGLISH 17). Satisfactory completion of the Lower-Division Writing requirement.
+3:  VIETMSE 2A. VIETMSE 2A with a grade of C or better. Placement into VIETMSE 2B is also accepted.
+1:  Satisfactory completion of the lower-division writing requirement.
+1:  Satisfaction of the UC Entry Level Writing requirement.
+1:  VIS STD 290A and VIS STD 290B and VIS STD 290C
+1:  Satisfactory completion of the Lower-Division Writing requirement.
+1:  Placement via the UC Analytical Writing Placement Examination is required.
+1:  Satisfaction of the UC Entry Level Writing requirement. 
+1:  Students must have taken the UC Analytical Writing Placement Examination.
+1:  Students must have taken the UC Analytical Writing Placement Examination and the Academic English Placement Test.
+1: ( HUMAN 1AS OR HUMAN 1BS OR WRITING 37 OR WRITING 39B )
+1:  Satisfaction of the UC Entry Level Writing requirement.
+1: PLACEMENT EXAM or authorization AND NO WRITING 45 AND NO WRITING 40A AND NO WRITING 37 AND NO WRITING 39AP
+1:  Satisfaction of the UC Entry Level Writing requirement.
+1: PLACEMENT EXAM or authorization AND NO WRITING 40 AND NO WRITING 50 AND NO WRITING 39A AND NO WRITING 39B
+1: PLACEMENT EXAM or authorization AND NO WRITING 40 AND NO WRITING 45 AND NO WRITING 39A AND NO WRITING 37
+1: ( HUMAN 1AS OR HUMAN 1BS OR WRITING 37 OR WRITING 45 OR WRITING 50 OR WRITING 39B OR AP ENGLISH LIT OR AP ENGLISH LANGUAGE )
+1:  WRITING 30 or WRITING 31
+1:  WRITING 30 or WRITING 31
