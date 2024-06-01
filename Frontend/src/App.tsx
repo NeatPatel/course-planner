@@ -36,17 +36,22 @@ function App() {
   }
 
   function handleDragEvent(dragEvent: DragEndEvent) {
+    const addedCoursesCopy = { ...addedCourses };
+
+
+
+
+
     setAddedCourses((prevCourses: addedCourseType) => {
       const newCourses = { ...prevCourses };
       if (dragEvent.over) {
         if (dragEvent.over.id === 'course-bag') {
           let courseToAdd;
-          let keyToRemove;
-          for (const [key, courses] of Object.entries(addedCourses)) {
-            for (let course of courses) {
-              if (course.props.id === dragEvent.active.id) {
-                courseToAdd = course;
-                keyToRemove = key;
+          for (const courseList of Object.values(addedCourses)) {
+            for (const [index, currentCourse] of courseList.entries()) {
+              if (currentCourse.props.id === dragEvent.active.id) {
+                courseToAdd = currentCourse;
+                courseList.splice(index, 1);
                 break;
               }
             }
@@ -54,8 +59,6 @@ function App() {
           if (courseToAdd)
             setBaggedCourses([...baggedCourses, courseToAdd])
 
-          if (keyToRemove)
-            delete newCourses[keyToRemove]
 
           return newCourses;
         }
