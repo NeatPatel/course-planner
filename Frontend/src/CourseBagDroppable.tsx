@@ -1,7 +1,7 @@
 import { useDroppable } from "@dnd-kit/core";
 
 export default function Droppable({ id, children }: any) {
-    const { isOver, setNodeRef } = useDroppable({
+    const { setNodeRef } = useDroppable({
         id: id,
     });
 
@@ -10,8 +10,6 @@ export default function Droppable({ id, children }: any) {
             id={id}>
             {children}
         </div>
-
-
     )
 }
 

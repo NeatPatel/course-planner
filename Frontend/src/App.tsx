@@ -7,7 +7,7 @@ import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import CourseBagDroppable from "./CourseBagDroppable.tsx";
 
-type addedCourseType = {
+export type addedCourseType = {
   [key: string]: JSX.Element[]
 }
 
@@ -37,23 +37,20 @@ function App() {
 
   function handleDragEvent(dragEvent: DragEndEvent) {
     console.log(dragEvent)
-    const newAddedCourses = { ...addedCourses };
-    let newBaggedCourses = [...baggedCourses];
+    const newAddedCourses: addedCourseType = { ...addedCourses };
+    let newBaggedCourses: JSX.Element[] = [...baggedCourses];
     if (dragEvent.over) {
       // Scenario 1: User drags course from table back into course bag 
       if (dragEvent.over.id === 'course-bag') {
-        let courseToAdd;
         for (const courseList of Object.values(newAddedCourses)) {
           for (const [index, currentCourse] of courseList.entries()) {
             if (currentCourse.props.id === dragEvent.active.id) {
-              courseToAdd = currentCourse;
               courseList.splice(index, 1); // remove the course from the addedCourses (courses in schedule planner)
+              newBaggedCourses.push(currentCourse);
               break;
             }
           }
         }
-        if (courseToAdd)
-          newBaggedCourses.push(courseToAdd); // transfer the course into the baggedCourses 
       } else {
         // Scenario 2: User drags course from course bag into table for the first time
         let courseToAdd: any;
@@ -63,9 +60,10 @@ function App() {
         courseToAdd = baggedCourses.find((course: JSX.Element) => {
           return course.props.id === dragEvent.active.id
         });
+
         // if the draggable course is not in the course bag, then search through the courses in the schedule table
 
-        // Case 3: User transfers course from one column in the table to another column in the table
+        // Scenario 3: User transfers course from one column in the table to another column in the table
         if (courseToAdd == undefined) { // courseToAdd == undefined means it wasn't in the course bag
           for (const courseList of Object.values(addedCourses)) {
             if (courseList.length === 0) continue;

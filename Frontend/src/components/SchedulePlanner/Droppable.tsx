@@ -14,8 +14,6 @@ export function Droppable({ id, children }: any) {
             id={id}>
             {children}
         </div>
-
-
     )
 }
 
