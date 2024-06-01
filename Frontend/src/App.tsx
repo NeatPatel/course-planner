@@ -4,7 +4,6 @@ import SearchBar from "./components/SearchBar.tsx";
 import CourseSearch from "./components/CourseSearch/CourseSearch.tsx";
 import SchedulePlanner from "./components/SchedulePlanner/SchedulePlanner.tsx";
 import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
-import GeneralCourseAlert from "./components/GeneralCourseAlert/GeneralCourseAlert.tsx";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import CourseBagDroppable from "./CourseBagDroppable.tsx";
 
@@ -14,8 +13,6 @@ export type addedCourseType = {
 
 function App() {
     const currentYearRef = useRef<number>(2024);
-    let containerRef = useRef<any>(null);
-    let [alertState, setAlertState] = useState(false);
     const [addedCourses, setAddedCourses] = useState<addedCourseType>({});
     const [scheduleYears, setScheduleYears] = useState<number[]>([2024]);
     const [baggedCourses, setBaggedCourses] = useState<JSX.Element[]>([
