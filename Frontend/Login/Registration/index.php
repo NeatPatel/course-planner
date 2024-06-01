@@ -1,10 +1,13 @@
+<p Hellow World></p>
+
+
 <?php
     $email = $_POST['email'];
     $password = $_POST['password'];
     $hashed_password = password_hash($password, PASSWORD_DEFAULT);
     // $password_confirm = $_POST['password_confirm'];
 
-    $connection = new mysqli('course-eater.clei4w6g4nki.us-west-1.rds.amazonaws.com', 'root', '', 'db', '3306');
+    $connection = new mysqli('course-eater.clei4w6g4nki.us-west-1.rds.amazonaws.com', 'member', 'S%Rj3E[PP??U~.J', 'db', '3306', );
     if ($connection->connect_error) {
         echo "Something went wrong";
         die('Connection Failed: ' .$connection->connect_error);

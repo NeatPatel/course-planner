@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Page | CourseEater</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <script>
         function checkPasswordsMatching() {
             var firstPassword = document.getElementById('password');
@@ -21,18 +21,12 @@
 
 <body>
     <div class="wrapper">
-        <form action="register.php" method="post">
+        <form action="index.php" method="post">
 
             <h1>Create an Account</h1>
             <div class="input">
                 <input type="text" placeholder="Enter your email" id="email" name="email" required>
-            </div>
-
-            <!-- 
-            Password must include one lowercase, one uppercase, and one number
-            Minimum length of 8
-            -->
-            
+            </div>            
             <div class="input">
                 <input type="password" 
                     pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
@@ -63,7 +57,7 @@
                 <div class="spacer"></div>
 
                 <div class="register">
-                    <a href="login.html" style="color:blue">Already have a CourseEater account?</a>
+                    <a href="../login.html" style="color:blue">Already have a CourseEater account?</a>
                 </div>
             </div>
         </form>
