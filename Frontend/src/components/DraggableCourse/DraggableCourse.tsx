@@ -1,39 +1,42 @@
 import styles from "./DraggableCourse.module.css";
 import { useState, useRef } from 'react';
+import { useDraggable } from '@dnd-kit/core';
+import { CSS } from "@dnd-kit/utilities";
+import DeleteIcon from '../../icons/delete.svg';
 
-export default function DraggableCourse({ courseName, containerRef }: any) {
-    const [isDragging, setIsDragging] = useState<boolean>(false);
-    // let containerRef = useRef<any>(null);
-    let divX = useRef<any>();
-    let divY = useRef<any>();
+export default function DraggableCourse({ id, children }: any) {
+    const [isHovering, setIsHovering] = useState<boolean>(false);
+    const [isRemoved, setIsRemoved] = useState<boolean>(false);
 
-    function down(e: any) {
-        setIsDragging(true);
-        divX.current = e.clientX - containerRef.current.getBoundingClientRect().left;
-        divY.current = e.clientY - containerRef.current.getBoundingClientRect().top
-    }
+    const { attributes, listeners, setNodeRef, transform }: any = useDraggable({
+        id: id
+    })
 
-    function move(e: any) {
-        if (isDragging && containerRef.current) {
-            containerRef.current.style.left = (e.clientX - divX.current) + "px";
-            containerRef.current.style.top = (e.clientY - divY.current) + "px";
-        }
-
-    }
+    const style = {
+        transform: CSS.Translate.toString(transform),
+    };
 
     return (
-        <div ref={containerRef} className={styles.container}
-            onMouseDown={(e) => down(e)}
-            onMouseUp={() => setIsDragging(false)}
-            onMouseMove={(e) => move(e)}
-            onMouseLeave={(e) => move(e)}
-        >
-            <div className={styles.text}>
-                {courseName}
-            </div>
-            
+        <>
+            {
+                isRemoved == false && (
+                    <div ref={setNodeRef} className={styles.container} style={style} {...listeners} {...attributes}
+                        onMouseEnter={() => setIsHovering(true)}
+                        onMouseLeave={() => setIsHovering(false)}>
+                        {children}
+                        {
+                            isHovering && <img className={styles.delete} src={DeleteIcon} alt=""
+                                onClick={() => {
+                                    setIsRemoved(prevState => !prevState)
+                                }} />
+                        }
+                    </div>
+                )
+            }
 
-        </div>
+
+
+        </>
 
     )
 }
