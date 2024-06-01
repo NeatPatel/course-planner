@@ -1,9 +1,0 @@
-.container {
-  width: 100px;
-  height: 35px;
-  background-color: red;
-  color: white;
-  cursor: move;
-  position: absolute;
-  user-select: none;
-}
