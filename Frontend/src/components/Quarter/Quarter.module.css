@@ -6,7 +6,7 @@
     margin: 0.4em;
     border-radius: 0.5em;
     text-align: center;
-    z-index: 1;
+    z-index: inherit;
     background-color: #e1e0e0;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     
