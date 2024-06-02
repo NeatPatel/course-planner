@@ -105,16 +105,15 @@ async function fetchPRTree(courseId) {
   }
 }
 
-async function fetchPrereqs2D(courseMatrix) {
+async function fetchPrereqs(courses) {
   let dataQuery = "";
-  for (quarterIndex in courseMatrix) {
-    for (courseIndex in courseMatrix[quarterIndex]) {
-      dataQuery += `
-        q${quarterIndex}c${courseIndex}:course(id:"${courseMatrix[quarterIndex][courseIndex]}") {
-          prerequisite_tree
-        }
-      `
-    }
+  for (courseIndex in courses) {
+    dataQuery += `
+      c${courseIndex}:course(id:"${courses[courseIndex]}") {
+        id
+        prerequisite_tree
+      }
+    `
   }
   dataQuery = `query { ${dataQuery} }`
   
@@ -132,4 +131,4 @@ async function fetchPrereqs2D(courseMatrix) {
   }
 }
 
-module.exports = { fetchCourse, fetchRStrings, fetchGE, fetchPRTree, fetchPrereqs2D };
+module.exports = { fetchCourse, fetchRStrings, fetchGE, fetchPRTree, fetchPrereqs };

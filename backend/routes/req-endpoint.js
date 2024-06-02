@@ -3,7 +3,11 @@ const express = require("express");
 const { evalTokens, strToClauses } = require("../services/requisites.js");
 const { sentenceIsLogic } = require("../services/tokenizer.js");
 
-const { fetchRStrings, fetchPRTree, fetchPrereqs2D } = require("../services/api-service.js");
+const {
+  fetchRStrings,
+  fetchPRTree,
+  fetchPrereqs,
+} = require("../services/api-service.js");
 
 const { evalTree, convertToTree } = require("../services/tree.js");
 
@@ -91,32 +95,33 @@ router.get("/req-tree-met", async (req, res) => {
   });
 });
 
-router.get('/validate-courses', async (req, res) => {
-  // const dummyData = [
-  //   ['COMPSCI161', 'COMPSCI132', 'COMPSCI143A'],
-  //   ['I&CSCI6B', 'I&CSCI6D', 'IN4MATX43'],
-  //   ['I&CSCI45C', 'COMPSCI122A']
-  // ]
-  const courseMatrix = req.body["courseMatrix"]
+router.get("/validate-courses", async (req, res) => {
+  const courseMatrix = req.body["courseMatrix"];
 
-  const prereqMatrix = await fetchPrereqs2D(courseMatrix);
+  let coords = [];
+  let allCourses = new Set();
 
-  let coords = []
-  let prevCourses = new Set();
+  for (qIndex in courseMatrix) {
+    let currCourses = new Set();
+    let prereqs = await fetchPrereqs(courseMatrix[qIndex]);
+    for (cIndex in courseMatrix[qIndex]) {
+      let currCourse = prereqs["data"][`c${cIndex}`];
+      let currPR = currCourse["prerequisite_tree"];
 
-  for (qIndex in prereqMatrix) {
-    for (cIndex in prereqMatrix[qIndex]) {
-      let currStr = prereqMatrix[qIndex][cIndex];
-      let tree = convertToTree(currStr);
-      let reqsMet = evalTree(tree)
-      if (!reqsMet) {
-        prevCourses.add({ "quarter_loc": qIndex, "course_loc": cIndex  });
+      if (currPR) {
+        let tree = convertToTree(currCourse["prerequisite_tree"]);
+
+        let reqsMet = evalTree(tree, [...allCourses]);
+        if (!reqsMet) {
+          coords.push({ q_loc: qIndex, c_loc: cIndex });
+        }
       }
     }
+    currCourses.forEach(allCourses.add, allCourses);
+    currCourses.clear();
   }
 
-  const prevCoursesArr = [...prevCourses]
-  res.json(prevCoursesArr)
-})
+  res.json({ invalid_courses: coords });
+});
 
 module.exports = router;
