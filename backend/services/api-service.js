@@ -105,4 +105,31 @@ async function fetchPRTree(courseId) {
   }
 }
 
-module.exports = { fetchCourse, fetchRStrings, fetchGE, fetchPRTree };
+async function fetchPrereqs2D(courseMatrix) {
+  let dataQuery = "";
+  for (quarterIndex in courseMatrix) {
+    for (courseIndex in courseMatrix[quarterIndex]) {
+      dataQuery += `
+        q${quarterIndex}c${courseIndex}:course(id:"${courseMatrix[quarterIndex][courseIndex]}") {
+          prerequisite_tree
+        }
+      `
+    }
+  }
+  dataQuery = `query { ${dataQuery} }`
+  
+  try {
+    const response = await axios({
+      url: "https://api.peterportal.org/graphql/",
+      method: "post",
+      data: {
+        query: dataQuery,
+      },
+    });
+    return response.data;
+  } catch (error) {
+    return "ERROR: Requisite fetching";
+  }
+}
+
+module.exports = { fetchCourse, fetchRStrings, fetchGE, fetchPRTree, fetchPrereqs2D };

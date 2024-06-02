@@ -3,7 +3,7 @@ const express = require("express");
 const { evalTokens, strToClauses } = require("../services/requisites.js");
 const { sentenceIsLogic } = require("../services/tokenizer.js");
 
-const { fetchRStrings, fetchPRTree } = require("../services/api-service.js");
+const { fetchRStrings, fetchPRTree, fetchPrereqs2D } = require("../services/api-service.js");
 
 const { evalTree, convertToTree } = require("../services/tree.js");
 
@@ -90,5 +90,33 @@ router.get("/req-tree-met", async (req, res) => {
     prerequisitesMet: reqsMet,
   });
 });
+
+router.get('/validate-courses', async (req, res) => {
+  // const dummyData = [
+  //   ['COMPSCI161', 'COMPSCI132', 'COMPSCI143A'],
+  //   ['I&CSCI6B', 'I&CSCI6D', 'IN4MATX43'],
+  //   ['I&CSCI45C', 'COMPSCI122A']
+  // ]
+  const courseMatrix = req.body["courseMatrix"]
+
+  const prereqMatrix = await fetchPrereqs2D(courseMatrix);
+
+  let coords = []
+  let prevCourses = new Set();
+
+  for (qIndex in prereqMatrix) {
+    for (cIndex in prereqMatrix[qIndex]) {
+      let currStr = prereqMatrix[qIndex][cIndex];
+      let tree = convertToTree(currStr);
+      let reqsMet = evalTree(tree)
+      if (!reqsMet) {
+        prevCourses.add({ "quarter_loc": qIndex, "course_loc": cIndex  });
+      }
+    }
+  }
+
+  const prevCoursesArr = [...prevCourses]
+  res.json(prevCoursesArr)
+})
 
 module.exports = router;
