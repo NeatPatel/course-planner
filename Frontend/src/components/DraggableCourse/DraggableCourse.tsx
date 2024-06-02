@@ -1,36 +1,52 @@
 import styles from "./DraggableCourse.module.css";
 import { useState, useRef } from 'react';
+import { useDraggable } from '@dnd-kit/core';
+import { CSS } from "@dnd-kit/utilities";
+import DeleteIcon from '../../icons/courseDelete.svg';
+import InfoIcon from '../../icons/info.svg'
+export default function DraggableCourse({ id, children }: any) {
+    const [isHovering, setIsHovering] = useState<boolean>(false);
+    const [isRemoved, setIsRemoved] = useState<boolean>(false);
 
-export default function DraggableCourse({ courseName, containerRef }: any) {
-    const [isDragging, setIsDragging] = useState<boolean>(false);
-    // let containerRef = useRef<any>(null);
-    let divX = useRef<any>();
-    let divY = useRef<any>();
+    const { attributes, listeners, setNodeRef, transform }: any = useDraggable({
+        id: id
+    })
 
-    function down(e: any) {
-        setIsDragging(true);
-        divX.current = e.clientX - containerRef.current.getBoundingClientRect().left;
-        divY.current = e.clientY - containerRef.current.getBoundingClientRect().top
-    }
-
-    function move(e: any) {
-        if (isDragging && containerRef.current) {
-            containerRef.current.style.left = (e.clientX - divX.current) + "px";
-            containerRef.current.style.top = (e.clientY - divY.current) + "px";
-        }
-
-    }
+    const style = {
+        transform: CSS.Translate.toString(transform),
+    };
 
     return (
-        <div ref={containerRef} className={styles.container}
-            onMouseDown={(e) => down(e)}
-            onMouseUp={() => setIsDragging(false)}
-            onMouseMove={(e) => move(e)}
-            onMouseLeave={(e) => move(e)}
-        >
-            {courseName}
+        <>
+            {
+                isRemoved == false && (
+                    <div ref={setNodeRef} className={styles.container} style={style} {...listeners} {...attributes}
+                        onMouseEnter={() => setIsHovering(true)}
+                        onMouseLeave={() => setIsHovering(false)}>
+                        <div className={styles.name}>
+                            {children}
+                        </div>
+                        <div className={styles.icon}>
+                            <img src={InfoIcon} alt="info" className={styles.info} />
+                            <img className={styles.delete} src={DeleteIcon} alt=""
+                                onClick={() => {
+                                    setIsRemoved(prevState => !prevState)
+                                }} />
+                            {/* {
+                            isHovering && <img className={styles.delete} src={DeleteIcon} alt=""
+                                onClick={() => {
+                                    setIsRemoved(prevState => !prevState)
+                                }} />
+                            } */}
+                        </div>
+                        
+                    </div>
+                )
+            }
 
-        </div>
+
+
+        </>
 
     )
 }

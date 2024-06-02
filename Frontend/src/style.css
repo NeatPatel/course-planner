@@ -1,4 +1,3 @@
-<<<<<<<< HEAD:Frontend/src/style.css
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -77,9 +76,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-========
-#root {
-  height: 100vh;
-  overflow: auto;
->>>>>>>> react-frontend:Frontend/src/index.css
 }

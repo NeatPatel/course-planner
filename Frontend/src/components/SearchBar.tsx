@@ -1,25 +1,25 @@
 import React, { useEffect } from 'react';
 
 function SearchBar() {
-    function showAllMajors () {
+    function showAllMajors() {
         let options = document.querySelector("#majors");
         // Gets a list of all child elements
         // aka each induvidual major
         let majors = options?.childNodes
         let search = document.querySelector(".majorSearch");
-        
+
 
         if (search?.value.length == 0) {
             options?.classList.add("majorsOpened");
         }
 
-        console.log (search?.value.length)
+        console.log(search?.value.length)
     }
 
-     // Function to handle their display
-     function displayMajors() {
+    // Function to handle their display
+    function displayMajors() {
         let search = document.querySelector(".majorSearch");
-        let options = document.querySelector("#majors");    
+        let options = document.querySelector("#majors");
         // Checks if there is any input in form
         if (search?.value != "") {
             // Adds and removes certain CSS classes to display the majors
@@ -55,8 +55,8 @@ function SearchBar() {
     }
     // useEffect(() => {
     //     // Gets the search bar and the container cintaining all the majors
-        // let search = document.querySelector(".majorSearch");
-        // let options = document.querySelector("#majors");      
+    // let search = document.querySelector(".majorSearch");
+    // let options = document.querySelector("#majors");      
 
     //     // Adds an event listener and listens for "input" (change in an input)
     //     window.addEventListener("input", displayMajors);
@@ -66,7 +66,7 @@ function SearchBar() {
 
     return (
         <div className="majorSearchContainer">
-            <input onClick={showAllMajors} onChange={displayMajors} className="majorSearch" type="text" list="majors" placeholder="Import By Major" />
+            <input onClick={showAllMajors} onBlur={displayMajors} onChange={displayMajors} className="majorSearch" type="text" list="majors" placeholder="Import By Major" />
             <div id="majors" className="majorsClosed">
                 {/* Dummy vals */}
                 <div className="major">Computer Science</div>

@@ -1,9 +1,42 @@
 .container {
-  width: 100px;
-  height: 35px;
-  background-color: red;
-  color: white;
+  width: 12vw;
+  height: 3.5vh;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: rgb(201, 201, 201);
   cursor: move;
-  position: absolute;
-  user-select: none;
+  border: 1px solid #dfdfdf;
+  border-radius: 0.25em;
+  /* border: 2px solid black; */
+  justify-content: space-between;
+  z-index: 5;
+  transition: border 0.25s ease-in-out;
+}
+
+.container:hover {
+  border-color: #50b8f8;
+}
+
+.name {
+  margin: 0.5em;
+  font-size: small;
+}
+
+.delete, .info {
+  /* position: relative; */
+  /* color: white; */
+  /* bottom: 10px; */
+  /* left: 10%; */
+  /* width: 15px; */
+  margin: 2px;
+
+  /* padding: 0.25vh; */
+  transform: translateY(2px);
+  transition: transform 0.25s ease-in-out;
+}
+
+.delete:hover, .info:hover {
+  transform: translateY(-4px);
+  cursor: pointer;
 }

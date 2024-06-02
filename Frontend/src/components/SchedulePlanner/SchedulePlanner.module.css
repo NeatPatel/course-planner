@@ -2,31 +2,35 @@
   border: 1px solid black;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   margin: 10px 10px;
   border-radius: 1em;
   padding: 1em;
   flex-grow: 3;
   box-sizing: border-box;
-  /* max-height: 100%; */
-  height: auto;
-  overflow: hidden;
+  background-color: #e1e0e0;
+  /* background-color: white; */
 }
 
+.expanded {
+  min-height: 200px;
+  /* height: auto; */
+}
 .container * {
   box-sizing: border-box;
 }
 
 .yearLabel {
   width: 100%;
-  background-color: #545759;
-  color: white;
-  padding: 10px 10px;
+  /* height: 80%; */
+  /* background-color: #545759; */
+  color: black;
+  /* padding: 10px 10px; */
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 0.5em;
 }
 
 .hidden {
@@ -44,20 +48,11 @@
   transition: 1s height ease-in-out, 1s opacity ease-in-out;
 }
 
-.table {
-  display: flex;
-  flex-direction: column;
-  border-radius: 0.5em;
-  width: 100%;
-  margin: auto;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
   text-align: center;
-  /* padding: 8px; */
 }
 
 .row {
@@ -66,20 +61,29 @@
 }
 
 .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4px 4px;
+  height: auto;
   flex: 4;
-  padding: 8px;
-  height: 35px;
+  width: 25%;
   text-align: center;
   border-right: 1px solid black;
 }
 
-table {
+.table {
   width: 100%;
+  min-height: 80px;
   border-collapse: collapse;
   text-align: center;
-  table-layout: fixed;
-  max-height: 0px;
-  overflow: hidden;
+  border-right: 1px solid black;
+}
+
+.tables {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img {
@@ -100,43 +104,33 @@ img {
 }
 
 .delete {
-  border: 1px solid black;
+  height: 5vh;
+  width: 5vw;
+  /* border: 1px solid black; */
   border-radius: 0.25em;
   padding: 0.25vh;
   transition: background-color 0.25s ease-in-out, transform 0.25s ease-in-out, border-radius 0.25s ease-in-out;
+  z-index: -1;
+  transform: translateY(0);
 }
 .delete:hover {
-  transform: scale(1.2);
-  background-color: rgb(249, 41, 41);
+  transform: translateY(-10px);
+  /* background-color: rgb(249, 41, 41); */
   border-radius: 0.5em;
 }
 
-/* td {
-  background-color: red;
+.date::placeholder {
+  color: white;
+}
+/* .date {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 2px solid black;
 } */
 
-/*th {
-  padding: 5px 0px;
- }
-td {
-  padding: 15px 10px;
+.termContainer {
+  display: flex;
+  /* height: 100%; */
+  /* height: auto; */
+  min-height: 100px;
 }
-
-thead {
-  background-color: #eaeaea !important;
-}
-
-table,
-td,
-thead,
-th {
-  border: 1px solid black;
-} */
-
-/* th {
-  border: 1px solid black;
-}
-
-td {
-  border-right: 1px solid black;
-} */

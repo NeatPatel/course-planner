@@ -10,6 +10,13 @@
     "Helvetica Neue", sans-serif;
 }
 
+/* .root, .completed-courses, .course-selection{
+  background-color: black;
+} */
+
+.alertPresent {
+}
+
 img {
   max-width: 30px;
   /* max-height: ; */
@@ -26,7 +33,7 @@ body {
 .header {
   width: 100vw;
   height: 10vh;
-  background-color: rgb(0, 62, 120);
+  background-color: #0a74ed;
   color: white;
   display: flex;
   align-items: center;
@@ -61,16 +68,21 @@ body {
   width: 100vw;
   height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .planning-area {
-  width: 60%;
+  width: 65%;
   height: 100%;
   resize: both;
-  /* /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+
   /* align-items: center; */
   /* display: flex;
-  justify-content: center; */
+  /* justify-content: center; */
 }
 
 .scheduleArea {
@@ -89,26 +101,33 @@ body {
 }
 
 .course-selection {
-  width: 40%;
+  width: 35%;
   height: 100%;
+  /* max-height: fit-content; */
   display: flex;
   flex-direction: column;
+  
 }
 
 .major-selection {
-  background-color: #fdb912;
+  background-color: #e1e0e0;
   height: 70%;
   display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
 }
 
 .completed-courses {
-  background-color: #3c39b1;
+  background-color: #e1e0e0;
   height: 30%;
 }
 
 .majorSearchContainer {
+  display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: min-content;
 }
 
 input {
@@ -118,18 +137,23 @@ input {
 .majorSearch {
   margin: 1em;
   padding: 0.5em;
-  border-radius: 0.5em;
+  border-radius: 1em;
   background-color: white;
-  width: 20vh;
+  width: 60%;
+  text-align: center;
 
   /* transform: scaleX(0); */
   transition: 0.5s border ease-in-out, 0.5s width ease-in-out, transform 0.25s ease-in-out;
 }
 
 /* Styles for when user clicks on search bar */
+.majorSearch:hover {
+  border-bottom: 3px solid blue;
+  width: 100%;
+}
 .majorSearch:focus {
   border-bottom: 3px solid blue;
-  width: 25vh;
+  width: 100%;
 }
 
 /* Styles for major closed */
@@ -146,7 +170,7 @@ input {
 .majorsOpened {
   max-height: 30vh;
   overflow-y: scroll;
-  scrollbar-color: #3c39b1 #fdb912;
+  scrollbar-color: #3c39b1 #818181;
   transition-delay: 0.5s;
   transition: 0.5s max-height ease-in-out;
   border: 2px solid black;
@@ -174,14 +198,16 @@ input {
   font-size: 2vh;
   margin-bottom: 0.5em;
   transition: 0.25s background-color ease-in-out, 0.25s border ease-in-out, 0.25s padding ease-in-out,
-    0.25s font-family ease-in-out;
+    0.25s font-size ease-in-out;
 }
 
 /* Changes properties when we hover each major */
 .major:hover {
-  background-color: #fecd51;
-  border-color: #3c39b1;
+  background-color: #8c8b8b;
+  /* border-color: #3c39b1; */
+  border-bottom: 4px solid #2c297c;
   color: #3c39b1;
+  font-size: 2.5vh;
 }
 
 /* Hides each induvidual major */
@@ -202,8 +228,49 @@ input {
 .searchArea {
   height: 10%;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
-  /* justify-content: center; */
+  justify-content: space-between;
   align-items: center;
+}
+
+.progress {
+  border-radius: 2em;
+  padding: 1em;
+  width: 18%;
+  background-color: #e1e0e0;
+  margin: 1em;
+  transition: 0.25s background-color ease-in-out, 0.25s color ease-in-out, 0.25s width ease-in-out, 0.5s;
+}
+
+.progress:hover {
+  background-color: rgb(167, 42, 250);
+  color: white;
+  width: 22%;
+}
+
+.addYearBtn {
+  border-radius: 2em;
+  padding: 1em;
+  background-color: #e1e0e0;
+  width: 18%;
+  transition: 0.25s background-color ease-in-out, 0.25s color ease-in-out, 0.25s width ease-in-out, 0.5s;
+  margin: 1em;
+}
+
+.addYearBtn:hover {
+  background-color: #0a74ed;
+  color: white;
+  width: 22%;
+}
+
+.course-bag {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  row-gap: 10px;
+  column-gap: 5px;
+  width: 100%;
+  height: 80%;
+  align-content: flex-start;
 }
