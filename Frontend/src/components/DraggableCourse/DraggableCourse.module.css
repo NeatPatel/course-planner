@@ -5,11 +5,8 @@
   align-items: center;
   background-color: white;
   color: rgb(201, 201, 201);
-  cursor: move;
   border: 1px solid #dfdfdf;
   border-radius: 0.25em;
-  /* border: 2px solid black; */
-  justify-content: space-between;
   z-index: 5;
   transition: border 0.25s ease-in-out;
 }
@@ -20,23 +17,29 @@
 
 .name {
   margin: 0.5em;
+  width: 75%;
   font-size: small;
+  cursor: move;
 }
 
-.delete, .info {
-  /* position: relative; */
-  /* color: white; */
-  /* bottom: 10px; */
-  /* left: 10%; */
-  /* width: 15px; */
-  margin: 2px;
-
-  /* padding: 0.25vh; */
+.delete,
+.info {
+  margin: 2px 1px;
   transform: translateY(2px);
   transition: transform 0.25s ease-in-out;
+  padding: 0.2em 0.1em;
 }
 
-.delete:hover, .info:hover {
-  transform: translateY(-4px);
+.delete:hover,
+.info:hover {
+  transform: translateY(-6px);
   cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  position: relative;
+  bottom: 0.1em;
 }

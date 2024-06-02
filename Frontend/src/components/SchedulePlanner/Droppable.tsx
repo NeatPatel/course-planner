@@ -1,7 +1,7 @@
 import { useDroppable } from "@dnd-kit/core";
 import styles from "./SchedulePlanner.module.css";
 
-export function Droppable({ id, children }: any) {
+export function Droppable({ termName, id, children }: any) {
     const { isOver, setNodeRef } = useDroppable({
         id: id,
     });
@@ -10,9 +10,14 @@ export function Droppable({ id, children }: any) {
     };
 
     return (
-        <div ref={setNodeRef} className={styles.col} style={style} key={id}
+        <div ref={setNodeRef} className={styles.table} style={style} key={id}
             id={id}>
-            {children}
+            <div className={styles.termName}>
+                {termName}
+            </div>
+            <div className={styles.courses}>
+                {children}
+            </div>
         </div>
     )
 }

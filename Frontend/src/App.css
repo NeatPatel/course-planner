@@ -78,7 +78,9 @@ body {
   resize: both;
   display: flex;
   flex-direction: column;
-  margin: 2em;
+  /* margin: 2em; */
+  padding: 0em 2em;
+  background-color: #fcfcfc;
 
   /* align-items: center; */
   /* display: flex;
@@ -104,13 +106,13 @@ body {
   width: 35%;
   height: 100%;
   /* max-height: fit-content; */
+  background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
-  
 }
 
 .major-selection {
-  background-color: #e1e0e0;
+  background-color: #f4f4f4;
   height: 70%;
   display: flex;
   flex-wrap: wrap;
@@ -118,7 +120,7 @@ body {
 }
 
 .completed-courses {
-  background-color: #e1e0e0;
+  background-color: #f4f4f4;
   height: 30%;
 }
 

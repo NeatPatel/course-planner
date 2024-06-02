@@ -18,11 +18,14 @@ function App() {
     const [addedCourses, setAddedCourses] = useState<addedCourseType>({});
     const [scheduleYears, setScheduleYears] = useState<number[]>([0]);
     const [baggedCourses, setBaggedCourses] = useState<JSX.Element[]>([
-        <DraggableCourse id={'ICS 6D'} key={'ICS 6D'}> ICS 6D </DraggableCourse>,
+        <DraggableCourse id={'COMPSCI 161'} key={'COMPSCI 161'}> COMPSCI 161 </DraggableCourse>,
         <DraggableCourse id={'ICS 6B'} key={'ICS 6B'}> ICS 6B </DraggableCourse>,
         <DraggableCourse id={'MATH 3A'} key={'MATH 3A'}> MATH 3A </DraggableCourse>,
         <DraggableCourse id={'ICS 33'} key={'ICS 33'}> ICS 33 </DraggableCourse>,
-        <DraggableCourse id={'ICS 32A'} key={'ICS 32A'}> ICS 32A </DraggableCourse>
+        <DraggableCourse id={'ICS 32A'} key={'ICS 32A'}> ICS 32A </DraggableCourse>,
+        <DraggableCourse id={'ICS 34A'} key={'ICS 34A'}> ICS 34A </DraggableCourse>,
+        <DraggableCourse id={'ICS 35A'} key={'ICS 35A'}> ICS 35A </DraggableCourse>,
+        <DraggableCourse id={'ICS 36A'} key={'ICS 36A'}> ICS 36A </DraggableCourse>
     ]);
 
     function handleDeleteTable(deleteYear: number) {
@@ -109,7 +112,7 @@ function App() {
             </div>
 
             <div className="body">
-                { alertState && <GeneralCourseAlert setVisible={setAlertState} options={["GE 1", "GE 2"]}/>}
+                {alertState && <GeneralCourseAlert setVisible={setAlertState} options={["GE 1", "GE 2"]} />}
 
                 <DndContext onDragEnd={handleDragEvent}>
                     <div className="planning-area">
@@ -119,7 +122,7 @@ function App() {
                                 onClick={() => {
                                     addSchedule();
                                 }}>+ Add Year</button>
-                            
+
                             <button className="progress"
                                 onClick={() => {
                                     displayAlert();
@@ -131,7 +134,7 @@ function App() {
                         </div>
 
                         <div className="scheduleArea">
-                            
+
                             {
                                 scheduleYears.map((year: number) => {
                                     return <SchedulePlanner startYear={year} key={year}

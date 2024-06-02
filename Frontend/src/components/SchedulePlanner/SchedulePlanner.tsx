@@ -4,7 +4,7 @@ import DeleteIcon from '../../icons/delete.svg';
 import { Droppable } from './Droppable.tsx';
 import { useState, useRef } from 'react';
 import { addedCourseType } from '../../App.tsx';
-import Quarter from "../Quarter/Quarter.tsx"
+
 interface props {
     startYear: number,
     onDelete: Function
@@ -27,10 +27,11 @@ export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses 
     }
 
     let tableData = [];
+    const termNames = ['Fall', 'Winter', 'Spring', 'Summer']
 
     for (let currentTermIndex = 0; currentTermIndex < 4; currentTermIndex++) {
         const id = `${startYear}-${currentTermIndex}`
-        let newTermData = <Droppable key={id} id={id}>
+        let newTermData = <Droppable termName={termNames[currentTermIndex]} key={id} id={id}>
             {
                 id in addedCourses && addedCourses[id]
             }
@@ -60,34 +61,17 @@ export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses 
                     </div>
                 </div>
                 <div>
-                {
-                    showTable && (
-                        // <div className={styles.table}>
-                        //     <div className={styles.header}>
-                        //         <div className={styles.col}>Fall</div>
-                        //         <div className={styles.col}>Winter</div>
-                        //         <div className={styles.col}>Spring</div>
-                        //         <div className={styles.col}>Summer</div>
-                        //     </div>
+                    {
+                        showTable && (
+                            <div className={styles.tables}>
+                                {
+                                    tableData
+                                }
+                            </div>
 
-                        //     <div className={styles.termContainer}>
-                        //         {
-                        //             tableData
-                        //         }
-                        //     </div>
-                        // </div>
-                        
-                        <div className={styles.tables}>
+                        )
 
-                        <Quarter name="Fall" />
-                        <Quarter name="Winter"/>
-                        <Quarter name="Spring" />
-                        <Quarter name="Summer"/>
-                        </div>
-                        
-                    )
-                    
-                }
+                    }
                 </div>
             </div>
         </>
