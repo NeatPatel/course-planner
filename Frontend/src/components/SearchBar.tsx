@@ -1,85 +1,68 @@
-import React, { useEffect } from 'react';
+import searchStyles from "./SearchBar.module.css"
+import { useState } from 'react';
 
-function SearchBar() {
-    function showAllMajors() {
-        let options = document.querySelector("#majors");
-        // Gets a list of all child elements
-        // aka each induvidual major
-        let majors = options?.childNodes
-        let search = document.querySelector(".majorSearch");
-
-
-        if (search?.value.length == 0) {
-            options?.classList.add("majorsOpened");
-        }
-
-        console.log(search?.value.length)
+export default function DepartmentSearch() {
+    const [currentInput, setCurrentInput] = useState<string | null>(null);
+    const [focused, setFocused] = useState<boolean>(false)
+    const departments = [
+        'ICS',
+        'Writing',
+        'Physics',
+        'History',
+        'English',
+        'Mathematics'
+    ]
+    let searchResults;
+    let handleCourseClick = (e: any) => {
+        console.log("RUN")
+        console.log(e.target.innerHTML);
+        setCurrentInput(e.target.innerHTML);
+    }
+    if (focused && !currentInput) {
+        searchResults = departments.map(department => {
+            return <li onMouseDown={handleCourseClick} className={searchStyles.departmentItem} key={department}>{department}</li>
+        });
+    }
+    else {
+        searchResults = currentInput?.toLowerCase() ? departments.map(department => {
+            if (currentInput.toLowerCase() && department.toLowerCase().includes(currentInput.toLowerCase())) {
+                return <li onMouseDown={handleCourseClick} className={searchStyles.departmentItem} key={department}>{department}</li>
+            }
+        }) : null;
     }
 
-    // Function to handle their display
-    function displayMajors() {
-        let search = document.querySelector(".majorSearch");
-        let options = document.querySelector("#majors");
-        // Checks if there is any input in form
-        if (search?.value != "") {
-            // Adds and removes certain CSS classes to display the majors
-            options?.classList.remove("majorsClosed");
-            options?.classList.add("majorsOpened");
 
-        }
-        else if (search?.value == "") {
-            // Adds and removes certain CSS classes to hide the majors
-            options?.classList.remove("majorsOpened");
-            options?.classList.add("majorsClosed");
-        }
-
-        // Gets a list of all child elements
-        // aka each induvidual major
-        let majors = options?.childNodes
-
-        // Loop that filters the options depending
-        // On  the user searchbar input
-        for (let i = 0; i < majors?.length; i++) {
-            // If search bar matches major
-            if (majors[i]?.innerHTML.toLowerCase().includes(search?.value.toLowerCase())) {
-                majors[i]?.classList.remove("hiddenMajor");
-                majors[i]?.classList.add("visibleMajor");
-            }
-            // If search bar doesn't
-            else {
-                majors[i]?.classList.remove("visibleMajor");
-                majors[i]?.classList.add("hiddenMajor")
-            }
-        }
-
+    const handleChange = (e: any) => {
+        console.log('new change', e.target.value)
+        setCurrentInput(e.target.value);
+        setFocused(true)
     }
-    // useEffect(() => {
-    //     // Gets the search bar and the container cintaining all the majors
-    // let search = document.querySelector(".majorSearch");
-    // let options = document.querySelector("#majors");      
 
-    //     // Adds an event listener and listens for "input" (change in an input)
-    //     window.addEventListener("input", displayMajors);
-
-    // }, []);
-
+    console.log('search results; ', searchResults);
 
     return (
-        <div className="majorSearchContainer">
-            <input onClick={showAllMajors} onBlur={displayMajors} onChange={displayMajors} className="majorSearch" type="text" list="majors" placeholder="Import By Major" />
-            <div id="majors" className="majorsClosed">
-                {/* Dummy vals */}
-                <div className="major">Computer Science</div>
-                <div className="major">Computer Engineering</div>
-                <div className="major">Computer Science and Engineering</div>
-                <div className="major">Biology</div>
-                <div className="major">Physics</div>
-                <div className="major">Chemistry</div>
-                <div className="major">Eelectrical Engineering</div>
-                <div className="major">Art</div>
+        <div className={searchStyles.container}>
+            <div className={searchStyles.searchBar}>
+                <input value={currentInput ? currentInput : ""} id="searchCourse" type="text" placeholder="Department"
+                    onChange={(e) => handleChange(e)}
+                    onClick={(e) => {
+                        handleChange(e);
+                        setFocused(true);
+                    }}
+                    onFocus={() => setFocused(true)}
+                    onBlur={() => setFocused(false)} />
             </div>
+            {/* <br /> */}
+            {
+                searchResults && searchResults.length > 0 && focused && <div className={searchStyles.searchResults}>
+                    <ul>
+                        {searchResults}
+                    </ul>
+                </div>
+            }
         </div>
-    );
+
+    )
 }
 
-export default SearchBar;
+

@@ -13,14 +13,14 @@ export default function DepartmentSearch() {
         'Mathematics'
     ]
     let searchResults;
-    let handleCourseClick = (e : any) => {
+    let handleCourseClick = (e: any) => {
         console.log("RUN")
         console.log(e.target.innerHTML);
         setCurrentInput(e.target.innerHTML);
     }
     if (focused && !currentInput) {
         searchResults = departments.map(department => {
-            return  <li onMouseDown={handleCourseClick} className={searchStyles.departmentItem} key={department}>{department}</li>
+            return <li onMouseDown={handleCourseClick} className={searchStyles.departmentItem} key={department}>{department}</li>
         });
     }
     else {
@@ -30,7 +30,7 @@ export default function DepartmentSearch() {
             }
         }) : null;
     }
-    
+
 
     const handleChange = (e: any) => {
         console.log('new change', e.target.value)
@@ -40,16 +40,11 @@ export default function DepartmentSearch() {
 
     return (
         <div className={searchStyles.container}>
-
-            {/* <div className={searchStyles.label}>
-                Search Course
-            </div> */}
-
             <div className={searchStyles.searchBar}>
-                <input value={currentInput ? currentInput: ""} id="searchCourse" type="text" placeholder="Search Course"
+                <input value={currentInput ? currentInput : ""} id="searchCourse" type="text" placeholder="Search Course"
                     onChange={(e) => handleChange(e)}
                     onClick={(e) => {
-                        handleChange(e); 
+                        handleChange(e);
                         setFocused(true);
                     }}
                     onFocus={() => setFocused(true)}
@@ -63,8 +58,6 @@ export default function DepartmentSearch() {
                     </ul>
                 </div>
             }
-
-
         </div>
 
     )
