@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./App.css";
 import SearchBar from "./components/SearchBar.tsx";
 import CourseSearch from "./components/CourseSearch/CourseSearch.tsx";
@@ -7,6 +7,7 @@ import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import CourseBagDroppable from "./CourseBagDroppable.tsx";
 import GeneralCourseAlert from "./components/GeneralCourseAlert/GeneralCourseAlert.tsx";
+import raw from "./department-list.txt";
 
 export type addedCourseType = {
     [key: string]: JSX.Element[]
@@ -17,6 +18,24 @@ function App() {
     const [alertState, setAlertState] = useState<boolean>(false);
     const [addedCourses, setAddedCourses] = useState<addedCourseType>({});
     const [scheduleYears, setScheduleYears] = useState<number[]>([0]);
+    const [departmentList, setDepartmentList] = useState<string[]>([]);
+
+    useEffect(() => {
+        async function getDepartmentList() {
+            const rawData = await fetch(raw);
+            const text = await rawData.text();
+            const separators = /,\r\n/;
+            let departmentList = text.split(separators);
+            departmentList = departmentList.map(departmentName => {
+                return departmentName.replace(/'/g, "")
+            })
+
+            setDepartmentList(departmentList);
+        }
+
+        getDepartmentList();
+    }, []);
+
     const [baggedCourses, setBaggedCourses] = useState<JSX.Element[]>([
         <DraggableCourse id={'COMPSCI 161'} key={'COMPSCI 161'}> COMPSCI 161 </DraggableCourse>,
         <DraggableCourse id={'ICS 6B'} key={'ICS 6B'}> ICS 6B </DraggableCourse>,
@@ -145,7 +164,7 @@ function App() {
                     </div>
                     <div className="course-selection">
                         <div className="major-selection">
-                            <SearchBar />
+                            <SearchBar departments={departmentList} />
                             <CourseBagDroppable id="course-bag">
                                 {baggedCourses}
                             </CourseBagDroppable>

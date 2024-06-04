@@ -33,6 +33,8 @@ body {
 .header {
   width: 100vw;
   height: 10vh;
+  box-shadow: 3px 4px 7px purple !important;
+  /* border: 1px solid red; */
   background-color: #0a74ed;
   color: white;
   display: flex;
