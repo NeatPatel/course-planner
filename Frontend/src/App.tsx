@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
-import SearchBar from "./components/SearchBar.tsx";
-import CourseSearch from "./components/CourseSearch/CourseSearch.tsx";
+import SearchBar from "./components/SearchBar/SearchBar.tsx";
 import SchedulePlanner from "./components/SchedulePlanner/SchedulePlanner.tsx";
 import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
