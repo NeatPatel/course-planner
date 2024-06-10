@@ -3,7 +3,11 @@ const express = require("express");
 const { evalTokens, strToClauses } = require("../services/requisites.js");
 const { sentenceIsLogic } = require("../services/tokenizer.js");
 
-const { fetchRStrings, fetchPRTree } = require("../services/api-service.js");
+const {
+  fetchRStrings,
+  fetchPRTree,
+  fetchPrereqs,
+} = require("../services/api-service.js");
 
 const { evalTree, convertToTree } = require("../services/tree.js");
 
@@ -89,6 +93,41 @@ router.get("/req-tree-met", async (req, res) => {
   res.json({
     prerequisitesMet: reqsMet,
   });
+});
+
+router.get("/validate-courses", async (req, res) => {
+  const courseMatrix = req.body["courseMatrix"];
+
+  let coords = [];
+  let allCourses = new Set();
+
+  for (qIndex in courseMatrix) {
+    let currCourses = new Set();
+    let prereqs = await fetchPrereqs(courseMatrix[qIndex]);
+    for (cIndex in courseMatrix[qIndex]) {
+      let currCourse = prereqs["data"][`c${cIndex}`];
+      let currPR = currCourse["prerequisite_tree"];
+
+      currCourses.add(currCourse["id"])
+
+      if (currPR) {
+        let tree = convertToTree(currCourse["prerequisite_tree"]);
+
+        let reqsMet = evalTree(tree, [...allCourses]);
+        if (!reqsMet) {
+          coords.push({ q_loc: qIndex, c_loc: cIndex });
+        }
+      }
+    }
+    for (let item of currCourses) {
+      allCourses.add(item)
+    }
+    
+    currCourses.clear();
+
+  }
+
+  res.json({ invalid_courses: coords });
 });
 
 module.exports = router;
