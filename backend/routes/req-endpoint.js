@@ -108,6 +108,8 @@ router.get("/validate-courses", async (req, res) => {
       let currCourse = prereqs["data"][`c${cIndex}`];
       let currPR = currCourse["prerequisite_tree"];
 
+      currCourses.add(currCourse["id"])
+
       if (currPR) {
         let tree = convertToTree(currCourse["prerequisite_tree"]);
 
@@ -117,8 +119,12 @@ router.get("/validate-courses", async (req, res) => {
         }
       }
     }
-    currCourses.forEach(allCourses.add, allCourses);
+    for (let item of currCourses) {
+      allCourses.add(item)
+    }
+    
     currCourses.clear();
+
   }
 
   res.json({ invalid_courses: coords });
