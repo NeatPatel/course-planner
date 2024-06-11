@@ -1,10 +1,11 @@
 import styles from "./DraggableCourse.module.css";
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { useDraggable } from '@dnd-kit/core';
 import { CSS } from "@dnd-kit/utilities";
 import DeleteIcon from '../../icons/courseDelete.svg';
 import InfoIcon from '../../icons/info.svg'
-export default function DraggableCourse({ id, children }: any) {
+
+export default function DraggableCourse({ id, children, invalidCourses }: any) {
     const [isRemoved, setIsRemoved] = useState<boolean>(false);
 
     const { attributes, listeners, setNodeRef, transform }: any = useDraggable({
@@ -23,11 +24,21 @@ export default function DraggableCourse({ id, children }: any) {
         console.log(data);
     }
 
+    let containerClass;
+    // console.log(invalidCourses);
+
+    if (invalidCourses != undefined && invalidCourses.has(id)) {
+        containerClass = `${styles.container} ${styles.invalidCourse}`;
+    } else {
+        containerClass = `${styles.container}`
+    }
+
+
     return (
         <>
             {
                 isRemoved == false && (
-                    <div className={styles.container} style={style}  >
+                    <div className={containerClass} style={style}  >
                         <div className={styles.name} ref={setNodeRef} {...listeners} {...attributes} >
                             {children}
                         </div>
@@ -42,11 +53,9 @@ export default function DraggableCourse({ id, children }: any) {
                         </div>
 
                     </div>
-
                 )
             }
         </>
-
     )
 }
 

@@ -95,7 +95,7 @@ router.get("/req-tree-met", async (req, res) => {
   });
 });
 
-router.get("/validate-courses", async (req, res) => {
+router.post("/validate-courses", async (req, res) => {
   const courseMatrix = req.body["courseMatrix"];
 
   let coords = [];
@@ -122,7 +122,7 @@ router.get("/validate-courses", async (req, res) => {
     for (let item of currCourses) {
       allCourses.add(item)
     }
-    
+
     currCourses.clear();
 
   }

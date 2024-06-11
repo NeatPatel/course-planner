@@ -8,7 +8,12 @@
   border: 1px solid #dfdfdf;
   border-radius: 0.25em;
   z-index: 5;
-  transition: border 0.25s ease-in-out;
+  transition: border 0.25s ease-in-out, background-color 0.5s ease-in-out;
+  /* transition: background-color 0.5s ease-in-out; */
+}
+
+.invalidCourse {
+  background-color: #fff9b9;
 }
 
 .container:hover {

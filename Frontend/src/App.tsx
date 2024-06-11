@@ -9,8 +9,10 @@ import GeneralCourseAlert from "./components/GeneralCourseAlert/GeneralCourseAle
 import raw from "./department-list.txt";
 
 export type addedCourseType = {
-    [key: string]: JSX.Element[]
+    [key: string]: any
 }
+
+const SERVER = 'http://localhost:8000';
 
 function App() {
     const currentYearRef = useRef<number>(0);
@@ -18,6 +20,18 @@ function App() {
     const [addedCourses, setAddedCourses] = useState<addedCourseType>({});
     const [scheduleYears, setScheduleYears] = useState<number[]>([0]);
     const [departmentList, setDepartmentList] = useState<string[]>([]);
+    const [invalidCourses, setInvalidCourses] = useState<Set<string>>();
+
+    const [baggedCourses, setBaggedCourses] = useState<any>([
+        { id: 'MATH1A', children: 'MATH 1A' },
+        { id: 'MATH1B', children: 'MATH 1B' },
+        { id: 'MATH2A', children: 'MATH 2A' },
+        { id: 'MATH2B', children: 'MATH 2B' },
+        { id: 'I&CSCI31', children: 'I&CSCI 31' },
+        { id: 'I&CSCI32', children: 'I&CSCI 32' },
+        { id: 'I&CSCI33', children: 'I&CSCI 33' },
+
+    ])
 
     useEffect(() => {
         async function getDepartmentList() {
@@ -35,17 +49,6 @@ function App() {
         getDepartmentList();
     }, []);
 
-    const [baggedCourses, setBaggedCourses] = useState<JSX.Element[]>([
-        <DraggableCourse id={'COMPSCI 161'} key={'COMPSCI 161'}> COMPSCI 161 </DraggableCourse>,
-        <DraggableCourse id={'ICS 6B'} key={'ICS 6B'}> ICS 6B </DraggableCourse>,
-        <DraggableCourse id={'MATH 3A'} key={'MATH 3A'}> MATH 3A </DraggableCourse>,
-        <DraggableCourse id={'ICS 33'} key={'ICS 33'}> ICS 33 </DraggableCourse>,
-        <DraggableCourse id={'ICS 32A'} key={'ICS 32A'}> ICS 32A </DraggableCourse>,
-        <DraggableCourse id={'ICS 34A'} key={'ICS 34A'}> ICS 34A </DraggableCourse>,
-        <DraggableCourse id={'ICS 35A'} key={'ICS 35A'}> ICS 35A </DraggableCourse>,
-        <DraggableCourse id={'ICS 36A'} key={'ICS 36A'}> ICS 36A </DraggableCourse>
-    ]);
-
     function handleDeleteTable(deleteYear: number) {
         setScheduleYears((prevScheduleYears: any) => [...prevScheduleYears].filter(currentYear => currentYear !== deleteYear))
     }
@@ -59,16 +62,57 @@ function App() {
         setAlertState(true);
     }
 
+    useEffect(() => {
+        async function checkPrerequisites(orderedCourses: string[][]) {
+            const options = {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    courseMatrix: orderedCourses
+                })
+            }
+            const promise = await fetch(`http://localhost:8000/validate-courses`, options);
+            const data = await promise.json();
+            console.log(data);
+
+            const invalidCourses = data['invalid_courses']
+            const invalidCourseIDs: Set<string> = new Set();
+            for (const course of invalidCourses) {
+                const id = orderedCourses[course['q_loc']][course['c_loc']]
+                invalidCourseIDs.add(id);
+            }
+            setInvalidCourses(invalidCourseIDs);
+            console.log(invalidCourseIDs);
+        }
+
+        const orderedCourses: string[][] = [];
+        for (let currentQuarter of Object.keys(addedCourses).sort()) {
+            const courseList = [];
+            for (let element of addedCourses[currentQuarter]) {
+                courseList.push(element.id);
+            }
+            orderedCourses.push(courseList);
+        }
+
+        setTimeout(() => {
+            checkPrerequisites(orderedCourses);
+        }, 1000)
+
+
+    }, [addedCourses])
+
     function handleDragEvent(dragEvent: DragEndEvent) {
         console.log(dragEvent)
         const newAddedCourses: addedCourseType = { ...addedCourses };
-        let newBaggedCourses: JSX.Element[] = [...baggedCourses];
+        let newBaggedCourses: any = [...baggedCourses]
         if (dragEvent.over) {
             // Scenario 1: User drags course from table back into course bag 
             if (dragEvent.over.id === 'course-bag') {
                 for (const courseList of Object.values(newAddedCourses)) {
                     for (const [index, currentCourse] of courseList.entries()) {
-                        if (currentCourse.props.id === dragEvent.active.id) {
+                        if (currentCourse.id === dragEvent.active.id) {
                             courseList.splice(index, 1); // remove the course from the addedCourses (courses in schedule planner)
                             newBaggedCourses.push(currentCourse);
                             break;
@@ -81,8 +125,8 @@ function App() {
                 // Search through the courses in the course bag to find the JSX DraggableCourse element that we want to 
                 // update in the state variable 
 
-                courseToAdd = baggedCourses.find((course: JSX.Element) => {
-                    return course.props.id === dragEvent.active.id
+                courseToAdd = baggedCourses.find((course: any) => {
+                    return course.id === dragEvent.active.id
                 });
 
                 // if the draggable course is not in the course bag, then search through the courses in the schedule table
@@ -92,7 +136,7 @@ function App() {
                     for (const courseList of Object.values(addedCourses)) {
                         if (courseList.length === 0) continue;
                         for (const [index, currentCourse] of courseList.entries()) {
-                            if (currentCourse.props.id === dragEvent.active.id) {
+                            if (currentCourse.id === dragEvent.active.id) {
                                 courseToAdd = currentCourse;
                                 courseList.splice(index, 1);
                                 break;
@@ -101,14 +145,14 @@ function App() {
                     }
                 }
                 // remove the course we are adding/transferring in the table from the bagged courses list
-                newBaggedCourses = newBaggedCourses.filter((course: JSX.Element) => course !== courseToAdd);
+                newBaggedCourses = newBaggedCourses.filter((course: any) => course !== courseToAdd);
                 if (dragEvent.over.id in newAddedCourses)
                     newAddedCourses[dragEvent.over.id].push(courseToAdd);
                 else
                     newAddedCourses[dragEvent.over.id] = [courseToAdd];
 
-                console.log('new courses: ')
-                console.log(newAddedCourses);
+                // console.log('new courses: ')
+                // console.log(newAddedCourses);
             }
         }
 
@@ -156,16 +200,20 @@ function App() {
                             {
                                 scheduleYears.map((year: number) => {
                                     return <SchedulePlanner startYear={year} key={year}
-                                        onDelete={handleDeleteTable} addedCourses={addedCourses} />
+                                        onDelete={handleDeleteTable} addedCourses={addedCourses}
+                                        invalidCourses={invalidCourses} />
                                 })
                             }
                         </div>
                     </div>
                     <div className="course-selection">
                         <div className="major-selection">
-                            <SearchBar departments={departmentList} />
+                            <SearchBar departments={departmentList} setBaggedCourses={setBaggedCourses} />
                             <CourseBagDroppable id="course-bag">
-                                {baggedCourses}
+                                {baggedCourses.map((course: any) => {
+                                    return <DraggableCourse key={course.id} id={course.id} invalidCourses={invalidCourses}> {course.children} </DraggableCourse>
+
+                                })}
                             </CourseBagDroppable>
                         </div>
 

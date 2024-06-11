@@ -4,14 +4,16 @@ import DeleteIcon from '../../icons/delete.svg';
 import { Droppable } from './Droppable.tsx';
 import { useState, useRef } from 'react';
 import { addedCourseType } from '../../App.tsx';
+import DraggableCourse from '../DraggableCourse/DraggableCourse.tsx';
 
 interface props {
     startYear: number,
     onDelete: Function
-    addedCourses: addedCourseType
+    addedCourses: addedCourseType,
+    invalidCourses: any
 }
 
-export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses }: props) {
+export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses, invalidCourses }: props) {
     const [showTable, setShowTable] = useState(false);
     const [yearInput, setYearInput] = useState(`Year ${startYear + 1}`);
 
@@ -31,9 +33,15 @@ export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses 
 
     for (let currentTermIndex = 0; currentTermIndex < 4; currentTermIndex++) {
         const id = `${startYear}-${currentTermIndex}`
+        // console.log(addedCourses[id]);
         let newTermData = <Droppable termName={termNames[currentTermIndex]} key={id} id={id}>
+
             {
-                id in addedCourses && addedCourses[id]
+                (
+                    id in addedCourses && addedCourses[id].map((course: any) => {
+                        return <DraggableCourse key={course.id} id={course.id} invalidCourses={invalidCourses}> {course.children} </DraggableCourse>
+                    })
+                )
             }
         </Droppable>
 
@@ -70,7 +78,6 @@ export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses 
                             </div>
 
                         )
-
                     }
                 </div>
             </div>
