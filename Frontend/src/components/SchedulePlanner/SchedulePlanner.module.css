@@ -96,11 +96,11 @@ img {
 .dropdown {
   border: 1px solid black;
   border-radius: 0.25em;
-  transition: transform 0.75s ease-in-out, background-color 0.25s ease-in-out 0.76s;
+  transition: transform 0.75s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .dropdown:hover {
-  transform: rotate(360deg);
+  /* transform: rotate(360deg); */
   background-color: rgb(29, 125, 177);
 }
 
@@ -139,7 +139,8 @@ img {
 .table {
   /* border: 2px solid rgb(201, 201, 201); */
   width: 100vw;
-  min-height: 25vh;
+  min-height: 7em;
+  /* min-height: fit-content; */
   height: auto;
   margin: 0.4em 0.7em;
   border-radius: 0.5em;

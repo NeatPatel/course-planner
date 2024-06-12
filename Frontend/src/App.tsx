@@ -30,8 +30,7 @@ function App() {
         { id: 'I&CSCI31', children: 'I&CSCI 31' },
         { id: 'I&CSCI32', children: 'I&CSCI 32' },
         { id: 'I&CSCI33', children: 'I&CSCI 33' },
-
-    ])
+    ]);
 
     useEffect(() => {
         async function getDepartmentList() {
@@ -63,6 +62,9 @@ function App() {
     }
 
     useEffect(() => {
+        console.log('running updater: ')
+        const controller = new AbortController();
+
         async function checkPrerequisites(orderedCourses: string[][]) {
             const options = {
                 method: "POST",
@@ -71,7 +73,8 @@ function App() {
                 },
                 body: JSON.stringify({
                     courseMatrix: orderedCourses
-                })
+                }),
+                signal: controller.signal
             }
             const promise = await fetch(`http://localhost:8000/validate-courses`, options);
             const data = await promise.json();
@@ -100,6 +103,9 @@ function App() {
             checkPrerequisites(orderedCourses);
         }, 1000)
 
+        return () => {
+            controller.abort();
+        }
 
     }, [addedCourses])
 
@@ -180,12 +186,29 @@ function App() {
                     <div className="planning-area">
                         <div className="searchArea">
                             {/* <CourseSearch /> */}
-                            <button className="addYearBtn"
+                            <button className="settingButton"
                                 onClick={() => {
                                     addSchedule();
-                                }}>+ Add Year</button>
+                                }}> Add Year</button>
 
-                            <button className="progress"
+                            <button className="settingButton"
+                                onClick={() => {
+                                    // addSchedule();
+                                }}> Save </button>
+
+                            <button className="settingButton"
+                                onClick={() => {
+                                    // addSchedule();
+                                }}> Load </button>
+
+                            <button className="settingButton"
+                                onClick={() => {
+                                    // addSchedule();
+                                }}> Clear </button>
+
+
+
+                            <button className="settingButton"
                                 onClick={() => {
                                     displayAlert();
                                 }}

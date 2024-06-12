@@ -1,7 +1,8 @@
 .container {
-  width: 12vw;
+  width: 11em;
   height: 3.5vh;
   display: flex;
+  /* position: rela /tive; */
   align-items: center;
   background-color: white;
   color: rgb(201, 201, 201);
@@ -47,4 +48,22 @@
   width: 25%;
   position: relative;
   bottom: 0.1em;
+}
+
+.tooltip {
+  position: relative;
+  z-index: 20;
+  border-radius: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid #dfdfdf;
+  width: 11em;
+  padding: 0.5em 0.5em;
+  height: fit-content;
+  text-overflow: ellipsis;
+  /* bottom: 2.1em;
+  right: 0em; */
+  font-size: 0.8em;
+  color: rgb(201, 201, 201);
 }
