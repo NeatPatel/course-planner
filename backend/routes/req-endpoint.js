@@ -7,6 +7,7 @@ const {
   fetchRStrings,
   fetchPRTree,
   fetchPrereqs,
+  fetchCoreqs,
 } = require("../services/api-service.js");
 
 const { evalTree, convertToTree } = require("../services/tree.js");
@@ -69,7 +70,7 @@ router.get("/coreqs-met", async (req, res) => {
 
   if (crClausesLen > 0 && sentenceIsLogic(crClauses[0])) {
     crsmet = evalTokens(crClauses[0], currCourses);
-    crClauses = prClauses.slice(1);
+    crClauses = crClauses.slice(1);
     crClausesLen--;
   }
 
@@ -101,30 +102,59 @@ router.get("/validate-courses", async (req, res) => {
   let coords = [];
   let allCourses = new Set();
 
+  // Loop through each quarter
   for (qIndex in courseMatrix) {
-    let currCourses = new Set();
-    let prereqs = await fetchPrereqs(courseMatrix[qIndex]);
-    for (cIndex in courseMatrix[qIndex]) {
-      let currCourse = prereqs["data"][`c${cIndex}`];
-      let currPR = currCourse["prerequisite_tree"];
+    let courseBufferForNextQuarter = new Set();
+    let currQuarter = courseMatrix[qIndex];
+    let prData = await fetchPrereqs(currQuarter);
+    console.log(prData)
 
-      currCourses.add(currCourse["id"])
+    // Check prerequisites for each course in quarter
+    for (cIndex in currQuarter) {
+      let currCourseData = prData["data"][`c${cIndex}`];
+      let currPR = currCourseData["prerequisite_tree"];
 
+      courseBufferForNextQuarter.add(currCourseData["id"]);
       if (currPR) {
-        let tree = convertToTree(currCourse["prerequisite_tree"]);
-
+        let tree = convertToTree(currPR);
         let reqsMet = evalTree(tree, [...allCourses]);
         if (!reqsMet) {
-          coords.push({ q_loc: qIndex, c_loc: cIndex });
+          coords.push({ q_loc: qIndex, c_loc: cIndex }); // Add course if req hasn't been met
         }
       }
     }
-    for (let item of currCourses) {
-      allCourses.add(item)
-    }
-    
-    currCourses.clear();
 
+    for (let item of courseBufferForNextQuarter) {
+      allCourses.add(item);
+    }
+    // After adding the courses in the buffer to the list of all courses,
+    // use that allCourse set to check whether the corequisites have been met.
+    // This is because corequisites are valid whether they are being taken
+    // currently or they have been taken previously.
+    let crData = await fetchCoreqs(currQuarter);
+    for (cIndex in currQuarter) {
+      let currCourseData = crData["data"][`c${cIndex}`];
+      let currCR = currCourseData["corequisite"];
+
+      if (currCR) {
+        let reqsMet = evalTokens(currCR, [...allCourses]);
+        let currCoord = { q_loc: qIndex, c_loc: cIndex };
+        let coordExists = false;
+        for (let coord of coords) {
+          if (
+            currCoord["q_loc"] == coord["q_loc"] &&
+            currCoord["c_loc"] == coord["c_loc"]
+          ) {
+            coordExists = true;
+            break;
+          }
+        }
+        if (!reqsMet && !coordExists) {
+          coords.push(currCoord); // Add course if req hasn't been met
+        }
+      }
+    }
+    courseBufferForNextQuarter.clear();
   }
 
   res.json({ invalid_courses: coords });
