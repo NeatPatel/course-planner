@@ -56,36 +56,44 @@ export default function DepartmentSearch({ departments, setBaggedCourses }: { de
 
     return (
         <>
-            <div className={searchStyles.container}>
-                <div className={searchStyles.searchBar}>
-                    <input value={currentInput ? currentInput : ""} id="searchCourse" type="text" placeholder="Department"
-                        onChange={(e) => handleChange(e)}
-                        onClick={(e) => {
-                            handleChange(e);
-                            setFocused(true);
-                        }}
-                        onFocus={() => setFocused(true)}
-                        onBlur={() => setFocused(false)} />
-                </div>
-                {/* <br /> */}
-                {
-                    searchResults && searchResults.length > 0 && focused && <div className={searchStyles.searchResults}>
-                        <ul>
-                            {searchResults}
-                        </ul>
+            <div className={searchStyles.searchBarsContainer}>
+
+                
+                <div className={searchStyles.container}>
+                    <div className={searchStyles.searchBar}>
+                        <input value={currentInput ? currentInput : ""} id="searchCourse" type="text" placeholder="Department"
+                            onChange={(e) => handleChange(e)}
+                            onClick={(e) => {
+                                handleChange(e);
+                                setFocused(true);
+                            }}
+                            onFocus={() => setFocused(true)}
+                            onBlur={() => setFocused(false)} />
                     </div>
-                }
-            </div>
-            <div className={searchStyles.courseNumberContainer}>
-                <div className={searchStyles.searchBar}>
-                    <input value={currentCourseNumber ? currentCourseNumber : ""} id="searchCourse" type="text" placeholder="Course #"
-                        onChange={(e: any) => setCurrentCourseNumber(e.target.value)} />
+                    {/* <br /> */}
+                    {
+                        searchResults && searchResults.length > 0 && focused && <div className={searchStyles.searchResults}>
+                            <ul>
+                                {searchResults}
+                            </ul>
+                        </div>
+                    }
                 </div>
-            </div>
-            <div className={searchStyles.searchBarContainer}>
-                <div className={searchStyles.searchGlass} onClick={addCourse}>
-                    <img src={searchGlass} />
+                <div className={searchStyles.bottomBarsContainer}>
+                    
+                    <div className={searchStyles.courseNumberContainer}>
+                        <div className={searchStyles.searchBar}>
+                            <input value={currentCourseNumber ? currentCourseNumber : ""} id="searchCourse" type="text" placeholder="Course #"
+                                onChange={(e: any) => setCurrentCourseNumber(e.target.value)} />
+                        </div>
+                    </div>
+                    <div className={searchStyles.searchBarContainer}>
+                        <div className={searchStyles.searchGlass} onClick={addCourse}>
+                            <img src={searchGlass} />
+                        </div>
+                    </div>
                 </div>
+               
             </div>
         </>
 
