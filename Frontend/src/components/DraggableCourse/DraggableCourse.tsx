@@ -71,10 +71,22 @@ export default function DraggableCourse({ id, children, invalidCourses }: any) {
                                         setIsRemoved(prevState => !prevState)
                                     }} />
                             </div>
+                            {
+                                displayingCourseInfo && (
+                                    <div className={styles.tooltip}>
+                                        <p>
+                                            {courseData.description.slice(0, 150)}...
+
+                                        </p>
+
+
+                                    </div>
+                                )
+                            }
 
                         </div>
 
-                        {
+                        {/* {
                             displayingCourseInfo && (
                                 <div className={styles.tooltip}>
                                     <p>
@@ -85,7 +97,7 @@ export default function DraggableCourse({ id, children, invalidCourses }: any) {
 
                                 </div>
                             )
-                        }
+                        } */}
                     </>
 
                 )

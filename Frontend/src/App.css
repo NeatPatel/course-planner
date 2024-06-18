@@ -292,6 +292,7 @@ input {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
+  /* position: relative; */
   row-gap: 10px;
   column-gap: 5px;
   width: 100%;

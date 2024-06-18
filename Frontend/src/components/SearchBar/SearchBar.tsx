@@ -69,7 +69,8 @@ export default function DepartmentSearch({ departments, setBaggedCourses }: { de
                 </div>
                 {/* <br /> */}
                 {
-                    searchResults && searchResults.length > 0 && focused && <div className={searchStyles.searchResults}>
+                    searchResults && searchResults.length > 0 && focused &&
+                    <div className={searchStyles.searchResults}>
                         <ul>
                             {searchResults}
                         </ul>

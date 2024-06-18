@@ -2,13 +2,14 @@
   width: 11em;
   height: 3.5vh;
   display: flex;
+  position: relative;
   /* position: rela /tive; */
   align-items: center;
   background-color: white;
   color: rgb(201, 201, 201);
   border: 1px solid #dfdfdf;
   border-radius: 0.25em;
-  z-index: 5;
+  /* z-index: 5; */
   transition: border 0.25s ease-in-out, background-color 0.5s ease-in-out;
   /* transition: background-color 0.5s ease-in-out; */
 }
@@ -51,19 +52,24 @@
 }
 
 .tooltip {
-  position: relative;
+  position: absolute;
   z-index: 20;
   border-radius: 0.8em;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-start; */
   border: 1px solid #dfdfdf;
-  width: 11em;
+  width: 16em;
   padding: 0.5em 0.5em;
-  height: fit-content;
+  /* height: fit-content; */
+  height: 9em;
   text-overflow: ellipsis;
+  bottom: 2em;
+  left: 2em;
   /* bottom: 2.1em;
   right: 0em; */
-  font-size: 0.8em;
+  /* right: 2em; */
+  font-size: 0.7em;
   color: rgb(201, 201, 201);
+  background-color: #f4f4f4;
 }
