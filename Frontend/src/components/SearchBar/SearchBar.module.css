@@ -11,13 +11,21 @@
   flex-wrap: wrap;
 }
 
+.searchBarsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+
 .courseNumberContainer {
   position: relative;
   display: flex;
   margin-top: 1em;
   margin-left: 0.5em;
   justify-content: center;
-  width: 30%;
+  width: 10vw;
   /* min-height: 50px; */
   height: 30px;
   /* height: auto; */
@@ -48,6 +56,7 @@
   border: 1px solid #d1d1d1;
   background-color: #ffffff;
   width: 100%;
+  min-width: none;
   /* height: 50px; */
   height: 100%;
   display: flex;
@@ -138,4 +147,36 @@ ul:first-child {
 
 ul:last-child {
   margin-bottom: 0.5em;
+}
+
+.bottomBarsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+}
+
+@media screen and (max-width: 850px) {
+  .searchBarsContainer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .container {
+    width: 95%;
+  }
+  .courseNumberContainer {
+    width: 25vw;
+  }
+
+  .bottomBarsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 95%;
+  }
+
 }

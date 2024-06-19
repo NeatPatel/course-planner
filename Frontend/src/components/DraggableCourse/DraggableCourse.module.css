@@ -1,5 +1,6 @@
 .container {
-  width: 11em;
+  width: 11vw;
+  min-width: 150px;
   height: 3.5vh;
   display: flex;
   position: relative;
@@ -35,6 +36,8 @@
   transform: translateY(2px);
   transition: transform 0.25s ease-in-out;
   padding: 0.2em 0.1em;
+  /* width: 2vw;
+  height: 2vh; */
 }
 
 .delete:hover,
