@@ -129,7 +129,7 @@ body {
 
 .major-selection {
   background-color: #f4f4f4;
-  height: 70%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: column; */
@@ -252,8 +252,6 @@ input {
   align-items: center;
 }
 
-
-
 .addYearBtn {
   border-radius: 2em;
   border: 1px solid #f4f4f4;
@@ -292,19 +290,27 @@ input {
 
 .course-bag {
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
+  justify-content: center;
+  /* justify-content: baseline;
+  flex-direction: row; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-wrap: wrap; */
   /* position: relative; */
   row-gap: 10px;
   column-gap: 5px;
   width: 100%;
   height: 80%;
-  align-content: flex-start;
-  margin-right: 2%;
-  margin-left: 2%;
-  
 }
 
+.bagged-course-list {
+  display: flex;
+  width: fit-content;
+  justify-content: baseline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 0px 10%;
+}
 
 @media screen and (max-width: 1350px) {
   .course-bag {
@@ -321,7 +327,7 @@ input {
   }
 }
 
-@media  screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .searchArea {
     display: flex;
     flex-direction: column;
@@ -335,5 +341,4 @@ input {
     flex: 1 1 calc(100%- 40px);
     box-sizing: border-box;
   }
-  
 }

@@ -4,6 +4,7 @@
   height: 3.5vh;
   display: flex;
   position: relative;
+  margin: 0.25em 0.5em;
   /* position: rela /tive; */
   align-items: center;
   background-color: white;
@@ -11,6 +12,7 @@
   border: 1px solid #dfdfdf;
   border-radius: 0.25em;
   /* z-index: 5; */
+  z-index: 50;
   transition: border 0.25s ease-in-out, background-color 0.5s ease-in-out;
   /* transition: background-color 0.5s ease-in-out; */
 }

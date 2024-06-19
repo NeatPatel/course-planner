@@ -131,4 +131,37 @@ async function fetchPrereqs(courses) {
   }
 }
 
-module.exports = { fetchCourse, fetchRStrings, fetchGE, fetchPRTree, fetchPrereqs };
+async function fetchCoreqs(courses) {
+  let dataQuery = "";
+  for (courseIndex in courses) {
+    dataQuery += `
+      c${courseIndex}:course(id:"${courses[courseIndex]}") {
+        id
+        corequisite
+      }
+    `
+  }
+  dataQuery = `query { ${dataQuery} }`
+  
+  try {
+    const response = await axios({
+      url: "https://api.peterportal.org/graphql/",
+      method: "post",
+      data: {
+        query: dataQuery,
+      },
+    });
+    return response.data;
+  } catch (error) {
+    return "ERROR: Requisite fetching";
+  }
+}
+
+module.exports = {
+  fetchCourse,
+  fetchRStrings,
+  fetchGE,
+  fetchPRTree,
+  fetchPrereqs,
+  fetchCoreqs
+};

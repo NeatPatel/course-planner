@@ -8,7 +8,11 @@ export default function Droppable({ id, children }: any) {
     return (
         <div ref={setNodeRef} className="course-bag" key={id}
             id={id}>
-            {children}
+            <div className="bagged-course-list">
+                {children}
+
+            </div>
+            {/* {children} */}
         </div>
     )
 }

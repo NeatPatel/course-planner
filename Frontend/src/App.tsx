@@ -66,6 +66,7 @@ function App() {
         const controller = new AbortController();
 
         async function checkPrerequisites(orderedCourses: string[][]) {
+            console.log('ordered courses: ', orderedCourses);
             const options = {
                 method: "POST",
                 headers: {
@@ -238,9 +239,6 @@ function App() {
 
                                 })}
                             </CourseBagDroppable>
-                        </div>
-
-                        <div className="completed-courses">
                         </div>
                     </div>
                 </DndContext>
