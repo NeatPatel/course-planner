@@ -49,7 +49,23 @@ function App() {
     }, []);
 
     function handleDeleteTable(deleteYear: number) {
-        setScheduleYears((prevScheduleYears: any) => [...prevScheduleYears].filter(currentYear => currentYear !== deleteYear))
+        setScheduleYears((prevScheduleYears: number[]) => [...prevScheduleYears].filter(currentYear => currentYear !== deleteYear));
+        console.log(addedCourses);
+        // update addedCourses state accordingly
+        const addedCoursesCopy = { ...addedCourses };
+        for (const quarterID in addedCoursesCopy) {
+            const yearNumber = quarterID.split("-")[0];
+            if (parseInt(yearNumber) === deleteYear) {
+                delete addedCoursesCopy[quarterID];
+            }
+
+        }
+        setAddedCourses(addedCoursesCopy)
+
+    }
+
+    function clearAllSchedules() {
+        setAddedCourses({});
     }
 
     function addSchedule() {
@@ -204,7 +220,7 @@ function App() {
 
                             <button className="settingButton"
                                 onClick={() => {
-                                    // addSchedule();
+                                    clearAllSchedules();
                                 }}> Clear </button>
 
 

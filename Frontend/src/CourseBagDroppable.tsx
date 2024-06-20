@@ -10,9 +10,7 @@ export default function Droppable({ id, children }: any) {
             id={id}>
             <div className="bagged-course-list">
                 {children}
-
             </div>
-            {/* {children} */}
         </div>
     )
 }
