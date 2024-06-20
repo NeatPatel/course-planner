@@ -99,7 +99,8 @@ router.get("/req-tree-met", async (req, res) => {
 router.get("/validate-courses", async (req, res) => {
   const courseMatrix = req.body["courseMatrix"];
 
-  let coords = [];
+  let pr_coords = [];
+  let cr_coords = [];
   let allCourses = new Set();
 
   // Loop through each quarter
@@ -107,7 +108,6 @@ router.get("/validate-courses", async (req, res) => {
     let courseBufferForNextQuarter = new Set();
     let currQuarter = courseMatrix[qIndex];
     let prData = await fetchPrereqs(currQuarter);
-    console.log(prData)
 
     // Check prerequisites for each course in quarter
     for (cIndex in currQuarter) {
@@ -119,7 +119,7 @@ router.get("/validate-courses", async (req, res) => {
         let tree = convertToTree(currPR);
         let reqsMet = evalTree(tree, [...allCourses]);
         if (!reqsMet) {
-          coords.push({ q_loc: qIndex, c_loc: cIndex }); // Add course if req hasn't been met
+          pr_coords.push({ q_loc: qIndex, c_loc: cIndex }); // Add course if req hasn't been met
         }
       }
     }
@@ -139,25 +139,20 @@ router.get("/validate-courses", async (req, res) => {
       if (currCR) {
         let reqsMet = evalTokens(currCR, [...allCourses]);
         let currCoord = { q_loc: qIndex, c_loc: cIndex };
-        let coordExists = false;
-        for (let coord of coords) {
-          if (
-            currCoord["q_loc"] == coord["q_loc"] &&
-            currCoord["c_loc"] == coord["c_loc"]
-          ) {
-            coordExists = true;
-            break;
-          }
+        
+        if (!reqsMet) {
+          cr_coords.push(currCoord); // Add course if req hasn't been met
         }
-        if (!reqsMet && !coordExists) {
-          coords.push(currCoord); // Add course if req hasn't been met
-        }
+
       }
     }
     courseBufferForNextQuarter.clear();
   }
 
-  res.json({ invalid_courses: coords });
+  res.json({
+    missing_prereqs: pr_coords,
+    missing_coreqs: cr_coords
+  });
 });
 
 module.exports = router;
