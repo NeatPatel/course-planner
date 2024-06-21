@@ -314,7 +314,7 @@ function App() {
                                 scheduleYears.map((year: number) => {
                                     return <SchedulePlanner startYear={year} key={year}
                                         onDelete={handleDeleteTable} addedCourses={addedCourses}
-                                        invalidCourses={invalidCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses} />
+                                        invalidCourses={invalidCourses} />
                                 })
                             }
                         </div>
@@ -324,7 +324,7 @@ function App() {
                             <SearchBar departments={departmentList} setBaggedCourses={setBaggedCourses} />
                             <CourseBagDroppable id="course-bag">
                                 {baggedCourses.map((course: any) => {
-                                    return <DraggableCourse key={course.id} id={course.id} invalidCourses={invalidCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses}> {course.children} </DraggableCourse>
+                                    return <DraggableCourse key={course.id} id={course.id} invalidCourses={invalidCourses}> {course.children} </DraggableCourse>
 
                                 })}
                             </CourseBagDroppable>
