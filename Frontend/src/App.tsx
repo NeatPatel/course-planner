@@ -12,10 +12,6 @@ export type addedCourseType = {
     [key: string]: any
 }
 
-export type geProgressType = {
-    [key:string] : number
-}
-let checked_courses : [string]= [""];
 const SERVER = 'http://localhost:8000';
 
 function App() {
@@ -25,23 +21,6 @@ function App() {
     const [scheduleYears, setScheduleYears] = useState<number[]>([0]);
     const [departmentList, setDepartmentList] = useState<string[]>([]);
     const [invalidCourses, setInvalidCourses] = useState<Set<string>>();
-    const [GE_PROGRESS, setGEProgress] = useState<geProgressType>({
-            "Ia": 0, 
-            "Ib": 0,
-            "II": 0,
-            "III": 0,
-            "IV": 0,
-            "Va": 0,
-            "Vb": 0,
-            "VI": 0,
-            "VII": 0,
-            "VIII": 0
-    });
-
-
-     
-
-    
 
     const [baggedCourses, setBaggedCourses] = useState<any>([
         { id: 'MATH1A', children: 'MATH 1A' },
@@ -77,9 +56,6 @@ function App() {
         for (const quarterID in addedCoursesCopy) {
             const yearNumber = quarterID.split("-")[0];
             if (parseInt(yearNumber) === deleteYear) {
-                // for (let i in addedCoursesCopy[quarterID]) {
-                //     // checked_courses = checked_courses.filter(course => course != addedCoursesCopy[quarterID][i])
-                // }
                 delete addedCoursesCopy[quarterID];
             }
 
@@ -95,6 +71,10 @@ function App() {
     function addSchedule() {
         currentYearRef.current += 1
         setScheduleYears([...scheduleYears, currentYearRef.current])
+    }
+
+    function displayAlert() {
+        setAlertState(true);
     }
 
     useEffect(() => {
@@ -140,14 +120,9 @@ function App() {
             checkPrerequisites(orderedCourses);
         }, 1000)
 
-
-        // updateGEProgress();
         return () => {
             controller.abort();
         }
-        
-
-        
 
     }, [addedCourses])
 
@@ -208,54 +183,6 @@ function App() {
         setBaggedCourses(newBaggedCourses);
     }
 
-    async function updateGEProgress () {
-        let completed_courses : any = [];
-        for (let num in addedCourses) {
-            for (let course in addedCourses[num]) {
-                completed_courses.push(addedCourses[num][course].id.replace(/\s+/g, '').replace("&", "%26"));
-                console.log(completed_courses)
-            }
-        }
-
-        async function getGEforCourse(course:string) {
-
-            const req = await fetch(`http://localhost:8000/course?courseId=${course}`)
-            let data = await req.json()
-            let ge_string = data.data.course.ge_text;
-            ge_string = ge_string.split(" ")
-            let temp_progress = GE_PROGRESS;
-            for (let i in ge_string) {
-                let ge = ge_string[i].replace(/[()]/g, '');
-                
-                if (ge in temp_progress) {
-                    temp_progress[ge] += 1;
-                }
-
-                
-            }
-            await setGEProgress(temp_progress)
-            console.log(GE_PROGRESS)
-        }
-        console.log("COMPLETED", completed_courses)
-        for (let course in completed_courses) {
-            if (!(course in addedCourses)) {
-                if (!(course in checked_courses)) {
-                    console.log (course, course in checked_courses)
-                    await getGEforCourse(completed_courses[course])
-                    checked_courses.push(completed_courses[course]);
-                }
-                
-            }
-        }
-        
-    }
-
-    async function showAlert() {
-        await updateGEProgress();
-        await setAlertState(true);
-        // console.log("ALERT", GE_PROGRESS)
-    }
-    console.log(GE_PROGRESS)
     return (
 
         <div className="root">
@@ -270,7 +197,7 @@ function App() {
             </div>
 
             <div className="body">
-                {alertState && <GeneralCourseAlert setVisible={setAlertState} progress={GE_PROGRESS}/>}
+                {alertState && <GeneralCourseAlert setVisible={setAlertState} options={["GE 1", "GE 2"]} />}
 
                 <DndContext onDragEnd={handleDragEvent}>
                     <div className="planning-area">
@@ -300,7 +227,7 @@ function App() {
 
                             <button className="settingButton"
                                 onClick={() => {
-                                    showAlert();
+                                    displayAlert();
                                 }}
                             >
                                 GE Progress
