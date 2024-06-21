@@ -1,8 +1,15 @@
 import searchStyles from "./SearchBar.module.css"
 import { useState } from 'react';
 import searchGlass from "../../../public/search-glass.png"
+import { courseInformation } from "../../App";
 
-export default function DepartmentSearch({ departments, setBaggedCourses }: { departments: any, setBaggedCourses: any }) {
+interface props {
+    departments: string[],
+    setBaggedCourses: React.Dispatch<React.SetStateAction<courseInformation[]>>
+}
+
+
+export default function DepartmentSearch({ departments, setBaggedCourses }: props) {
     const [currentDepartment, setCurrentDepartment] = useState<string | null>(null);
     const [currentInput, setCurrentInput] = useState<string | null>(null);
     const [currentCourseNumber, setCurrentCourseNumber] = useState<string | null>(null);
@@ -28,9 +35,8 @@ export default function DepartmentSearch({ departments, setBaggedCourses }: { de
     }
 
 
-    const handleChange = (e: any) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setCurrentInput(e.target.value);
-        // console.log('setting to: ', e.target.value)
         setFocused(true)
     }
 
@@ -63,7 +69,7 @@ export default function DepartmentSearch({ departments, setBaggedCourses }: { de
                     <div className={searchStyles.searchBar}>
                         <input value={currentInput ? currentInput : ""} id="searchCourse" type="text" placeholder="Department"
                             onChange={(e) => handleChange(e)}
-                            onClick={(e) => {
+                            onClick={(e: any) => {
                                 handleChange(e);
                                 setFocused(true);
                             }}

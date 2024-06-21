@@ -1,6 +1,12 @@
 import { useDroppable } from "@dnd-kit/core";
 
-export default function Droppable({ id, children }: any) {
+interface props {
+    id: string,
+    children: JSX.Element[]
+}
+
+
+export default function Droppable({ id, children }: props) {
     const { setNodeRef } = useDroppable({
         id: id,
     });

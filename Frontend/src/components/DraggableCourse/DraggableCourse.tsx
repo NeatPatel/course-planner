@@ -4,12 +4,32 @@ import { useDraggable } from '@dnd-kit/core';
 import { CSS } from "@dnd-kit/utilities";
 import DeleteIcon from '../../icons/courseDelete.svg';
 import InfoIcon from '../../icons/info.svg'
+import { addedCourseType } from "../../App";
+import { courseInformation } from "../../App";
 
-export default function DraggableCourse({ id, children, invalidCourses, addedCourses, setAddedCourses, setBaggedCourses }: any) {
-    const [courseData, setCourseData] = useState<any>(null);
-    const modalRef = useRef<any>(null);
+interface props {
+    id: string,
+    children: string[],
+    invalidCourses: Set<string> | undefined,
+    addedCourses: addedCourseType,
+    setAddedCourses: React.Dispatch<React.SetStateAction<addedCourseType>>,
+    setBaggedCourses: React.Dispatch<React.SetStateAction<courseInformation[]>>
+}
 
-    const { attributes, listeners, setNodeRef, transform }: any = useDraggable({
+interface courseDataSchema {
+    school: string,
+    description: string,
+    restriction: string,
+    prerequisite_text: string,
+    ge_text: string,
+    units: string[]
+}
+
+export default function DraggableCourse({ id, children, invalidCourses, addedCourses, setAddedCourses, setBaggedCourses }: props) {
+    const [courseData, setCourseData] = useState<courseDataSchema | null>(null);
+    const modalRef = useRef<HTMLDialogElement>(null);
+
+    const { attributes, listeners, setNodeRef, transform } = useDraggable({
         id: id
     })
 
@@ -19,7 +39,7 @@ export default function DraggableCourse({ id, children, invalidCourses, addedCou
 
     async function getCourseInfo() {
         if (courseData != null) {
-            modalRef.current.showModal();
+            modalRef.current?.showModal();
             return;
         }
         let courseName = children.join("").replace(/\s+/g, '').replace("&", "%26");
@@ -29,7 +49,7 @@ export default function DraggableCourse({ id, children, invalidCourses, addedCou
         if (!data.data.course) return;
         setCourseData(data.data.course);
         console.log('set course data to: ', data.data.course);
-        modalRef.current.showModal();
+        modalRef.current?.showModal();
     }
 
     let containerClass;
@@ -41,25 +61,24 @@ export default function DraggableCourse({ id, children, invalidCourses, addedCou
 
     function deleteCourse() {
         console.log(addedCourses);
-        setAddedCourses((prevAddedCourses: any) => {
+        setAddedCourses((prevAddedCourses: addedCourseType) => {
             const addedCoursesCopy = { ...prevAddedCourses };
             for (const quarterIDKey in addedCoursesCopy) {
                 const courseList = addedCoursesCopy[quarterIDKey];
 
-                addedCoursesCopy[quarterIDKey] = courseList.filter((course: any) => {
+                addedCoursesCopy[quarterIDKey] = courseList.filter((course: courseInformation) => {
                     return course.id !== id
                 });
 
             }
-
             console.log(addedCoursesCopy);
             return addedCoursesCopy;
         });
 
 
-        setBaggedCourses((prevBaggedCourses: any) => {
+        setBaggedCourses((prevBaggedCourses: courseInformation[]) => {
             const baggedCoursesCopy = [...prevBaggedCourses];
-            const output = baggedCoursesCopy.filter((course: any) => {
+            const output = baggedCoursesCopy.filter((course: courseInformation) => {
                 return course.id !== id
             });
             return output;
@@ -82,7 +101,6 @@ export default function DraggableCourse({ id, children, invalidCourses, addedCou
                                     onClick={getCourseInfo} />
                                 <img className={styles.delete} src={DeleteIcon} alt=""
                                     onClick={() => {
-                                        // setIsRemoved(prevState => !prevState)
                                         deleteCourse();
                                     }} />
                             </div>
@@ -120,7 +138,7 @@ export default function DraggableCourse({ id, children, invalidCourses, addedCou
 
                             <div>
                                 <button onClick={() => {
-                                    modalRef.current.close();
+                                    modalRef.current?.close();
                                 }}> Close </button>
                             </div>
 

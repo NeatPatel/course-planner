@@ -8,8 +8,13 @@ import CourseBagDroppable from "./CourseBagDroppable.tsx";
 import GeneralCourseAlert from "./components/GeneralCourseAlert/GeneralCourseAlert.tsx";
 import raw from "./department-list.txt";
 
+export type courseInformation = {
+    id: string,
+    children: string
+}
+
 export type addedCourseType = {
-    [key: string]: any
+    [key: string]: courseInformation[];
 }
 
 const SERVER = 'http://localhost:8000';
@@ -22,7 +27,7 @@ function App() {
     const [departmentList, setDepartmentList] = useState<string[]>([]);
     const [invalidCourses, setInvalidCourses] = useState<Set<string>>();
 
-    const [baggedCourses, setBaggedCourses] = useState<any>([
+    const [baggedCourses, setBaggedCourses] = useState<courseInformation[]>([
         { id: 'MATH1A', children: 'MATH 1A' },
         { id: 'MATH1B', children: 'MATH 1B' },
         { id: 'MATH2A', children: 'MATH 2A' },
@@ -33,6 +38,7 @@ function App() {
     ]);
 
     useEffect(() => {
+        // Parse department list text file on initial render and set it as state.
         async function getDepartmentList() {
             const rawData = await fetch(raw);
             const text = await rawData.text();
@@ -44,13 +50,11 @@ function App() {
 
             setDepartmentList(departmentList);
         }
-
         getDepartmentList();
     }, []);
 
     function handleDeleteTable(deleteYear: number) {
         setScheduleYears((prevScheduleYears: number[]) => [...prevScheduleYears].filter(currentYear => currentYear !== deleteYear));
-        console.log(addedCourses);
         // update addedCourses state accordingly
         const addedCoursesCopy = { ...addedCourses };
         for (const quarterID in addedCoursesCopy) {
@@ -58,10 +62,8 @@ function App() {
             if (parseInt(yearNumber) === deleteYear) {
                 delete addedCoursesCopy[quarterID];
             }
-
         }
         setAddedCourses(addedCoursesCopy)
-
     }
 
     function clearAllSchedules() {
@@ -78,11 +80,12 @@ function App() {
     }
 
     useEffect(() => {
-        console.log('running updater: ')
+        // Parse prerequisites whenever addedCourses state changes
+
         const controller = new AbortController();
 
         async function checkPrerequisites(orderedCourses: string[][]) {
-            console.log('ordered courses: ', orderedCourses);
+            // console.log('ordered courses: ', orderedCourses);
             const options = {
                 method: "POST",
                 headers: {
@@ -95,7 +98,7 @@ function App() {
             }
             const promise = await fetch(`http://localhost:8000/validate-courses`, options);
             const data = await promise.json();
-            console.log(data);
+            // console.log(data);
 
             const invalidCourses = data['invalid_courses']
             const invalidCourseIDs: Set<string> = new Set();
@@ -104,7 +107,7 @@ function App() {
                 invalidCourseIDs.add(id);
             }
             setInvalidCourses(invalidCourseIDs);
-            console.log(invalidCourseIDs);
+            // console.log(invalidCourseIDs);
         }
 
         const orderedCourses: string[][] = [];
@@ -127,9 +130,9 @@ function App() {
     }, [addedCourses])
 
     function handleDragEvent(dragEvent: DragEndEvent) {
-        console.log(dragEvent)
+        // console.log(dragEvent)
         const newAddedCourses: addedCourseType = { ...addedCourses };
-        let newBaggedCourses: any = [...baggedCourses]
+        let newBaggedCourses: courseInformation[] = [...baggedCourses]
         if (dragEvent.over) {
             // Scenario 1: User drags course from table back into course bag 
             if (dragEvent.over.id === 'course-bag') {
@@ -148,7 +151,7 @@ function App() {
                 // Search through the courses in the course bag to find the JSX DraggableCourse element that we want to 
                 // update in the state variable 
 
-                courseToAdd = baggedCourses.find((course: any) => {
+                courseToAdd = baggedCourses.find((course: courseInformation) => {
                     return course.id === dragEvent.active.id
                 });
 
@@ -168,7 +171,7 @@ function App() {
                     }
                 }
                 // remove the course we are adding/transferring in the table from the bagged courses list
-                newBaggedCourses = newBaggedCourses.filter((course: any) => course !== courseToAdd);
+                newBaggedCourses = newBaggedCourses.filter((course: courseInformation) => course !== courseToAdd);
                 if (dragEvent.over.id in newAddedCourses)
                     newAddedCourses[dragEvent.over.id].push(courseToAdd);
                 else
@@ -202,7 +205,6 @@ function App() {
                 <DndContext onDragEnd={handleDragEvent}>
                     <div className="planning-area">
                         <div className="searchArea">
-                            {/* <CourseSearch /> */}
                             <button className="settingButton"
                                 onClick={() => {
                                     addSchedule();
@@ -210,12 +212,10 @@ function App() {
 
                             <button className="settingButton"
                                 onClick={() => {
-                                    // addSchedule();
                                 }}> Save </button>
 
                             <button className="settingButton"
                                 onClick={() => {
-                                    // addSchedule();
                                 }}> Load </button>
 
                             <button className="settingButton"
@@ -223,13 +223,10 @@ function App() {
                                     clearAllSchedules();
                                 }}> Clear </button>
 
-
-
                             <button className="settingButton"
                                 onClick={() => {
                                     displayAlert();
-                                }}
-                            >
+                                }}>
                                 GE Progress
                             </button>
 
@@ -250,9 +247,11 @@ function App() {
                         <div className="major-selection">
                             <SearchBar departments={departmentList} setBaggedCourses={setBaggedCourses} />
                             <CourseBagDroppable id="course-bag">
-                                {baggedCourses.map((course: any) => {
-                                    return <DraggableCourse key={course.id} id={course.id} invalidCourses={invalidCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses}> {course.children} </DraggableCourse>
-
+                                {baggedCourses.map((course: courseInformation) => {
+                                    return <DraggableCourse key={course.id} id={course.id} invalidCourses={invalidCourses}
+                                        addedCourses={addedCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses}>
+                                        {course.children} {""}
+                                    </DraggableCourse>
                                 })}
                             </CourseBagDroppable>
                         </div>

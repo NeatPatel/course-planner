@@ -3,30 +3,30 @@ import DropdownIcon from '../../icons/dropdown.svg';
 import DeleteIcon from '../../icons/delete.svg';
 import { Droppable } from './Droppable.tsx';
 import { useState, useRef } from 'react';
-import { addedCourseType } from '../../App.tsx';
+import { addedCourseType, courseInformation } from '../../App.tsx';
 import DraggableCourse from '../DraggableCourse/DraggableCourse.tsx';
 
 interface props {
     startYear: number,
-    onDelete: Function
+    onDelete: Function,
     addedCourses: addedCourseType,
-    invalidCourses: any,
-    setAddedCourses: any,
-    setBaggedCourses: any
+    invalidCourses: Set<string> | undefined,
+    setAddedCourses: React.Dispatch<React.SetStateAction<addedCourseType>>,
+    setBaggedCourses: React.Dispatch<React.SetStateAction<courseInformation[]>>
 }
 
 export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses, invalidCourses, setAddedCourses, setBaggedCourses }: props) {
-    const [showTable, setShowTable] = useState(false);
-    const [yearInput, setYearInput] = useState(`Year ${startYear + 1}`);
+    const [showTable, setShowTable] = useState<boolean>(false);
+    const [yearInput, setYearInput] = useState<string>(`Year ${startYear + 1}`);
 
-    const dropdownRef = useRef<any>();
-    const delRef = useRef<any>();
+    const dropdownRef = useRef<HTMLImageElement>(null);
+    const delRef = useRef<HTMLImageElement>(null);
 
     function handleDelete() {
         onDelete(startYear);
     }
 
-    function handleYearEdit(e: any) {
+    function handleYearEdit(e: React.ChangeEvent<HTMLInputElement>) {
         setYearInput(e.target.value);
     }
 
@@ -40,9 +40,11 @@ export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses,
 
             {
                 (
-                    id in addedCourses && addedCourses[id].map((course: any) => {
+                    id in addedCourses && addedCourses[id].map((course: courseInformation) => {
+                        return <DraggableCourse key={course.id} id={course.id} invalidCourses={invalidCourses}
+                            addedCourses={addedCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses}>
 
-                        return <DraggableCourse key={course.id} id={course.id} invalidCourses={invalidCourses} addedCourses={addedCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses}> {course.children} </DraggableCourse>
+                            {course.children} </DraggableCourse>
                     })
                 )
             }
@@ -61,14 +63,16 @@ export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses,
             <div id={`${startYear}`} className={`${styles.container} ${showTable ? styles.expanded : null}`}>
                 <div className={styles.yearLabel}>
                     <div>
-                        <img ref={dropdownRef} className={"dropdown" + " " + startYear + " " + styles.dropdown} onClick={handleDropDown} src={DropdownIcon} alt="" />
+                        <img ref={dropdownRef} className={"dropdown" + " " + startYear + " " + styles.dropdown}
+                            onClick={handleDropDown} src={DropdownIcon} alt="" />
                     </div>
 
                     <input value={yearInput} className={styles.date} type="text" onChange={handleYearEdit} >
                     </input>
 
                     <div>
-                        <img ref={delRef} className={"delete" + " " + startYear + " " + styles.delete} onClick={handleDelete} src={DeleteIcon} alt="" />
+                        <img ref={delRef} className={"delete" + " " + startYear + " " + styles.delete}
+                            onClick={handleDelete} src={DeleteIcon} alt="" />
                     </div>
                 </div>
                 <div>
@@ -79,7 +83,6 @@ export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses,
                                     tableData
                                 }
                             </div>
-
                         )
                     }
                 </div>
