@@ -5,8 +5,7 @@ import { CSS } from "@dnd-kit/utilities";
 import DeleteIcon from '../../icons/courseDelete.svg';
 import InfoIcon from '../../icons/info.svg'
 
-export default function DraggableCourse({ id, children, invalidCourses }: any) {
-    const [isRemoved, setIsRemoved] = useState<boolean>(false);
+export default function DraggableCourse({ id, children, invalidCourses, addedCourses, setAddedCourses, setBaggedCourses }: any) {
     const [courseData, setCourseData] = useState<any>(null);
     const modalRef = useRef<any>(null);
 
@@ -40,11 +39,38 @@ export default function DraggableCourse({ id, children, invalidCourses }: any) {
         containerClass = `${styles.container}`
     }
 
+    function deleteCourse() {
+        console.log(addedCourses);
+        setAddedCourses((prevAddedCourses: any) => {
+            const addedCoursesCopy = { ...prevAddedCourses };
+            for (const quarterIDKey in addedCoursesCopy) {
+                const courseList = addedCoursesCopy[quarterIDKey];
+
+                addedCoursesCopy[quarterIDKey] = courseList.filter((course: any) => {
+                    return course.id !== id
+                });
+
+            }
+
+            console.log(addedCoursesCopy);
+            return addedCoursesCopy;
+        });
+
+
+        setBaggedCourses((prevBaggedCourses: any) => {
+            const baggedCoursesCopy = [...prevBaggedCourses];
+            const output = baggedCoursesCopy.filter((course: any) => {
+                return course.id !== id
+            });
+            return output;
+        });
+    }
+
 
     return (
         <>
             {
-                isRemoved == false && (
+                (
                     <>
                         <div className={containerClass} style={style} >
                             <div className={styles.name} ref={setNodeRef} {...listeners} {...attributes} >
@@ -56,7 +82,8 @@ export default function DraggableCourse({ id, children, invalidCourses }: any) {
                                     onClick={getCourseInfo} />
                                 <img className={styles.delete} src={DeleteIcon} alt=""
                                     onClick={() => {
-                                        setIsRemoved(prevState => !prevState)
+                                        // setIsRemoved(prevState => !prevState)
+                                        deleteCourse();
                                     }} />
                             </div>
 
