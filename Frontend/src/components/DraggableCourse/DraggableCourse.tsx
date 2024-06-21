@@ -63,6 +63,11 @@ export default function DraggableCourse({ id, children, invalidCourses }: any) {
                         </div>
 
                         <dialog data-modal ref={modalRef} className={styles.modal}>
+                            <div>
+                                <button onClick={() => {
+                                    modalRef.current.close();
+                                }}> Close </button>
+                            </div>
                             {
                                 courseData && `${children.slice(1, children.length - 1)} - ${courseData.school}`
                             }
@@ -91,11 +96,7 @@ export default function DraggableCourse({ id, children, invalidCourses }: any) {
                                 courseData && <span> <b>{courseData.ge_text}</b></span>
                             }
 
-                            <div>
-                                <button onClick={() => {
-                                    modalRef.current.close();
-                                }}> Close </button>
-                            </div>
+                            
 
                         </dialog>
                     </>
