@@ -5,7 +5,6 @@ import SchedulePlanner from "./components/SchedulePlanner/SchedulePlanner.tsx";
 import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import CourseBagDroppable from "./CourseBagDroppable.tsx";
-import GeneralCourseAlert from "./components/GeneralCourseAlert/GeneralCourseAlert.tsx";
 import raw from "./department-list.txt";
 
 export type courseInformation = {
@@ -21,21 +20,11 @@ const SERVER = 'http://localhost:8000';
 
 function App() {
     const currentYearRef = useRef<number>(0);
-    const [alertState, setAlertState] = useState<boolean>(false);
     const [addedCourses, setAddedCourses] = useState<addedCourseType>({});
     const [scheduleYears, setScheduleYears] = useState<number[]>([0]);
     const [departmentList, setDepartmentList] = useState<string[]>([]);
     const [invalidCourses, setInvalidCourses] = useState<Set<string>>();
-
-    const [baggedCourses, setBaggedCourses] = useState<courseInformation[]>([
-        { id: 'MATH1A', children: 'MATH 1A' },
-        { id: 'MATH1B', children: 'MATH 1B' },
-        { id: 'MATH2A', children: 'MATH 2A' },
-        { id: 'MATH2B', children: 'MATH 2B' },
-        { id: 'I&CSCI31', children: 'I&CSCI 31' },
-        { id: 'I&CSCI32', children: 'I&CSCI 32' },
-        { id: 'I&CSCI33', children: 'I&CSCI 33' },
-    ]);
+    const [baggedCourses, setBaggedCourses] = useState<courseInformation[]>([]);
 
     useEffect(() => {
         // Parse department list text file on initial render and set it as state.
@@ -75,10 +64,6 @@ function App() {
         setScheduleYears([...scheduleYears, currentYearRef.current])
     }
 
-    function displayAlert() {
-        setAlertState(true);
-    }
-
     useEffect(() => {
         // Parse prerequisites whenever addedCourses state changes
 
@@ -96,7 +81,7 @@ function App() {
                 }),
                 signal: controller.signal
             }
-            const promise = await fetch(`http://localhost:8000/validate-courses`, options);
+            const promise = await fetch(`${SERVER}/validate-courses`, options);
             const data = await promise.json();
             // console.log(data);
 
@@ -200,8 +185,6 @@ function App() {
             </div>
 
             <div className="body">
-                {alertState && <GeneralCourseAlert setVisible={setAlertState} options={["GE 1", "GE 2"]} />}
-
                 <DndContext onDragEnd={handleDragEvent}>
                     <div className="planning-area">
                         <div className="searchArea">
@@ -225,7 +208,6 @@ function App() {
 
                             <button className="settingButton"
                                 onClick={() => {
-                                    displayAlert();
                                 }}>
                                 GE Progress
                             </button>

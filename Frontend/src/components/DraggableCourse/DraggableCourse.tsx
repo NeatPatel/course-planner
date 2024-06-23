@@ -25,6 +25,8 @@ interface courseDataSchema {
     units: string[]
 }
 
+const SERVER = 'http://localhost:8000';
+
 export default function DraggableCourse({ id, children, invalidCourses, addedCourses, setAddedCourses, setBaggedCourses }: props) {
     const [courseData, setCourseData] = useState<courseDataSchema | null>(null);
     const modalRef = useRef<HTMLDialogElement>(null);
@@ -43,7 +45,7 @@ export default function DraggableCourse({ id, children, invalidCourses, addedCou
             return;
         }
         let courseName = children.join("").replace(/\s+/g, '').replace("&", "%26");
-        const promise = await fetch(`http://localhost:8000/course?courseId=${courseName}`)
+        const promise = await fetch(`${SERVER}/course?courseId=${courseName}`)
         const data = await promise.json();
         console.log(data);
         if (!data.data.course) return;
