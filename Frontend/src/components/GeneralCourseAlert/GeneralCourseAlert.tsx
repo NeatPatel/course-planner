@@ -1,5 +1,5 @@
 import styles from "./GeneralCourseAlert.module.css";
-import { useState, useRef } from 'react';
+//import { useState, useRef } from 'react';
 
 
 export default function GeneralCourseAlert({setVisible, options} : any) {
