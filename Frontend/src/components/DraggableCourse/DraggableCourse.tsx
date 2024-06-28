@@ -25,7 +25,7 @@ interface courseDataSchema {
     units: string[]
 }
 
-const SERVER = 'http://localhost:8000';
+const SERVER = 'https://course-eater.onrender.com';
 
 export default function DraggableCourse({ id, children, invalidCourses, addedCourses, setAddedCourses, setBaggedCourses }: props) {
     const [courseData, setCourseData] = useState<courseDataSchema | null>(null);
