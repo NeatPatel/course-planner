@@ -30,7 +30,7 @@ router.put("/save-schedule-db", async (req, res) => {
     const update = {
       $set: {
         email: req.body["email"],
-        lastUpdated: Date.now(),
+        lastUpdated: (new Date()).toUTCString(),
         scheduleA: req.body["scheduleA"],
         scheduleB: req.body["scheduleB"],
         scheduleC: req.body["scheduleC"],
