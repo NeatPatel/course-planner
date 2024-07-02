@@ -5,6 +5,7 @@ const app = express();
 const PORT = 8000;
 
 const courseRouter = require("./routes/course-endpoint.js");
+const dbRouter = require("./routes/db-endpoint.js")
 const reqRouter = require("./routes/req-endpoint.js");
 const geRouter = require("./routes/ge-endpoint.js");
 
@@ -25,6 +26,7 @@ app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 app.use(courseRouter);
+app.use(dbRouter)
 app.use(reqRouter);
 app.use(geRouter);
 
