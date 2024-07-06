@@ -44,7 +44,7 @@ export default function DepartmentSearch({ departments, setBaggedCourses }: prop
         console.log('adding course: ')
         let courseID = currentDepartment?.includes("&") ? `${currentDepartment.replace("&", "%26")}${currentCourseNumber}` : `${currentDepartment}${currentCourseNumber}`
         courseID = courseID.replace(/\s/g, ""); // remove all whitespace 
-        const promise = await fetch(`https://course-eater.onrender.com/course?courseId=${courseID}`);
+        const promise = await fetch(`https://course-planner-dl32.onrender.com/course?courseId=${courseID}`);
         const data = await promise.json();
         console.log('course data: ', data);
 

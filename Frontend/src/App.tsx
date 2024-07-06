@@ -16,7 +16,7 @@ export type addedCourseType = {
     [key: string]: courseInformation[];
 }
 
-const SERVER = 'https://course-eater.onrender.com';
+const SERVER = 'https://course-planner-dl32.onrender.com';
 
 function App() {
     const currentYearRef = useRef<number>(0);
