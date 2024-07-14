@@ -6,8 +6,11 @@ import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import CourseBagDroppable from "./CourseBagDroppable.tsx";
 import raw from "./department-list.txt";
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider, InputGroup, InputRightAddon } from "@chakra-ui/react";
 import { Switch } from "@chakra-ui/react";
+import SavePopOver from "./components/SavePopOver/PopOverAction.tsx";
+import LoadPopOver from "./components/LoadPopOver/LoadPopOver.tsx";
+
 
 export type courseInformation = {
     id: string,
@@ -206,24 +209,13 @@ function App() {
                                         addSchedule();
                                     }}> Add Year</button>
 
-                                <button className="settingButton"
-                                    onClick={() => {
-                                    }}> Save </button>
-
-                                <button className="settingButton"
-                                    onClick={() => {
-                                    }}> Load </button>
+                                <SavePopOver addedCourses={addedCourses} />
+                                <LoadPopOver />
 
                                 <button className="settingButton"
                                     onClick={() => {
                                         clearAllSchedules();
                                     }}> Clear </button>
-
-                                {/* <button className="settingButton"
-                                    onClick={() => {
-                                    }}>
-                                    GE Progress
-                                </button> */}
 
                                 <div className="prereqs">
                                     <Switch id='switch' size={"md"} isChecked={enforcingPrerequisites}
