@@ -226,6 +226,11 @@ input {
   cursor: pointer;
 }
 
+.prereqs {
+  color: #697784;
+  margin-left: 0.5em;
+}
+
 .settingButton {
   border-radius: 2em;
   border: 1px solid #f4f4f4;

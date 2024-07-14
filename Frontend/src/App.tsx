@@ -6,6 +6,8 @@ import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import CourseBagDroppable from "./CourseBagDroppable.tsx";
 import raw from "./department-list.txt";
+import { ChakraProvider } from "@chakra-ui/react";
+import { Switch } from "@chakra-ui/react";
 
 export type courseInformation = {
     id: string,
@@ -25,6 +27,7 @@ function App() {
     const [departmentList, setDepartmentList] = useState<string[]>([]);
     const [invalidCourses, setInvalidCourses] = useState<Set<string>>();
     const [baggedCourses, setBaggedCourses] = useState<courseInformation[]>([]);
+    const [enforcingPrerequisites, setEnforcingPrerequisites] = useState<boolean>(true);
 
     useEffect(() => {
         // Parse department list text file on initial render and set it as state.
@@ -66,6 +69,7 @@ function App() {
 
     useEffect(() => {
         // Parse prerequisites whenever addedCourses state changes
+        if (!enforcingPrerequisites) return;
 
         const controller = new AbortController();
 
@@ -83,16 +87,15 @@ function App() {
             }
             const promise = await fetch(`${SERVER}/validate-courses`, options);
             const data = await promise.json();
-            // console.log(data);
+            console.log(data);
 
-            const invalidCourses = data['invalid_courses']
+            const invalidCourses = data['missing_prereqs']
             const invalidCourseIDs: Set<string> = new Set();
             for (const course of invalidCourses) {
                 const id = orderedCourses[course['q_loc']][course['c_loc']]
                 invalidCourseIDs.add(id);
             }
             setInvalidCourses(invalidCourseIDs);
-            // console.log(invalidCourseIDs);
         }
 
         const orderedCourses: string[][] = [];
@@ -106,13 +109,13 @@ function App() {
 
         setTimeout(() => {
             checkPrerequisites(orderedCourses);
-        }, 1000)
+        }, 1000);
 
         return () => {
             controller.abort();
         }
 
-    }, [addedCourses])
+    }, [addedCourses, enforcingPrerequisites])
 
     function handleDragEvent(dragEvent: DragEndEvent) {
         // console.log(dragEvent)
@@ -171,76 +174,93 @@ function App() {
         setBaggedCourses(newBaggedCourses);
     }
 
+    function toggleSwitch() {
+        const newState = !enforcingPrerequisites;
+        setEnforcingPrerequisites(newState);
+        if (!newState) {
+            console.log('removing invalid courses');
+            setInvalidCourses(new Set());
+        }
+    }
+
     return (
+        <ChakraProvider>
 
-        <div className="root">
-            <div className="header">
-                <div className="title">
-                    Course Eater
+            <div className="root">
+                <div className="header">
+                    <div className="title">
+                        Course Eater
+                    </div>
+
+                    <div className="sign-in">
+                        Sign-in
+                    </div>
                 </div>
 
-                <div className="sign-in">
-                    Sign-in
+                <div className="body">
+                    <DndContext onDragEnd={handleDragEvent}>
+                        <div className="planning-area">
+                            <div className="searchArea">
+                                <button className="settingButton"
+                                    onClick={() => {
+                                        addSchedule();
+                                    }}> Add Year</button>
+
+                                <button className="settingButton"
+                                    onClick={() => {
+                                    }}> Save </button>
+
+                                <button className="settingButton"
+                                    onClick={() => {
+                                    }}> Load </button>
+
+                                <button className="settingButton"
+                                    onClick={() => {
+                                        clearAllSchedules();
+                                    }}> Clear </button>
+
+                                {/* <button className="settingButton"
+                                    onClick={() => {
+                                    }}>
+                                    GE Progress
+                                </button> */}
+
+                                <div className="prereqs">
+                                    <Switch id='switch' size={"md"} isChecked={enforcingPrerequisites}
+                                        onChange={toggleSwitch} />
+                                    {" "}{" "}Check Prerequisites
+                                </div>
+
+                            </div>
+
+                            <div className="scheduleArea">
+
+                                {
+                                    scheduleYears.map((year: number) => {
+                                        return <SchedulePlanner startYear={year} key={year}
+                                            onDelete={handleDeleteTable} addedCourses={addedCourses}
+                                            invalidCourses={invalidCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses} />
+                                    })
+                                }
+                            </div>
+                        </div>
+                        <div className="course-selection">
+                            <div className="major-selection">
+                                <SearchBar departments={departmentList} setBaggedCourses={setBaggedCourses} />
+                                <CourseBagDroppable id="course-bag">
+                                    {baggedCourses.map((course: courseInformation) => {
+                                        return <DraggableCourse key={course.id} id={course.id} invalidCourses={invalidCourses}
+                                            addedCourses={addedCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses}>
+                                            {course.children} {""}
+                                        </DraggableCourse>
+                                    })}
+                                </CourseBagDroppable>
+                            </div>
+                        </div>
+                    </DndContext>
                 </div>
             </div>
-
-            <div className="body">
-                <DndContext onDragEnd={handleDragEvent}>
-                    <div className="planning-area">
-                        <div className="searchArea">
-                            <button className="settingButton"
-                                onClick={() => {
-                                    addSchedule();
-                                }}> Add Year</button>
-
-                            <button className="settingButton"
-                                onClick={() => {
-                                }}> Save </button>
-
-                            <button className="settingButton"
-                                onClick={() => {
-                                }}> Load </button>
-
-                            <button className="settingButton"
-                                onClick={() => {
-                                    clearAllSchedules();
-                                }}> Clear </button>
-
-                            <button className="settingButton"
-                                onClick={() => {
-                                }}>
-                                GE Progress
-                            </button>
-
-                        </div>
-
-                        <div className="scheduleArea">
-
-                            {
-                                scheduleYears.map((year: number) => {
-                                    return <SchedulePlanner startYear={year} key={year}
-                                        onDelete={handleDeleteTable} addedCourses={addedCourses}
-                                        invalidCourses={invalidCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses} />
-                                })
-                            }
-                        </div>
-                    </div>
-                    <div className="course-selection">
-                        <div className="major-selection">
-                            <SearchBar departments={departmentList} setBaggedCourses={setBaggedCourses} />
-                            <CourseBagDroppable id="course-bag">
-                                {baggedCourses.map((course: courseInformation) => {
-                                    return <DraggableCourse key={course.id} id={course.id} invalidCourses={invalidCourses}
-                                        addedCourses={addedCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses}>
-                                        {course.children} {""}
-                                    </DraggableCourse>
-                                })}
-                            </CourseBagDroppable>
-                        </div>
-                    </div>
-                </DndContext>
-            </div>
-        </div>
+        </ChakraProvider>
     );
 }
 
