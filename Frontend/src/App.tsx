@@ -6,7 +6,7 @@ import DraggableCourse from "./components/DraggableCourse/DraggableCourse.tsx";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import CourseBagDroppable from "./CourseBagDroppable.tsx";
 import raw from "./department-list.txt";
-import { ChakraProvider, InputGroup, InputRightAddon } from "@chakra-ui/react";
+import { ChakraProvider } from "@chakra-ui/react";
 import { Switch } from "@chakra-ui/react";
 import SavePopOver from "./components/SavePopOver/SavePopOver.tsx";
 import LoadPopOver from "./components/LoadPopOver/LoadPopOver.tsx";
