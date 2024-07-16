@@ -10,7 +10,7 @@
   color: rgb(201, 201, 201);
   border: 1px solid #dfdfdf;
   border-radius: 0.25em;
-  z-index: 50;
+  /* z-index: 50; */
   transition: border 0.25s ease-in-out, background-color 0.5s ease-in-out;
   /* transition: background-color 0.5s ease-in-out; */
 }

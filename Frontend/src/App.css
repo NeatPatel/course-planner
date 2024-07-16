@@ -35,6 +35,10 @@ body {
   padding-left: 5%;
 }
 
+.title h1 {
+  font-size: 20px;
+}
+
 .sign-in {
   display: flex;
   justify-content: center;
@@ -250,6 +254,7 @@ input {
 
 .course-bag {
   display: flex;
+  z-index: 10;
   justify-content: center;
   row-gap: 10px;
   column-gap: 5px;

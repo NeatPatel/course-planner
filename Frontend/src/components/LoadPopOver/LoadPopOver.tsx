@@ -12,23 +12,50 @@ import {
     PopoverAnchor,
 } from '@chakra-ui/react'
 
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 const SERVER = 'https://course-planner-dl32.onrender.com';
-export default function LoadPopOver() {
+export default function LoadPopOver({ addedCourses, setAddedCourses }: any) {
     const [passCode, setPasscode] = useState<string>("");
 
     async function handleLoad() {
 
         const promise = await fetch(`${SERVER}/load-schedule-db`, {
             method: "POST",
-            body: passCode
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                email: passCode
+            })
         })
 
         const data = await promise.json();
-        console.log('saved schedule data: ');
-        console.log(data);
+        // console.log('saved schedule data: ');
+        // console.log(data);
 
+        const scheduleData = data.data.scheduleA;
+        for (let i = 0; i < scheduleData.length; i++) {
+            for (let j = 0; j < scheduleData[i].length; j++) {
+                scheduleData[i][j] = { id: scheduleData[i][j], children: scheduleData[i][j] }
+            }
+        }
+
+        // console.log('added courses: ', addedCourses);
+        const addedCoursesCopy = { ...addedCourses };
+
+        let index = 0;
+        for (const quarterKey of Object.keys(addedCoursesCopy).sort()) {
+            if (index > scheduleData.length - 1) break;
+            addedCoursesCopy[quarterKey] = scheduleData[index]
+            index += 1
+
+        }
+
+        // console.log('new added course copy: ')
+        // console.log(addedCoursesCopy);
+
+        setAddedCourses(addedCoursesCopy);
     }
 
     return (

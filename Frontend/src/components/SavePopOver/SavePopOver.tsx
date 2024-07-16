@@ -49,7 +49,7 @@ export default function SavePopOver({ addedCourses }: any) {
 
         const promise = await fetch(`${SERVER}/save-schedule-db`, options);
         const data = await promise.text()
-        console.log('endpoint output: ')
+        // console.log('endpoint output: ')
         console.log(data);
     }
 
@@ -72,7 +72,7 @@ export default function SavePopOver({ addedCourses }: any) {
                 <PopoverArrow />
                 <PopoverCloseButton margin="0px 0px" />
                 <PopoverHeader><b>Save Schedule</b> </PopoverHeader>
-                <PopoverBody>
+                <PopoverBody zIndex="200">
                     Enter a unique and secret passcode to save your schedule.
                     Anyone can modify your schedule if they use the same passcode!
                     <InputGroup marginTop="1em">

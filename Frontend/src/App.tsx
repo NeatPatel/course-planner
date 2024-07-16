@@ -8,7 +8,7 @@ import CourseBagDroppable from "./CourseBagDroppable.tsx";
 import raw from "./department-list.txt";
 import { ChakraProvider, InputGroup, InputRightAddon } from "@chakra-ui/react";
 import { Switch } from "@chakra-ui/react";
-import SavePopOver from "./components/SavePopOver/PopOverAction.tsx";
+import SavePopOver from "./components/SavePopOver/SavePopOver.tsx";
 import LoadPopOver from "./components/LoadPopOver/LoadPopOver.tsx";
 
 
@@ -26,11 +26,24 @@ const SERVER = 'https://course-planner-dl32.onrender.com';
 function App() {
     const currentYearRef = useRef<number>(0);
     const [addedCourses, setAddedCourses] = useState<addedCourseType>({});
-    const [scheduleYears, setScheduleYears] = useState<number[]>([0]);
+    const [scheduleYears, setScheduleYears] = useState<number[]>([0, 1, 2, 3]);
     const [departmentList, setDepartmentList] = useState<string[]>([]);
     const [invalidCourses, setInvalidCourses] = useState<Set<string>>();
     const [baggedCourses, setBaggedCourses] = useState<courseInformation[]>([]);
     const [enforcingPrerequisites, setEnforcingPrerequisites] = useState<boolean>(true);
+
+    const addedCourseCopy = { ...addedCourses };
+    let initializedState = false;
+    for (const year of scheduleYears) {
+        for (let currentTermIndex = 0; currentTermIndex < 4; currentTermIndex++) {
+            const id = `${year}-${currentTermIndex}`;
+            if (!(id in addedCourseCopy)) {
+                addedCourseCopy[id] = [];
+                initializedState = true;
+            }
+        }
+    }
+    if (initializedState) setAddedCourses(addedCourseCopy);
 
     useEffect(() => {
         // Parse department list text file on initial render and set it as state.
@@ -192,11 +205,11 @@ function App() {
             <div className="root">
                 <div className="header">
                     <div className="title">
-                        Course Eater
+                        <h1>Course Eater</h1>
                     </div>
 
                     <div className="sign-in">
-                        Sign-in
+                        {/* Sign-in */}
                     </div>
                 </div>
 
@@ -210,7 +223,7 @@ function App() {
                                     }}> Add Year</button>
 
                                 <SavePopOver addedCourses={addedCourses} />
-                                <LoadPopOver />
+                                <LoadPopOver addedCourses={addedCourses} setAddedCourses={setAddedCourses} />
 
                                 <button className="settingButton"
                                     onClick={() => {
