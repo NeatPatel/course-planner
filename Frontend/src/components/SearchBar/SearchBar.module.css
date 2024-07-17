@@ -1,15 +1,10 @@
 .container {
   position: relative;
   display: flex;
-  margin-top: 1em;
-  margin-left: 0.5em;
   justify-content: center;
-  width: 45%;
-  /* min-height: 50px; */
-  height: 30px;
-  /* height: auto; */
+  width: 50%;
+  height: 100%;
   flex-wrap: wrap;
-  /* z-index: 40; */
 }
 
 .searchBarsContainer {
@@ -25,23 +20,17 @@
   margin-left: 0.5em;
   justify-content: center;
   width: 10vw;
-  /* min-height: 50px; */
   height: 30px;
-  /* height: auto; */
   flex-wrap: wrap;
 }
 
 .searchBarContainer {
   position: relative;
   display: flex;
-  margin-top: 1em;
   margin-left: 0.5em;
   justify-content: center;
-  /* width: 10%; */
   width: fit-content;
-  /* min-height: 50px; */
   height: 30px;
-  /* height: auto; */
   flex-wrap: wrap;
 }
 
@@ -50,30 +39,31 @@
 }
 
 .searchBar {
-  /* padding: 0.5em; */
-  border-radius: 1em;
-  border: 1px solid #d1d1d1;
-  background-color: #ffffff;
   width: 100%;
   min-width: none;
-  /* height: 50px; */
   height: 100%;
   display: flex;
   align-items: center;
-  padding-left: 1.5em; /* text-align: center; */
+  padding-left: 1em;
+}
+
+.searchBarInput {
+  width: 100% !important;
+  background-color: #ffffff !important;
+}
+
+.courseNumberInput {
+  width: 20% !important;
+  background-color: #ffffff !important;
 }
 
 .searchGlass {
-  /* padding: 0.5em; */
-  border-radius: 1em;
   border: 1px solid #d1d1d1;
   background-color: #ffffff;
-  width: 100%;
-  /* height: 50px; */
-  height: 100%;
+  width: 1em;
+  height: 1em;
   display: flex;
   align-items: center;
-  /* padding-left: 1.5em; text-align: center; */
 }
 
 input::placeholder {
@@ -87,20 +77,16 @@ input::placeholder {
 
 .departmentItem {
   padding: 0.5em;
-  /* margin: 0.2em; */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 16px;
   height: 100%;
-  /* width: 70%; */
   width: 100%;
-  /* padding: 0.3em; */
   border-radius: 0.2em;
 }
 
 .departmentItem:hover {
-  /* cursor: pointer; */
   background-color: #e8e8e8;
 }
 
@@ -113,7 +99,6 @@ ul {
   margin: 0;
   padding: 0;
   width: 90%;
-  /* z-index: 60; */
 }
 
 .searchResults {
@@ -121,22 +106,17 @@ ul {
   position: relative;
   top: 0.4em;
   z-index: 60;
-  /* background-color: rgba(137, 136, 136, 0.8); */
-  /* background-color: ; */
+  left: 0.4em;
   border: 1px solid #d1d1d1;
   background-color: #f5f4f4;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   border-radius: 0.5em;
-  /* border: 2px solid black; */
   overflow-y: scroll;
   transition: height 0.2s ease-in-out;
-  /* height: auto;
-  max-height: 25vh; */
   max-height: 200px;
-  width: 97%;
-  /* width: 100%; */
+  width: 93%;
 }
 
 .searchResults::-webkit-scrollbar-button {
@@ -155,6 +135,7 @@ ul:last-child {
   display: flex;
   flex-direction: row;
   justify-content: left;
+  width: max-content;
 }
 
 @media screen and (max-width: 850px) {

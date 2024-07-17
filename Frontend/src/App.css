@@ -233,15 +233,16 @@ input {
 }
 
 .settingButton {
-  border-radius: 2em;
-  border: 1px solid #f4f4f4;
-  background-color: #f4f4f4;
+  border-radius: 3em !important;
+  border: 1px solid #c8c8c8;
+  /* background-color: #f4f4f4 !important; */
   color: #697784;
   width: fit-content;
-  padding: 0px 2em;
+  padding: 0px 2em !important;
   height: 2.5em;
-  margin: 0.5em;
+  margin: 0.5em 0.7em;
   transition: border 0.25s ease-in-out;
+  font-weight: normal !important;
 }
 
 .settingButton:hover {

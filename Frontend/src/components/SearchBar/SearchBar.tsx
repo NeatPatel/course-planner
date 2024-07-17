@@ -2,6 +2,8 @@ import searchStyles from "./SearchBar.module.css"
 import { useState } from 'react';
 import searchGlass from "../../../public/search-glass.png"
 import { courseInformation } from "../../App";
+import { Input, Button } from "@chakra-ui/react";
+import { HStack } from "@chakra-ui/react";
 
 interface props {
     departments: string[],
@@ -14,6 +16,7 @@ export default function DepartmentSearch({ departments, setBaggedCourses }: prop
     const [currentInput, setCurrentInput] = useState<string | null>(null);
     const [currentCourseNumber, setCurrentCourseNumber] = useState<string | null>(null);
     const [focused, setFocused] = useState<boolean>(false);
+    const [isLoading, setIsLoading] = useState<boolean>(false);
 
     let searchResults;
     let handleCourseClick = (e: any) => {
@@ -41,6 +44,7 @@ export default function DepartmentSearch({ departments, setBaggedCourses }: prop
     }
 
     async function addCourse() {
+        setIsLoading(true);
         console.log('adding course: ')
         let courseID = currentDepartment?.includes("&") ? `${currentDepartment.replace("&", "%26")}${currentCourseNumber}` : `${currentDepartment}${currentCourseNumber}`
         courseID = courseID.replace(/\s/g, ""); // remove all whitespace 
@@ -56,6 +60,8 @@ export default function DepartmentSearch({ departments, setBaggedCourses }: prop
             })
 
         }
+
+        setIsLoading(false);
     }
 
 
@@ -64,43 +70,35 @@ export default function DepartmentSearch({ departments, setBaggedCourses }: prop
         <>
             <div className={searchStyles.searchBarsContainer}>
 
-
-                <div className={searchStyles.container}>
-                    <div className={searchStyles.searchBar}>
-                        <input value={currentInput ? currentInput : ""} id="searchCourse" type="text" placeholder="Department"
-                            onChange={(e) => handleChange(e)}
-                            onClick={(e: any) => {
-                                handleChange(e);
-                                setFocused(true);
-                            }}
-                            onFocus={() => setFocused(true)}
-                            onBlur={() => setFocused(false)} />
-                    </div>
-                    {/* <br /> */}
-                    {
-                        searchResults && searchResults.length > 0 && focused && <div className={searchStyles.searchResults}>
-                            <ul>
-                                {searchResults}
-                            </ul>
-                        </div>
-                    }
-                </div>
-                <div className={searchStyles.bottomBarsContainer}>
-
-                    <div className={searchStyles.courseNumberContainer}>
+                <HStack spacing="1em" marginLeft="1em" marginRight="1em" marginTop="1em" height="2.5em">
+                    <div className={searchStyles.container}>
                         <div className={searchStyles.searchBar}>
-                            <input value={currentCourseNumber ? currentCourseNumber : ""} id="searchCourse" type="text" placeholder="Course #"
-                                onChange={(e: any) => setCurrentCourseNumber(e.target.value)} />
+                            <Input value={currentInput ? currentInput : ""} className={searchStyles.searchBarInput} id="searchCourse" type="text" placeholder="Department"
+                                onChange={(e) => handleChange(e)}
+                                onClick={(e: any) => {
+                                    handleChange(e);
+                                    setFocused(true);
+                                }}
+                                onFocus={() => setFocused(true)}
+                                onBlur={() => setFocused(false)} />
                         </div>
+                        {
+                            searchResults && searchResults.length > 0 && focused && <div className={searchStyles.searchResults}>
+                                <ul>
+                                    {searchResults}
+                                </ul>
+                            </div>
+                        }
                     </div>
-                    <div className={searchStyles.searchBarContainer}>
-                        <div className={searchStyles.searchGlass} onClick={addCourse}>
-                            <img src={searchGlass} />
-                        </div>
-                    </div>
-                </div>
 
-            </div>
+                    <Input value={currentCourseNumber ? currentCourseNumber : ""} className={searchStyles.courseNumberInput} id="searchCourse" type="text" placeholder="Course #"
+                        onChange={(e: any) => setCurrentCourseNumber(e.target.value)} />
+                    <Button className={searchStyles.searchGlass} onClick={addCourse} marginTop="0" borderRadius={50}
+                        isLoading={isLoading}>
+                        <img src={searchGlass} />
+                    </Button>
+                </HStack>
+            </div >
         </>
 
     )

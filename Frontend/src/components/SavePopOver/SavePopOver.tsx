@@ -12,14 +12,15 @@ import {
 
 import { useState, useRef } from 'react';
 
-
 const SERVER = 'https://course-planner-dl32.onrender.com';
 export default function SavePopOver({ addedCourses }: any) {
     const [passCode, setPasscode] = useState<string>("");
+    const [isLoading, setIsLoading] = useState<boolean>(false);
+
     let inputRef = useRef<any>(null);
 
-
     async function handleSubmit() {
+        setIsLoading(true);
         console.log('passcode');
         console.log(passCode);
 
@@ -49,6 +50,7 @@ export default function SavePopOver({ addedCourses }: any) {
         const data = await promise.text()
         // console.log('endpoint output: ')
         console.log(data);
+        setIsLoading(false);
     }
 
 
@@ -59,10 +61,9 @@ export default function SavePopOver({ addedCourses }: any) {
     return (
         <Popover closeOnBlur={true} closeOnEsc={true} returnFocusOnClose={true} initialFocusRef={inputRef}>
             <PopoverTrigger>
-                <button className="settingButton"
-                    onClick={() => {
-                        inputRef.current.focus()
-                    }}> Save </button>
+
+                <Button className="settingButton" onClick={() => inputRef.current.focus()}
+                > Save </Button>
 
             </PopoverTrigger>
 
@@ -74,13 +75,11 @@ export default function SavePopOver({ addedCourses }: any) {
                     Enter a unique and secret passcode to save your schedule.
                     Anyone can modify your schedule if they use the same passcode!
                     <InputGroup marginTop="1em">
-                        {/* <Input placeholder="Passcode" width="50%" value={passCode} onChange={(e) => setPasscode(e.target.value)}
-                            ref={inputRef} /> */}
                         {inputField}
                         <InputRightAddon padding={"0px 0px"}>
                             <Button marginTop="2px" width="100%" height="110%" borderTopLeftRadius="0px"
                                 borderBottomLeftRadius="0px" backgroundColor='#0a74ed;' color="white"
-                                onClick={handleSubmit}>Submit</Button>
+                                onClick={handleSubmit} isLoading={isLoading}>Submit</Button>
                         </InputRightAddon>
                     </InputGroup>
                 </PopoverBody>

@@ -10,7 +10,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { Switch } from "@chakra-ui/react";
 import SavePopOver from "./components/SavePopOver/SavePopOver.tsx";
 import LoadPopOver from "./components/LoadPopOver/LoadPopOver.tsx";
-
+import { Button } from "@chakra-ui/react";
 
 export type courseInformation = {
     id: string,
@@ -217,18 +217,13 @@ function App() {
                     <DndContext onDragEnd={handleDragEvent}>
                         <div className="planning-area">
                             <div className="searchArea">
-                                <button className="settingButton"
-                                    onClick={() => {
-                                        addSchedule();
-                                    }}> Add Year</button>
+
+                                <Button className='settingButton' onClick={() => addSchedule()}> Add Year </Button>
 
                                 <SavePopOver addedCourses={addedCourses} />
                                 <LoadPopOver addedCourses={addedCourses} setAddedCourses={setAddedCourses} />
 
-                                <button className="settingButton"
-                                    onClick={() => {
-                                        clearAllSchedules();
-                                    }}> Clear </button>
+                                <Button className='settingButton' onClick={() => clearAllSchedules()}> Clear </Button>
 
                                 <div className="prereqs">
                                     <Switch id='switch' size={"md"} isChecked={enforcingPrerequisites}
