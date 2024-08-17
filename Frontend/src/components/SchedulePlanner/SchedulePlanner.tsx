@@ -1,6 +1,5 @@
 import styles from './SchedulePlanner.module.css';
 import DropdownIcon from '../../icons/dropdown.svg';
-import DeleteIcon from '../../icons/delete.svg';
 import { Droppable } from './Droppable.tsx';
 import { useState } from 'react';
 import { addedCourseType, courseInformation } from '../../App.tsx';

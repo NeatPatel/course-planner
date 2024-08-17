@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import SearchBar from "./components/SearchBar/SearchBar.tsx";
 import SchedulePlanner from "./components/SchedulePlanner/SchedulePlanner.tsx";
