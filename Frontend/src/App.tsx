@@ -24,26 +24,12 @@ export type addedCourseType = {
 const SERVER = 'https://course-planner-dl32.onrender.com';
 
 function App() {
-    const currentYearRef = useRef<number>(0);
     const [addedCourses, setAddedCourses] = useState<addedCourseType>({});
     const [scheduleYears, setScheduleYears] = useState<number[]>([0, 1, 2, 3]);
     const [departmentList, setDepartmentList] = useState<string[]>([]);
     const [invalidCourses, setInvalidCourses] = useState<Set<string>>();
     const [baggedCourses, setBaggedCourses] = useState<courseInformation[]>([]);
     const [enforcingPrerequisites, setEnforcingPrerequisites] = useState<boolean>(true);
-
-    const addedCourseCopy = { ...addedCourses };
-    let initializedState = false;
-    for (const year of scheduleYears) {
-        for (let currentTermIndex = 0; currentTermIndex < 4; currentTermIndex++) {
-            const id = `${year}-${currentTermIndex}`;
-            if (!(id in addedCourseCopy)) {
-                addedCourseCopy[id] = [];
-                initializedState = true;
-            }
-        }
-    }
-    if (initializedState) setAddedCourses(addedCourseCopy);
 
     useEffect(() => {
         // Parse department list text file on initial render and set it as state.
@@ -61,26 +47,12 @@ function App() {
         getDepartmentList();
     }, []);
 
-    function handleDeleteTable(deleteYear: number) {
-        setScheduleYears((prevScheduleYears: number[]) => [...prevScheduleYears].filter(currentYear => currentYear !== deleteYear));
-        // update addedCourses state accordingly
-        const addedCoursesCopy = { ...addedCourses };
-        for (const quarterID in addedCoursesCopy) {
-            const yearNumber = quarterID.split("-")[0];
-            if (parseInt(yearNumber) === deleteYear) {
-                delete addedCoursesCopy[quarterID];
-            }
-        }
-        setAddedCourses(addedCoursesCopy)
-    }
-
     function clearAllSchedules() {
         setAddedCourses({});
     }
 
     function addSchedule() {
-        currentYearRef.current += 1
-        setScheduleYears([...scheduleYears, currentYearRef.current])
+        setScheduleYears([...scheduleYears, scheduleYears[scheduleYears.length - 1] + 1])
     }
 
     useEffect(() => {
@@ -134,7 +106,7 @@ function App() {
     }, [addedCourses, enforcingPrerequisites])
 
     function handleDragEvent(dragEvent: DragEndEvent) {
-        // console.log(dragEvent)
+        console.log(dragEvent)
         const newAddedCourses: addedCourseType = { ...addedCourses };
         let newBaggedCourses: courseInformation[] = [...baggedCourses]
         if (dragEvent.over) {
@@ -237,8 +209,8 @@ function App() {
 
                                 {
                                     scheduleYears.map((year: number) => {
-                                        return <SchedulePlanner startYear={year} key={year}
-                                            onDelete={handleDeleteTable} addedCourses={addedCourses}
+                                        return <SchedulePlanner yearNumber={year} key={year}
+                                            addedCourses={addedCourses}
                                             invalidCourses={invalidCourses} setAddedCourses={setAddedCourses} setBaggedCourses={setBaggedCourses} />
                                     })
                                 }

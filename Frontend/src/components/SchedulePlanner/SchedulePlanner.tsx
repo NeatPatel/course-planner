@@ -2,29 +2,25 @@ import styles from './SchedulePlanner.module.css';
 import DropdownIcon from '../../icons/dropdown.svg';
 import DeleteIcon from '../../icons/delete.svg';
 import { Droppable } from './Droppable.tsx';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { addedCourseType, courseInformation } from '../../App.tsx';
 import DraggableCourse from '../DraggableCourse/DraggableCourse.tsx';
 
 interface props {
-    startYear: number,
-    onDelete: Function,
+    yearNumber: number,
     addedCourses: addedCourseType,
     invalidCourses: Set<string> | undefined,
     setAddedCourses: React.Dispatch<React.SetStateAction<addedCourseType>>,
     setBaggedCourses: React.Dispatch<React.SetStateAction<courseInformation[]>>
 }
 
-export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses, invalidCourses, setAddedCourses, setBaggedCourses }: props) {
+export default function SchedulePlanner({ yearNumber = 0, addedCourses, invalidCourses, setAddedCourses, setBaggedCourses }: props) {
     const [showTable, setShowTable] = useState<boolean>(false);
-    const [yearInput, setYearInput] = useState<string>(`Year ${startYear + 1}`);
+    const [yearInput, setYearInput] = useState<string>(`Year ${yearNumber + 1}`);
 
-    const dropdownRef = useRef<HTMLImageElement>(null);
-    const delRef = useRef<HTMLImageElement>(null);
-
-    function handleDelete() {
-        onDelete(startYear);
-    }
+    // function handleDelete() {
+    //     onDelete(yearNumber);
+    // }
 
     function handleYearEdit(e: React.ChangeEvent<HTMLInputElement>) {
         setYearInput(e.target.value);
@@ -34,7 +30,7 @@ export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses,
     const termNames = ['Fall', 'Winter', 'Spring', 'Summer']
 
     for (let currentTermIndex = 0; currentTermIndex < 4; currentTermIndex++) {
-        const id = `${startYear}-${currentTermIndex}`
+        const id = `${yearNumber}-${currentTermIndex}`
         console.log(addedCourses[id]);
         let newTermData = <Droppable termName={termNames[currentTermIndex]} key={id} id={id}>
 
@@ -60,10 +56,10 @@ export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses,
 
     return (
         <>
-            <div id={`${startYear}`} className={`${styles.container} ${showTable ? styles.expanded : null}`}>
+            <div id={`${yearNumber}`} className={`${styles.container} ${showTable ? styles.expanded : null}`}>
                 <div className={styles.yearLabel}>
                     <div>
-                        <img ref={dropdownRef} className={"dropdown" + " " + startYear + " " + styles.dropdown}
+                        <img className={"dropdown" + " " + yearNumber + " " + styles.dropdown}
                             onClick={handleDropDown} src={DropdownIcon} alt="" />
                     </div>
 
@@ -71,8 +67,8 @@ export default function SchedulePlanner({ onDelete, startYear = 0, addedCourses,
                     </input>
 
                     <div>
-                        <img ref={delRef} className={"delete" + " " + startYear + " " + styles.delete}
-                            onClick={handleDelete} src={DeleteIcon} alt="" />
+                        {/* <img className={"delete" + " " + yearNumber + " " + styles.delete}
+                            src={DeleteIcon} alt="" /> */}
                     </div>
                 </div>
                 <div>

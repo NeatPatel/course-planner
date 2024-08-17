@@ -90,65 +90,58 @@ export default function DraggableCourse({ id, children, invalidCourses, addedCou
 
     return (
         <>
-            {
-                (
-                    <>
-                        <div className={containerClass} style={style} >
-                            <div className={styles.name} ref={setNodeRef} {...listeners} {...attributes} >
-                                {children}
-                            </div>
+            <div className={containerClass} style={style} >
+                <div className={styles.name} ref={setNodeRef} {...listeners} {...attributes} >
+                    {children}
+                </div>
 
-                            <div className={styles.icon}>
-                                <img src={InfoIcon} alt="info" className={styles.info}
-                                    onClick={getCourseInfo} />
-                                <img className={styles.delete} src={DeleteIcon} alt=""
-                                    onClick={() => {
-                                        deleteCourse();
-                                    }} />
-                            </div>
+                <div className={styles.icon}>
+                    <img src={InfoIcon} alt="info" className={styles.info}
+                        onClick={getCourseInfo} />
+                    <img className={styles.delete} src={DeleteIcon} alt=""
+                        onClick={() => {
+                            deleteCourse();
+                        }} />
+                </div>
 
-                        </div>
+            </div>
 
-                        <dialog data-modal ref={modalRef} className={styles.modal}>
-                            {
-                                courseData && `${children.slice(1, children.length - 1)} - ${courseData.school}`
-                            }
+            <dialog data-modal ref={modalRef} className={styles.modal}>
+                {
+                    courseData && `${children.slice(1, children.length - 1)} - ${courseData.school}`
+                }
 
-                            <br />
-                            {
-                                courseData && `(${courseData.units[0]} units)`
-                            }
-                            <br /><br />
-                            {
-                                courseData && courseData.description
-                            }
-                            <br /><br />
+                <br />
+                {
+                    courseData && `(${courseData.units[0]} units)`
+                }
+                <br /><br />
+                {
+                    courseData && courseData.description
+                }
+                <br /><br />
 
-                            {
-                                courseData && <span> Restriction: {courseData.restriction}</span>
-                            }
-                            <br /><br />
+                {
+                    courseData && <span> Restriction: {courseData.restriction}</span>
+                }
+                <br /><br />
 
-                            {
-                                courseData && <span> Prerequisite: {courseData.prerequisite_text}</span>
-                            }
+                {
+                    courseData && <span> Prerequisite: {courseData.prerequisite_text}</span>
+                }
 
-                            <br /><br />
-                            {
-                                courseData && <span> <b>{courseData.ge_text}</b></span>
-                            }
+                <br /><br />
+                {
+                    courseData && <span> <b>{courseData.ge_text}</b></span>
+                }
 
-                            <div>
-                                <button onClick={() => {
-                                    modalRef.current?.close();
-                                }}> Close </button>
-                            </div>
+                <div>
+                    <button onClick={() => {
+                        modalRef.current?.close();
+                    }}> Close </button>
+                </div>
 
-                        </dialog>
-                    </>
-
-                )
-            }
+            </dialog>
         </>
     )
 }
