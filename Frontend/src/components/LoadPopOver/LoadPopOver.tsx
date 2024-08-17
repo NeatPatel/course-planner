@@ -13,8 +13,8 @@ import { useState } from 'react';
 
 const SERVER = 'https://course-planner-dl32.onrender.com';
 export default function LoadPopOver({ addedCourses, setAddedCourses }: any) {
-    const [passCode, setPasscode] = useState<string>("");
-    const [isLoading, setIsLoading] = useState<boolean>(false);
+    const [passCode, setPasscode] = useState<string>(""); // unique key to access saved course list
+    const [isLoading, setIsLoading] = useState<boolean>(false); // used to control loading animation of button
 
     async function handleLoad() {
         setIsLoading(true);
@@ -39,6 +39,8 @@ export default function LoadPopOver({ addedCourses, setAddedCourses }: any) {
         }
 
         const addedCoursesCopy = { ...addedCourses };
+
+        // override addedCourses state variable with the courseMatrix returned from the endpoint
 
         let index = 0;
         for (const quarterKey of Object.keys(addedCoursesCopy).sort()) {

@@ -24,22 +24,35 @@ export type addedCourseType = {
 const SERVER = 'https://course-planner-dl32.onrender.com';
 
 function App() {
-    const [addedCourses, setAddedCourses] = useState<addedCourseType>({});
+    const [addedCourses, setAddedCourses] = useState<addedCourseType>({}); // maps key for a term to array of courses taken during that term
     const [scheduleYears, setScheduleYears] = useState<number[]>([0, 1, 2, 3]);
-    const [departmentList, setDepartmentList] = useState<string[]>([]);
-    const [invalidCourses, setInvalidCourses] = useState<Set<string>>();
-    const [baggedCourses, setBaggedCourses] = useState<courseInformation[]>([]);
+    const [departmentList, setDepartmentList] = useState<string[]>([]); // string array of departments at UCI
+    const [invalidCourses, setInvalidCourses] = useState<Set<string>>(); // set of all courses that don't have prerequisites met currently
+    const [baggedCourses, setBaggedCourses] = useState<courseInformation[]>([]); // array of courses we've added to bag but not added to table
     const [enforcingPrerequisites, setEnforcingPrerequisites] = useState<boolean>(true);
+
+    const addedCourseCopy = { ...addedCourses };
+    let initializedState = false;
+    for (const year of scheduleYears) {
+        for (let currentTermIndex = 0; currentTermIndex < 4; currentTermIndex++) {
+            const id = `${year}-${currentTermIndex}`;
+            if (!(id in addedCourseCopy)) {
+                addedCourseCopy[id] = [];
+                initializedState = true;
+            }
+        }
+    }
+    if (initializedState) setAddedCourses(addedCourseCopy);
 
     useEffect(() => {
         // Parse department list text file on initial render and set it as state.
         async function getDepartmentList() {
             const rawData = await fetch(raw);
             const text = await rawData.text();
-            const separators = /,\r\n/;
+            const separators = /,\r\n/; // separate departments by commas and newlines
             let departmentList = text.split(separators);
             departmentList = departmentList.map(departmentName => {
-                return departmentName.replace(/'/g, "")
+                return departmentName.replace(/'/g, "") // remove single quotes
             })
 
             setDepartmentList(departmentList);
@@ -62,7 +75,6 @@ function App() {
         const controller = new AbortController();
 
         async function checkPrerequisites(orderedCourses: string[][]) {
-            // console.log('ordered courses: ', orderedCourses);
             const options = {
                 method: "POST",
                 headers: {
@@ -85,7 +97,7 @@ function App() {
             }
             setInvalidCourses(invalidCourseIDs);
         }
-
+        // construct 2D courseMatrix from addedCourses by iterating through the keys in sorted order
         const orderedCourses: string[][] = [];
         for (let currentQuarter of Object.keys(addedCourses).sort()) {
             const courseList = [];
@@ -100,7 +112,7 @@ function App() {
         }, 1000);
 
         return () => {
-            controller.abort();
+            controller.abort(); // prevents multiple requests from being sent in short period of time 
         }
 
     }, [addedCourses, enforcingPrerequisites])
@@ -152,9 +164,6 @@ function App() {
                     newAddedCourses[dragEvent.over.id].push(courseToAdd);
                 else
                     newAddedCourses[dragEvent.over.id] = [courseToAdd];
-
-                // console.log('new courses: ')
-                // console.log(newAddedCourses);
             }
         }
 
@@ -166,7 +175,6 @@ function App() {
         const newState = !enforcingPrerequisites;
         setEnforcingPrerequisites(newState);
         if (!newState) {
-            console.log('removing invalid courses');
             setInvalidCourses(new Set());
         }
     }
